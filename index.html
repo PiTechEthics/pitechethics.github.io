@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethics Introduction for Public Interest Technology | Cornell Tech</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .header-logo {
+            max-width: 200px;
+            margin-bottom: 1.5rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .header .subtitle {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-bottom: 1rem;
+        }
+
+        .program-link {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .program-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .main-content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .instructors {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .instructor {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .instructor-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 3px solid white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .instructor:hover {
+            transform: translateY(-5px);
+        }
+
+        .instructor h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .instructor .role {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .instructor a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .instructor a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-logo {
+            max-width: 150px;
+            margin: 2rem auto;
+            display: block;
+        }
+
+        .session {
+            background: rgba(247, 248, 252, 0.8);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            border-left: 5px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .session:hover {
+            background: rgba(247, 248, 252, 1);
+            transform: translateX(5px);
+        }
+
+        .session-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .session-title {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .session-date {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .session-leader {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .session-description {
+            margin-bottom: 1.5rem;
+            color: #34495e;
+            line-height: 1.7;
+        }
+
+        .session-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .detail-section {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #e8ecf0;
+        }
+
+        .detail-section h4 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .detail-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .detail-section li {
+            margin-bottom: 0.3rem;
+            padding-left: 1rem;
+            position: relative;
+        }
+
+        .detail-section li::before {
+            content: "•";
+            color: #667eea;
+            position: absolute;
+            left: 0;
+        }
+
+        .reading-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .reading-link:hover {
+            text-decoration: underline;
+        }
+
+        .break-notice {
+            background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+            color: #2d3436;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            font-weight: 600;
+        }
+
+        .communication {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .communication h2 {
+            margin-bottom: 1rem;
+        }
+
+        .slack-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .slack-link {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .slack-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .session-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .slack-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="assets/cornelltech-logo.png" alt="Cornell Tech Logo" class="header-logo">
+            <h1>Ethics Introduction for Public Interest Technology</h1>
+            <div class="subtitle">Cornell Tech • Summer 2025</div>
+            <div class="subtitle">Optional Course for Siegel PiTech PhD Impact Fellowship</div>
+            <a href="https://www.pi.tech.cornell.edu/" class="program-link" target="_blank">
+                Learn More About PiTech Fellowship
+            </a>
+        </header>
+
+        <div class="main-content">
+            <section class="instructors">
+                <div class="instructor">
+                    <img src="assets/Helen.jpg" alt="Helen Nissenbaum" class="instructor-img">
+                    <h3>Helen Nissenbaum</h3>
+                    <div class="role">Course Instructor</div>
+                    <a href="https://nissenbaum.tech.cornell.edu/" target="_blank">Faculty Profile</a>
+                </div>
+                <div class="instructor">
+                    <img src="assets/Jae.jpg" alt="Jae June Lee" class="instructor-img">
+                    <h3>Jae June Lee</h3>
+                    <div class="role">Teaching Assistant</div>
+                    <a href="https://scholar.google.com/citations?user=qdhyM7EAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                </div>
+                <div class="instructor">
+                    <img src="assets/Hauke.jpg" alt="Hauke Sandhaus" class="instructor-img">
+                    <h3>Hauke Sandhaus</h3>
+                    <div class="role">Volunteer Assistant</div>
+                    <a href="https://haukesand.github.io/" target="_blank">Personal Website</a>
+                </div>
+            </section>
+
+            <h2 style="color: #2c3e50; margin-bottom: 2rem; text-align: center; font-size: 2rem;">Course Schedule</h2>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 1: Why PiTech?</div>
+                    <div class="session-date">June 12</div>
+                </div>
+                <div class="session-leader">Led by: All</div>
+                <div class="session-description">
+                    Introductions, discussing why folks chose PiTech. Lightly review logistical details (website, Slack, cal invites). Who is this session for and what are its goals?
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Session Notes</h4>
+                        <p>Will be a lighter day (30 mins). Send important links via email ahead of time.</p>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Activity</h4>
+                        <p>Roundtable discussion and introductions. Brainstorm goals, since a few folks will have a concrete plan.</p>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Optional Reading</h4>
+                        <p>None</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 2: What is PiTech?</div>
+                    <div class="session-date">June 19</div>
+                </div>
+                <div class="session-leader">Led by: All</div>
+                <div class="session-description">
+                    Critically explore the concept of "public interest." What makes it public interest? Vs. say, responsible, ethical, etc. Discuss the limits of "responsible tech." What is it to take an ethical perspective? What are the stakes?
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Optional Reading</h4>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1UQAkfbqJfQv5uNyRWmXEhT6g2KAl8MTg/view?usp=drive_link" class="reading-link" target="_blank">UN Responsible Tech Framework</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 3: Intro to Values at Play</div>
+                    <div class="session-date">June 26</div>
+                </div>
+                <div class="session-leader">Led by: JJL</div>
+                <div class="session-description">
+                    Introduction to a few concepts in moral philosophy, introducing the values at play framework (Discovery, Implementation, Verification).
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Slides</h4>
+                        <ul>
+                            <li><a href="https://docs.google.com/presentation/d/13_LgmQA6zjgXzIphty61Sl2kHwg0rXbX/edit?slide=id.p16#slide=id.p16" class="reading-link" target="_blank">VAP S25 Session 1.pptx</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Optional Reading</h4>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/16dp1-6JOYcnaEFlmlWlyimwFp0wUVopX/view?usp=drive_link" class="reading-link" target="_blank">Langdon Winner, 1988</a></li>
+                            <li><a href="https://drive.google.com/file/d/14fTIg05HNcARYP5JrEJ87KC29D2QAgqM/view?usp=drive_link" class="reading-link" target="_blank">Values at Play, Flanagan, Nissenbaum: Groundwork for Values in Games</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="break-notice">
+                🏖️ Break: No session on July 3
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 4: Values at Play: Discovery</div>
+                    <div class="session-date">July 10</div>
+                </div>
+                <div class="session-leader">Led by: JJL</div>
+                <div class="session-description">
+                    Explore how to discover implicit and explicit values in tech and institutions. Brainstorm values relevant to their own respective session.
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Slides</h4>
+                        <ul>
+                            <li><a href="https://docs.google.com/presentation/d/1u6aUQjzE38D3kVNdCI3RFu6gdGTaYsqX/edit" class="reading-link" target="_blank">VAP S25 Session 2 Discovery.pptx</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Optional Reading</h4>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1SBcfMRJVzKYDKbUVOCzC_x2Md5xvycOm/view?usp=drive_link" class="reading-link" target="_blank">Flanagan, M. et al. 2007. A method for discovering values in digital games</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 5: Mid-point Check-in</div>
+                    <div class="session-date">July 17</div>
+                </div>
+                <div class="session-description">
+                    Informal reflections. Share experiences on PiTech process so far. What are folks working on? What values are showing up and/or being challenged?
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Activity</h4>
+                        <p>Roundtable reflections (sign-up). Paired feedback?</p>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Optional Reading</h4>
+                        <p>None</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 6: Values at Play: Implementation (Part 1)</div>
+                    <div class="session-date">July 24</div>
+                </div>
+                <div class="session-leader">Led by: HS</div>
+                <div class="session-description">
+                    What does it look like to embed values in design?
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Slides</h4>
+                        <ul>
+                            <li><a href="https://docs.google.com/presentation/d/1sEsTHNNKOjsH3zMnhl8TgZbIY8WCx1ne/edit" class="reading-link" target="_blank">VAP S25 Session 3 Implementation_Verification.pptx</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Activity</h4>
+                        <p>Hauke: Value discovery activity</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 7: Values at Play: Implementation (Part 2)</div>
+                    <div class="session-date">July 31</div>
+                </div>
+                <div class="session-leader">Led by: HS</div>
+                <div class="session-description">
+                    How to resolve value tensions in design?
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Activity</h4>
+                        <p>Hauke: Value trade-off decision-making activity</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 8: Values at Play: Verification</div>
+                    <div class="session-date">August 7</div>
+                </div>
+                <div class="session-description">
+                    Translation of values into features and architecture. Did it work? How do we check?
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Slides</h4>
+                        <ul>
+                            <li><a href="https://docs.google.com/presentation/d/1r_sb6APbUJsNmj5vXQK1PDTCISd3lOEW/edit?slide=id.p1#slide=id.p1" class="reading-link" target="_blank">VAP S25 Session 4 Implementation_Verification.pptx</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Activity</h4>
+                        <p>Volunteer presentations?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="session">
+                <div class="session-header">
+                    <div class="session-title">Session 9: Wrap up and Reflection</div>
+                    <div class="session-date">August 14</div>
+                </div>
+                <div class="session-leader">Led by: All</div>
+                <div class="session-description">
+                    Closing. Revisit PiTech?
+                </div>
+                <div class="session-details">
+                    <div class="detail-section">
+                        <h4>Activity</h4>
+                        <p>Reflection</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="communication">
+                <h2>Communication</h2>
+                <p>Stay connected with classmates and instructors via Slack</p>
+                <div class="slack-links">
+                    <a href="https://cornelltech.slack.com/archives/C08V1VBTF3Q" class="slack-link" target="_blank">
+                        Course Channel
+                    </a>
+                </div>
+            </div>
+            
+            <img src="assets/pitech-logo.png" alt="PiTech Logo" class="footer-logo">
+        </div>
+    </div>
+</body>
+</html>
