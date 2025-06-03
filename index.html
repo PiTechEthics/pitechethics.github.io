@@ -15,7 +15,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, rgb(183,85,82) 0%, rgb(143, 45, 42) 100%);
             min-height: 100vh;
         }
 
@@ -56,7 +56,7 @@
 
         .program-link {
             display: inline-block;
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, rgb(183,85,82), rgb(143, 45, 42));
             color: white;
             padding: 0.8rem 2rem;
             border-radius: 50px;
@@ -68,7 +68,7 @@
 
         .program-link:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 10px 25px rgba(183, 85, 82, 0.4);
         }
 
         .main-content {
@@ -88,7 +88,7 @@
         }
 
         .instructor {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background: linear-gradient(135deg, rgba(183,85,82,0.1), rgba(183,85,82,0.2));
             padding: 2rem;
             border-radius: 15px;
             text-align: center;
@@ -122,7 +122,7 @@
         }
 
         .instructor a {
-            color: #667eea;
+            color: rgb(183,85,82);
             text-decoration: none;
             font-weight: 500;
         }
@@ -142,7 +142,7 @@
             border-radius: 12px;
             padding: 2rem;
             margin: 1.5rem 0;
-            border-left: 5px solid #667eea;
+            border-left: 5px solid rgb(183,85,82);
             transition: all 0.3s ease;
         }
 
@@ -167,7 +167,7 @@
         }
 
         .session-date {
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, rgb(183,85,82), rgb(143, 45, 42));
             color: white;
             padding: 0.5rem 1rem;
             border-radius: 25px;
@@ -201,7 +201,7 @@
         }
 
         .detail-section h4 {
-            color: #667eea;
+            color: rgb(183,85,82);
             margin-bottom: 0.5rem;
             font-size: 1rem;
             font-weight: 600;
@@ -220,13 +220,13 @@
 
         .detail-section li::before {
             content: "•";
-            color: #667eea;
+            color: rgb(183,85,82);
             position: absolute;
             left: 0;
         }
 
         .reading-link {
-            color: #667eea;
+            color: rgb(183,85,82);
             text-decoration: none;
             font-weight: 500;
         }
@@ -246,7 +246,7 @@
         }
 
         .communication {
-            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            background: linear-gradient(135deg, rgb(183,85,82), rgb(143, 45, 42));
             color: white;
             padding: 2rem;
             border-radius: 15px;
@@ -304,11 +304,15 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="assets/cornelltech-logo.png" alt="Cornell Tech Logo" class="header-logo">
+            <img src="assets/pitech-logo.png" alt="PiTech Logo" class="header-logo">
             <h1>Ethics Introduction for Public Interest Technology</h1>
             <div class="subtitle">Cornell Tech • Summer 2025</div>
             <div class="subtitle">Optional Course for Siegel PiTech PhD Impact Fellowship</div>
-            <a href="https://www.pi.tech.cornell.edu/" class="program-link" target="_blank">
+            <div class="subtitle">Thursdays 3:30pm-5pm on Zoom</div>
+            <a href="https://cornell.zoom.us/j/91707633997?pwd=r0iok22Vae7xfM0ep7rfu7KgRGUCmN.1&from=addon" class="program-link" target="_blank">
+                Join Zoom Meeting
+            </a>
+            <a href="https://www.pi.tech.cornell.edu/" class="program-link" style="margin-left: 10px;" target="_blank">
                 Learn More About PiTech Fellowship
             </a>
         </header>
@@ -386,7 +390,7 @@
                     <div class="session-title">Session 3: Intro to Values at Play</div>
                     <div class="session-date">June 26</div>
                 </div>
-                <div class="session-leader">Led by: JJL</div>
+                <div class="session-leader">Led by: Jae June Lee</div>
                 <div class="session-description">
                     Introduction to a few concepts in moral philosophy, introducing the values at play framework (Discovery, Implementation, Verification).
                 </div>
@@ -408,7 +412,7 @@
             </div>
 
             <div class="break-notice">
-                🏖️ Break: No session on July 3
+                🏖️🎇 Break: No session on July 3
             </div>
 
             <div class="session">
@@ -416,7 +420,7 @@
                     <div class="session-title">Session 4: Values at Play: Discovery</div>
                     <div class="session-date">July 10</div>
                 </div>
-                <div class="session-leader">Led by: JJL</div>
+                <div class="session-leader">Led by: Jae June Lee</div>
                 <div class="session-description">
                     Explore how to discover implicit and explicit values in tech and institutions. Brainstorm values relevant to their own respective session.
                 </div>
@@ -461,7 +465,7 @@
                     <div class="session-title">Session 6: Values at Play: Implementation (Part 1)</div>
                     <div class="session-date">July 24</div>
                 </div>
-                <div class="session-leader">Led by: HS</div>
+                <div class="session-leader">Led by: Hauke Sandhaus</div>
                 <div class="session-description">
                     What does it look like to embed values in design?
                 </div>
@@ -484,7 +488,7 @@
                     <div class="session-title">Session 7: Values at Play: Implementation (Part 2)</div>
                     <div class="session-date">July 31</div>
                 </div>
-                <div class="session-leader">Led by: HS</div>
+                <div class="session-leader">Led by: Hauke Sandhaus</div>
                 <div class="session-description">
                     How to resolve value tensions in design?
                 </div>
@@ -545,7 +549,7 @@
                 </div>
             </div>
             
-            <img src="assets/pitech-logo.png" alt="PiTech Logo" class="footer-logo">
+            <img src="assets/cornelltech-logo.png" alt="Cornell Tech Logo" class="footer-logo">
         </div>
     </div>
 </body>
