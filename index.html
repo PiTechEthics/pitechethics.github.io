@@ -11,6 +11,12 @@
             box-sizing: border-box;
         }
 
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+            position: relative;
+        }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
@@ -131,10 +137,17 @@
             text-decoration: underline;
         }
         
-        .footer-logo {
-            max-width: 150px;
+        .footer-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
             margin: 2rem auto;
-            display: block;
+        }
+        
+        .footer-logo {
+            height: 40px;
+            width: auto;
         }
 
         .session {
@@ -320,22 +333,23 @@
         <div class="main-content">
             <section class="instructors">
                 <div class="instructor">
-                    <img src="assets/Helen.jpg" alt="Helen Nissenbaum" class="instructor-img">
-                    <h3>Helen Nissenbaum</h3>
-                    <div class="role">Course Instructor</div>
-                    <a href="https://nissenbaum.tech.cornell.edu/" target="_blank">Faculty Profile</a>
-                </div>
-                <div class="instructor">
                     <img src="assets/Jae.jpg" alt="Jae June Lee" class="instructor-img">
                     <h3>Jae June Lee</h3>
-                    <div class="role">Teaching Assistant</div>
-                    <a href="https://infosci.cornell.edu/content/lee-3" target="_blank">Student Profile</a>
+                    <div class="role">Course Co-instructor</div>
+                    <a href="https://scholar.google.com/citations?user=qdhyM7EAAAAJ&hl=en" target="_blank">Google Scholar</a>
+
                 </div>
                 <div class="instructor">
                     <img src="assets/Hauke.jpg" alt="Hauke Sandhaus" class="instructor-img">
                     <h3>Hauke Sandhaus</h3>
-                    <div class="role">Volunteer Assistant</div>
+                    <div class="role">Course Co-instructor</div>
                     <a href="https://haukesand.github.io/" target="_blank">Personal Website</a>
+                </div>
+                <div class="instructor">
+                    <img src="assets/Helen.jpg" alt="Helen Nissenbaum" class="instructor-img">
+                    <h3>Helen Nissenbaum</h3>
+                    <div class="role">Course Supervisor</div>
+                    <a href="https://nissenbaum.tech.cornell.edu/" target="_blank">Faculty Profile</a>
                 </div>
             </section>
 
@@ -549,7 +563,12 @@
                 </div>
             </div>
             
-            <img src="assets/cornelltech-logo.png" alt="Cornell Tech Logo" class="footer-logo">
+            <div class="footer-logos">
+                <img src="assets/cornelltech-logo.png" alt="Cornell Tech Logo" class="footer-logo">
+                <a href="https://dli.tech.cornell.edu/" target="_blank">
+                    <img src="assets/dli-logo-red.png" alt="DLI Logo" class="footer-logo">
+                </a>
+            </div>
         </div>
     </div>
 </body>
