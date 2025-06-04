@@ -831,12 +831,10 @@
             { date: '2025-08-14', element: document.querySelector('.session:nth-of-type(9)') }
         ];
 
-        // For testing purposes: 
-        // Use current date for demo, or uncomment next line and comment out the line after to test with real date
-        // const today = new Date();
-        const today = new Date('2025-06-14'); // Demo date for testing (between session 1 and 2)
+        // Use current date to find upcoming sessions
+        const today = new Date();
         
-        console.log('Today (for testing):', today);
+        console.log('Today:', today);
         
         // Find the next upcoming session
         let nextSession = null;
