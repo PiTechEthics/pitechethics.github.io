@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethics Introduction for Public Interest Technology | Cornell Tech</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
     <style>
         * {
             margin: 0;
@@ -42,9 +43,61 @@
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
+        .header-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
         .header-logo {
-            max-width: 200px;
-            margin-bottom: 1.5rem;
+            height: 50px;
+            width: auto;
+            max-width: 100%;
+            transition: transform 0.3s ease;
+            /* Individual vertical adjustment for each logo */
+            position: relative;
+        }
+        
+        .header-logo:hover {
+            transform: translateY(-3px);
+        }
+        
+        .logo-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* Logo-specific adjustments - Modify these values to align logos */
+        .pitech-logo {
+            /* Change this value to move the PiTech logo up or down */
+            top: 3px;
+            /* You can also adjust the height if needed */
+            height: 50px;
+            /* Add margin if needed for horizontal spacing */
+            margin-right: 5px;
+        }
+        
+        .dli-logo {
+            /* Change this value to move the DLI logo up or down */
+            top: 0px;
+            /* You can also adjust the height if needed */
+            height: 50px;
+            /* Add margin if needed for horizontal spacing */
+            margin-left: 0px;
+        }
+        
+        .logo-divider {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: rgb(183,85,82);
+            margin: 0 0.75rem;
+            position: relative;
+            /* Change this value to move the divider up or down */
+            top: -3px;
         }
 
         .header h1 {
@@ -84,6 +137,53 @@
             padding: 3rem;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .workshop-intro {
+            margin-bottom: 2rem;
+        }
+
+        .intro-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-item {
+            background: rgba(183,85,82, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 5px solid rgb(183,85,82);
+        }
+
+        .intro-question {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 1.5rem 0;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 2rem 0 1rem;
+        }
+
+        .schedule-button {
+            display: inline-block;
+            background: linear-gradient(45deg, rgb(183,85,82), rgb(143, 45, 42));
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .schedule-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(183, 85, 82, 0.4);
         }
 
         .instructors {
@@ -141,17 +241,24 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 2rem;
-            margin: 2rem auto;
+            gap: 2.5rem;
+            margin: 2.5rem auto 1rem;
+            flex-wrap: wrap;
         }
         
         .footer-logo {
             height: 40px;
             width: auto;
+            max-width: 100%;
+            transition: opacity 0.3s ease;
+        }
+        
+        .footer-logo:hover {
+            opacity: 0.8;
         }
 
         .session {
-            background: rgba(247, 248, 252, 0.8);
+            background: rgba(183,85,82, 0.03);
             border-radius: 12px;
             padding: 2rem;
             margin: 1.5rem 0;
@@ -160,7 +267,7 @@
         }
 
         .session:hover {
-            background: rgba(247, 248, 252, 1);
+            background: rgba(183,85,82, 0.2);
             transform: translateX(5px);
         }
 
@@ -298,8 +405,12 @@
                 padding: 1rem;
             }
             
+            .header {
+                padding: 2rem 1.5rem;
+            }
+            
             .header h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
             
             .session-header {
@@ -311,49 +422,182 @@
                 flex-direction: column;
                 align-items: center;
             }
+            
+            .header-logos {
+                gap: 1rem;
+            }
+            
+            .logo-wrapper {
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .header-logo {
+                height: 40px;
+            }
+            
+            /* Mobile-specific adjustments for logos */
+            .pitech-logo {
+                top: 2px; /* Mobile adjustment for PiTech logo */
+                height: 40px;
+            }
+            
+            .dli-logo {
+                top: 0px; /* Mobile adjustment for DLI logo */
+                height: 40px;
+            }
+            
+            .logo-divider {
+                font-size: 1.5rem;
+                margin: 0 0.5rem;
+            }
+            
+            .footer-logos {
+                gap: 2rem;
+            }
+            
+            .program-link {
+                display: block;
+                margin: 1rem auto !important;
+                max-width: 80%;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header-logo {
+                height: 35px;
+            }
+            
+            .logo-divider {
+                font-size: 1.3rem;
+                margin: 0 0.4rem;
+            }
+            
+            .header h1 {
+                font-size: 1.6rem;
+            }
+            
+            .main-content {
+                padding: 2rem 1.5rem;
+            }
+            
+            .instructor {
+                padding: 1.5rem;
+            }
+            
+            .footer-logo {
+                height: 30px;
+            }
+        }
+
+        /* Highlight for the next upcoming session */
+        .next-session {
+            border: 2px solid rgb(183,85,82);
+            background: rgba(183,85,82, 0.05);
+            border-left: 5px solid rgb(183,85,82);
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .next-session::before {
+            content: "Next Session ➡️";
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            background: rgb(183,85,82);
+            color: white;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <img src="assets/pitech-logo.png" alt="PiTech Logo" class="header-logo">
+            <div class="header-logos">
+                <div class="logo-wrapper">
+                    <a href="https://www.pi.tech.cornell.edu/" target="_blank">
+                        <img src="assets/pitech-logo.png" alt="PiTech Logo" class="header-logo pitech-logo">
+                    </a>
+                    <span class="logo-divider">×</span>
+                    <a href="https://dli.tech.cornell.edu/" target="_blank">
+                        <img src="assets/dli-logo-red.png" alt="DLI Logo" class="header-logo dli-logo">
+                    </a>
+                </div>
+            </div>
             <h1>Ethics Introduction for Public Interest Technology</h1>
             <div class="subtitle">Cornell Tech • Summer 2025</div>
-            <div class="subtitle">Optional Course for Siegel PiTech PhD Impact Fellowship</div>
+            <div class="subtitle">Optional Workshop for Siegel PiTech PhD Impact Fellowship</div>
             <div class="subtitle">Thursdays 3:30pm-5pm on Zoom</div>
             <a href="https://cornell.zoom.us/j/91707633997?pwd=r0iok22Vae7xfM0ep7rfu7KgRGUCmN.1&from=addon" class="program-link" target="_blank">
                 Join Zoom Meeting
             </a>
-            <a href="https://www.pi.tech.cornell.edu/" class="program-link" style="margin-left: 10px;" target="_blank">
+            <a href="https://www.pi.tech.cornell.edu/pitech-phd-impact-fellowship" class="program-link"  target="_blank">
                 Learn More About PiTech Fellowship
             </a>
+                       
+                    <a href="#schedule"  class="program-link">View Workshop Schedule</a>
+   
         </header>
 
         <div class="main-content">
+            <section class="workshop-intro">
+                <h2 style="color: #2c3e50; margin-bottom: 1.5rem; text-align: center; font-size: 2rem;">Workshop Overview</h2>
+                <p>Welcome to the Ethics Introduction for Public Interest Technology workshop. This series provides a <strong>light-lift, reflective, and participatory space</strong> to explore the ethical dimensions of public interest technology with your fellow PiTech scholars.</p>
+                
+                <div class="intro-highlights">
+                    <div class="highlight-item">
+                        <h3>Our Approach</h3>
+                        <p>Using the <strong>Values at Play framework</strong> as our central structure, we'll take a systematic approach to ethical perspective-building in technology. Discussions will be driven by themes in readings and your experiences as PiTech fellows.</p>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <h3>Workshop Format</h3>
+                        <p>Our sessions are designed to be co-constitutive—we'll keep lecturing to a minimum while focusing on discussion and participation. There's <strong>no required homework or reading</strong>, though optional materials will be provided for those interested in deeper exploration.</p>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <h3>Bring Your Work</h3>
+                        <p>We invite you to bring your own projects and experiences to be workshopped from an ethical perspective. We'll offer modes of reasoning that can be applied to your work, with volunteer opportunities for focused discussion.</p>
+                    </div>
+                </div>
+                
+                <p class="intro-question">The overarching question we seek to address is: <em>What does it mean to build and evaluate technology in the public interest?</em></p>
+                
+                <p>This workshop provides a valuable opportunity to gather with other fellows on a regular cadence, creating a community of practice around ethical technology development.</p>
+                
+
+            </section>
+            
             <section class="instructors">
                 <div class="instructor">
                     <img src="assets/Jae.jpg" alt="Jae June Lee" class="instructor-img">
                     <h3>Jae June Lee</h3>
-                    <div class="role">Course Co-instructor</div>
-                   <a href="https://infosci.cornell.edu/content/lee-3" target="_blank">Student Profile</a>
+
+                    <div class="role">Workshop Co-instructor</div>
+                    <a href="https://scholar.google.com/citations?user=qdhyM7EAAAAJ&hl=en" target="_blank">Google Scholar</a>
 
                 </div>
                 <div class="instructor">
                     <img src="assets/Hauke.jpg" alt="Hauke Sandhaus" class="instructor-img">
                     <h3>Hauke Sandhaus</h3>
-                    <div class="role">Course Co-instructor</div>
+                    <div class="role">Workshop Co-instructor</div>
                     <a href="https://haukesand.github.io/" target="_blank">Personal Website</a>
                 </div>
                 <div class="instructor">
                     <img src="assets/Helen.jpg" alt="Helen Nissenbaum" class="instructor-img">
                     <h3>Helen Nissenbaum</h3>
-                    <div class="role">Course Supervisor</div>
+                    <div class="role">Workshop Supervisor</div>
                     <a href="https://nissenbaum.tech.cornell.edu/" target="_blank">Faculty Profile</a>
                 </div>
             </section>
 
-            <h2 style="color: #2c3e50; margin-bottom: 2rem; text-align: center; font-size: 2rem;">Course Schedule</h2>
+            <h2 id="schedule" style="color: #2c3e50; margin-bottom: 2rem; text-align: center; font-size: 2rem;">Workshop Schedule</h2>
 
             <div class="session">
                 <div class="session-header">
@@ -558,18 +802,93 @@
                 <p>Stay connected with classmates and instructors via Slack</p>
                 <div class="slack-links">
                     <a href="https://cornelltech.slack.com/archives/C08V1VBTF3Q" class="slack-link" target="_blank">
-                        Course Channel
+                        Workshop Channel
                     </a>
                 </div>
             </div>
             
             <div class="footer-logos">
-                <img src="assets/cornelltech-logo.png" alt="Cornell Tech Logo" class="footer-logo">
-                <a href="https://dli.tech.cornell.edu/" target="_blank">
-                    <img src="assets/dli-logo-red.png" alt="DLI Logo" class="footer-logo">
+                <a href="https://tech.cornell.edu/" target="_blank">
+                    <img src="assets/cornelltech-logo.png" alt="Cornell Tech Logo" class="footer-logo">
+                </a>
+                <a href="https://www.pi.tech.cornell.edu/" target="_blank">
+                    <img src="assets/pitech-logo.png" alt="PiTech Logo" class="footer-logo">
                 </a>
             </div>
         </div>
     </div>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Define session dates (format: YYYY-MM-DD)
+        const sessions = [
+            { date: '2025-06-12', element: document.querySelector('.session:nth-of-type(1)') },
+            { date: '2025-06-19', element: document.querySelector('.session:nth-of-type(2)') },
+            { date: '2025-06-26', element: document.querySelector('.session:nth-of-type(3)') },
+            { date: '2025-07-10', element: document.querySelector('.session:nth-of-type(4)') },
+            { date: '2025-07-17', element: document.querySelector('.session:nth-of-type(5)') },
+            { date: '2025-07-24', element: document.querySelector('.session:nth-of-type(6)') },
+            { date: '2025-07-31', element: document.querySelector('.session:nth-of-type(7)') },
+            { date: '2025-08-07', element: document.querySelector('.session:nth-of-type(8)') },
+            { date: '2025-08-14', element: document.querySelector('.session:nth-of-type(9)') }
+        ];
+
+        // Use current date to find upcoming sessions
+        const today = new Date();
+        
+        console.log('Today:', today);
+        
+        // Find the next upcoming session
+        let nextSession = null;
+        let closestDiff = Infinity;
+        
+        for (const session of sessions) {
+            const sessionDate = new Date(session.date);
+            const timeDiff = sessionDate - today;
+            
+            console.log('Session date:', session.date, 'Time diff:', timeDiff);
+            
+            // Only consider future sessions
+            if (timeDiff > 0 && timeDiff < closestDiff) {
+                closestDiff = timeDiff;
+                nextSession = session;
+                console.log('New next session:', session.date);
+            }
+        }
+        
+        // If we found an upcoming session, highlight it
+        if (nextSession) {
+            // Mark upcoming session with a CSS class
+            nextSession.element.classList.add('next-session');
+            console.log('Highlighted session:', nextSession.date);
+        } else {
+            console.log('No upcoming sessions found');
+        }
+        
+        // Handle smooth scrolling for the schedule link
+        document.addEventListener('click', function(e) {
+            // Find the closest anchor element that might have been clicked
+            const targetLink = e.target.closest('a[href="#schedule"]');
+            
+            // If we found a schedule link, process it
+            if (targetLink) {
+                e.preventDefault();
+                
+                if (nextSession) {
+                    console.log('Scrolling to next session:', nextSession.date);
+                    // Scroll directly to the next session
+                    nextSession.element.scrollIntoView({ behavior: 'smooth' });
+                    // Update URL without the jump
+                    history.pushState(null, null, '#schedule');
+                } else {
+                    console.log('No next session found, scrolling to schedule section');
+                    // If no upcoming session, scroll to schedule heading
+                    document.getElementById('schedule').scrollIntoView({ behavior: 'smooth' });
+                    history.pushState(null, null, '#schedule');
+                }
+            }
+        });
+    });
+</script>
 </html>
+
