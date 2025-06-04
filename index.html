@@ -165,6 +165,27 @@
             color: #2c3e50;
         }
 
+        .button-container {
+            text-align: center;
+            margin: 2rem 0 1rem;
+        }
+
+        .schedule-button {
+            display: inline-block;
+            background: linear-gradient(45deg, rgb(183,85,82), rgb(143, 45, 42));
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .schedule-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(183, 85, 82, 0.4);
+        }
+
         .instructors {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -470,6 +491,29 @@
                 height: 30px;
             }
         }
+
+        /* Highlight for the next upcoming session */
+        .next-session {
+            border: 2px solid rgb(183,85,82);
+            background: rgba(183,85,82, 0.05);
+            border-left: 5px solid rgb(183,85,82);
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .next-session::before {
+            content: "Next Session ➡️";
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            background: rgb(183,85,82);
+            color: white;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
@@ -493,9 +537,12 @@
             <a href="https://cornell.zoom.us/j/91707633997?pwd=r0iok22Vae7xfM0ep7rfu7KgRGUCmN.1&from=addon" class="program-link" target="_blank">
                 Join Zoom Meeting
             </a>
-            <a href="https://www.pi.tech.cornell.edu/pitech-phd-impact-fellowship" class="program-link" style="margin-left: 10px;" target="_blank">
+            <a href="https://www.pi.tech.cornell.edu/pitech-phd-impact-fellowship" class="program-link"  target="_blank">
                 Learn More About PiTech Fellowship
             </a>
+                       
+                    <a href="#schedule"  class="program-link">View Workshop Schedule</a>
+   
         </header>
 
         <div class="main-content">
@@ -523,6 +570,8 @@
                 <p class="intro-question">The overarching question we seek to address is: <em>What does it mean to build and evaluate technology in the public interest?</em></p>
                 
                 <p>This workshop provides a valuable opportunity to gather with other fellows on a regular cadence, creating a community of practice around ethical technology development.</p>
+                
+
             </section>
             
             <section class="instructors">
@@ -546,7 +595,7 @@
                 </div>
             </section>
 
-            <h2 style="color: #2c3e50; margin-bottom: 2rem; text-align: center; font-size: 2rem;">Workshop Schedule</h2>
+            <h2 id="schedule" style="color: #2c3e50; margin-bottom: 2rem; text-align: center; font-size: 2rem;">Workshop Schedule</h2>
 
             <div class="session">
                 <div class="session-header">
@@ -767,4 +816,78 @@
         </div>
     </div>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Define session dates (format: YYYY-MM-DD)
+        const sessions = [
+            { date: '2025-06-12', element: document.querySelector('.session:nth-of-type(1)') },
+            { date: '2025-06-19', element: document.querySelector('.session:nth-of-type(2)') },
+            { date: '2025-06-26', element: document.querySelector('.session:nth-of-type(3)') },
+            { date: '2025-07-10', element: document.querySelector('.session:nth-of-type(4)') },
+            { date: '2025-07-17', element: document.querySelector('.session:nth-of-type(5)') },
+            { date: '2025-07-24', element: document.querySelector('.session:nth-of-type(6)') },
+            { date: '2025-07-31', element: document.querySelector('.session:nth-of-type(7)') },
+            { date: '2025-08-07', element: document.querySelector('.session:nth-of-type(8)') },
+            { date: '2025-08-14', element: document.querySelector('.session:nth-of-type(9)') }
+        ];
+
+        // For testing purposes: 
+        // Use current date for demo, or uncomment next line and comment out the line after to test with real date
+        // const today = new Date();
+        const today = new Date('2025-06-14'); // Demo date for testing (between session 1 and 2)
+        
+        console.log('Today (for testing):', today);
+        
+        // Find the next upcoming session
+        let nextSession = null;
+        let closestDiff = Infinity;
+        
+        for (const session of sessions) {
+            const sessionDate = new Date(session.date);
+            const timeDiff = sessionDate - today;
+            
+            console.log('Session date:', session.date, 'Time diff:', timeDiff);
+            
+            // Only consider future sessions
+            if (timeDiff > 0 && timeDiff < closestDiff) {
+                closestDiff = timeDiff;
+                nextSession = session;
+                console.log('New next session:', session.date);
+            }
+        }
+        
+        // If we found an upcoming session, highlight it
+        if (nextSession) {
+            // Mark upcoming session with a CSS class
+            nextSession.element.classList.add('next-session');
+            console.log('Highlighted session:', nextSession.date);
+        } else {
+            console.log('No upcoming sessions found');
+        }
+        
+        // Handle smooth scrolling for the schedule link
+        document.addEventListener('click', function(e) {
+            // Find the closest anchor element that might have been clicked
+            const targetLink = e.target.closest('a[href="#schedule"]');
+            
+            // If we found a schedule link, process it
+            if (targetLink) {
+                e.preventDefault();
+                
+                if (nextSession) {
+                    console.log('Scrolling to next session:', nextSession.date);
+                    // Scroll directly to the next session
+                    nextSession.element.scrollIntoView({ behavior: 'smooth' });
+                    // Update URL without the jump
+                    history.pushState(null, null, '#schedule');
+                } else {
+                    console.log('No next session found, scrolling to schedule section');
+                    // If no upcoming session, scroll to schedule heading
+                    document.getElementById('schedule').scrollIntoView({ behavior: 'smooth' });
+                    history.pushState(null, null, '#schedule');
+                }
+            }
+        });
+    });
+</script>
 </html>
