@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethics Introduction for Public Interest Technology | Cornell Tech</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
     <style>
         * {
             margin: 0;
@@ -136,6 +137,32 @@
             padding: 3rem;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .workshop-intro {
+            margin-bottom: 2rem;
+        }
+
+        .intro-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-item {
+            background: rgba(183,85,82, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 5px solid rgb(183,85,82);
+        }
+
+        .intro-question {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 1.5rem 0;
+            font-weight: 500;
+            color: #2c3e50;
         }
 
         .instructors {
@@ -389,13 +416,15 @@
                 height: 40px;
             }
             
-            /* Mobile-specific adjustments can be added here */
+            /* Mobile-specific adjustments for logos */
             .pitech-logo {
-                /* Mobile adjustment for PiTech logo if needed */
+                top: 2px; /* Mobile adjustment for PiTech logo */
+                height: 40px;
             }
             
             .dli-logo {
-                /* Mobile adjustment for DLI logo if needed */
+                top: 0px; /* Mobile adjustment for DLI logo */
+                height: 40px;
             }
             
             .logo-divider {
@@ -470,6 +499,32 @@
         </header>
 
         <div class="main-content">
+            <section class="workshop-intro">
+                <h2 style="color: #2c3e50; margin-bottom: 1.5rem; text-align: center; font-size: 2rem;">Workshop Overview</h2>
+                <p>Welcome to the Ethics Introduction for Public Interest Technology workshop. This series provides a <strong>light-lift, reflective, and participatory space</strong> to explore the ethical dimensions of public interest technology with your fellow PiTech scholars.</p>
+                
+                <div class="intro-highlights">
+                    <div class="highlight-item">
+                        <h3>Our Approach</h3>
+                        <p>Using the <strong>Values at Play framework</strong> as our central structure, we'll take a systematic approach to ethical perspective-building in technology. Discussions will be driven by themes in readings and your experiences as PiTech fellows.</p>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <h3>Workshop Format</h3>
+                        <p>Our sessions are designed to be co-constitutive—we'll keep lecturing to a minimum while focusing on discussion and participation. There's <strong>no required homework or reading</strong>, though optional materials will be provided for those interested in deeper exploration.</p>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <h3>Bring Your Work</h3>
+                        <p>We invite you to bring your own projects and experiences to be workshopped from an ethical perspective. We'll offer modes of reasoning that can be applied to your work, with volunteer opportunities for focused discussion.</p>
+                    </div>
+                </div>
+                
+                <p class="intro-question">The overarching question we seek to address is: <em>What does it mean to build and evaluate technology in the public interest?</em></p>
+                
+                <p>This workshop provides a valuable opportunity to gather with other fellows on a regular cadence, creating a community of practice around ethical technology development.</p>
+            </section>
+            
             <section class="instructors">
                 <div class="instructor">
                     <img src="assets/Jae.jpg" alt="Jae June Lee" class="instructor-img">
