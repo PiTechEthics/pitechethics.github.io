@@ -533,83 +533,83 @@
             align-items: stretch;
         }
 
-        /* Make break notice smaller and more compact */
+        /* Make break notice smaller and more subtle */
         .week-container .break-notice {
             flex: 0.8;
-            min-width: 200px;
+            min-width: 180px;
             margin: 0;
-            padding: 0.8rem;
-            font-size: 0.95rem;
+            padding: 0.7rem;
+            font-size: 0.9rem;
             display: flex;
             align-items: center;
             justify-content: center;
+            background: linear-gradient(135deg, rgba(255, 234, 167, 0.7), rgba(250, 177, 160, 0.7));
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            font-weight: 500;
         }
 
-        /* Update office hours to use red theme */
+        /* Update office hours to be more subtle */
         .office-hours {
             flex: 1.2;
-            background: linear-gradient(135deg, #f8e4e3, #f0d4d3);
-            border-left: 5px solid rgb(183,85,82);
-            padding: 1.5rem;
-            border-radius: 10px;
+            background: linear-gradient(135deg, rgba(248, 228, 227, 0.8), rgba(240, 212, 211, 0.8));
+            border-left: 3px solid rgba(183, 85, 82, 0.8);
+            padding: 1.2rem 1.5rem;
+            border-radius: 8px;
             min-width: 280px;
             position: relative;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.25s ease;
         }
 
         .office-hours:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
         }
 
         .office-day {
-            background: rgb(183,85,82);
+            background: rgba(183, 85, 82, 0.9);
             color: white;
-            padding: 0.3rem 0.8rem;
-            border-radius: 15px;
-            font-size: 0.9rem;
+            padding: 0.25rem 0.7rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
             font-weight: 500;
             position: absolute;
-            top: -10px;
-            left: 20px;
+            top: -8px;
+            left: 15px;
+        }
+
+        .office-hours h3 {
+            margin-top: 0.8rem;
+            margin-bottom: 0.3rem;
+            color: #2c3e50;
+            font-size: 1.2rem;
         }
 
         .office-time {
             display: inline-block;
-            background: rgb(183,85,82);
+            background: rgba(183, 85, 82, 0.9);
             color: white;
-            padding: 0.3rem 0.8rem;
-            border-radius: 15px;
-            font-size: 0.9rem;
+            padding: 0.25rem 0.7rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
             font-weight: 500;
-            margin: 0.5rem 0 1rem;
+            margin: 0.4rem 0 0.8rem;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
             text-decoration: none;
         }
 
         .office-time:hover {
             background: rgb(143, 45, 42);
             transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
         }
 
-        .office-link {
-            display: inline-block;
-            background: rgb(183,85,82);
-            color: white;
-            padding: 0.4rem 0.8rem;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
+        .office-description {
+            color: #495057;
             font-size: 0.9rem;
-        }
-
-        .office-link:hover {
-            background: rgb(143, 45, 42);
-            transform: translateY(-2px);
+            line-height: 1.5;
         }
     </style>
 </head>
