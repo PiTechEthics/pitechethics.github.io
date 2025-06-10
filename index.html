@@ -464,6 +464,14 @@
                 max-width: 80%;
                 text-align: center;
             }
+            
+            .week-container {
+                flex-direction: column;
+            }
+            
+            .office-hours, .week-container .break-notice {
+                width: 100%;
+            }
         }
         
         @media (max-width: 480px) {
@@ -514,6 +522,94 @@
             border-radius: 12px;
             font-size: 0.8rem;
             font-weight: 500;
+        }
+
+        /* Update the week container styling */
+        .week-container {
+            display: flex;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+
+        /* Make break notice smaller and more compact */
+        .week-container .break-notice {
+            flex: 0.8;
+            min-width: 200px;
+            margin: 0;
+            padding: 0.8rem;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Update office hours to use red theme */
+        .office-hours {
+            flex: 1.2;
+            background: linear-gradient(135deg, #f8e4e3, #f0d4d3);
+            border-left: 5px solid rgb(183,85,82);
+            padding: 1.5rem;
+            border-radius: 10px;
+            min-width: 280px;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .office-hours:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .office-day {
+            background: rgb(183,85,82);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+        }
+
+        .office-time {
+            display: inline-block;
+            background: rgb(183,85,82);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: 0.5rem 0 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .office-time:hover {
+            background: rgb(143, 45, 42);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .office-link {
+            display: inline-block;
+            background: rgb(183,85,82);
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .office-link:hover {
+            background: rgb(143, 45, 42);
+            transform: translateY(-2px);
         }
     </style>
 </head>
@@ -570,7 +666,7 @@
                 
                 <p class="intro-question">The overarching question we seek to address is: <em>What does it mean to build and evaluate technology in the public interest?</em></p>
                 
-                <p>This workshop provides a valuable opportunity to gather with other fellows on a regular cadence, creating a community of practice around ethical technology development. We’ll update readings and resources as the workshop progresses.</p>
+                <p>This workshop provides a valuable opportunity to gather with other fellows on a regular cadence, creating a community of practice around ethical technology development. We'll update readings and resources as the workshop progresses.</p>
                 
 
             </section>
@@ -602,79 +698,103 @@
 
 <div class="session">
     <div class="session-header">
-        <div class="session-title">Session 1: Why PiTech?</div>
+        <div class="session-title">Session 1: Why PiTech? What is Public Interest Tech?</div>
         <div class="session-date">June 12</div>
     </div>
-    <div class="session-description">Welcome & introductions. Why choose Public Interest Technology? What do you hope to get from this space?
-    </div>
-</div>
-
-<div class="session">
-    <div class="session-header">
-        <div class="session-title">Session 2: What is Public Interest Tech?</div>
-        <div class="session-date">June 19</div>
-    </div>
     <div class="session-description">
-        What makes tech "public interest"? How is it different from "responsible" or private sector work? Plus, a preview of Values at Play framework.
+        Welcome & introductions. Why choose Public Interest Technology? What do you hope to get from this space? How does ethics relate to public interest? How is public interest tech different from "responsible" tech and private sector work?
+    </div>
+    <div class="session-details">
+        <div class="detail-section">
+            <h4>Optional Reading</h4>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/15x5DJUTCboq0bKPP1l709kpE5nlqIM0I/view?usp=drive_link" target="_blank" class="reading-link">Crooked Timber, Berlin</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="week-container">
+    <div class="break-notice">✊🏿 No session on June 19 (Juneteenth)</div>
+    <div class="office-hours">
+        <span class="office-day">Wednesday, June 18</span>
+        <h3>Office Hours with Hauke</h3>
+        <a href="https://cornell.zoom.us/j/5906710139?pwd=bzVtQWxKRlJxeVdiSHpWaEZFZXlNQT09" target="_blank" class="office-time">2:00 PM via Zoom</a>
+        <p class="office-description">We will discuss advice on how to successfully run a PiTech project. <br> Previously, Hauke <a href="https://www.pi.tech.cornell.edu/spotlight/hanke" target="_blank" class="reading-link">worked on a PiTech project</a> with YAI focused on values such as privacy, autonomy, and dignity for individuals with intellectual and developmental disabilities.<br> </p>
     </div>
 </div>
 
 <div class="session">
     <div class="session-header">
-        <div class="session-title">Session 3: Intro to Values at Play</div>
+        <div class="session-title">Session 2: Intro to Values at Play</div>
         <div class="session-date">June 26</div>
     </div>
     <div class="session-description">
-        Intro to the Values at Play framework and other key ethical approaches (e.g. care, justice, rights).
+        Introduction to the Values at Play framework.
+    </div>
+    <div class="session-details">
+        <div class="detail-section">
+            <h4>Reading</h4>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/14fTIg05HNcARYP5JrEJ87KC29D2QAgqM/view?usp=drive_link" target="_blank" class="reading-link">Values at Play, Flanagan, Nissenbaum. Chapter 1 - Groundwork for Values in Games</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="break-notice">🏖️🎇 Break: No session on July 3</div>
+<div class="week-container">
+    <div class="break-notice">🇺🇸 No session on July 3 (Independence Day)</div>
+    <div class="office-hours">
+        <span class="office-day">Wednesday, July 2</span>
+        <h3>Office Hours with Jae June</h3>
+        <a href="#" target="_blank" class="office-time">3:30 PM via Zoom</a>
+        <p class="office-description">Workshop ideas on utilizing VAP Discovery and Definition. Join to discuss applying the Values at Play framework to your specific projects.</p>
+    </div>
+</div>
 
 <div class="session">
     <div class="session-header">
-        <div class="session-title">Session 4: Values at Play – Discovery</div>
+        <div class="session-title">Session 3: Values at Play – Discovery</div>
         <div class="session-date">July 10</div>
     </div>
     <div class="session-description">
         How can we identify the values embedded in systems and designs--whether intended or not?
-
     </div>
 </div>
 
 <div class="session">
     <div class="session-header">
-        <div class="session-title">Session 5: Midpoint Check-In</div>
+        <div class="session-title">Session 4: Midpoint Check-In</div>
         <div class="session-date">July 17</div>
     </div>
     <div class="session-description">
-Share your experience so far in your respective projects in light of the Discovery Heuristic. Optional paired-feedback opportunity.
+        Share your experience so far in your respective projects in light of the Discovery Heuristic. Optional paired-feedback opportunity.
     </div>
 </div>
 
 <div class="session">
     <div class="session-header">
-        <div class="session-title">Session 6: Values at Play – Implementation I</div>
+        <div class="session-title">Session 5: Values at Play – Implementation I</div>
         <div class="session-date">July 24</div>
     </div>
     <div class="session-description">
-How do we translate values into design features and decision-making?
+        How do we translate values into design features and decision-making?
     </div>
 </div>
 
 <div class="session">
     <div class="session-header">
-        <div class="session-title">Session 7: Values at Play – Implementation II</div>
+        <div class="session-title">Session 6: Values at Play – Implementation II</div>
         <div class="session-date">July 31</div>
     </div>
     <div class="session-description">
-What happens when values come into conflict? How can we resolve tensions?
+        What happens when values come into conflict? How can we resolve tensions?
     </div>
 </div>
 
 <div class="session">
     <div class="session-header">
-        <div class="session-title">Session 8: Values at Play – Verification</div>
+        <div class="session-title">Session 7: Values at Play – Verification</div>
         <div class="session-date">August 7</div>
     </div>
     <div class="session-description">
@@ -684,11 +804,11 @@ What happens when values come into conflict? How can we resolve tensions?
 
 <div class="session">
     <div class="session-header">
-        <div class="session-title">Session 9: Closing & Reflection</div>
+        <div class="session-title">Session 8: Closing & Reflection</div>
         <div class="session-date">August 14</div>
     </div>
     <div class="session-description">
-Wrap up. Revisit your goals. What did you learn? What’s next?
+        Wrap up. Revisit your goals. What did you learn? What's next?
     </div>
 </div>
 
