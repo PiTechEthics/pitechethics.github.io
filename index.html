@@ -611,6 +611,29 @@
             font-size: 0.9rem;
             line-height: 1.5;
         }
+
+        /* Highlight for today's session */
+        .today-session {
+            border: 2px solid #ac4d35;
+            background: rgba(225, 112, 85, 0.05);
+            border-left: 5px solid #ac4d35;
+            border-radius: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .today-session::before {
+            content: "Today's Session 🎯";
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            background: #ac4d35;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
@@ -840,26 +863,46 @@
     </div>
 </body>
 <script>
+    // Updated script for highlighting today's and next sessions
     document.addEventListener('DOMContentLoaded', function() {
+        // Get all session elements
+        const sessionElements = document.querySelectorAll('.session');
+        
         // Define session dates (format: YYYY-MM-DD)
         const sessions = [
-            { date: '2025-06-12', element: document.querySelector('.session:nth-of-type(1)') },
-            { date: '2025-06-19', element: document.querySelector('.session:nth-of-type(2)') },
-            { date: '2025-06-26', element: document.querySelector('.session:nth-of-type(3)') },
-            { date: '2025-07-10', element: document.querySelector('.session:nth-of-type(4)') },
-            { date: '2025-07-17', element: document.querySelector('.session:nth-of-type(5)') },
-            { date: '2025-07-24', element: document.querySelector('.session:nth-of-type(6)') },
-            { date: '2025-07-31', element: document.querySelector('.session:nth-of-type(7)') },
-            { date: '2025-08-07', element: document.querySelector('.session:nth-of-type(8)') },
-            { date: '2025-08-14', element: document.querySelector('.session:nth-of-type(9)') }
+            { date: '2025-06-12', element: sessionElements[0] },
+            { date: '2025-06-26', element: sessionElements[1] },
+            { date: '2025-07-10', element: sessionElements[2] },
+            { date: '2025-07-17', element: sessionElements[3] },
+            { date: '2025-07-24', element: sessionElements[4] },
+            { date: '2025-07-31', element: sessionElements[5] },
+            { date: '2025-08-07', element: sessionElements[6] },
+            { date: '2025-08-14', element: sessionElements[7] }
         ];
 
-        // Use current date to find upcoming sessions
-        const today = new Date();
+        // Use a mock date for testing (Today is June 12, 2025)
+        // Remove this line and use the line below it when the site goes live in 2025
+        const today = new Date('2025-06-12');
+        // const today = new Date();
         
-        console.log('Today:', today);
+        // Helper function to compare if two dates are the same day
+        const isSameDay = (date1, date2) => {
+            return date1.getFullYear() === date2.getFullYear() &&
+                   date1.getMonth() === date2.getMonth() &&
+                   date1.getDate() === date2.getDate();
+        };
         
-        // Find the next upcoming session
+        // Find today's session if there is one
+        let todaySession = null;
+        for (const session of sessions) {
+            const sessionDate = new Date(session.date);
+            if (isSameDay(sessionDate, today)) {
+                todaySession = session;
+                break;
+            }
+        }
+        
+        // Find the next upcoming session (excluding today)
         let nextSession = null;
         let closestDiff = Infinity;
         
@@ -867,46 +910,37 @@
             const sessionDate = new Date(session.date);
             const timeDiff = sessionDate - today;
             
-            console.log('Session date:', session.date, 'Time diff:', timeDiff);
-            
-            // Only consider future sessions
-            if (timeDiff > 0 && timeDiff < closestDiff) {
+            // Only consider future sessions that aren't today
+            if (timeDiff > 0 && !isSameDay(sessionDate, today) && timeDiff < closestDiff) {
                 closestDiff = timeDiff;
                 nextSession = session;
-                console.log('New next session:', session.date);
             }
         }
         
-        // If we found an upcoming session, highlight it
-        if (nextSession) {
-            // Mark upcoming session with a CSS class
+        // If there's a session today, highlight it
+        if (todaySession) {
+            todaySession.element.classList.add('today-session');
+        } 
+        // If there's no session today but there is an upcoming session, highlight that
+        else if (nextSession) {
             nextSession.element.classList.add('next-session');
-            console.log('Highlighted session:', nextSession.date);
-        } else {
-            console.log('No upcoming sessions found');
-        }
+        } 
         
         // Handle smooth scrolling for the schedule link
         document.addEventListener('click', function(e) {
-            // Find the closest anchor element that might have been clicked
             const targetLink = e.target.closest('a[href="#schedule"]');
-            
-            // If we found a schedule link, process it
             if (targetLink) {
                 e.preventDefault();
                 
-                if (nextSession) {
-                    console.log('Scrolling to next session:', nextSession.date);
-                    // Scroll directly to the next session
+                // Scroll priority: today's session > next session > schedule heading
+                if (todaySession) {
+                    todaySession.element.scrollIntoView({ behavior: 'smooth' });
+                } else if (nextSession) {
                     nextSession.element.scrollIntoView({ behavior: 'smooth' });
-                    // Update URL without the jump
-                    history.pushState(null, null, '#schedule');
                 } else {
-                    console.log('No next session found, scrolling to schedule section');
-                    // If no upcoming session, scroll to schedule heading
                     document.getElementById('schedule').scrollIntoView({ behavior: 'smooth' });
-                    history.pushState(null, null, '#schedule');
                 }
+                history.pushState(null, null, '#schedule');
             }
         });
     });
