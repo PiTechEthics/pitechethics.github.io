@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiTech Values Word Cloud</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, rgb(244, 203, 204) 0%, rgb(173, 81, 78) 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            opacity: 0.9;
+        }
+        
+        .word-cloud {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 1000px;
+            width: 100%;
+            text-align: center;
+            line-height: 1.2;
+            backdrop-filter: blur(10px);
+        }
+        
+        .word {
+            display: inline-block;
+            margin: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .word:hover {
+            transform: scale(1.1);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .size-1 { font-size: 3em; color: rgb(139, 69, 19); }
+        .size-2 { font-size: 2.5em; color: rgb(173, 81, 78); }
+        .size-3 { font-size: 2.2em; color: rgb(178, 34, 34); }
+        .size-4 { font-size: 1.8em; color: rgb(220, 20, 60); }
+        .size-5 { font-size: 1.5em; color: rgb(165, 42, 42); }
+        .size-6 { font-size: 1.3em; color: rgb(128, 0, 0); }
+        .size-7 { font-size: 1.1em; color: rgb(205, 92, 92); }
+        .size-8 { font-size: 1em; color: rgb(160, 82, 45); }
+        
+        .legend {
+            margin-top: 30px;
+            color: white;
+            text-align: center;
+            opacity: 0.8;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .word.highlight {
+            animation: pulse 1.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>PiTech Session 1</h1>
+        <p>Key Values & Concepts from Public Interest Technology Discussion</p>
+    </div>
+    
+    <div class="word-cloud">
+        <span class="word size-1">PUBLIC INTEREST</span>
+        <span class="word size-4">Responsible</span>
+        <span class="word size-5">Mission-Driven</span>
+        <span class="word size-2">Not Profit</span>
+        <span class="word size-4">Public Agencies</span>
+        <span class="word size-2">Marginalized</span>
+        <span class="word size-5">99%</span>
+        <span class="word size-3">Fairness</span>
+        <span class="word size-8">Equity</span>
+        <span class="word size-4">Missed & Blocked</span>
+        <span class="word size-6">Cascading Effects</span>
+        <span class="word size-5">Social Good</span>
+        <span class="word size-3">vs. Special Interest</span>
+        <span class="word size-8">Left Behind</span>
+        <span class="word size-7">Global South</span>
+        <span class="word size-4">Holistic Well-being</span>
+        <span class="word size-6">Theory of Change</span>
+        <span class="word size-5">Public Goods</span>
+        <span class="word size-7">Universal Design</span>
+        <span class="word size-4">Ethics</span>
+        <span class="word size-3">Values</span>
+        <span class="word size-8">Tech Abuse</span>
+        <span class="word size-6">Education</span>
+        <span class="word size-5">Accessibility</span>
+        <span class="word size-7">Good Mission</span>
+        <span class="word size-6">Benefit Maximization</span>
+        <span class="word size-8">Constraints</span>
+        <span class="word size-6">Nonprofits</span>
+        <span class="word size-7">Multi-layered</span>
+        <span class="word size-8">Conflicted Groups</span>
+        <span class="word size-5">Common Good</span>
+        <span class="word size-6">Power Dynamics</span>
+        <span class="word size-7">Financial Incentives</span>
+        <span class="word size-8">vs. Private Interest</span>
+        <span class="word size-3">Harm Reduction</span>
+    </div>
+    
+    <div class="legend">
+        <p>Size indicates frequency/importance in discussion • Click words to highlight</p>
+    </div>
+    
+    <script>
+        // Add click functionality to highlight words
+        document.querySelectorAll('.word').forEach(word => {
+            word.addEventListener('click', function() {
+                // Remove highlight from all words
+                document.querySelectorAll('.word').forEach(w => w.classList.remove('highlight'));
+                // Add highlight to clicked word
+                this.classList.add('highlight');
+                
+                // Remove highlight after 3 seconds
+                setTimeout(() => {
+                    this.classList.remove('highlight');
+                }, 3000);
+            });
+        });
+        
+        // Random gentle animation on load
+        setTimeout(() => {
+            const words = document.querySelectorAll('.word');
+            words.forEach((word, index) => {
+                setTimeout(() => {
+                    word.style.opacity = '0';
+                    word.style.transform = 'translateY(20px)';
+                    
+                    setTimeout(() => {
+                        word.style.transition = 'all 0.5s ease';
+                        word.style.opacity = '1';
+                        word.style.transform = 'translateY(0)';
+                    }, 50);
+                }, index * 100);
+            });
+        }, 500);
+    </script>
+</body>
+</html>
