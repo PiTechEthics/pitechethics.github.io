@@ -634,6 +634,36 @@
             font-size: 0.8rem;
             font-weight: 500;
         }
+
+        /* Add this to your existing style section */
+        .working-session {
+            background: rgba(183,85,82, 0.05);
+            border-left: 5px solid #52B4B7;
+            position: relative;
+        }
+
+        .working-session:hover {
+            background: rgba(183,85,82, 0.2);
+        }
+
+        .session-badge {
+            background: #52B4B7;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin-left: 1rem;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 768px) {
+            .session-badge {
+                margin-left: 0;
+                margin-top: 0.5rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -759,16 +789,18 @@
         <div class="session-date">June 26</div>
     </div>
     <div class="session-description">
-        Introduction to the Values at Play framework.
+        Introduction to the Values at Play framework. How does technology embed values? We'll explore how design choices inherently reflect and promote particular values, whether intended or not.
     </div>
     <div class="session-details">
         <div class="detail-section">
             <h4>Reading</h4>
             <ul>
                 <li><a href="https://drive.google.com/file/d/14fTIg05HNcARYP5JrEJ87KC29D2QAgqM/view?usp=drive_link" target="_blank" class="reading-link">Values at Play, Flanagan, Nissenbaum. Chapter 1 - Groundwork for Values in Games</a></li>
+                <li><a href="https://drive.google.com/file/d/16dp1-6JOYcnaEFlmlWlyimwFp0wUVopX/view?usp=share_link" target="_blank" class="reading-link">Winner: Do Artifacts Have Politics?</a></li>
+                <li><a href="https://drive.google.com/file/d/1sjl6_qhPZBbv1ngR_V9JFEPBq7Kq8e5n/view?usp=share_link" target="_blank" class="reading-link">Latour: Missing Masses</a></li>
             </ul>
         </div>
-                <div class="detail-section">
+        <div class="detail-section">
             <h4>Session Materials</h4>
             <ul>
                 <li><a href="https://docs.google.com/presentation/d/1TWrp87HWLpCoWHIIOPvNYAjSJqruyPZOiasIMQXay5s/edit?usp=sharing" target="_blank" class="reading-link">Session 2 Slides</a></li>
@@ -787,13 +819,23 @@
     </div>
 </div>
 
-<div class="session">
+<div class="session working-session">
     <div class="session-header">
-        <div class="session-title">Session 3: Values at Play – Discovery</div>
+        <div class="session-title">Session 3: Values at Play – Discovery applied to your PiTech</div>
         <div class="session-date">July 10</div>
+        <div class="session-badge">Working Session</div>
     </div>
     <div class="session-description">
-        How can we identify the values embedded in systems and designs--whether intended or not?
+        How can we identify the values embedded in systems and designs--whether intended or not? We'll explore the Discovery Heuristic, sources of values, and definition of abstract concepts in operational terms through hands-on activities.
+    </div>
+    <div class="session-details">
+        <div class="detail-section">
+            <h4>Readings</h4>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1FGbCVYgsKt9kW_sH0R2_B-LFcTmJum04/view?usp=share_link" target="_blank" class="reading-link">Values at Play, Chapter 5: Discovery</a></li>
+                <li><a href="https://drive.google.com/file/d/1SBcfMRJVzKYDKbUVOCzC_x2Md5xvycOm/view?usp=share_link" target="_blank" class="reading-link">A Method For Discovering Values in Digital Games (Flanagan)</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
