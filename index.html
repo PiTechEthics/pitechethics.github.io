@@ -782,7 +782,7 @@
     <div class="office-hours">
         <span class="office-day">Wednesday, July 2</span>
         <h3>Office Hours with Jae June</h3>
-        <a href="#" target="_blank" class="office-time">3:30 PM via Zoom</a>
+        <a href="https://georgetown.zoom.us/j/4687587349" target="_blank" class="office-time">3:30 PM via Zoom</a>
         <p class="office-description">Workshop ideas on utilizing VAP Discovery and Definition. Join to discuss applying the Values at Play framework to your specific projects.</p>
     </div>
 </div>
@@ -869,7 +869,7 @@
     </div>
 </body>
 <script>
-    // Updated script for highlighting today's and next sessions
+    // Updated script to fix the date comparison issue
     document.addEventListener('DOMContentLoaded', function() {
         // Get all session elements
         const sessionElements = document.querySelectorAll('.session');
@@ -886,22 +886,27 @@
             { date: '2025-08-14', element: sessionElements[7] }
         ];
 
-        // Use a mock date for testing (Today is June 12, 2025)
+        // Use a mock date for testing (Today is June 26, 2025)
         // Remove this line and use the line below it when the site goes live in 2025
-        //const today = new Date('2025-06-12');
+        // const today = new Date('2025-06-26T12:00:00');
         const today = new Date();
         
-        // Helper function to compare if two dates are the same day
+        // Improved helper function to compare dates while normalizing timezone issues
         const isSameDay = (date1, date2) => {
-            return date1.getFullYear() === date2.getFullYear() &&
-                   date1.getMonth() === date2.getMonth() &&
-                   date1.getDate() === date2.getDate();
+            // Convert both dates to their local date strings in YYYY-MM-DD format
+            const d1 = new Date(date1);
+            const d2 = new Date(date2);
+            
+            return d1.getFullYear() === d2.getFullYear() &&
+                   d1.getMonth() === d2.getMonth() &&
+                   d1.getDate() === d2.getDate();
         };
         
         // Find today's session if there is one
         let todaySession = null;
         for (const session of sessions) {
-            const sessionDate = new Date(session.date);
+            // Create date at noon to avoid timezone issues
+            const sessionDate = new Date(session.date + 'T12:00:00');
             if (isSameDay(sessionDate, today)) {
                 todaySession = session;
                 break;
@@ -913,8 +918,13 @@
         let closestDiff = Infinity;
         
         for (const session of sessions) {
-            const sessionDate = new Date(session.date);
-            const timeDiff = sessionDate - today;
+            // Create date at noon to avoid timezone issues
+            const sessionDate = new Date(session.date + 'T12:00:00');
+            
+            // Calculate difference in days, not milliseconds
+            const todayDateOnly = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+            const sessionDateOnly = new Date(sessionDate.getFullYear(), sessionDate.getMonth(), sessionDate.getDate());
+            const timeDiff = sessionDateOnly - todayDateOnly;
             
             // Only consider future sessions that aren't today
             if (timeDiff > 0 && !isSameDay(sessionDate, today) && timeDiff < closestDiff) {
