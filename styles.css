@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    background: #B75552;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(180deg, rgba(183, 85, 82, 1) 0%, rgba(120, 57, 55, 1) 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto;
+    max-width: 100%;
+    transition: transform 0.3s ease;
+    /* Individual vertical adjustment for each logo */
+    position: relative;
+}
+
+.header-logo:hover {
+    transform: translateY(-3px);
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo-specific adjustments - Modify these values to align logos */
+.pitech-logo {
+    /* Change this value to move the PiTech logo up or down */
+    top: 3px;
+    /* You can also adjust the height if needed */
+    height: 50px;
+    /* Add margin if needed for horizontal spacing */
+    margin-right: 5px;
+}
+
+.dli-logo {
+    /* Change this value to move the DLI logo up or down */
+    top: 0px;
+    /* You can also adjust the height if needed */
+    height: 50px;
+    /* Add margin if needed for horizontal spacing */
+    margin-left: 0px;
+}
+
+.logo-divider {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(183,85,82);
+    margin: 0 0.75rem;
+    position: relative;
+    /* Change this value to move the divider up or down */
+    top: -3px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.header .subtitle {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+}
+
+.program-link {
+    display: inline-block;
+    background: linear-gradient(45deg, rgb(183,85,82), rgb(143, 45, 42));
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.program-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(183, 85, 82, 0.4);
+}
+
+.main-content {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.workshop-intro {
+    margin-bottom: 2rem;
+}
+
+.intro-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.highlight-item {
+    background: rgba(183,85,82, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 5px solid rgb(183,85,82);
+}
+
+.intro-question {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.button-container {
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.schedule-button {
+    display: inline-block;
+    background: linear-gradient(45deg, rgb(183,85,82), rgb(143, 45, 42));
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.schedule-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(183, 85, 82, 0.4);
+}
+
+.instructors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.instructor {
+    background: linear-gradient(135deg, rgba(183,85,82,0.1), rgba(183,85,82,0.2));
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.instructor-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.instructor:hover {
+    transform: translateY(-5px);
+}
+
+.instructor h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.instructor .role {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.instructor a {
+    color: rgb(183,85,82);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.instructor a:hover {
+    text-decoration: underline;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 2.5rem auto 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+    max-width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.footer-logo:hover {
+    opacity: 0.8;
+}
+
+.session {
+    background: rgba(183,85,82, 0.03);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    border-left: 5px solid rgb(183,85,82);
+    transition: all 0.3s ease;
+}
+
+.session:hover {
+    background: rgba(183,85,82, 0.2);
+    transform: translateX(5px);
+}
+
+.session-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.session-title {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.session-date {
+    background: linear-gradient(45deg, rgb(183,85,82), rgb(143, 45, 42));
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.session-duration {
+    background: #34495e;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+   font-weight: 600;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+    .session-duration {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
+
+.session-leader {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.session-description {
+    margin-bottom: 1.5rem;
+    color: #34495e;
+    line-height: 1.7;
+}
+
+.session-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.detail-section {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e8ecf0;
+}
+
+.detail-section h4 {
+    color: rgb(183,85,82);
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.detail-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.detail-section li {
+    margin-bottom: 0.3rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.detail-section li::before {
+    content: "•";
+    color: rgb(183,85,82);
+    position: absolute;
+    left: 0;
+}
+
+.reading-link {
+    color: rgb(183,85,82);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.reading-link:hover {
+    text-decoration: underline;
+}
+
+.break-notice {
+    background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+    color: #2d3436;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    font-weight: 600;
+}
+
+.communication {
+    background: linear-gradient(135deg, rgb(183,85,82), rgb(143, 45, 42));
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.communication h2 {
+    margin-bottom: 1rem;
+}
+
+.slack-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.slack-link {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.slack-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .header {
+        padding: 2rem 1.5rem;
+    }
+    
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .session-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .slack-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-logos {
+        gap: 1rem;
+    }
+    
+    .logo-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header-logo {
+        height: 40px;
+    }
+    
+    /* Mobile-specific adjustments for logos */
+    .pitech-logo {
+        top: 2px; /* Mobile adjustment for PiTech logo */
+        height: 40px;
+    }
+    
+    .dli-logo {
+        top: 0px; /* Mobile adjustment for DLI logo */
+        height: 40px;
+    }
+    
+    .logo-divider {
+        font-size: 1.5rem;
+        margin: 0 0.5rem;
+    }
+    
+    .footer-logos {
+        gap: 2rem;
+    }
+    
+    .program-link {
+        display: block;
+        margin: 1rem auto !important;
+        max-width: 80%;
+        text-align: center;
+    }
+    
+    .week-container {
+        flex-direction: column;
+    }
+    
+    .office-hours, .week-container .break-notice {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-logo {
+        height: 35px;
+    }
+    
+    .logo-divider {
+        font-size: 1.3rem;
+        margin: 0 0.4rem;
+    }
+    
+    .header h1 {
+        font-size: 1.6rem;
+    }
+    
+    .main-content {
+        padding: 2rem 1.5rem;
+    }
+    
+    .instructor {
+        padding: 1.5rem;
+    }
+    
+    .footer-logo {
+        height: 30px;
+    }
+}
+
+/* Highlight for the next upcoming session */
+.next-session {
+    border: 2px solid rgb(183,85,82);
+    background: rgba(183,85,82, 0.05);
+    border-left: 5px solid rgb(183,85,82);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.next-session::before {
+    content: "Next Session ➡️";
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: rgb(183,85,82);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Update the week container styling */
+.week-container {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+/* Make break notice smaller and more subtle */
+.week-container .break-notice {
+    flex: 0.8;
+    min-width: 180px;
+    margin: 0;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(255, 234, 167, 0.7), rgba(250, 177, 160, 0.7));
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+}
+
+/* Update office hours to be more subtle */
+.office-hours {
+    flex: 1.2;
+    background: linear-gradient(135deg, rgba(248, 228, 227, 0.8), rgba(240, 212, 211, 0.8));
+    border-left: 3px solid rgba(183, 85, 82, 0.8);
+    padding: 1.2rem 1.5rem;
+    border-radius: 8px;
+    min-width: 280px;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.25s ease;
+}
+
+.office-hours:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.office-day {
+    background: rgba(183, 85, 82, 0.9);
+    color: white;
+    padding: 0.25rem 0.7rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    position: absolute;
+    top: -8px;
+    left: 15px;
+}
+
+.office-hours h3 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.3rem;
+    color: #2c3e50;
+    font-size: 1.2rem;
+}
+
+.office-time {
+    display: inline-block;
+    background: rgba(183, 85, 82, 0.9);
+    color: white;
+    padding: 0.25rem 0.7rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0.4rem 0 0.8rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+
+.office-time:hover {
+    background: rgb(143, 45, 42);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.office-description {
+    color: #495057;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Highlight for today's session */
+.today-session {
+    border: 2px solid rgb(183,85,82);
+    background: rgba(225, 112, 85, 0.05);
+    border-left: 5px solid rgb(183,85,82);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.today-session::before {
+    content: "Today's Session 🎯";
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: rgb(183,85,82);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Add this to your existing style section */
+.working-session {
+    background: rgba(183,85,82, 0.05);
+    border-left: 5px solid #52B4B7;
+    position: relative;
+}
+
+.working-session:hover {
+    background: rgba(183,85,82, 0.2);
+}
+
+.session-badge {
+    background: #52B4B7;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 1rem;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .session-badge {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
