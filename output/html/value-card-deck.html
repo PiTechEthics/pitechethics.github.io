@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>VAP Value Card Deck</title><style>
+@page { size: letter portrait; margin: 0.5in; }
+
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body {
+  margin: 0; padding: 0;
+  font-family: "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  color: #181615;
+}
+
+.page {
+  width: 7.5in;
+  height: 10in;
+  page-break-after: always;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0.10in;
+}
+.page:last-child { page-break-after: auto; }
+
+.card {
+  border: 0.75pt solid #9c948e;
+  border-radius: 4pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.16in 0.30in 0.18in;
+  text-align: center;
+  break-inside: avoid;
+  overflow: hidden;
+}
+
+.card .value {
+  font-size: 32pt;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  color: #181615;
+  word-break: break-word;
+  hyphens: auto;
+}
+.card.size-m .value { font-size: 26pt; }
+.card.size-s .value { font-size: 22pt; }
+.card.size-xs .value { font-size: 18pt; line-height: 1.10; }
+
+.card .group {
+  margin-top: 0.10in;
+  font-size: 7pt;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.50);
+  line-height: 1.1;
+}
+
+/* Blank-card variant: replace value with a guide line for hand-writing */
+.card.blank .value-line {
+  width: 2.6in;
+  height: 0;
+  border-bottom: 0.5pt solid #1a1a1a;
+  margin-bottom: 0.05in;
+}
+
+.g-care { background: rgb(252,240,210); }
+.g-justice { background: rgb(219,234,214); }
+.g-autonomy { background: rgb(209,223,237); }
+.g-dignity { background: rgb(227,214,233); }
+.g-trust { background: rgb(239,214,226); }
+.g-safety { background: rgb(246,221,216); }
+.g-quality { background: rgb(223,225,229); }
+.g-creativity { background: rgb(209,233,231); }
+.g-stewardship { background: rgb(204,218,209); }
+.g-tradition { background: rgb(228,217,206); }
+
+/* On-screen preview */
+@media screen {
+  body { background: #e6e2dd; padding: 0.4in 0; }
+  .page {
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    margin: 0 auto 0.4in;
+    width: 8.5in;
+    height: 11in;
+    padding: 0.5in;
+  }
+}
+</style></head><body><section class="page"><div class="card g-care"><div class="value">Care</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care size-m"><div class="value">Compassion</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care"><div class="value">Empathy</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care"><div class="value">Kindness</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care size-m"><div class="value">Generosity</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care size-m"><div class="value">Cooperation</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care size-m"><div class="value">Solidarity</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care"><div class="value">Community</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care"><div class="value">Sympathy</div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care size-m"><div class="value">Hospitality</div><div class="group">Care &amp; Solidarity</div></div></section>
+<section class="page"><div class="card g-care blank"><div class="value-line"></div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care blank"><div class="value-line"></div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-care blank"><div class="value-line"></div><div class="group">Care &amp; Solidarity</div></div>
+<div class="card g-justice"><div class="value">Justice</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice"><div class="value">Fairness</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice"><div class="value">Equality</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice"><div class="value">Equity</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice"><div class="value">Inclusion</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice"><div class="value">Diversity</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice size-s"><div class="value">Accessibility</div><div class="group">Justice &amp; Inclusion</div></div></section>
+<section class="page"><div class="card g-justice"><div class="value">Tolerance</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice size-s"><div class="value">Egalitarianism</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice size-xs"><div class="value">Non-discrimination</div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice blank"><div class="value-line"></div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice blank"><div class="value-line"></div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-justice blank"><div class="value-line"></div><div class="group">Justice &amp; Inclusion</div></div>
+<div class="card g-autonomy"><div class="value">Autonomy</div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy"><div class="value">Freedom</div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy"><div class="value">Liberty</div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy size-m"><div class="value">Independence</div><div class="group">Autonomy &amp; Agency</div></div></section>
+<section class="page"><div class="card g-autonomy size-xs"><div class="value">Self-determination</div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy size-m"><div class="value">Empowerment</div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy"><div class="value">Choice</div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy size-s"><div class="value">Self-direction</div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy"><div class="value">Voice</div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy blank"><div class="value-line"></div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy blank"><div class="value-line"></div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-autonomy blank"><div class="value-line"></div><div class="group">Autonomy &amp; Agency</div></div>
+<div class="card g-dignity"><div class="value">Privacy</div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity"><div class="value">Dignity</div><div class="group">Privacy, Dignity &amp; Respect</div></div></section>
+<section class="page"><div class="card g-dignity"><div class="value">Respect</div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity"><div class="value">Consent</div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity"><div class="value">Anonymity</div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity size-s"><div class="value">Confidentiality</div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity"><div class="value">Honor</div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity size-m"><div class="value">Recognition</div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity blank"><div class="value-line"></div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity blank"><div class="value-line"></div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-dignity blank"><div class="value-line"></div><div class="group">Privacy, Dignity &amp; Respect</div></div>
+<div class="card g-trust"><div class="value">Honesty</div><div class="group">Trust &amp; Integrity</div></div></section>
+<section class="page"><div class="card g-trust size-m"><div class="value">Transparency</div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust"><div class="value">Trust</div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust size-s"><div class="value">Accountability</div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust"><div class="value">Integrity</div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust size-m"><div class="value">Authenticity</div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust size-m"><div class="value">Truthfulness</div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust size-s"><div class="value">Responsibility</div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust blank"><div class="value-line"></div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust blank"><div class="value-line"></div><div class="group">Trust &amp; Integrity</div></div>
+<div class="card g-trust blank"><div class="value-line"></div><div class="group">Trust &amp; Integrity</div></div></section>
+<section class="page"><div class="card g-safety"><div class="value">Safety</div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety"><div class="value">Security</div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety"><div class="value">Health</div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety"><div class="value">Wellbeing</div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety"><div class="value">Peace</div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety"><div class="value">Stability</div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety size-m"><div class="value">Resilience</div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety"><div class="value">Comfort</div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety blank"><div class="value-line"></div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-safety blank"><div class="value-line"></div><div class="group">Safety &amp; Wellbeing</div></div></section>
+<section class="page"><div class="card g-safety blank"><div class="value-line"></div><div class="group">Safety &amp; Wellbeing</div></div>
+<div class="card g-quality size-m"><div class="value">Efficiency</div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality"><div class="value">Accuracy</div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality size-m"><div class="value">Reliability</div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality"><div class="value">Usability</div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality size-m"><div class="value">Robustness</div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality size-m"><div class="value">Scalability</div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality"><div class="value">Mastery</div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality size-m"><div class="value">Performance</div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality blank"><div class="value-line"></div><div class="group">Quality &amp; Effectiveness</div></div></section>
+<section class="page"><div class="card g-quality blank"><div class="value-line"></div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-quality blank"><div class="value-line"></div><div class="group">Quality &amp; Effectiveness</div></div>
+<div class="card g-creativity size-m"><div class="value">Creativity</div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity size-m"><div class="value">Innovation</div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity"><div class="value">Curiosity</div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity size-m"><div class="value">Playfulness</div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity"><div class="value">Humor</div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity"><div class="value">Beauty</div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity size-m"><div class="value">Imagination</div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity"><div class="value">Style</div><div class="group">Creativity &amp; Stimulation</div></div></section>
+<section class="page"><div class="card g-creativity"><div class="value">Pleasure</div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity blank"><div class="value-line"></div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity blank"><div class="value-line"></div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-creativity blank"><div class="value-line"></div><div class="group">Creativity &amp; Stimulation</div></div>
+<div class="card g-stewardship size-s"><div class="value">Sustainability</div><div class="group">Stewardship &amp; Sustainability</div></div>
+<div class="card g-stewardship size-s"><div class="value">Environmentalism</div><div class="group">Stewardship &amp; Sustainability</div></div>
+<div class="card g-stewardship size-m"><div class="value">Stewardship</div><div class="group">Stewardship &amp; Sustainability</div></div>
+<div class="card g-stewardship size-xs"><div class="value">Future generations</div><div class="group">Stewardship &amp; Sustainability</div></div>
+<div class="card g-stewardship size-m"><div class="value">Conservation</div><div class="group">Stewardship &amp; Sustainability</div></div>
+<div class="card g-stewardship size-xs"><div class="value">Long-term thinking</div><div class="group">Stewardship &amp; Sustainability</div></div></section>
+<section class="page"><div class="card g-stewardship blank"><div class="value-line"></div><div class="group">Stewardship &amp; Sustainability</div></div>
+<div class="card g-stewardship blank"><div class="value-line"></div><div class="group">Stewardship &amp; Sustainability</div></div>
+<div class="card g-stewardship blank"><div class="value-line"></div><div class="group">Stewardship &amp; Sustainability</div></div>
+<div class="card g-tradition"><div class="value">Tradition</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition"><div class="value">Heritage</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition"><div class="value">Loyalty</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition"><div class="value">Belonging</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition size-m"><div class="value">Conformity</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition size-m"><div class="value">Achievement</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition"><div class="value">Status</div><div class="group">Tradition, Power &amp; Status</div></div></section>
+<section class="page"><div class="card g-tradition"><div class="value">Power</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition"><div class="value">Wealth</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition"><div class="value">Prestige</div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition blank"><div class="value-line"></div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition blank"><div class="value-line"></div><div class="group">Tradition, Power &amp; Status</div></div>
+<div class="card g-tradition blank"><div class="value-line"></div><div class="group">Tradition, Power &amp; Status</div></div></section></body></html>
