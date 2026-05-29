@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Harold Triedman — VAP Discovery Packet</title><style>
+@page { size: letter portrait; margin: 0.5in; }
+
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body {
+  margin: 0; padding: 0;
+  font-family: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  color: #221c1b;
+}
+
+.page {
+  width: 7.5in;          /* 8.5 - 1.0 in horizontal margin */
+  height: 10in;          /* 11  - 1.0 in vertical margin   */
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.page:last-child { page-break-after: auto; }
+
+.fellow-header {
+  height: 0.7in;
+  border-bottom: 1pt solid #b75552;
+  padding-bottom: 0.10in;
+  margin-bottom: 0.18in;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 0 0 auto;
+}
+.fellow-header .left .name {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: 16pt;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #221c1b;
+  line-height: 1.05;
+}
+.fellow-header .left .org {
+  font-size: 10.5pt;
+  color: #5d5450;
+  margin-top: 0.04in;
+}
+.fellow-header .right { text-align: right; }
+.fellow-header .right .pagenum {
+  font-size: 8pt;
+  color: #8a8076;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.fellow-header .right .packet-tag {
+  font-size: 7pt;
+  color: #b75552;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.04in;
+}
+
+.cards-grid {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.16in;
+  min-height: 0;
+}
+
+.card {
+  border: 0.75pt solid #b5aea8;
+  border-radius: 4pt;
+  padding: 0.14in 0.16in 0.12in;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  break-inside: avoid;
+}
+.card .category {
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b75552;
+  margin-bottom: 0.06in;
+  padding-bottom: 0.05in;
+  border-bottom: 0.5pt solid #f3e6e4;
+  flex: 0 0 auto;
+}
+.card .body {
+  flex: 1 1 auto;
+  font-size: 9.5pt;
+  line-height: 1.32;
+  color: #2a2422;
+  overflow: hidden;
+}
+.card .body p { margin: 0 0 0.06in; }
+.card .body p:last-child { margin-bottom: 0; }
+.card .body ul {
+  margin: 0;
+  padding-left: 0.18in;
+}
+.card .body li { margin-bottom: 0.04in; }
+
+.card .attrib {
+  flex: 0 0 auto;
+  margin-top: 0.08in;
+  padding-top: 0.06in;
+  border-top: 0.5pt dotted #cfcac4;
+  font-size: 6.5pt;
+  color: #8a8076;
+  line-height: 1.3;
+  word-break: break-word;
+}
+.card .v {
+  /* tiny verbatim marker — not self-explanatory, just for Hauke */
+  color: #2f8d90;
+  font-weight: 700;
+  margin-right: 0.05in;
+}
+
+/* font-size buckets based on body length */
+.card.size-m .body { font-size: 9pt;  line-height: 1.30; }
+.card.size-s .body { font-size: 8pt;  line-height: 1.28; }
+.card.size-xs .body { font-size: 7pt; line-height: 1.26; }
+
+/* On-screen preview (ignored when printing) */
+@media screen {
+  body { background: #e6e2dd; padding: 0.4in 0; }
+  .page {
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    margin: 0 auto 0.4in;
+    padding: 0.5in;          /* draw the page margin on-screen */
+    width: 8.5in;
+    height: 11in;
+  }
+}
+</style></head><body><section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Harold Triedman</div>      <div class="org">NYC Mayor&#x27;s Office of Contract Services</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 1 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Mission Statement</div>  <div class="body"><p>Lead procurement transformation by leveraging expertise, innovation, and a results-oriented mindset.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · About MOCS — https://www.nyc.gov/site/mocs/about/about-mocs.page</div></div>
+<div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>Equitable procurement through transparency, accountability, and efficiency.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · About MOCS (Our Vision) — https://www.nyc.gov/site/mocs/about/about-mocs.page</div></div>
+<div class="card">  <div class="category">Problems Solved</div>  <div class="body"><p>The Mayor&#x27;s Office of Contract Services (MOCS) is a New York City oversight and service agency that is dedicated to optimizing existing operations and transforming processes to make it easier to do business with the City.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · About MOCS — https://www.nyc.gov/site/mocs/about/about-mocs.page</div></div>
+<div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>Launched in 2017, the Procurement and Sourcing Solutions Portal (PASSPort) is New York City&#x27;s end-to-end procurement platform</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page</div></div>
+<div class="card">  <div class="category">Target Audience</div>  <div class="body"><p>Anyone can browse public contract opportunities published in PASSPort</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page</div></div>
+<div class="card">  <div class="category">Users / Beneficiaries</div>  <div class="body"><p>Launched in 2022, the PASSPort Public website provides public access to data and analytics, while promoting transparency and a deeper understanding of NYC&#x27;s procurement activities.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Harold Triedman</div>      <div class="org">NYC Mayor&#x27;s Office of Contract Services</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 2 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Founders</div>  <div class="body"><p>Kim L. Yu is the City Chief Procurement Officer and New York City Mayor&#x27;s Office of Contract Services (MOCS) Director.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · Senior Team — https://www.nyc.gov/site/mocs/about/senior-team.page</div></div>
+<div class="card">  <div class="category">Founders</div>  <div class="body"><p>Appointed by Mayor Zohran Mamdani in January 2026, she leads efforts to modernize procurement systems, increase transparency, and foster more equitable contracting across all city agencies.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · Senior Team (Kim L. Yu) — https://www.nyc.gov/site/mocs/about/senior-team.page</div></div>
+<div class="card">  <div class="category">Employees / Creators</div>  <div class="body"><p>MOCS staff operates in a fast-paced, collaborative, service-oriented environment, where flexibility and ability to achieve results are valued.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · Careers — https://www.nyc.gov/site/mocs/about/careers.page</div></div>
+<div class="card">  <div class="category">Affected Communities</div>  <div class="body"><p>HSC&#x27;s goal is to better the lives of all New Yorkers so they can reach their full human potential.</p></div>  <div class="attrib"><span class="v">✓</span>Human Services Council · Home — https://humanservicescouncil.org/</div></div>
+<div class="card">  <div class="category">Infrastructure Requirements</div>  <div class="body"><p>Section 4-06 of the Procurement Policy Board Rules (Rules) requires City agencies to process contract payments efficiently and expeditiously so as to assure timely contract payments to those suppliers doing business with the City.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · Procurement Policy Board (PPB) — https://www.nyc.gov/site/mocs/regulations/ppb.page</div></div>
+<div class="card">  <div class="category">Platform Limitations</div>  <div class="body"><p>An April snapshot of Procurement and Sourcing Solutions Portal (PASSPort) records for all contracts (not just non-profits) revealed over 7,000 pending unpaid invoices worth over $1 billion</p></div>  <div class="attrib"><span class="v">✓</span>NYC Comptroller · Nonprofit, Nonpayment — https://comptroller.nyc.gov/reports/nonprofit-nonpayment/</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Harold Triedman</div>      <div class="org">NYC Mayor&#x27;s Office of Contract Services</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 3 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Resource Constraints</div>  <div class="body"><p>the City entered into 12,820 new procurement and revenue contracts in FY 2023, valued at $38.22 billion</p></div>  <div class="attrib"><span class="v">✓</span>NYC Comptroller · Late Payment of Contracts by City Agencies Remains a Large and Growing Problem — https://comptroller.nyc.gov/newsroom/late-payment-of-contracts-by-city-agencies-remains-a-large-and-growing-problem-comptrollers-annual-contracts-summary-report-finds/</div></div>
+<div class="card">  <div class="category">Legal &amp; Compliance Landscape</div>  <div class="body"><p>The Procurement Policy Board is authorized to promote and put into effect rules governing the procurement of goods, services, and construction by the City of New York.</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · Procurement Policy Board (PPB) — https://www.nyc.gov/site/mocs/regulations/ppb.page</div></div>
+<div class="card">  <div class="category">Industry Standards</div>  <div class="body"><p>Foster effective broad-based competition from all segments of the vendor community; including small businesses, minority and women-owned and operated enterprises</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · Procurement Policy Board Rules (Underlying Purposes) — https://www.nyc.gov/site/mocs/regulations/ppb.page</div></div>
+<div class="card">  <div class="category">Cultural Norms</div>  <div class="body"><p>Safeguard the integrity of the procurement system and protect against corruption, waste, fraud, and abuse</p></div>  <div class="attrib"><span class="v">✓</span>NYC MOCS · Procurement Policy Board Rules (Underlying Purposes) — https://www.nyc.gov/site/mocs/regulations/ppb.page</div></div></div></section></body></html>

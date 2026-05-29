@@ -1,0 +1,222 @@
+{
+  "fellow": "Daniel Enriquez",
+  "org_full": "Center for Family Support",
+  "org_short": "CFS",
+  "primary_url": "https://www.cfsny.org/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The Center for Family Support is committed to providing support and assistance to individuals with developmental and related disabilities, and to the family members who care for them.",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "Personalized Support for a Meaningful Life. We help participants live their best lives by offering person-centered support services and programs that empower them to grow, learn and thrive in the community.",
+      "attribution": "Center for Family Support · Homepage — https://www.cfsny.org/",
+      "verify_score": 0.852,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "The organization strives to: support individuals to live the lives they want; respect different backgrounds, individual choice and overall family needs; provide families with the support they need at all stages of life; involve individuals in their communities; deliver excellent, individualized support to all.",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 0.925,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "The Center for Family Support is recognized as effective in helping people with developmental and related disabilities achieve self-determination. We have a reputation for trust, caring and excellence among individuals and families, regulators, colleague agencies, and general public.",
+      "attribution": "Center for Family Support · Mission and Vision (Vision Statement) — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Community Habilitation provides one-to-one training to people with intellectual/developmental disabilities to develop or enhance the skills needed to live more independently. Day Habilitation helps adults with intellectual/developmental disabilities to acquire, retain or improve their self-help, socialization, and adaptive skills including communication, travel and other areas.",
+      "attribution": "Center for Family Support · New York Programs and Services — https://www.cfsny.org/supports-services/new-york/",
+      "verify_score": 0.907,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Self-directed services offer the greatest amount of control in how, where, and by whom services are provided. CFS functions as a Fiscal Intermediary allowing families to create their own budgets and even hire their own staff.",
+      "attribution": "Center for Family Support · New York Programs and Services — https://www.cfsny.org/supports-services/new-york/",
+      "verify_score": 0.594,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "In 1954 a small group of parents founded The Center for Family Support to meet the special needs of individuals with developmental disabilities and their families. Founded on Staten Island by parents seeking alternatives to institutionalization, CFS pioneered early support systems and professional training where public resources fell short. The organization was led by Irene Arnold, who headed CFS until 1972.",
+      "attribution": "Center for Family Support · About CFS / organizational history — https://www.cfsny.org/about-cfs/",
+      "verify_score": 0.018,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "1,298 individuals supported across New York and New Jersey; 1,074 in New York and 224 in New Jersey. Top goals reported by participants in 2025 Personal Outcome Measures meetings included: \"I choose my own personal goals,\" \"I have the best possible health,\" \"I participate in the life of the community,\" \"I experience continuity and security,\" and \"I am safe.\"",
+      "attribution": "Center for Family Support · 2025 Annual Report — https://www.cfsny.org/about-cfs/2025-annual-report/",
+      "verify_score": 0.404,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "We support 169 people throughout New York City's five boroughs and Westchester County in various settings. Settings include supportive housing (staff visits a few hours daily), individual support services (help managing household bills), and supervised IRAs (24-hour support in small homes or individual apartments).",
+      "attribution": "Center for Family Support · New York Programs and Services (Residential) — https://www.cfsny.org/supports-services/new-york/",
+      "verify_score": 0.3,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Tamara, Residence Manager: \"I give a part of me each day to help encourage someone else to be great.\" GG, 25 years at CFS: \"They make me feel like I'm needed. Even for the little things.\" Alexandra, Systems Support Specialist: \"I started as a DSP in 2003. I love what I do because I've been provided the opportunity to do different kinds of work.\"",
+      "attribution": "Center for Family Support · Careers — https://www.cfsny.org/careers/",
+      "verify_score": 0.6,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "DSPs assist individuals with developmental disabilities in improving quality of life and reaching goals. They serve as advocates, encourage communication of wants and needs, and support community integration. Maria, 2025 Employee of the Year, recognized for \"exceptional care, dedication, and presence with the individuals she supports,\" said simply: \"I was just doing my job.\"",
+      "attribution": "Center for Family Support · Careers and CFS Stories — https://www.cfsny.org/cfs-stories/",
+      "verify_score": 0.04,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "Advocacy is a necessary life skill every person with disabilities should learn. CFS works with everyone, including individuals who have significant challenges with a history of trauma that have been turned away by other agencies.",
+      "attribution": "Center for Family Support · Homepage and New Jersey Programs — https://www.cfsny.org/supports-services/new-jersey/",
+      "verify_score": 0.548,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "Major funders ($10,000+) include BDO, Bentson & Company, Mutual of America, Options Imagined, TD Charitable Foundation, and USI Insurance Services. CEO Alicia McGrath notes that Medicaid is the \"backbone\" of funding but \"cannot in itself rise to the realities our participants and their families face today,\" citing housing access, aging caregivers, workforce pathways, and integrated community supports that are \"evolving faster than public reimbursements can adapt.\"",
+      "attribution": "Center for Family Support · 2025 Annual Report — https://www.cfsny.org/about-cfs/2025-annual-report/",
+      "verify_score": 0.387,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "Alicia McGrath, President & CEO: \"At CFS, connection is not an abstract idea. It is the foundation of how we lead, how we respond, and how we support individuals and families every day.\" Co-Chairs Barry Brover and William Ludolph: \"With more than 1,000 diverse and dedicated staff, who support over 1,000 individuals with I/DD and their families across New York and New Jersey, our work is a vital part of every day of the year.\"",
+      "attribution": "Center for Family Support · 2025 Annual Report — https://www.cfsny.org/about-cfs/2025-annual-report/",
+      "verify_score": 0.836,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "CFS operates 21 group homes in New Jersey, located throughout Bergen, Essex, Middlesex, Monmouth, Morris, Passaic, Somerset, and Union Counties. These residences are intentionally small and designed to meet the needs of adults requiring structured independent living environments. They provide individualized attention, supervision, and support 24/7.",
+      "attribution": "Center for Family Support · New Jersey Programs and Services — https://www.cfsny.org/supports-services/new-jersey/",
+      "verify_score": 0.465,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "Average statewide staff vacancies for voluntary, non-profit providers totals nearly 20,000 unfilled positions. Average statewide non-profit provider workforce turnover rate is 31%. Average statewide starting wage for DSPs is $16.74, only 7% above minimum wage, compared to DSPs employed by NYS, who earn $23.75 on average. With approximately 5,000 to 7,000 people on waitlists for supports and services, resolving the workforce crisis is pivotal in order to fully address the needs of New Yorkers with I/DD.",
+      "attribution": "The Arc New York · Advocacy Priority: Address & Close Critical Workforce Shortages — https://thearcny.org/individual-priorities-workforce-shortages/",
+      "verify_score": 0.821,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "Armando Contreras, President and CEO at United Cerebral Palsy: \"Without meaningful action to support the direct care workforce, and the indispensable services direct support professionals provide, people with intellectual and developmental disabilities will continue to spend years waiting for services, delaying their fundamental right to live in their communities and in the most integrated settings possible.\"",
+      "attribution": "Disability Scoop · DSP Wages Up, But Disability Providers Still Struggling To Maintain Services — https://www.disabilityscoop.com/2024/11/04/dsp-wages-up-but-disability-providers-still-struggling-to-maintain-services/31145/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "To qualify for the OPWDD HCBS Waiver, individuals must meet several criteria: have a developmental disability, meet level of care eligibility criteria for an Intermediate Care Facility, and be eligible for Medicaid. They must live at home, or in an Office for People with Developmental Disabilities (OPWDD) sponsored Individualized Residential Alternative (IRA), Community Residence, or Family Care home. Providers of Waiver Services must operate in accordance with Parts 624, 633, 635, 636, and Parts 686 and 671 of Title 14 of the New York Code of Rules and Regulations.",
+      "attribution": "NYS OPWDD · Home and Community Based Services Waiver — https://opwdd.ny.gov/providers/home-and-community-based-services-waiver",
+      "verify_score": 0.024,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The HCBS Settings Rule ensures HCBS settings provide supports promoting \"Meaningful control over daily life decisions, such as deciding what to eat and setting their own schedule\" and \"Choices about what services they receive and who provides them.\" Settings must facilitate \"Access to the broader community\" and \"Personal relationships, including relationships with people without disabilities who are not paid to be in their lives and the ability to have visitors at any time.\"",
+      "attribution": "Institute on Community Integration · The HCBS Settings Rule: The Critical Role of DSPs in Implementation — https://publications.ici.umn.edu/frontline-initiative/15-1/DSP-Role-HCBS-Rule",
+      "verify_score": 0.623,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The U.S. Supreme Court's 1999 landmark decision in Olmstead v. L.C. found the unjustified segregation of people with disabilities is a form of unlawful discrimination under the Americans with Disabilities Act. The decision requires that services are provided in the \"most integrated setting appropriate to the needs of a person with a disability.\" The qualified right applies when treatment professionals determine that community supports are appropriate; the person does not object to living in the community; and the provision of services in the community would be a reasonable accommodation.",
+      "attribution": "U.S. Department of Health and Human Services · Understanding Olmstead and Community Integration — https://www.hhs.gov/civil-rights/for-individuals/special-topics/community-living-and-olmstead/serving-people-disabilities-most-integrated-setting.html",
+      "verify_score": 0.0,
+      "verify_status": "fetch_failed",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "Available HCBS Waiver services are Day Habilitation, Prevocational Services, Residential Habilitation, Community Habilitation, Respite, Supported Employment, Pathway to Employment, Live-In Caregiver, Community Transition Services, Fiscal Intermediary, Individual Directed Goods and Services, Support Brokerage, Family Education and Training, Intensive Behavioral Services, Assistive Technology – Adaptive Devices, Environmental Modifications, and Vehicle Modifications.",
+      "attribution": "NYS OPWDD · Home and Community Based Services Waiver — https://opwdd.ny.gov/providers/home-and-community-based-services-waiver",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "CFS is a New York and New Jersey based human services non-profit agency. In New York, residential services span New York City's five boroughs and Westchester County; in New Jersey, 21 group homes are located throughout Bergen, Essex, Middlesex, Monmouth, Morris, Passaic, Somerset, and Union Counties, with day programs in Hackensack, Union, and Hillsborough.",
+      "attribution": "Center for Family Support · Programs and Services pages — https://www.cfsny.org/supports-services/new-jersey/",
+      "verify_score": 0.22,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "Nadine Daley was recognized by City & State NY as a champion of \"inclusion, self-direction, and the voices of individuals with IDD.\" CFS maintains \"an employment-first mindset,\" providing vocational workshops, job placement, and coaching services available to residents, day program participants, and any individuals with I/DD in the community.",
+      "attribution": "Center for Family Support · 2025 Annual Report and New Jersey Programs — https://www.cfsny.org/about-cfs/2025-annual-report/",
+      "verify_score": 0.2,
+      "verify_status": "fail",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Users / Beneficiaries: Homepage references multiple individual stories (Nancy, Jesse, Jacob, Jackie, Jeff, Rosa) but the CFS Stories index page surfaced only headlines and one short quote; full first-person quotes from people served were not accessible without crawling each story page.",
+    "Platform Limitations: No AR/VR or assistive-technology platform documentation was found on the CFS site; this is expected since the project is exploratory, but it means no organizational stance on tech accessibility constraints was captured.",
+    "Funders / Investors: Specific Medicaid/OPWDD reimbursement-rate language was paraphrased rather than verbatim; the OPWDD HCBS waiver page (https://opwdd.ny.gov/providers/home-and-community-based-services-waiver) is largely a portal and required following deeper links to capture statutory text.",
+    "Affected Communities: No direct self-advocate or family-member quotes from CFS news/blog were retrievable (https://www.cfsny.org/news/ returned only navigation/structure).",
+    "Legal & Compliance Landscape: HIPAA-specific language relevant to AR/VR data capture in residential settings was not gathered; ADA Title III and HHS Section 504 web/app accessibility rules (effective June 30, 2024) noted in search results but not pulled verbatim."
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "fellow": "Isabel Corpus",
+  "org_full": "NYC Office of Technology & Innovation",
+  "org_short": "OTI",
+  "primary_url": "https://www.nyc.gov/content/oti/pages/artificial-intelligence",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The action plan is entirely premise around building out the framework that we as a city need to make sure that agencies are responsibly using AI technologies.",
+      "attribution": "NYC OTI · Alex Foard testimony, Committee on Technology — https://citymeetings.nyc/meetings/new-york-city-council/2024-10-28-0100-pm-committee-on-technology/chapter/oti-explains-their-approach-to-ai-governance-and-existing-efforts/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "New York City staked its claim among global leaders on artificial intelligence governance with the release of its landmark AI Action Plan — and we remain ahead of the curve thanks to these updates.",
+      "attribution": "NYC OTI · CTO Matthew Fraser, GovTech coverage of NYC generative AI guidance — https://www.govtech.com/artificial-intelligence/nyc-reveals-progress-guidance-on-generative-ai",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Across city government, agencies are relying upon algorithms more than ever to deliver more efficient services, maintain public safety and make our city more livable for New Yorkers. We expect that trend will continue — and, as it does, the action plan will be there to provide the necessary guardrails to make sure that agencies responsibly and safely adopt these technologies.",
+      "attribution": "NYC OTI · Alex Foard, Executive Director of Research and Collaboration — https://www.govtech.com/biz/data/nycs-data-driven-future-46-algorithms-and-counting",
+      "verify_score": 0.93,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "You must have clear definitions and guidance to effectively support agencies. And to do this, you have to speak the same language and communicate the same way — which is why we published definitions of more than 20 key terms to enable better support for agency implementation of AI projects and improved accountability.",
+      "attribution": "NYC OTI · Alex Foard, Executive Director of Research and Collaboration — https://www.govtech.com/biz/data/nycs-data-driven-future-46-algorithms-and-counting",
+      "verify_score": 0.918,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "We also share the sentiment around encouraging innovation and making sure that agencies have the opportunity to innovate, but that we're adhering to the values and principles that we as a city have when it comes to AI.",
+      "attribution": "NYC OTI · Alex Foard testimony, Committee on Technology — https://citymeetings.nyc/meetings/new-york-city-council/2024-10-28-0100-pm-committee-on-technology/chapter/oti-explains-their-approach-to-ai-governance-and-existing-efforts/",
+      "verify_score": 0.912,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "This AI chatbot not only has garnered trust, it also can service people 24/7 without being put on hold. We cannot be in a situation where we lose that kind of trust even one time. That can't happen to government.",
+      "attribution": "NYC OTI · Kevin D. Kim, Commissioner, NYC Department of Small Business Services, on MyCity chatbot — https://themarkup.org/news/2024/04/02/malfunctioning-nyc-ai-chatbot-still-active-despite-widespread-evidence-its-encouraging-illegal-behavior",
+      "verify_score": 0.784,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "We're identifying what the problems are, we're gonna fix them, and we're going to have the best chatbot system on the globe. People are going to come and watch what we're doing in New York City.",
+      "attribution": "NYC OTI · Mayor Eric Adams on MyCity chatbot — https://themarkup.org/news/2024/04/02/malfunctioning-nyc-ai-chatbot-still-active-despite-widespread-evidence-its-encouraging-illegal-behavior",
+      "verify_score": 0.875,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "If this chatbot is not being done in a way that is responsible and accurate, it should be taken down.",
+      "attribution": "Civil society · Rosalind Black, Legal Services NYC, on MyCity chatbot — https://themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "It can also be a massive liability if it's providing the wrong legal information, so the chatbot needs to be fixed asap.",
+      "attribution": "Industry voice · Andrew Rigie, NYC Hospitality Alliance, on MyCity chatbot — https://themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "The chatbot incorrectly advised that employers could take workers' tips — a direct violation of New York Labor Law Section 196-d. It falsely claimed landlords could refuse tenants using housing vouchers, ignoring that source of income discrimination has been illegal in New York City since 2008. It incorrectly suggested landlords could lock out tenants, and it falsely claimed 'there are no restrictions on the amount of rent that you can charge.'",
+      "attribution": "Press · Case study of MyCity chatbot harms to workers and tenants — https://www.envive.ai/post/case-study-nycs-mycity-chatbot",
+      "verify_score": 0.794,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Under the leadership of our new Chief Technology Officer Lisa Gelobter, we look forward to building on this foundation and advancing the responsible use of AI tools in City government.",
+      "attribution": "NYC OTI · Statement to NYC Council biometric oversight hearing — https://statescoop.com/nyc-ai-biometric-oversight-hearing/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "We wanna make sure that the efforts that we're taking are responsive to a really complex network of agency needs, or they each have different missions.",
+      "attribution": "NYC OTI · Alex Foard testimony, Committee on Technology — https://citymeetings.nyc/meetings/new-york-city-council/2024-10-28-0100-pm-committee-on-technology/chapter/oti-explains-their-approach-to-ai-governance-and-existing-efforts/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "This committee is going to ask you all about citywide positions on things, because OTI has a directive to sort of be the clearing house for how technology is used across the city.",
+      "attribution": "NYC Council · Carmen De La Rosa, Technology Committee Chair — https://statescoop.com/nyc-ai-biometric-oversight-hearing/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "I do want to indicate that agencies could be using biometric data in ways that aren't involved in algorithmic decision making or AI or other uses, in which case we would not have visibility into that collection.",
+      "attribution": "NYC OTI · Alex Foard, Assistant Commissioner, Council oversight hearing — https://statescoop.com/nyc-ai-biometric-oversight-hearing/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "You cannot govern technology with wishful thinking. You need people. A fully staffed AI accountability team is what will make these standards real – reviewing systems before they are deployed, supporting agencies that are struggling to keep up, and stepping in when tools harm New Yorkers. Without real staff, oversight becomes a slogan. With them, it becomes a system.",
+      "attribution": "NYC Council · Council Member Jennifer Gutiérrez, Technology Committee Chair — https://www.cityandstateny.com/politics/2025/11/new-york-city-will-try-again-regulate-ai/409803/",
+      "verify_score": 0.927,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "Is the Office of Algorithmic Accountability empowered by City Hall, is it integrated into key decision making and approval processes, is the review process speedy enough to meet agencies' operational needs?",
+      "attribution": "Former NYC official · John Paul Farmer, former NYC Chief Technology Officer — https://www.cityandstateny.com/politics/2025/11/new-york-city-will-try-again-regulate-ai/409803/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "An 'algorithmic tool' is defined by the law as: 'Any technology or computerized process that is derived from machine learning, artificial intelligence, predictive analytics, or other similar methods of data analysis, that is used to make or assist in making decisions about and implementing policies that materially impact the rights, liberties, benefits, safety or interests of the public, including their access to available city services and resources for which they may be eligible.'",
+      "attribution": "Statute · NYC Local Law 35 of 2022 / NYC Admin Code § 3-119.5 — https://www.nyc.gov/assets/oti/downloads/pdf/reports/2023-algorithmic-tools-reporting-updated.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "An automated employment decision tool is 'a computation process that is derived from machine learning, statistical modelling, data analytics, or artificial intelligence' used to issue simplified outputs like scores or classifications that substantially assist or replace human decision-making. Employers must commission an independent, impartial bias audit annually, notify affected individuals at least 10 working days before the tool is used, and publish a Summary of Results.",
+      "attribution": "Statute · NYC Local Law 144 (AEDT Bias Audit Law), DCWP rules — https://www.nycbiasaudit.com/",
+      "verify_score": 0.306,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The GUARD Act finally puts real oversight and support in place — not voluntary guidelines or feel-good strategies, but enforceable standards. We teach children right and wrong, and we hold doctors and engineers to professional standards — but until now, we've had none for artificial intelligence.",
+      "attribution": "NYC Council · Council Member Jennifer Gutiérrez on the GUARD Act establishing the Office of Algorithmic Data Accountability — https://council.nyc.gov/jennifer-gutierrez/2025/11/25/city-council-establishes-new-ai-oversight-office-other-ai-initiatives/",
+      "verify_score": 0.929,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Despite the strong foundation, they would benefit from targeted amendments to become generally effective.",
+      "attribution": "Civil society · Darío Maestro, Senior Legal Fellow, Surveillance Technology Oversight Project (S.T.O.P.), on NYC AI legislation — https://www.cityandstateny.com/politics/2025/11/new-york-city-will-try-again-regulate-ai/409803/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "Knowing that technology performs unequally across race and gender, should the city view that as discriminatory? It seems as though the city right now does not have a good grasp of biometric technology, and I think taking a neutral position is quite dangerous for our city.",
+      "attribution": "NYC Council · Council Member Shahana Hanif, Council oversight hearing — https://statescoop.com/nyc-ai-biometric-oversight-hearing/",
+      "verify_score": 0.833,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "Algorithms in government are already a part of decisions that affect people's lives, but there are no agreed-upon methods to ensure fairness or safety, or protect the fundamental rights of citizens.",
+      "attribution": "Civil society · AI Now Institute, Algorithmic Impact Assessments report — https://ainowinstitute.org/publications/algorithmic-impact-assessments-toward-accountable-automation-in-public-agencies",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "S.T.O.P. is a Brooklyn-based civil rights nonprofit. The organization highlights how tools like facial recognition, NYPD drones, data-sharing systems and other tracking technologies are deployed — often with little oversight — disproportionately affecting low-income, immigrant, Black and Brown, and Muslim communities, as well as protesters.",
+      "attribution": "Civil society · Surveillance Technology Oversight Project (S.T.O.P.) — https://www.stopspying.org/post-act",
+      "verify_score": 0.045,
+      "verify_status": "fetch_failed",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The Office of Technology and Innovation shall be the lead agency in the development, coordination and implementation of the City's information technology, information security, information privacy and telecommunication matters.",
+      "attribution": "NYC Mayor Eric Adams, Executive Order 3 of 2022, § 5 (establishing OTI) — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The Office of Technology and Innovation shall guide the City and its agencies in the development, responsible use and assessment of algorithmic and related technical tools and systems and shall engage and educate the public on issues related to City use of these and other related technologies.",
+      "attribution": "NYC Mayor Eric Adams, Executive Order 3 of 2022, § 4 (transferring algorithm duties from the prior Algorithms Management and Policy Officer to OTI) — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Establish a holistic, adaptable framework for AI governance that acknowledges the risks of AI, including bias and disparate impact, and which will help ensure the responsible use of AI tools consistent with values of reliability, transparency, accountability, fairness and non-discrimination, privacy, cybersecurity, and sustainability, among others defined through the implementation of this Action Plan.",
+      "attribution": "NYC OTI, The New York City Artificial Intelligence Action Plan (October 2023), Initiative 01 Objective — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Absent appropriate oversight and governance, some uses of AI could lead not only to benign inaccuracies or unintended results, but also data privacy or cybersecurity vulnerabilities, negative environmental impacts, or even serious bias, disparate impacts, and active harms. Further, the complexity of many AI applications and the fact that their mechanics are not always visible or understandable pose unique transparency and accountability challenges, which are particularly pronounced for governments working in service to the public.",
+      "attribution": "NYC OTI, The New York City Artificial Intelligence Action Plan (October 2023), Introduction — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "The New York City AI Action Plan — produced by the Office of Technology and Innovation — represents the knowledge, expertise, and contributions of 50 city employees from 18 agencies, as well as the insights of industry, academia, and civil society.",
+      "attribution": "NYC Mayor Eric Adams, Letter from the Mayor in The New York City Artificial Intelligence Action Plan (October 2023) — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "These transformational technologies are critical to efforts such as preventing the next public health outbreak, empowering business owners and entrepreneurs, and optimizing the use of city resources. And we've only scratched the surface on AI's massive potential impact on our city government, the nation's largest municipal workforce, and our eight million residents.",
+      "attribution": "NYC OTI · CTO Matthew C. Fraser, Letter from the CTO in The New York City Artificial Intelligence Action Plan (October 2023) — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The Office of Technology and Innovation (“OTI”) was formed under Mayoral Executive Order 3 of 2022 (“EO 3”) in order to unify technology teams across government and centralize coordination around existing and emerging technologies. OTI serves as the city's central technology agency, leading “the development, coordination and implementation of the city's information technology, information security, information privacy and telecommunication matters.” This guideline is issued under EO 3.",
+      "attribution": "NYC OTI, Artificial Intelligence: Principles & Definitions, § 3.0 Authority (version effective 03/05/2024) — https://www.nyc.gov/assets/oti/downloads/pdf/about/artificial-intelligence-principles-definitions.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Under Local Law 35 (“LL 35”), the city continues its commitment to provide the public with a transparent view of these applications of agency data and technology. Pursuant to mayoral Executive Order 3 of 2022 (“EO 3”), the city's Office of Technology & Innovation (“OTI”) manages this process, providing guidance to agencies and ensuring that agency materials are prepared for the public.",
+      "attribution": "NYC OTI, Agency Compliance Reporting of Algorithmic Tools — Calendar Year 2024 (March 2025), Overview — https://www.nyc.gov/assets/oti/downloads/pdf/reports/2024-algorithmic-tools-report.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "New Yorkers reasonably expect to know how their government is working for them, and to understand the tools that agencies use to serve the public. It can be challenging to engender trust and understanding about public sector technology generally, as tools may be complex or require technical subject matter expertise to understand. These challenges are often greater with AI due to the complexity or opacity of the tools themselves, the varied impacts of their use on individuals and communities, broader discomfort with using technological tools in contexts and processes historically managed by humans, potential negative past experience with the use of such tools, or other factors.",
+      "attribution": "NYC OTI, Artificial Intelligence: Principles & Definitions, § 4.5 Trust and Transparency (version effective 03/05/2024) — https://www.nyc.gov/assets/oti/downloads/pdf/about/artificial-intelligence-principles-definitions.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    }
+  ],
+  "gaps": [
+    "Funders / Investors: No budget/appropriation quotes located in the time available; OTI is a mayoral agency funded through the NYC adopted budget, but specific named-funder quotes were not retrieved.",
+    "Data Requirements: No verbatim source on the specific data inputs/holdings for the algorithmic-accountability function; Local Law 35 reporting fields (data sets, vendor) are referenced but not quoted from the statute itself.",
+    "Infrastructure Requirements: No verbatim source on cloud / model-hosting / procurement infrastructure for the accountability function.",
+    "Executive Order number verified: the relevant mayoral order is Executive Order 3 of 2022 (which itself revokes the prior EO 50 of 2019 that had created the Algorithms Management and Policy Officer role). No subsequent NYC mayoral EO numbered 50 of 2024 was found."
+  ]
+}

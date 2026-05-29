@@ -1,0 +1,159 @@
+{
+  "fellow": "Harold Triedman",
+  "org_full": "NYC Mayor's Office of Contract Services",
+  "org_short": "MOCS",
+  "primary_url": "https://www.nyc.gov/site/mocs/index.page",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "Lead procurement transformation by leveraging expertise, innovation, and a results-oriented mindset.",
+      "attribution": "NYC MOCS · About MOCS — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Equitable procurement through transparency, accountability, and efficiency.",
+      "attribution": "NYC MOCS · About MOCS (Our Vision) — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "The Mayor's Office of Contract Services (MOCS) is a New York City oversight and service agency that is dedicated to optimizing existing operations and transforming processes to make it easier to do business with the City.",
+      "attribution": "NYC MOCS · About MOCS — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Launched in 2017, the Procurement and Sourcing Solutions Portal (PASSPort) is New York City's end-to-end procurement platform",
+      "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "Anyone can browse public contract opportunities published in PASSPort",
+      "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "Launched in 2022, the PASSPort Public website provides public access to data and analytics, while promoting transparency and a deeper understanding of NYC's procurement activities.",
+      "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Kim L. Yu is the City Chief Procurement Officer and New York City Mayor's Office of Contract Services (MOCS) Director.",
+      "attribution": "NYC MOCS · Senior Team — https://www.nyc.gov/site/mocs/about/senior-team.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Appointed by Mayor Zohran Mamdani in January 2026, she leads efforts to modernize procurement systems, increase transparency, and foster more equitable contracting across all city agencies.",
+      "attribution": "NYC MOCS · Senior Team (Kim L. Yu) — https://www.nyc.gov/site/mocs/about/senior-team.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "MOCS staff operates in a fast-paced, collaborative, service-oriented environment, where flexibility and ability to achieve results are valued.",
+      "attribution": "NYC MOCS · Careers — https://www.nyc.gov/site/mocs/about/careers.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "HSC's goal is to better the lives of all New Yorkers so they can reach their full human potential.",
+      "attribution": "Human Services Council · Home — https://humanservicescouncil.org/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "Section 4-06 of the Procurement Policy Board Rules (Rules) requires City agencies to process contract payments efficiently and expeditiously so as to assure timely contract payments to those suppliers doing business with the City.",
+      "attribution": "NYC MOCS · Procurement Policy Board (PPB) — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "An April snapshot of Procurement and Sourcing Solutions Portal (PASSPort) records for all contracts (not just non-profits) revealed over 7,000 pending unpaid invoices worth over $1 billion",
+      "attribution": "NYC Comptroller · Nonprofit, Nonpayment — https://comptroller.nyc.gov/reports/nonprofit-nonpayment/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "the City entered into 12,820 new procurement and revenue contracts in FY 2023, valued at $38.22 billion",
+      "attribution": "NYC Comptroller · Late Payment of Contracts by City Agencies Remains a Large and Growing Problem — https://comptroller.nyc.gov/newsroom/late-payment-of-contracts-by-city-agencies-remains-a-large-and-growing-problem-comptrollers-annual-contracts-summary-report-finds/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The Procurement Policy Board is authorized to promote and put into effect rules governing the procurement of goods, services, and construction by the City of New York.",
+      "attribution": "NYC MOCS · Procurement Policy Board (PPB) — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "Foster effective broad-based competition from all segments of the vendor community; including small businesses, minority and women-owned and operated enterprises",
+      "attribution": "NYC MOCS · Procurement Policy Board Rules (Underlying Purposes) — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "Safeguard the integrity of the procurement system and protect against corruption, waste, fraud, and abuse",
+      "attribution": "NYC MOCS · Procurement Policy Board Rules (Underlying Purposes) — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Funders / Investors: MOCS is taxpayer-funded through the NYC budget; no discrete verbatim funder statement located on accessible MOCS pages.",
+    "Partners: Joint Task Force on nonprofit payments is referenced in Comptroller reporting, but no clean verbatim partner-list span was extracted within fetch budget.",
+    "Data Requirements: PASSPort data-schema and submission requirements are described across PDF user guides not pulled in this pass.",
+    "Geographic Context: NYC-specific scope is implicit across all sources; no verbatim geographic-framing line beyond agency self-identification was selected."
+  ],
+  "_reset_note": "Snippets reset 2026-05-29. Re-scraped with verification-gated workflow (each snippet passes scripts/verify_one.py at >=0.95). All 16 snippets independently verified at score 1.000 before insertion."
+}

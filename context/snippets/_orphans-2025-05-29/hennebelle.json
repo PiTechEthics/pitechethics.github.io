@@ -1,0 +1,291 @@
+{
+  "fellow": "Ulysse Hennebelle",
+  "org_full": "New York Police Department",
+  "org_short": "NYPD",
+  "primary_url": "https://www.nyc.gov/site/nypd/index.page",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The NYPD is committed to accomplishing its mission to protect the lives and property of all citizens of New York City by treating every citizen with courtesy, professionalism, and respect, and to enforce the laws impartially, fighting crime both through deterrence and the relentless pursuit of criminals.",
+      "attribution": "NYPD · Mission — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+      "verify_score": 0.07,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The Department values human life, respects the dignity of each individual and renders its services with courtesy and civility.",
+      "attribution": "NYPD · Mission — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+      "verify_score": 0.2,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "The mission of the NYPD Intelligence Bureau is to detect and disrupt criminal and terrorist activity through the use of intelligence-led policing. Uniformed officers and civilian analysts in the Intelligence Bureau collect and analyze information from a variety of sources in order to advance criminal and terrorist investigations.",
+      "attribution": "NYPD · Intelligence — https://www.nyc.gov/site/nypd/bureaus/investigative/intelligence.page",
+      "verify_score": 0.909,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Key components were 'accurate and timely intelligence combined with effective tactics, rapid deployment, relentless follow-up and assessment, and decentralized accountability.' The practice revolutionized how public safety leaders saw their mission, empowering a move from reactive policing to proactive, data-informed crime reduction strategies.",
+      "attribution": "Wikipedia · CompStat — https://en.wikipedia.org/wiki/CompStat",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "On a weekly basis, personnel from each of the NYPD's 77 precincts, 9 police service areas and 12 transit districts compile a statistical summary of the week's crime complaints, arrests and summons activity, as well as a written report of significant cases, crime patterns and police activities. This data, with specific crime and enforcement locations and times, is forwarded to the chief of the department's CompStat Unit, where information is collated and loaded into a city-wide database. The unit runs computer analysis on the data and generates a weekly CompStat report which presents important performance indicators, making it easy to discern emerging and established crime trends, as well as deviations and anomalies.",
+      "attribution": "Wikipedia · CompStat — https://en.wikipedia.org/wiki/CompStat",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Patternizr is a set of three supervised machine learning models developed to help identify related burglaries, robberies, and grand larcenies. The tool takes a 'seed' complaint, chosen by a police department data analyst, and compares this seed against the hundreds of thousands of recorded crimes in NYPD's crime database. With each comparison between a crime and the seed, the tool generates a 'similarity score' that measures how likely it is that the pair of crimes are in a pattern together.",
+      "attribution": "Chohlas-Wood & Levine · A Recommendation Engine to Aid in Identifying Crime Patterns — https://alexchohlaswood.com/assets/papers/patternizr.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "The NYPD's Domain Awareness System (DAS) is a citywide network of sensors, databases, devices, software, and infrastructure that informs decision making by delivering analytics and tailored information to officers' smartphones and precinct desktops.",
+      "attribution": "INFORMS · NYPD Domain Awareness System (DAS) — https://www.informs.org/Impact/O.R.-Analytics-Success-Stories/Keeping-NYC-Streets-Safe-for-All",
+      "verify_score": 0.172,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "The new class of recruits reflects the rich diversity of New York City — nearly a quarter were born outside of the United States, representing 46 different countries, and they speak 34 different languages. The NYPD hired 4,056 new police officers in 2025, the largest number of new NYPD officers hired in a single year in recorded history.",
+      "attribution": "NYPD · NYPD Hires More Than 4,000 New Officers in 2025 — https://www.nyc.gov/site/nypd/news/pr019/nypd-hires-more-4-000-new-officers-2025-largest-number-single-year-recorded-history",
+      "verify_score": 0.818,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "\"The NYPD's possession and deployment of secret spying devices that include facial recognition technology, x-ray vans, Stingrays, ShotSpotter, and drones, among others, are a threat to the safety and privacy of all New Yorkers.\" — Donna Lieberman, Executive Director, NYCLU",
+      "attribution": "NYCLU · Statement on Passage of POST Act — https://www.nyclu.org/press-release/nyclu-statement-passage-post-act",
+      "verify_score": 0.833,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "\"Doubling down on failed and abusive policing practices and flooding our subways with more police and surveillance cameras does not keep our communities safe.\" \"The safest communities are those who have access to the critical resources that allow them to thrive in dignity with their most basic needs met.\" — Darian X, Communities United for Police Reform",
+      "attribution": "Communities United for Police Reform · Statement on NYPD Expanded Policing and NYC Subway Surveillance — https://www.changethenypd.org/releases/statement-communities-united-police-reform-responds-nypd-expanded-policing-and-nyc-subway",
+      "verify_score": 0.792,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "\"Today's report makes clear that the NYPD continues to violate the POST Act, depriving New Yorkers of transparency and limiting their ability to provide feedback on the invasive technologies that City Hall continues to deploy in careless, rapid succession.\" \"New Yorkers didn't sign up to serve as guinea pigs for City Hall's experiments with problematic and invasive technology.\" — Jerome Greco, Supervising Attorney, Legal Aid Society Digital Forensics Unit",
+      "attribution": "Legal Aid Society · Report: NYPD Violated Surveillance Technology Rules — https://legalaidnyc.org/news/report-nypd-violated-surveillance-technology-rules/",
+      "verify_score": 0.769,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "The Domain Awareness System is part of the Lower Manhattan Security Initiative in partnership between the New York Police Department and Microsoft to monitor New York City. The system was developed through a partnership between the NYPD and Microsoft, with development funded by $350 million in federal Homeland Security grants.",
+      "attribution": "Wikipedia · Domain Awareness System — https://en.wikipedia.org/wiki/Domain_Awareness_System",
+      "verify_score": 0.522,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "The NYPD Calls for Service dataset documents entries into the NYPD 911 system, ICAD. The data is collected from the ICAD system which call takers and dispatchers use to communicate with callers and the NYPD. The data includes entries generated by members of the public as well as self-initiated entries by NYPD Members of Service.",
+      "attribution": "NYC Open Data · NYPD Calls for Service (Historic) — https://data.cityofnewyork.us/Public-Safety/NYPD-Calls-for-Service-Historic-/d6zx-ckhd",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "This dataset describes site-specific non-emergency complaints (also known as 'service requests') made by customers across New York City about a variety of topics, including noise, sanitation, and street quality. Each row of data contains information about the service request, including complaint type, responding agency, and geographic location. However the data does not reveal any personally identifying information about the customer who made the request.",
+      "attribution": "NYC Open Data · 311 Service Requests from 2020 to Present — https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "The system connects to 18,000 CCTV video cameras around New York City; at least two billion license plate readings, 100 million summonses, 54 million 911 calls, 15 million complaints, 12 million detective reports, 11 million arrests, and two million warrants; dozens of radiation and chemical sensors located on key infrastructure and precinct roofs, gunshot detectors, and cell tower simulators. CCTV footage is kept for 30 days; license plate readings for at least five years.",
+      "attribution": "Wikipedia · Domain Awareness System — https://en.wikipedia.org/wiki/Domain_Awareness_System",
+      "verify_score": 0.704,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "\"As Patternizr casts its net, individuals who fit a profile inferred by the system will be swept up. At best, this will be an insult and an inconvenience. At worst, innocent people will be incarcerated.\" — Darin Stewart, Gartner Analyst. NYPD spokesperson Devora Kaye responded: \"For government applications — particularly those with high costs to a false positive — it is important to have a human in the loop.\"",
+      "attribution": "TechTarget · NYPD's Patternizr crime analysis tool raises AI bias concerns — https://www.techtarget.com/searchbusinessanalytics/news/252459511/NYPDs-Patternizr-crime-analysis-tool-raises-AI-bias-concerns",
+      "verify_score": 0.692,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "Patternizr came into use in 2017 when the NYPD hired one hundred civilian analysts to use it. A human data analyst determines which complaints should be grouped together and presents those to detectives to help winnow their investigations.",
+      "attribution": "StateScoop · How the NYPD is using machine learning to spot crime patterns — https://statescoop.com/how-the-nypd-is-using-machine-learning-to-spot-crime-patterns/",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "On June 18, 2020 the New York City Council voted 44–6 to enact the Public Oversight of Surveillance Technology (POST) Act, codified as N.Y.C. Local Law No. 65 (2020). The bill increases the transparency and oversight over the New York City Police Department's (NYPD) use of sophisticated new surveillance technologies and information sharing networks by requiring the NYPD to disclose basic information about the surveillance tools it uses and the safeguards in place to protect the privacy and civil liberties of New Yorkers.",
+      "attribution": "Brennan Center for Justice · The Public Oversight of Surveillance Technology (POST) Act: A Resource Page — https://www.brennancenter.org/our-work/research-reports/public-oversight-surveillance-technology-post-act-resource-page",
+      "verify_score": 0.827,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The impact and use policies provide details of: 1) the capabilities of the Department's surveillance technologies, 2) the rules regulating the use of the technologies, 3) protections against unauthorized access of the technologies or related data, 4) surveillance technologies data retention policies, 5) public access to surveillance technologies data, 6) external entity access to surveillance technologies data, 7) Department trainings in the use of surveillance technologies, 8) internal audit and oversight mechanisms of surveillance technologies, 9) health and safety reporting on the surveillance technologies, and 10) potential disparate impacts of the impact and use policies for surveillance technologies.",
+      "attribution": "Brennan Center for Justice · POST Act Resource Page — https://www.brennancenter.org/our-work/research-reports/public-oversight-surveillance-technology-post-act-resource-page",
+      "verify_score": 0.021,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The NYPD had largely evaded its reporting responsibilities by, for example, using generic and boilerplate language in its impact and use policies, grouping similar technologies under one policy to avoid review of technology-specific drafts. By requiring transparency and periods for public input, the POST Act is critical for community oversight over the use of surveillance technologies by the NYPD.",
+      "attribution": "Brennan Center for Justice · POST Act Resource Page — https://www.brennancenter.org/our-work/research-reports/public-oversight-surveillance-technology-post-act-resource-page",
+      "verify_score": 0.927,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The CCRB is a civilian oversight agency with jurisdiction over the New York City Police Department (NYPD), the largest police force in the United States. CCRB has jurisdiction over complaints that allege the use of excessive or unnecessary force, abuse of authority, discourtesy, use of offensive language, and untruthful statements — collectively referred to as FADO&U. In 2021, the New York City Council passed Local Law 2212, clarifying that CCRB has the authority to investigate allegations of bias-based policing and racial profiling.",
+      "attribution": "Wikipedia · New York City Civilian Complaint Review Board — https://en.wikipedia.org/wiki/New_York_City_Civilian_Complaint_Review_Board",
+      "verify_score": 0.304,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "The legislation mandates that the NYPD's Impact and Use Policies must publish IUPs for each distinct surveillance technology used by the Department; fully identify each external entity by name that receives data gathered from such technology; report on specific safeguards in place to prevent unauthorized dissemination of surveillance data; and disclose evaluation of potential disparate impacts on protected groups arising from the NYPD's use of such technologies. Status: Enacted April 10, 2025 (Council vote: 40:0:7).",
+      "attribution": "NYC Council · Int 0480-2024 Police department transparency in the use of surveillance technology — https://intro.nyc/0480-2024+",
+      "verify_score": 0.534,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "NYPD officials have acknowledged that as many as 95 percent of the people in its gang database are Black or Latinx. Inclusion criteria are dangerously vague — people can be added for 'frequent presence at a known gang location' or simply 'association with known gang members.' Numerous studies have found that facial recognition performs poorly when analyzing the faces of women, children, and people with darker skin tones.",
+      "attribution": "Brennan Center for Justice · New York City Police Department Surveillance Technology — https://www.brennancenter.org/our-work/research-reports/new-york-city-police-department-surveillance-technology",
+      "verify_score": 0.554,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "The New York City Police Department (NYPD) is the largest and one of the oldest municipal police departments in the United States. The NYPD has approximately 33,000 officers and 15,000 civilian employees, organized across 77 precincts, 9 police service areas and 12 transit districts.",
+      "attribution": "Wikipedia · New York City Police Department — https://en.wikipedia.org/wiki/New_York_City_Police_Department",
+      "verify_score": 0.405,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The mission of the New York City Police Department is to enhance the quality of life in New York City by working in partnership with the community to enforce the law, preserve peace, protect the people, reduce fear, and maintain order. Vision: The New York City Police Department strives to foster a safe and fair City by incorporating Neighborhood Policing into all facets of Department operations, and solve the problems that create crime and disorder through an interdependent relationship between the people and its police, and by pioneering strategic innovation.",
+      "attribution": "NYPD · Mission, Vision, and Values — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "To help ensure public safety and security, and to detect, deter, and prevent potential terrorist activities, the New York City Police Department (NYPD) coordinated with Vexcel Corporation to develop a networked Domain Awareness System (DAS). Today, DAS is not only a tool aiding in the detection and prevention of terrorist attacks; it greatly enhances the quality of criminal investigations and the effectiveness of members of service. DAS allows officers to access critical information relevant to ongoing security and public safety efforts, and boosts the collaborative nature of those efforts by employing the resources of the private sector and other city agencies.",
+      "attribution": "NYPD · Domain Awareness System: Impact and Use Policy (Feb 4, 2026) — https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Domain-Awareness-System-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Daily operations of the New York City Police Department (NYPD) generate significant quantities of structured and unstructured data. Data analysis tools allow the NYPD to organize data within and across structured and unstructured datasets and allow for connections to be made faster and more efficiently than is possible by human effort alone. Data analysis tools are capable of performing search activity within and across datasets. In viewing the results, NYPD personnel may identify connections existing among otherwise isolated data compartments. For example, NYPD personnel can visualize assault complaints under investigation within a particular geographic area and identify potential links between investigations using data analysis tools.",
+      "attribution": "NYPD · Data Analysis Tools: Impact and Use Policy (Feb 4, 2026) — https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Data-Analysis-Tools-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Data analysis tools used by the NYPD include tools manufactured by Domino Data Labs and IBM Cognos Analytics. Additional tools have been withheld because disclosure would interfere with active investigations, and such information is not already publicly known. Disclosure would allow individuals to circumvent or manipulate the system to undermine its effectiveness. The redaction is narrowly tailored to prevent harm, while still providing meaningful transparency regarding the nature of the technology. These tools do not use any biometric measurement technologies.",
+      "attribution": "NYPD · Data Analysis Tools: Impact and Use Policy (Feb 4, 2026) — https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Data-Analysis-Tools-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Legal & Compliance Landscape",
+      "body": "Immutable audit logs are created when any information is searched or accessed through DAS. The log-in and use of the system is traceable to a particular user and periodically audited for misuse by the precinct or unit's Commanding Officer. Allegations of misuse are internally investigated at the command level or by the Internal Affairs Bureau (IAB). The NYPD retains and disposes of records pursuant to New York City Charter § 1133(f), (g) and (h). Pursuant to these provisions, the NYPD developed a retention schedule that was approved by the New York City Law Department and Department of Records and Information Services.",
+      "attribution": "NYPD · Domain Awareness System: Impact and Use Policy (Feb 4, 2026) — https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Domain-Awareness-System-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Based on its review, OIG-NYPD concludes that NYPD continues to group distinct surveillance technologies within a single IUP, a practice discussed extensively in OIG-NYPD's first annual report pursuant to the POST Act, which was released in November 2022. That review found that this grouping approach poses a risk that individual technologies could be shielded from public scrutiny and oversight. It was, and continues to be OIG-NYPD's position that the POST Act requires an IUP for each distinct surveillance technology, except in the limited circumstance where the surveillance technologies being grouped are substantially similar in capability and manner of use, and the IUP identifies and specifically names the individual technologies to which the IUP applies.",
+      "attribution": "NYC Department of Investigation, OIG-NYPD · An Assessment of NYPD's Compliance with the POST Act (May 2024) — https://www.nyc.gov/assets/doi/reports/pdf/2024/25PostActRelease_Rpt_05_30_2024.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "While not a requirement of the POST Act, NYPD should update the Internal Audit and Oversight sections of its IUPs to include mechanisms for tracking and monitoring use of its surveillance technologies to ensure that the technologies are being used as described in the IUPs, and that the IUPs do not result in a disparate impact on any protected groups. OIG-NYPD continues to maintain, as it did in its 2022 Report, that while not a requirement of the POST Act, NYPD should include in each IUP the potential disparate impacts of the surveillance technology on protected groups (instead of the potential disparate impacts of the IUP on protected groups, as is currently required under the law).",
+      "attribution": "NYC Department of Investigation, OIG-NYPD · An Assessment of NYPD's Compliance with the POST Act (May 2024), Recommendations 6–7 — https://www.nyc.gov/assets/doi/reports/pdf/2024/25PostActRelease_Rpt_05_30_2024.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    }
+  ],
+  "gaps": [
+    "Funders / Investors: NYPD is funded through the NYC municipal budget; specific verbatim line-item language was not pulled (nyc.gov pages blocked WebFetch with 403).",
+    "Founders: Not applicable for a 19th-century municipal agency; historical founding text not retrieved."
+  ]
+}

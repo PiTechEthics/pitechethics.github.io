@@ -1,0 +1,223 @@
+{
+  "fellow": "Tan Gemicioglu",
+  "org_full": "Ability Beyond",
+  "org_short": "AB",
+  "primary_url": "https://www.abilitybeyond.org/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "Our Mission is to discover, build and celebrate the ability in all people.",
+      "attribution": "Ability Beyond · About Us — https://www.abilitybeyond.org/about-us",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "Beyond may seem like a slogan, but here, at Ability Beyond, it happens every single day.",
+      "attribution": "Ability Beyond · Home — https://www.abilitybeyond.org/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Ability Beyond offers group homes, transitional housing, supported independent living services, and shared-living arrangements with host families for adults with disabilities across Connecticut and New York. Services include care coordination, personal hygiene assistance and training, ADL skills assessment, up to 24 hours of daily support, nursing and behavioral support, specialized medical care for intensive needs, and programs for aging individuals with disabilities.",
+      "attribution": "Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential",
+      "verify_score": 0.138,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Members have the opportunity to exceed limits and expectations on a daily basis. Staff work every day to make dreams come true through residential, day and employment programs to be their very best selves.",
+      "attribution": "Ability Beyond · Home — https://www.abilitybeyond.org/",
+      "verify_score": 0.633,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Your generous contribution helps to support our mission and empowers all individuals, no matter their ability, with the tools they need to live independent and productive lives!",
+      "attribution": "Ability Beyond · Donate — https://www.abilitybeyond.org/donate",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "Ability Beyond serves individuals 18+ across all disabilities and support levels, including independent, in-home, and community living needs. The organization was the first agency in the northeastern U.S. to offer day program services for people with traumatic brain injury (1982) and the first in New York to serve individuals with traumatic brain injury (1995).",
+      "attribution": "Ability Beyond · About Us — https://www.abilitybeyond.org/about-us",
+      "verify_score": 0.216,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "\"The people from Ability Beyond know how to listen.\" — Lorraine Lazurus-Morley, Mother of Bryce",
+      "attribution": "Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential",
+      "verify_score": 0.545,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "When your loved one is part of the Ability Beyond family, so are you.",
+      "attribution": "Ability Beyond · Home — https://www.abilitybeyond.org/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "In 1953, Mary and Jack Walsh gathered other parents in their living room to address an unmet need for support for children with disabilities, including their son Jim. This grassroots effort by parents serving as volunteers marked the organization's beginning, initially providing day care, school, and recreation support.",
+      "attribution": "Ability Beyond · About Us — https://www.abilitybeyond.org/about-us",
+      "verify_score": 0.273,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Direct Support Professionals ensure the people we serve are healthy and safe and that their rights as human beings are respected each and every day. Staff describe the experience as \"rewarding, fulfilling, challenging, fun, uplifting, inspiring, life-changing.\"",
+      "attribution": "Ability Beyond · Careers — https://www.abilitybeyond.org/careers",
+      "verify_score": 0.606,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "\"Ability Beyond Feels Like Somewhere I come to teach and learn at the same time.\"",
+      "attribution": "Ability Beyond · Careers (staff quote) — https://www.abilitybeyond.org/careers",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "\"Shared living is the definition of inclusion.\" — Tanya, Director of Services, on the launch of Ability Beyond's Community Companion Home program (licensed host family placements promoting independence and community integration).",
+      "attribution": "Ability Beyond · Opening Homes and Hearts in Our Community (News) — https://www.abilitybeyond.org/news",
+      "verify_score": 0.111,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "Funding for residential services requires Department of Developmental Services (DDS) Waiver, Department of Social Services (DSS) ABI Waiver, or private pay. The November 2025 expansion of employment services for adults in recovery was supported by grants from the Connecticut Department of Mental Health and Addiction Services (DMHAS).",
+      "attribution": "Ability Beyond · Residential Living and News — https://www.abilitybeyond.org/residential",
+      "verify_score": 0.209,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Ability Beyond may collect nonpublic personal information from you when you voluntarily provide personally identifiable information through the website. Ability Beyond limits use of such information to the purposes for which the information was provided. The organization employs industry standard techniques such as firewalls, encryption, intrusion detection and site monitoring. However, no data transmission over the Internet can be guaranteed to be 100% secure.",
+      "attribution": "Ability Beyond · Privacy Policy — https://www.abilitybeyond.org/privacy-policy",
+      "verify_score": 0.733,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "Ability Beyond operates as a 24/7 organization offering day, afternoon, and overnight shifts; weekday and weekend options; and specialized positions with flexible, variable weekly hours. New employees receive job-specific certifications including CPR & First Aid, PMT/SCIP, Medication Administration, and Public Passenger Endorsement Certificate (PPEC), plus training on safety and food administration.",
+      "attribution": "Ability Beyond · Careers — https://www.abilitybeyond.org/careers",
+      "verify_score": 0.208,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "Turnover rates continue to hover near 40% nationally, while average vacancy rates range between 12-15% nationally. 88% of providers experienced moderate or severe staffing shortages in the past year. People with IDD who experienced turnover had more emergency department visits, instances of abuse and neglect, and injuries than people with IDD who did not experience turnover.",
+      "attribution": "ANCOR · The State of America's Direct Support Workforce Crisis 2025 — https://www.ancor.org/resources/the-state-of-americas-direct-support-workforce-crisis-2025/",
+      "verify_score": 0.173,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "\"A 30-YEAR CRISIS IS NOT A CRISIS; IT IS A SYSTEMATIC AND PERVASIVE FAILURE IN THE LONG-TERM SERVICES AND SUPPORTS SYSTEM IN THE UNITED STATES THAT HAS CREATED A PUBLIC HEALTH CRISIS.\" \"The health, safety and well-being of people with IDD is at risk daily because of the workforce problems.\"",
+      "attribution": "Institute on Community Integration (UMN) · The Direct Support Workforce Crisis: A Systemic Failure — https://ici.umn.edu/products/impact/311/systemic-failure/",
+      "verify_score": 0.935,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "For residential settings, the setting must be integrated and support full access to the greater community, be selected by the individual from among setting options including non-disability specific settings and an option for a private unit, and ensure an individual's rights of privacy, dignity and respect, and freedom from coercion and restraint.",
+      "attribution": "Connecticut DSS · HCBS Final Settings Rule — https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/health-and-home-care/reimbursement/rch/03-14-rch-final-settings-rule.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The U.S. Supreme Court's 1999 landmark decision in Olmstead v. L.C. found the unjustified segregation of people with disabilities is a form of unlawful discrimination under the Americans with Disabilities Act (ADA). This decision requires that services are provided in the most integrated setting appropriate to the needs of a person with a disability.",
+      "attribution": "U.S. HHS Office for Civil Rights · Community Living and Olmstead — https://www.hhs.gov/civil-rights/for-individuals/special-topics/community-living-and-olmstead/index.html",
+      "verify_score": 0.0,
+      "verify_status": "fetch_failed",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Individuals with developmental disabilities must be provided information about the availability of processes for resolving objections, problems or grievances relative to their rights and responsibilities. Residents have the opportunity to express grievances, concerns and suggestions to facility leadership, the Commissioner of OPWDD, and the Justice Center for the Protection of People with Special Needs.",
+      "attribution": "NY OPWDD · Regulations & Guidance — https://opwdd.ny.gov/regulations-guidance",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "The EPUAP/NPIAP/PPPIA (2019) guideline recommends that individuals with or who are at risk of pressure ulcers are repositioned on an individualised schedule unless this is contraindicated. The frequency of turning and repositioning patients should be determined individually by a patient's activity level and ability to reposition themselves. Either repositioning at two hourly or three hourly intervals could be implemented for most individuals at risk of pressure injuries, if they are also on an appropriate pressure redistribution full body support surface.",
+      "attribution": "NPIAP · Clinical Practice Guideline summary — https://www.guidelinecentral.com/guideline/23835/",
+      "verify_score": 0.372,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "Key prevention approaches include repositioning in bed every 2 hours and in wheelchair every half hour, using pressure relief cushions, padded footrests and arms, and preventing feet from sliding off foot rests. Bony prominences are the most vulnerable to pressure ulcers, such as the sacrum (tailbone), buttocks, heels, back of the head and elbows.",
+      "attribution": "Wellell · Repositioning patients to prevent pressure injuries — https://www.wellell.com/en/education/repositioning-patients-to-prevent-pressure-injuries",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "Ability Beyond is a community-focused employer with sites throughout Fairfield, Hartford, Middlesex, New Haven and Litchfield Counties in Connecticut and Dutchess, Putnam and Westchester counties in New York. The organization became Connecticut's first CARF International-accredited organization, and in 2015 merged with Interlude, Inc. to expand mental health expertise (the organization was formerly known as Datahr Rehabilitation Institute).",
+      "attribution": "Ability Beyond · About Us / GuideStar history — https://abilitybeyond.org/who-we-are/about-us-services-for-people-with-disabilities/",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Stakeholders > Affected Communities: Stories/People-We-Serve pages returned 404 on direct fetch; no first-person narratives from residents or family members beyond the single Lazurus-Morley quote were retrievable.",
+    "Stakeholders > Funders / Investors: No annual report PDF was retrievable; specific named foundation or government grant breakdowns are not surfaced beyond the DMHAS grant mention.",
+    "Constraints > Platform Limitations: Ability Beyond does not appear to operate a public technology platform; no published documentation of internal EHR / sensor / call-bell infrastructure was found via the public site.",
+    "Societal > Cultural Norms: No disability-community-authored source (e.g., self-advocacy organization stance on monitoring/sensors in residential settings) was retrieved within the search budget.",
+    "Clinical evidence base: The CDD-UNM PDF on 'Pressure Ulcers in the Developmentally Disabled' could not be parsed (binary PDF); a text version would strengthen the IDD-specific clinical framing.",
+    "Ability Beyond Privacy Policy contains no mention of HIPAA — the public privacy policy covers website data only, not resident health data handling."
+  ]
+}

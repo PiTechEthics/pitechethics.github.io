@@ -1,0 +1,213 @@
+{
+  "fellow": "Alaa Daffalla",
+  "org_full": "Maimonides Medical Center",
+  "org_short": "MAIMO",
+  "primary_url": "https://maimo.org/about-maimonides-health/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "At Maimonides Health, our purpose is to serve you. Your health and wellness is our passion and commitment.",
+      "attribution": "Maimonides Medical Center · About Maimonides Health — https://maimo.org/about-maimonides-health/",
+      "verify_score": 0.786,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "Maimonides Health pledges to provide equitable, quality care with respect and dignity to all our patients, embracing their diverse backgrounds.",
+      "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "We aim to increase promotion and access to interpreter services and culturally tailored services to improve patient safety.",
+      "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "We are leaders in innovation, clinical research, and simulation-based training. We use the most advanced diagnostic imaging, robotics, and minimally invasive technology.",
+      "attribution": "Maimonides Medical Center · Our Clinical Excellence — https://maimo.org/about-us/our-clinical-excellence/",
+      "verify_score": 0.833,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "With the Medical Brain, we have a tool that allows us to identify trends or detect when an adverse outcome is about to occur. It's an early warning system that alerts us to critical events so we can step in to mitigate risks.",
+      "attribution": "Maimonides Medical Center · Dr. Scott Chudnoff, Chair of Obstetrics & Gynecology, on AI in Labor & Delivery — https://maimo.org/media-center/news/maimonides-enhances-labor-delivery-safety-through-cutting-edge-ai-innovation-in-obstetrical-care/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "This is a high-precision, real-time system that accurately sees and analyzes the complete clinical picture. It uses patient-specific data to alert the healthcare team to situations that need immediate intervention.",
+      "attribution": "Maimonides Medical Center · Dr. Shoshana Haberman, Director of Maternal-Fetal Medicine and Medical Informatics — https://maimo.org/media-center/news/maimonides-enhances-labor-delivery-safety-through-cutting-edge-ai-innovation-in-obstetrical-care/",
+      "verify_score": 0.846,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "Maimonides has been a cornerstone of the Brooklyn community since 1911, and this work is our love letter to Brooklyn. The best way to care for Brooklyn is to love Brooklyn, and that's what we do every day.",
+      "attribution": "Maimonides Medical Center · Kenneth D. Gibbs, President and CEO — https://maimo.org/media-center/news/maimonides-health-delivers-a-love-letter-to-brooklyn/",
+      "verify_score": 0.882,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "We had one of the first population health department in the city. So if someone speaks a dialect and we see that population growing, we want to make sure that there are doctors and nurses who speak that dialect so that the patients are able to understand what's happening with them while they are with us.",
+      "attribution": "Maimonides Medical Center · Jenny Tsang-Quinn, Senior Vice President of Population Health — https://www.cbsnews.com/newyork/news/maimonides-medical-center-asian-patient-health-care-services/",
+      "verify_score": 0.923,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "I just had a patient with anaphylaxis to incense, and incense was very important to this woman's life because this is how she prays and shows respect for her ancestors.",
+      "attribution": "Maimonides Medical Center · Dr. Mary Lee-Wong, Allergy and Immunology Specialist — https://www.cbsnews.com/newyork/news/maimonides-medical-center-asian-patient-health-care-services/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Our 7,000+ employees enjoy working here so much that many of them refer candidates for employment. We believe that exceptional care begins with an exceptional team—one that values honesty, empathy, accountability, respect and teamwork.",
+      "attribution": "Maimonides Medical Center · Careers — https://careers.maimo.org/",
+      "verify_score": 0.871,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "I want to thank Governor Hochul for this critical support for Maimonides as we pursue a more formal partnership with NYC Health + Hospitals that would enable us to expand our capacity to deliver high-quality care to even more New Yorkers, meet the growing needs of our communities and strengthen our financial position.",
+      "attribution": "Maimonides Medical Center · Ken Gibbs, President & CEO, on NY State investment — https://www.governor.ny.gov/news/governor-hochul-unveils-transformative-investments-six-safety-net-hospitals-and-health-care",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "We thank Governor Hochul and Mayor Adams for their commitment to keeping health care where communities need it. This partnership with Maimonides is in keeping with our mission to serve all New Yorkers without exception.",
+      "attribution": "Maimonides Medical Center · Dr. Mitchell Katz, NYC Health + Hospitals President & CEO — https://www.governor.ny.gov/news/governor-hochul-unveils-transformative-investments-six-safety-net-hospitals-and-health-care",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "Community Care of Brooklyn IPA is an integrated network of health and social services partners committed to improving the health and well-being of diverse communities across Brooklyn. BCC was founded in 2019 with the goal of leveraging the financial power of anchor institutions and community resources to address the economic factors that improve the social determinants of health.",
+      "attribution": "Maimonides Medical Center · Population Health Initiatives — https://maimo.org/about-us/population-health-initiatives/",
+      "verify_score": 0.87,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "More than 80% of Maimonides' patients are insured by Medicaid and Medicare. Medicaid and Medicare reimbursements don't cover the full cost of care, meaning hospitals like Maimonides often provide services at a loss.",
+      "attribution": "Brooklyn Paper · Cash-strapped Maimonides works to finalize NYC Health+Hospitals merger — https://www.brooklynpaper.com/maimonides-works-join-nyc-health-hospitals/",
+      "verify_score": 0.862,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "If an AI scribe fabricates or distorts clinical content—a documented phenomenon—and a physician signs off without adequate review, the provider bears malpractice exposure.",
+      "attribution": "Health Law Attorney Blog · Your AI Scribe Is Listening. Is Your Compliance Program? — https://www.healthlawattorneyblog.com/your-ai-scribe-is-listening-is-your-compliance-program/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "The law hasn't caught up, and providers are deploying these tools faster than they're building the compliance infrastructure to support them.",
+      "attribution": "Health Law Attorney Blog · Your AI Scribe Is Listening — https://www.healthlawattorneyblog.com/your-ai-scribe-is-listening-is-your-compliance-program/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "The partnership includes a state-of-the-art electronic health record system to improve care coordination and patient experience, helping preserve and strengthen critical services for Brooklyn's community.",
+      "attribution": "Maimonides Medical Center · NY Governor's Office on safety-net hospital investments — https://www.governor.ny.gov/news/governor-hochul-unveils-transformative-investments-six-safety-net-hospitals-and-health-care",
+      "verify_score": 0.238,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "Maimonides Medical Center, a 711-bed specialty care teaching hospital in Borough Park, Brooklyn, is located in one of the most racially and ethnically diverse areas in New York. Its patient population includes large numbers of Orthodox Jews, Arabs, Chinese, Latinos, Russians, Caribbean people and residents from South and Southeast Asia.",
+      "attribution": "Maimonides Medical Center · Community Health Needs Assessment context (search summary) — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "We value and celebrate the diversity of our workforce from race, religion, gender, ethnicity, and age to sexual orientation. We continuously demonstrate a willingness and capacity to meet the ever-changing needs of our community through intentional listening.",
+      "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 0.848,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "We actively partner with and support community-based organizations that offer programs and services addressing the social determinants of health.",
+      "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "The Centers for Medicare & Medicaid Services has ranked Maimonides among the country's top 1% of hospitals for clinical excellence since 2018.",
+      "attribution": "Maimonides Medical Center · Our Clinical Excellence — https://maimo.org/about-us/our-clinical-excellence/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Many health systems rely on cursory verbal mentions or—worse—auto-generated consent language in EHR templates that patients never actually heard.",
+      "attribution": "Health Law Attorney Blog · Your AI Scribe Is Listening — https://www.healthlawattorneyblog.com/your-ai-scribe-is-listening-is-your-compliance-program/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Founders: Page describes founding by 'a dedicated group of women' in 1911 but does not name them; no direct founder quotes available.",
+    "Patient Rights / Privacy page: https://maimo.org/patients-visitors/patient-rights-responsibilities/ returned 404; could not retrieve verbatim consent or privacy language.",
+    "Community Health Needs Assessment PDF (https://maimo.org/wp-content/uploads/2023/01/Maimonides-Health-CHNA-CSP-Workplan-2022.pdf) was not parseable as text; direct CHNA quotes on top community health concerns unavailable.",
+    "Direct Maimonides-specific public statement on Abridge / ambient AI scribe adoption not located via search; regulatory landscape quotes used as proxy for societal context.",
+    "Fierce Healthcare profile (https://www.fiercehealthcare.com/healthcare/maimonides-medical-center-community-based-health-model-addresses-cultural-divide) returned 403; could not pull additional staff quotes on the cultural-divide model."
+  ]
+}

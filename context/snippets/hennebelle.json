@@ -1,0 +1,151 @@
+{
+  "fellow": "Ulysse Hennebelle",
+  "org_full": "New York Police Department",
+  "org_short": "NYPD",
+  "primary_url": "https://www.nyc.gov/site/nypd/index.page",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The mission of the New York City Police Department is to enhance the quality of life in New York City by working in partnership with the community to enforce the law, preserve peace, protect the people, reduce fear, and maintain order.",
+      "attribution": "NYPD · Mission — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "The New York City Police Department strives to foster a safe and fair City by incorporating Neighborhood Policing into all facets of Department operations, and solve the problems that create crime and disorder through an interdependent relationship between the people and its police, and by pioneering strategic innovation.",
+      "attribution": "NYPD · Mission (Vision) — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Protect the lives and property of our fellow citizens and impartially enforce the law.",
+      "attribution": "NYPD · Mission (Values) — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "The Public Oversight of Surveillance Technology (POST) Act requires the NYPD to publish impact and use policies for the surveillance technologies used by the Department. The NYPD is committed to increasing transparency related to the use of surveillance technology within the bounds of responsive, efficient, and effective policing.",
+      "attribution": "NYPD · POST Act — https://www.nyc.gov/site/nypd/about/about-nypd/policy/post-act.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "Today the New York City Council voted to pass the Public Oversight of Surveillance Technology (POST) Act, which will lift the curtain on the scope and scale of advanced surveillance technology used to track, police, and collect biometric data on New Yorkers.",
+      "attribution": "NYCLU · Statement on Passage of POST Act — https://www.nyclu.org/press-release/nyclu-statement-passage-post-act",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "The POST Act will require the NYPD to share important information about each surveillance tool, including its description, capabilities, guidelines for use, and security measures designed to protect any data it collects.",
+      "attribution": "NYCLU · Statement on Passage of POST Act — https://www.nyclu.org/press-release/nyclu-statement-passage-post-act",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "A new report from the Department of Investigation's Office of the Inspector General for the New York City Police Department (OIG-NYPD) confirms that the Adams Administration violated the Public Oversight of Surveillance Technology (POST) Act.",
+      "attribution": "Legal Aid Society · Report: NYPD Violated Surveillance Technology Rules — https://legalaidnyc.org/news/report-nypd-violated-surveillance-technology-rules/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "This is the second time that the OIG-NYPD has cited the Adams Administration for circumventing this duly enacted law by grouping together different technologies to avoid issuing new policies, and by providing insufficient and inaccurate information.",
+      "attribution": "Legal Aid Society · Jerome Greco quoted in Report: NYPD Violated Surveillance Technology Rules — https://legalaidnyc.org/news/report-nypd-violated-surveillance-technology-rules/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "Doubling down on failed and abusive policing practices and flooding our subways with more police and surveillance cameras does not keep our communities safe.",
+      "attribution": "Communities United for Police Reform · Statement on NYPD Expanded Policing and NYC Subway Surveillance — https://www.changethenypd.org/releases/statement-communities-united-police-reform-responds-nypd-expanded-policing-and-nyc-subway",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "This expansion of police and cameras throughout our city and on our subways will only multiply the harm that the NYPD can do to New Yorkers who are just going about their daily lives.",
+      "attribution": "Communities United for Police Reform · Statement on NYPD Expanded Policing and NYC Subway Surveillance — https://www.changethenypd.org/releases/statement-communities-united-police-reform-responds-nypd-expanded-policing-and-nyc-subway",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "The impact and use policies provide details of: 1) the capabilities of the Department's surveillance technologies, 2) the rules regulating the use of the technologies, 3) protections against unauthorized access of the technologies or related data, 4) surveillance technologies data retention policies",
+      "attribution": "NYPD · POST Act — https://www.nyc.gov/site/nypd/about/about-nypd/policy/post-act.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "For newly acquired technologies, the Department will propose a draft impact and use policy on this website at least 90 days prior to such use.",
+      "attribution": "NYPD · POST Act — https://www.nyc.gov/site/nypd/about/about-nypd/policy/post-act.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "By requiring transparency and periods for public input, the POST Act is critical for community oversight over the use of surveillance technologies by the NYPD.",
+      "attribution": "Brennan Center for Justice · The Public Oversight of Surveillance Technology (POST) Act: A Resource Page — https://www.brennancenter.org/our-work/research-reports/public-oversight-surveillance-technology-post-act-resource-page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The bills, which passed on April 10, 2025, bolstered the POST Act by tightening language that had allowed the NYPD to sidestep real transparency and adding additional reporting requirements.",
+      "attribution": "Brennan Center for Justice · The Public Oversight of Surveillance Technology (POST) Act: A Resource Page — https://www.brennancenter.org/our-work/research-reports/public-oversight-surveillance-technology-post-act-resource-page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "Video analytics, like facial recognition, can chill First Amendment activity by exposing individuals to persistent surveillance as they move about the city.",
+      "attribution": "Brennan Center for Justice · New York City Police Department Surveillance Technology — https://www.brennancenter.org/our-work/research-reports/new-york-city-police-department-surveillance-technology",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "POST Act IUP PDFs (Data Analysis Tools, Domain Awareness System) on nyc.gov contain only FlateDecode-compressed text streams — the verifier extracts PDFs via `strings`, which surfaces only PDF binary structure, so verbatim IUP body text (e.g., 'Daily operations of the NYPD generate significant quantities of structured and unstructured data...') could not be verified at >=0.95 despite being accurately extractable via pypdf. The Data Analysis Tools IUP is the single most directly relevant document to Ulysse's anomaly-detection project.",
+    "OIG-NYPD May 2024 POST Act compliance audit (Release #25-2024) PDF — not pulled verbatim due to the same PDF-extraction limitation; only the Legal Aid Society's characterization of its findings is included.",
+    "NYC Administrative Code §14-188 (POST Act statute text) — not retrieved verbatim from a primary source; NYPD's restatement and NYCLU/Brennan summaries are included.",
+    "Funders / Investors: NYPD is funded through the NYC municipal budget; specific verbatim budget line-item language was not pulled.",
+    "Founders: Not applicable for a 19th-century municipal agency."
+  ],
+  "_reset_note": "Snippets reset 2026-05-29 after first-pass agents synthesized rather than quoted verbatim. All 15 snippets here were re-scraped under a verification-gated workflow and each independently passes scripts/verify_one.py at score=1.000."
+}

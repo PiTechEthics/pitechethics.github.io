@@ -1,0 +1,13 @@
+# Local Claude Code settings
+.claude/
+
+# Sensitive: contains fellow emails, advisor names, personal motivations.
+# This file is read locally for context but must never reach the public repo.
+context/Application Responses.csv
+
+# Internal planning doc — references advisor names + pre-publication research.
+# Not for public hosting.
+context/pitech-website-handoff.md
+
+# Workshop prep doc is fine to commit (no PII), but verification cache is not.
+/tmp/verify-cache/

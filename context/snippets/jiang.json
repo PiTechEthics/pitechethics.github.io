@@ -1,0 +1,168 @@
+{
+  "fellow": "Nanyi Jiang",
+  "org_full": "National Women's Hall of Fame",
+  "org_short": "NWHF",
+  "primary_url": "https://www.womenofthehall.org/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The National Women's Hall of Fame is the nation's first and oldest nonprofit organization and museum dedicated to honoring and celebrating the achievements of distinguished American women.",
+      "attribution": "National Women's Hall of Fame · Our History — https://www.womenofthehall.org/about/our-history/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Since 1973, the National Women's Hall of Fame has honored distinguished American women whose achievements have shaped our world.",
+      "attribution": "National Women's Hall of Fame · Induction 2026 — https://www.womenofthehall.org/induction-2026/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Despite making up over half the population, women and girls receive less than 2% of philanthropic giving in the U.S.",
+      "attribution": "National Women's Hall of Fame · Ways to Give — https://www.womenofthehall.org/ways-to-give/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Shirley Hartley envisioned a (National) Women's Hall of Fame in Seneca Falls, the birthplace of the Women's Rights Movement.",
+      "attribution": "National Women's Hall of Fame · Our History — https://www.womenofthehall.org/about/our-history/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Dr. Kristen Oehlrich is the CEO and Executive Director of the National Women's Hall of Fame, where she leads efforts to expand the Hall's national presence, deepen its educational impact, and celebrate the extraordinary achievements of American women.",
+      "attribution": "National Women's Hall of Fame · Our Leadership — https://www.womenofthehall.org/about/our-leadership/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "She believed the women's right to vote was a necessary foundation for all other advances.",
+      "attribution": "National Women's Hall of Fame · Susan B. Anthony Inductee Profile — https://www.womenofthehall.org/inductee/susan-b-anthony/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "For over thirty years, she traveled the country ceaselessly working for women's rights.",
+      "attribution": "National Women's Hall of Fame · Susan B. Anthony Inductee Profile — https://www.womenofthehall.org/inductee/susan-b-anthony/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "The National Women's Hall of Fame relies on the generosity of individuals, families, foundations, corporations, and granting agencies",
+      "attribution": "National Women's Hall of Fame · Our Building — https://www.womenofthehall.org/about/our-building/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "The National Women's Hall of Fame project received $1 million in funding from the Downtown Revitalization Initiative",
+      "attribution": "NY Governor's Office · Governor Hochul Announces Completion of Improvements to the National Women's Hall of Fame — https://www.governor.ny.gov/news/governor-hochul-announces-completion-improvements-national-womens-hall-fame-part-seneca-falls",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "In 2007, after nearly a decade of searching for a new building, the National Women's Hall of Fame made a bold decision to purchase the historic Seneca Knitting Mill at 1 Canal Street in Seneca Falls.",
+      "attribution": "National Women's Hall of Fame · Our Building — https://www.womenofthehall.org/about/our-building/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "Our recent renovations have ensured the Hall is accessible to wheelchair users and other visitors who may need to avoid stairs.",
+      "attribution": "National Women's Hall of Fame · Visit Us — https://www.womenofthehall.org/visit/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Nominees are evaluated based on several criteria. These include their impact—whether on a global, national, or field-specific scale—the significance of their accomplishments or work, and the duration over which they have achieved success.",
+      "attribution": "National Women's Hall of Fame · Induction 2026 — https://www.womenofthehall.org/induction-2026/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "The National Women's Hall of Fame was incorporated as a 501(c)(3) nonprofit organization.",
+      "attribution": "National Women's Hall of Fame · Our History — https://www.womenofthehall.org/about/our-history/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "Loyalty to the mission of the museum and to the public it serves is the essence of museum work, whether volunteer or paid.",
+      "attribution": "American Alliance of Museums · AAM Code of Ethics for Museums — https://www.aam-us.org/programs/ethics-standards-and-professional-practices/code-of-ethics-for-museums/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Museums in the United States are grounded in the tradition of public service. They are organized as public trusts, holding their collections and information as a benefit for those they were established to serve.",
+      "attribution": "American Alliance of Museums · AAM Code of Ethics for Museums — https://www.aam-us.org/programs/ethics-standards-and-professional-practices/code-of-ethics-for-museums/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "We hold these truths to be self-evident; that all men and women are created equal",
+      "attribution": "National Park Service · Declaration of Sentiments (Women's Rights National Historical Park) — https://www.nps.gov/wori/learn/historyculture/declaration-of-sentiments.htm",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "From 1844 to 1999, the Seneca Knitting Mill produced woolen goods, creating economic opportunities for many generations of residents.",
+      "attribution": "National Women's Hall of Fame · Our Building — https://www.womenofthehall.org/about/our-building/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Stated Goals: NWHF annual report PDF was not fetched; long-form strategic-plan goals beyond a single sentence were not captured verbatim.",
+    "Affected Communities: No explicit NWHF policy located on representation of deceased inductees or descendant consent for likeness/voice.",
+    "Partners: Specific named corporate sponsor list for Induction 2026 was not on the public Induction page (handled via sponsorship document on request).",
+    "Nomination criteria: https://www.womenofthehall.org/women-of-the-hall/nominate/ returned 404 in prior pass; verbatim selection-criteria language beyond the Induction 2026 page was not captured."
+  ],
+  "_reset_note": "Snippets re-scraped 2026-05-29 with verification-gated workflow (each snippet passed scripts/verify_one.py at >=0.95). All 17 snippets verified at score=1.000."
+}

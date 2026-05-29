@@ -1,0 +1,222 @@
+{
+  "fellow": "Suvadip Sana",
+  "org_full": "New York City Council Data Team",
+  "org_short": "NYCC",
+  "primary_url": "https://council.nyc.gov/data/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The New York City Council's Data Team uses a data-driven approach to impact the New York City Council's policy making process. Our unique strength is in marrying data with public policy making.",
+      "attribution": "NYC Council · Data Team — https://council.nyc.gov/data/",
+      "verify_score": 0.857,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The NYC Council Data Team puts data at the center of policymaking. They are committed to transparency and reproducibility, believing legislation should be grounded in both qualitative and quantitative evidence.",
+      "attribution": "NYC Council · Meet the Data & Web Development Teams — https://council.nyc.gov/data/web-dev-data-teams/",
+      "verify_score": 0.538,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "The Data Team answers questions and informs laws about everything from public housing residents' heat, to school bus delays, and marijuana arrests. The Data Team also uses data to conduct oversight of City Agencies.",
+      "attribution": "NYC Council · Data Team — https://council.nyc.gov/data/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "We source datasets, analyze data, build models, and create maps and dashboards to assist Council staff and Council Members to use data to make decisions.",
+      "attribution": "NYC Council · Data Team — https://council.nyc.gov/data/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Council Members work with the Legislation Division to craft a bill that is introduced at stated meetings, where it is assigned to the appropriate Committee. The Bill Drafting Manual is one of the first local-level drafting manuals in the country to be written and made available to the public, released to further the Council's interests in transparency and public education.",
+      "attribution": "NYC Council · Legislation — https://council.nyc.gov/legislation/",
+      "verify_score": 0.75,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "The NYC Council released the Legistar API to allow the public to directly access our legislative data. The API was framed as part of Council 2.0, designed to increase access and transparency to our legislative information and to enable individuals to create tools and platforms that pull directly from this data source, ensuring increased accuracy and reliability.",
+      "attribution": "NYC Council · Legislative API — https://council.nyc.gov/legislation/api/",
+      "verify_score": 0.426,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "Most of our legislative work happens in committee meetings and hearings where we discuss proposed laws, receive updates from agencies, and hear feedback from New Yorkers.",
+      "attribution": "NYC Council · Committees — https://council.nyc.gov/committees/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "We source datasets, analyze data, build models, and create maps and dashboards to assist Council staff and Council Members to use data to make decisions.",
+      "attribution": "NYC Council · Data Team — https://council.nyc.gov/data/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Chief Data Scientist Alaa Moussawi leads both the Data Operations and Web Development units, providing innovative and bespoke solutions in response to the council's unique needs. The Data Scientists come from diverse backgrounds including public health, genomics, environmental health, epidemiology, statistics, and policy analysis.",
+      "attribution": "NYC Council · Meet the Data & Web Development Teams — https://council.nyc.gov/data/web-dev-data-teams/",
+      "verify_score": 0.275,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "Snapshot of data from City Council District Offices. The dataset aggregates constituent casework tracked by NYC's 51 Council district offices — documenting issues residents bring to their local representatives, ranging from housing and food assistance to infrastructure concerns like potholes and pedestrian safety.",
+      "attribution": "NYC Council · service-data repo — https://github.com/NewYorkCityCouncil/service-data",
+      "verify_score": 0.103,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "\"Together, we will forge a new City Council that takes a more forceful and proactive approach to New York's shared goals. That includes enacting universal child care, lowering skyrocketing health care costs, building more affordable housing, and slashing fines and bureaucratic red tape for small businesses.\" — Speaker Julie Menin",
+      "attribution": "NYC Council · Press — Julie Menin Elected Speaker of New York City Council — https://council.nyc.gov/press/2026/01/07/3051/",
+      "verify_score": 0.913,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "The Council's Finance Division team provide Council Members with research on budgetary actions and their fiscal impact. They also work with Council Members to monitor and evaluate agency spending.",
+      "attribution": "NYC Council · Budget — https://council.nyc.gov/budget/",
+      "verify_score": 0.8,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "Members of the public can sign up to testify at virtual public hearings via Zoom Web, Zoom Phone, or in-person. Written testimony may be submitted up to 72 hours after hearing has been adjourned. We want to hear from you. You can reach us via social media, email, paper mail, or at your district office.",
+      "attribution": "NYC Council · Testify — https://council.nyc.gov/testify/",
+      "verify_score": 0.922,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Such public data sets shall be made available in accordance with technical standards published by the department pursuant to section 23-505 of this chapter and shall be in a format that permits automated processing and shall make use of appropriate technology to notify the public of all updates.",
+      "attribution": "NYC Open Data Technical Standards Manual · Local Law 11 of 2012 — https://cityofnewyork.github.io/opendatatsm/LocalLaw11of2012.html",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Public Data Set: a comprehensive collection of interrelated data that is available for inspection by the public, maintained by an agency on computer systems. Open Standard: a technical standard developed and maintained by a voluntary consensus standards body that is available to the public without royalty or fee.",
+      "attribution": "NYC Open Data Technical Standards Manual · Local Law 11 of 2012 — https://cityofnewyork.github.io/opendatatsm/LocalLaw11of2012.html",
+      "verify_score": 0.636,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "Conform with the World Wide Web Consortium (W3C) Web Accessibility Initiative's (WAI) Web Content Accessibility Guidelines (WCAG) 2.1, Level A & AA. New York City Council is continually working to make its web content accessible as part of its online inclusion efforts.",
+      "attribution": "NYC Council · Accessibility Statement — https://council.nyc.gov/accessibility-statement/",
+      "verify_score": 0.895,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "The system provides access to proposed and passed legislation, hearings, and monthly Stated meetings archived in Legistar, the Council's Legislative Research Center. The API offers read access by the public. Users must fill out a registration form with their name and email to receive an API key and further instructions.",
+      "attribution": "NYC Council · Legislative API — https://council.nyc.gov/legislation/api/",
+      "verify_score": 0.13,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The council finds and declares that it is in the best interest of New York city that its agencies and departments make their data available online using open standards. Making city data available online using open standards will make the operation of city government more transparent, effective and accountable to the public.",
+      "attribution": "NYC Open Data Technical Standards Manual · Local Law 11 of 2012 — https://cityofnewyork.github.io/opendatatsm/LocalLaw11of2012.html",
+      "verify_score": 0.958,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "There shall be a council which shall be the legislative body of the city. In addition to the other powers vested in it by this charter and other law, the council shall be vested with the legislative power of the city. Any enumeration of powers in this charter shall not be held to limit the legislative power of the council, except as specifically provided in this charter.",
+      "attribution": "NYC City Charter · Chapter 2, §21 The Council — https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-294",
+      "verify_score": 0.0,
+      "verify_status": "fetch_failed",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "FOIL requests should be submitted electronically to Danielle Barbato, FOIL Officer, Office of the General Counsel, 250 Broadway, 15th Floor, New York, New York 10007. Paper mail submissions are accepted but discouraged due to potential delays.",
+      "attribution": "NYC Council · FOIL Request — https://council.nyc.gov/foil-request/",
+      "verify_score": 0.438,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "City policy requires agencies to disclose when content is generated or assisted by generative AI; agencies should always label AI-Generated Content as such, even if it has been edited by personnel. Transparency is essential to preserving public trust in government — without clear communication, the public may not understand how AI-Generated Content is produced, where human judgment was applied, or how to question AI-assisted outputs.",
+      "attribution": "NYC Office of Technology & Innovation · Preliminary Use Guidance: Generative Artificial Intelligence — https://www.nyc.gov/assets/oti/downloads/pdf/about/preliminary-use-guidance-general-artificial-intelligence.pdf",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "In November 2025, the New York City Council passed a package of bills called the Guaranteeing Unbiased AI Regulation and Disclosure (GUARD) Act, which would establish a new office of algorithmic accountability that would assess AI and other algorithmic tools used by city agencies, create rules for how agencies procure and deploy AI tools, and publish a list of the tools it reviews.",
+      "attribution": "City & State New York · New York City will try (again) to regulate AI — https://www.cityandstateny.com/politics/2025/11/new-york-city-will-try-again-regulate-ai/409803/",
+      "verify_score": 0.627,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "The council shall consist of the public advocate and of fifty-one other members termed council members. One council member shall be elected from each council district as now or hereafter constituted.",
+      "attribution": "NYC City Charter · Chapter 2, §22 Composition of the Council — https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-6900",
+      "verify_score": 0.0,
+      "verify_status": "fetch_failed",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Funders / Investors: not applicable as a discrete category for a legislative body funded by the City budget; no dedicated 'funders' page on council.nyc.gov.",
+    "Resource Constraints: no public page enumerates Data Team staffing, budget, or compute resources; would require FOIL or direct interview.",
+    "Cultural Norms: nothing on council.nyc.gov articulates internal team norms or working culture in citable text; the Meet-the-Team page touches on values but not norms.",
+    "Stated Goals (Data Team-specific roadmap): the Data Team page lists activities but not a published multi-year strategic plan; /data/our-team/ and /data/projects/ returned 404.",
+    "Bill Drafting Manual verbatim quotes: PDF rendered as binary and could not be extracted by WebFetch — would need direct PDF text extraction."
+  ]
+}

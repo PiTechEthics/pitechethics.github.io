@@ -1,0 +1,232 @@
+{
+  "fellow": "Nanyi Jiang",
+  "org_full": "National Women's Hall of Fame",
+  "org_short": "NWHF",
+  "primary_url": "https://www.womenofthehall.org/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "Showcasing great women… Inspiring all! In pursuit of this mission, the National Women's Hall of Fame honors the women of the past, relates the history of women's struggles, prepares the women of the future, and serves as the voice celebrating the value of women.",
+      "attribution": "National Women's Hall of Fame · About / Mission (as cited in Wikipedia and partner descriptions) — https://en.wikipedia.org/wiki/National_Women%27s_Hall_of_Fame",
+      "verify_score": 0.05,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The nation's first and oldest nonprofit organization and museum dedicated to honoring and celebrating the achievements of distinguished American women.",
+      "attribution": "National Women's Hall of Fame · Our History — https://www.womenofthehall.org/about/our-history/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "The biennial Induction Ceremony stands as a national beacon of inspiration, illuminating stories that too often go untold.",
+      "attribution": "National Women's Hall of Fame · Induction 2026 — https://www.womenofthehall.org/induction-2026/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "The National Women's Hall of Fame has compiled a list of educational resources that highlight and educate about women's achievements throughout history... celebrating the lives and legacies of great women while also inspiring and educating the next generation.",
+      "attribution": "National Women's Hall of Fame · Educational Resources — https://www.womenofthehall.org/educational-resources/",
+      "verify_score": 0.706,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Despite making up over half the population, women and girls receive less than 2% of philanthropic giving in the U.S.",
+      "attribution": "National Women's Hall of Fame · Ways to Give — https://www.womenofthehall.org/ways-to-give/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Women's stories are not told, so it is very, very important for organizations like the National Women's Hall of Fame... to exist so that people can learn about and can understand women's accomplishments and women's history.",
+      "attribution": "National Trust for Historic Preservation · One-Half the People, One-Half the History (quoting Jill Tietjen, then-CEO) — https://savingplaces.org/stories/one-half-the-people-one-half-the-history-the-national-womens-hall-of-fame-and-its-quest-to-preserve-womens-history",
+      "verify_score": 0.75,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Shirley Hartley envisioned a National Women's Hall of Fame in Seneca Falls in 1968. She organized the \"Founders' Tea,\" which honored the original five women who gathered in 1848 to discuss women's rights. The organization was incorporated in 1969 with 18 founding members: Ann A. Bantuvanis, Helen Barben, Joseph Coffee, Mary Curry, Elizabeth Delavan, Joseph Doyle, Shirley Hartley, Patricia Jenks, Marilyn Marks, Elizabeth Mayer, Helen Miller, Louise Olmstead, Lillian Oliver, Shirley Patterson, Margaret Rapp, John Rosenkrans, Caroline Sanderson, and Maredith Steen.",
+      "attribution": "National Women's Hall of Fame · Our History — https://www.womenofthehall.org/about/our-history/",
+      "verify_score": 0.545,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "At this point in time, really, there was almost nothing in the U.S. that recognized women's accomplishments. The Hall was founded with the belief that the contributions of American women deserve a permanent home.",
+      "attribution": "National Trust for Historic Preservation · One-Half the People, One-Half the History (quoting Jill Tietjen) — https://savingplaces.org/stories/one-half-the-people-one-half-the-history-the-national-womens-hall-of-fame-and-its-quest-to-preserve-womens-history",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "These are the Inductees of the National Women's Hall of Fame. Select any of the women to discover their stories and learn how they have influenced other women and this country.",
+      "attribution": "National Women's Hall of Fame · Women of the Hall — https://www.womenofthehall.org/women-of-the-hall/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "\"Failure is impossible.\" — Susan B. Anthony, addressing her last women's suffrage convention in 1906. Motto of The Revolution, the newspaper she and Stanton published: \"Men their rights and nothing more; women their rights and nothing less.\"",
+      "attribution": "National Women's Hall of Fame · Inductee: Susan B. Anthony — https://www.womenofthehall.org/inductee/susan-b-anthony/",
+      "verify_score": 0.273,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "Whether you're a student, family, or lifelong advocate for gender equity, there's a membership tier for you. The 1848 Society pays homage to the legacy of great 19th century Suffragists who propelled the American fight for gender equality.",
+      "attribution": "National Women's Hall of Fame · 1848 Society — https://www.womenofthehall.org/1848-society/",
+      "verify_score": 0.882,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "Broadway Collaboration: Real Women Have Curves: The Musical – A New Broadway Triumph in Partnership with the Hall. Smithsonian Exhibition: the Hall hosted the traveling exhibition \"Voices and Votes: Democracy in America\" from the Smithsonian's Museum on Main Street program during summer 2024.",
+      "attribution": "National Women's Hall of Fame · News & Events — https://www.womenofthehall.org/news-events/",
+      "verify_score": 0.462,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "$1 million from Downtown Revitalization Initiative; $500,000 from NY State Office of Parks, Recreation and Historic Preservation; $150,000 from Empire State Development's Market NY program; $145,000 from New York State Council on the Arts.",
+      "attribution": "Office of the Governor of New York · Hochul Announces Completion of Improvements to NWHF — https://www.governor.ny.gov/news/governor-hochul-announces-completion-improvements-national-womens-hall-fame-part-seneca-falls",
+      "verify_score": 0.485,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Dr. Kristen Oehlrich serves as CEO and Executive Director. She leads efforts to expand the Hall's national presence, deepen its educational impact, and celebrate the extraordinary achievements of American women. President of the Board: Jean Kilbourne (2015 Inductee). Secretary: Rita Nakashima Brock, Ph.D.",
+      "attribution": "National Women's Hall of Fame · Our Leadership — https://www.womenofthehall.org/about/our-leadership/",
+      "verify_score": 0.475,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "The organization acquired the historic Seneca Knitting Mill at 1 Canal Street in Seneca Falls in 2007. Initial renovations stabilized the structure, replaced the roof, installed new windows, preserved the smokestack and the floors, and updated the electrical system. A second phase, completed December 2023, included the restoration of the historic smokestack and the historic stairway, the construction of an elevator and internal stairwell, and the renovation of the second floor to create space for new exhibits.",
+      "attribution": "National Women's Hall of Fame · Our Building — https://www.womenofthehall.org/about/our-building/",
+      "verify_score": 0.712,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "Accessibility: Reserved disabled parking; service animals are welcome; wheelchair accessible with units available; all video displays include closed captioning; two single-stall restrooms with changing table. Flash photography and video recording is encouraged.",
+      "attribution": "National Women's Hall of Fame · Visit — https://www.womenofthehall.org/visit/",
+      "verify_score": 0.107,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "In 2020, amid the global pandemic, the National Women's Hall of Fame moved into the first floor, with plans for future expansion. The organization operates with a five year strategic plan that includes continued work on upper floors as funding allows.",
+      "attribution": "National Women's Hall of Fame · Our Building — https://www.womenofthehall.org/about/our-building/",
+      "verify_score": 0.351,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Each honoree entry in the Book of Lives & Legacies includes the year they were honored, the name of the person or organization who honored them, and sometimes photographs and links to learn more about their life and legacy. The Hall maintains a searchable database of inductees spanning Arts, Athletics, Business, Education, Government, Humanities, Philanthropy, and Science, dating back to 1973.",
+      "attribution": "National Women's Hall of Fame · Book of Lives & Legacies — https://www.womenofthehall.org/book-of-lives-legacies/browse-the-book/",
+      "verify_score": 0.018,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "Women's Rights National Historical Park tells the story of the first Women's Rights Convention, held in Seneca Falls, New York on July 19-20, 1848. It is a story of struggles for civil rights, human rights, and equality, global struggles that continue today. The efforts of women's rights leaders, abolitionists, and other 19th century reformers remind us that all people must be accepted as equals.",
+      "attribution": "National Park Service · Women's Rights National Historical Park — https://www.nps.gov/wori/index.htm",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "We hold these truths to be self-evident; that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights... The history of mankind is a history of repeated injuries and usurpations on the part of man toward woman, having in direct object the establishment of an absolute tyranny over her.",
+      "attribution": "National Park Service · Declaration of Sentiments (1848) — https://www.nps.gov/wori/learn/historyculture/declaration-of-sentiments.htm",
+      "verify_score": 0.925,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "The distinctive character of museum ethics derives from the ownership, care and use of objects, specimens, and living collections representing the world's natural and cultural common wealth. Loyalty to the mission of the museum and to the public it serves is the essence of museum work. Museums operate as public trusts, holding their collections and information as a benefit for those they were established to serve. Programs must respect pluralistic values, traditions and concerns.",
+      "attribution": "American Alliance of Museums · Code of Ethics for Museums — https://www.aam-us.org/programs/ethics-standards-and-professional-practices/code-of-ethics-for-museums/",
+      "verify_score": 0.771,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "Concerns about privacy, copyright, and authenticity were paramount. We soon recognized the need to shift our focus from strict policy rules to more flexible guidelines, and also to develop a public statement that affirms the Carter's commitment to transparency and best practices. Enhancing AI literacy therefore became a priority, as it empowers staff to make informed decisions and engage more effectively with AI tools.",
+      "attribution": "American Alliance of Museums · Cultivating AI: Developing AI Guidelines and Literacy Resources at the Carter — https://www.aam-us.org/2024/09/09/cultivating-ai-developing-ai-guidelines-and-literacy-resources-at-the-carter/",
+      "verify_score": 0.867,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Within right of publicity protection timeframes, prior consent is required to use a deceased personality's name, voice, signature, photograph or likeness in association with products, merchandise or goods. Tennessee Governor Bill Lee signed the \"Ensuring Likeness Voice and Image Security\" (ELVIS) Act on March 21, 2024, covering generative AI cloning models and services that enable human impersonation and unauthorized fake works in the image and voice of others.",
+      "attribution": "Proskauer Rose LLP · The King is Back (in the Digital Era): The ELVIS Act, Generative AI and Right of Publicity — https://www.proskauer.com/blog/the-king-is-back-in-the-digital-era-the-elvis-act-generative-ai-and-right-of-publicity",
+      "verify_score": 0.359,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "Seneca Falls is the birthplace of women's rights and an ideal home for the Women's Hall of Fame where people can come to celebrate and learn about the achievements of distinguished American women.",
+      "attribution": "Office of the Governor of New York · Hochul Announces Completion of Improvements to NWHF (quoting Secretary of State Walter T. Mosley) — https://www.governor.ny.gov/news/governor-hochul-announces-completion-improvements-national-womens-hall-fame-part-seneca-falls",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Stated Goals: NWHF annual report PDF was not fetched; strategic-plan goals beyond the public Ways-to-Give summary (Induct, Expand Education, Preserve Archives, Advance Gender Equity) were not captured verbatim.",
+    "Users / Beneficiaries: Inductee profile pages (e.g., Maya Angelou) did not surface direct quotes from the inductees on NWHF's own site; richer voice material likely lives in induction-ceremony videos at https://www.womenofthehall.org/hall-of-fame-induction/watch-past-induction-ceremonies/ which were not transcribed.",
+    "Affected Communities: No explicit NWHF policy located on representation of deceased inductees, descendant consent for likeness/voice, or community input — this appears to be an unwritten norm rather than a published policy.",
+    "Partners: Specific named corporate sponsor list for Induction 2026 was not on the public Induction page (handled via sponsorship document on request from Karen Macier).",
+    "Legal & Compliance Landscape: No NWHF-specific copyright / archival-use policy was found on the public site; the ELVIS Act and AAM ethics text stand in as the surrounding legal/industry frame.",
+    "Nomination criteria: https://www.womenofthehall.org/women-of-the-hall/nominate/ returned 404, so verbatim selection-criteria language could not be captured."
+  ]
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Tan Gemicioglu — VAP Discovery Packet</title><style>
+@page { size: letter portrait; margin: 0.5in; }
+
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body {
+  margin: 0; padding: 0;
+  font-family: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  color: #221c1b;
+}
+
+.page {
+  width: 7.5in;          /* 8.5 - 1.0 in horizontal margin */
+  height: 10in;          /* 11  - 1.0 in vertical margin   */
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.page:last-child { page-break-after: auto; }
+
+.fellow-header {
+  height: 0.7in;
+  border-bottom: 1pt solid #b75552;
+  padding-bottom: 0.10in;
+  margin-bottom: 0.18in;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 0 0 auto;
+}
+.fellow-header .left .name {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: 16pt;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #221c1b;
+  line-height: 1.05;
+}
+.fellow-header .left .org {
+  font-size: 10.5pt;
+  color: #5d5450;
+  margin-top: 0.04in;
+}
+.fellow-header .right { text-align: right; }
+.fellow-header .right .pagenum {
+  font-size: 8pt;
+  color: #8a8076;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.fellow-header .right .packet-tag {
+  font-size: 7pt;
+  color: #b75552;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.04in;
+}
+
+.cards-grid {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.16in;
+  min-height: 0;
+}
+
+.card {
+  border: 0.75pt solid #b5aea8;
+  border-radius: 4pt;
+  padding: 0.14in 0.16in 0.12in;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  break-inside: avoid;
+}
+.card .category {
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b75552;
+  margin-bottom: 0.06in;
+  padding-bottom: 0.05in;
+  border-bottom: 0.5pt solid #f3e6e4;
+  flex: 0 0 auto;
+}
+.card .body {
+  flex: 1 1 auto;
+  font-size: 9.5pt;
+  line-height: 1.32;
+  color: #2a2422;
+  overflow: hidden;
+}
+.card .body p { margin: 0 0 0.06in; }
+.card .body p:last-child { margin-bottom: 0; }
+.card .body ul {
+  margin: 0;
+  padding-left: 0.18in;
+}
+.card .body li { margin-bottom: 0.04in; }
+
+.card .attrib {
+  flex: 0 0 auto;
+  margin-top: 0.08in;
+  padding-top: 0.06in;
+  border-top: 0.5pt dotted #cfcac4;
+  font-size: 6.5pt;
+  color: #8a8076;
+  line-height: 1.3;
+  word-break: break-word;
+}
+.card .v {
+  /* tiny verbatim marker — not self-explanatory, just for Hauke */
+  color: #2f8d90;
+  font-weight: 700;
+  margin-right: 0.05in;
+}
+
+/* font-size buckets based on body length */
+.card.size-m .body { font-size: 9pt;  line-height: 1.30; }
+.card.size-s .body { font-size: 8pt;  line-height: 1.28; }
+.card.size-xs .body { font-size: 7pt; line-height: 1.26; }
+
+/* On-screen preview (ignored when printing) */
+@media screen {
+  body { background: #e6e2dd; padding: 0.4in 0; }
+  .page {
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    margin: 0 auto 0.4in;
+    padding: 0.5in;          /* draw the page margin on-screen */
+    width: 8.5in;
+    height: 11in;
+  }
+}
+</style></head><body><section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Tan Gemicioglu</div>      <div class="org">Ability Beyond</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 1 of 4</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Mission Statement</div>  <div class="body"><p>Our Mission is to discover, build and celebrate the ability in all people.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us</div></div>
+<div class="card">  <div class="category">Problems Solved</div>  <div class="body"><p>Throughout our residential programs, we are implementing the latest technology to enhance care and increase autonomy, empowering individuals to live fulfilling, independent lives.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential</div></div>
+<div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>In 2005 we became one of the first to close sheltered workshops and transition people with disabilities into community-based employment.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us</div></div>
+<div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>Innovative tech solutions are improving quality and driving efficiency, and we are planning for the future with our Making Beyond Possible campaign to raise $20M.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us</div></div>
+<div class="card">  <div class="category">Target Audience</div>  <div class="body"><p>We work with thousands of people in Connecticut and New York, who are living with developmental disabilities, autism spectrum disorder, brain injury, mental illness, and often, accompanying physical challenges.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us</div></div>
+<div class="card">  <div class="category">Users / Beneficiaries</div>  <div class="body"><p>Founded more than 70 years ago, Ability Beyond has grown to provide services to more than 3,000 people with disabilities across Connecticut and New York.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Tan Gemicioglu</div>      <div class="org">Ability Beyond</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 2 of 4</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Founders</div>  <div class="body"><p>Recognizing an unmet need for support for children like their son Jim, Mary and Jack Walsh gathered other parents in their living room in 1953 and a mission was born.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us</div></div>
+<div class="card">  <div class="category">Funders / Investors</div>  <div class="body"><p>Ability Beyond will soon help hundreds of job seekers in recovery from substance use find and maintain employment across Connecticut, thanks to competitive grants from the Department of Mental Health and Addiction Services (DMHAS).</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Home — https://www.abilitybeyond.org/</div></div>
+<div class="card">  <div class="category">Employees / Creators</div>  <div class="body"><p>Grow your career with us and join over 1,200 employees who work every day to make dreams come true.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Careers at Ability Beyond — https://www.abilitybeyond.org/careers</div></div>
+<div class="card">  <div class="category">Employees / Creators</div>  <div class="body"><p>Through this program, Ability Beyond direct care employees have the opportunity to train to become Direct Support Professionals, and to then earn advanced certifications in specialty areas including aging, behavioral supports, medical supports, mental health, and mentoring and supervision.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Careers at Ability Beyond — https://www.abilitybeyond.org/careers</div></div>
+<div class="card">  <div class="category">Affected Communities</div>  <div class="body"><p>The people from Ability Beyond know how to listen.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Residential Living (Lorraine Lazurus-Morley, Mother of Bryce) — https://www.abilitybeyond.org/residential</div></div>
+<div class="card">  <div class="category">Resource Constraints</div>  <div class="body"><p>Based on each individual&#x27;s level of need, our residential programs in Connecticut and New York provide up to 24 hours of support each day.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Tan Gemicioglu</div>      <div class="org">Ability Beyond</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 3 of 4</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Infrastructure Requirements</div>  <div class="body"><p>We are a 24/7 organization that offers a wide variety of work schedules.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Careers at Ability Beyond — https://www.abilitybeyond.org/careers</div></div>
+<div class="card">  <div class="category">Resource Constraints</div>  <div class="body"><p>In order to qualify, you will need to obtain funding from one of the following: • Department of Developmental Services (DDS) Waiver • Department of Social Services (DSS) ABI Waiver • Private Pay</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential</div></div>
+<div class="card">  <div class="category">Legal &amp; Compliance Landscape</div>  <div class="body"><p>This notice describes what information is collected and how that information is used in accordance with the provisions of the Internet Security and Privacy Act, the Freedom of Information Law, and the Personal Privacy Protection Law.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · Privacy Policy — https://www.abilitybeyond.org/privacy-policy</div></div>
+<div class="card">  <div class="category">Industry Standards</div>  <div class="body"><p>Ability Beyond was the first organization in Connecticut to achieve accreditation from CARF International.</p></div>  <div class="attrib"><span class="v">✓</span>Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us</div></div>
+<div class="card">  <div class="category">Cultural Norms</div>  <div class="body"><p>ASAN thinks both of these ideas take away the privacy of autistic people and can be used to hurt us.</p></div>  <div class="attrib"><span class="v">✓</span>Autistic Self Advocacy Network · What We Believe — https://autisticadvocacy.org/about-asan/what-we-believe/</div></div>
+<div class="card">  <div class="category">Cultural Norms</div>  <div class="body"><p>ASAN does not support any kind of institution.</p></div>  <div class="attrib"><span class="v">✓</span>Autistic Self Advocacy Network · What We Believe — https://autisticadvocacy.org/about-asan/what-we-believe/</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Tan Gemicioglu</div>      <div class="org">Ability Beyond</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 4 of 4</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Geographic Context</div>  <div class="body"><p>Community living is when disabled people live in the same places as non-disabled people, and get to make the same choices every day as non-disabled people.</p></div>  <div class="attrib"><span class="v">✓</span>Autistic Self Advocacy Network · What We Believe — https://autisticadvocacy.org/about-asan/what-we-believe/</div></div></div></section></body></html>

@@ -416,7 +416,9 @@ h1 {
     box-shadow: var(--shadow);
 }
 .research-card .section-kicker { color: #e9b4b1; }
-.research-card h2 { color: #fff; font-style: italic; max-width: 620px; margin: 0.6rem auto 1.2rem; }
+/* Note: was font-style: italic — Safari's variable-font ital+opsz handling
+   on Newsreader rendered a double / overlapping glyph stack. Dropped italic. */
+.research-card h2 { color: #fff; max-width: 620px; margin: 0.6rem auto 1.2rem; }
 .research-status {
     display: flex;
     align-items: center;

@@ -1,0 +1,2476 @@
+{
+  "ahmed": {
+    "fellow": "Tanvir Ahmed",
+    "org_full": "MethaneSAT (Environmental Defense Fund)",
+    "org_short": "MethaneSAT",
+    "primary_url": "https://www.methanesat.org/",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "How can we make near-zero methane emissions standard in the oil and gas industry? With transparent and comprehensive data.",
+        "attribution": "MethaneSAT · Home — https://www.methanesat.org/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "MethaneSAT's goal is to speed up reductions in methane emissions as quickly as possible, so we can slow down global warming.",
+        "attribution": "EDF · Slow global warming fast with MethaneSAT — https://www.edf.org/methanesat",
+        "verify_score": 0.824,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Methane is a potent, fast-acting greenhouse gas that's rapidly accelerating the rise in global temperatures. Methane emissions from the oil and gas sector are far higher than official estimates suggest, with operators emitting roughly 80 million tonnes annually. Small, widespread sources account for at least 70% of methane emissions from oil and gas production.",
+        "attribution": "MethaneSAT · The Mission — https://www.methanesat.org/mission",
+        "verify_score": 0.44,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Overall oil and gas methane emissions as measured by MethaneSAT were 50 percent higher than reported. None of the basins we measured reached the 0.2 percent emissions intensity goal agreed to under the OGDC. 40 percent of methane emissions in production-only portions of eight top oil and gas basins in the U.S. came from areas responsible for less than seven percent of production.",
+        "attribution": "MethaneSAT · First Look at a System Wide View — https://www.methanesat.org/project-updates/first-look-system-wide-view",
+        "verify_score": 0.869,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "MethaneSAT's superpower is the ability to precisely measure methane levels with high resolution over wide areas, including smaller, diffuse sources that account for most emissions in many regions. — Steven Hamburg, EDF Chief Scientist and MethaneSAT Project Leader",
+        "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+        "verify_score": 0.853,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "EDF and MethaneSAT remain firmly committed to our core purpose of turning data into action. We will continue to process data that we have retrieved from the satellite, and we will be working with partners around the world to leverage the algorithms and associated software.",
+        "attribution": "MethaneSAT · MethaneSAT loses contact with satellite — https://www.methanesat.org/project-updates/methanesat-loses-contact-satellite",
+        "verify_score": 0.805,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "MethaneSAT's data provides insights that can help reduce methane emissions from the oil and gas industry. The satellite's measurements help energy producers, government agencies and other users identify where methane emissions are coming from, learn how much is being emitted, and analyze how emissions change over time.",
+        "attribution": "MethaneSAT · The Mission — https://www.methanesat.org/mission",
+        "verify_score": 0.721,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "Explore MethaneSAT data on our web portal, Google Earth Engine, or Google Cloud. As a core part of the project design, EDF plans to make MethaneSAT data available for free to stakeholders and the public.",
+        "attribution": "MethaneSAT · Data — https://www.methanesat.org/data",
+        "verify_score": 0.29,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Founders",
+        "body": "Cutting methane pollution is the single fastest way we have to slow the rate of warming. This gift from the Earth Fund will help us turn the tide on the climate crisis. — Fred Krupp, EDF President",
+        "attribution": "MethaneSAT · Bezos Earth Fund announces $10 million in new funding for MethaneSAT — https://www.methanesat.org/project-updates/bezos-earth-fund-announces-10-million-new-funding-methanesat",
+        "verify_score": 0.848,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Founders",
+        "body": "Just the first step will have the same near-term climate benefit as shutting down one third of the world's coal-fired power plants. — Fred Krupp, EDF President (TED2018 Audacious Project announcement)",
+        "attribution": "EDF · This TED Talk heralds a new era in fighting climate change, from space — https://www.edf.org/climate/space-technology-can-cut-climate-pollution-earth/satellite-ted-talk",
+        "verify_score": 0.667,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Funders / Investors",
+        "body": "MethaneSAT changes the equation, putting science and data front and center. From the sky, it can see what others can't, helping good actors and holding bad actors accountable. — Dr. Kelly Levin, Chief of Science, Data and Systems Change, Bezos Earth Fund",
+        "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+        "verify_score": 0.789,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Funders / Investors",
+        "body": "You can't manage what you can't measure, and that's certainly true when it comes to cutting methane, one of the biggest drivers of climate change. — Michael R. Bloomberg, UN Secretary-General's Special Envoy on Climate Ambition and Solutions",
+        "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+        "verify_score": 0.853,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "Google is partnering with Environmental Defense Fund, the owner of MethaneSAT, to power methane detection algorithms with Cloud computing and applying AI to satellite imagery. Using images from MethaneSAT, Google and EDF will apply AI to identify individual components of oil and gas infrastructure, like oil storage containers, well pads, and oil pump jacks.",
+        "attribution": "Google Blog · How satellites, algorithms and AI can help map and trace methane sources — https://blog.google/company-news/outreach-and-initiatives/sustainability/how-satellites-algorithms-and-ai-can-help-map-and-trace-methane-sources/",
+        "verify_score": 0.26,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "New Zealand has been a partner in the MethaneSAT mission since 2019. New Zealand's role in the mission includes hosting the satellite's mission operations control centre and leading an atmospheric science programme, studying global emissions from agriculture. The New Zealand Space Agency is investing $30 million in the programme.",
+        "attribution": "MBIE (NZ Govt) · Liftoff in global flight against climate change — https://www.mbie.govt.nz/about/news/liftoff-in-global-flight-against-climate-change",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "The oil and gas industry dumps 9 million tons of methane and toxic pollutants like benzene into our air each year. The life-threatening burdens placed on communities of color near oil and gas facilities are the result of systemic oppression perpetuated by the traditional energy industry, which exposes communities to health, economic, and social hazards.",
+        "attribution": "NAACP · Fumes Across the Fence-Line — https://naacp.org/resources/fumes-across-fence-line-health-impacts-air-pollution-oil-gas-facilities-african-american",
+        "verify_score": 0.922,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "In Ector County, 87.8% of residents live within half a mile of an active oil or gas well causing cancer, respiratory illnesses, neurological issues. One recently published study examining the Eagle Ford Shale region found that pregnant women who lived near areas where flaring is common had 50 percent greater odds of giving birth prematurely than those who did not.",
+        "attribution": "Environment America · Fracking and Methane in the Permian Basin — https://environmentamerica.org/texas/articles/fracking-and-methane-in-the-permian-basin/",
+        "verify_score": 0.0,
+        "verify_status": "fetch_failed",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "We have consistently seen the power of strong data to win robust regulatory safeguards and better operating practices in the industry. — Mark Brownstein, EDF Senior Vice President, Energy Transition",
+        "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+        "verify_score": 0.808,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Platform Limitations",
+        "body": "On June 20, 2025, MethaneSAT mission operations lost contact with MethaneSAT, and after pursuing all options to restore communications, the satellite is unlikely to be recovered. The satellite was functioning properly when it passed over a downlink station in Svalbard, Norway, at 01:44 UTC on June 20, but the team was unable to establish contact for the next pass.",
+        "attribution": "MethaneSAT · MethaneSAT loses contact with satellite — https://www.methanesat.org/project-updates/methanesat-loses-contact-satellite",
+        "verify_score": 0.107,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "Level 5 reporting requires reconciliation of source-level emissions with site-level data, providing the highest level of data quality currently available in the sector. OGMP 2.0 is the only comprehensive measurement-based reporting framework, which improves the accuracy and transparency of methane emissions data.",
+        "attribution": "OGMP 2.0 (UNEP) · Homepage — https://www.ogmpartnership.org/",
+        "verify_score": 0.872,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "Scheduled for launch aboard a SpaceX Falcon 9 rocket in early March 2024, MethaneSAT orbits Earth 15 times daily at an altitude exceeding 350 miles, focusing on major oil and gas regions worldwide. The algorithms that will calculate how much methane is emitted in certain locations, as well as tracking those emissions over time, will be powered by Google Cloud.",
+        "attribution": "Google Blog · How satellites, algorithms and AI can help map and trace methane sources — https://blog.google/company-news/outreach-and-initiatives/sustainability/how-satellites-algorithms-and-ai-can-help-map-and-trace-methane-sources/",
+        "verify_score": 0.018,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "MethaneSAT is one of seven projects to receive financial support from the TED initiative, and while the EDF has not disclosed the amount of funding, EDF President Krupp commented \"it's fair to say the satellite wouldn't be happening except for The Audacious Project.\" Among the largest contributors to MethaneSAT are the Bezos Earth Fund, Arnold Ventures, the Robertson Foundation and the TED Audacious Project.",
+        "attribution": "Audacious Project · Environmental Defense Fund — https://www.audaciousproject.org/grantees/environmental-defense-fund",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "On March 8, 2024, EPA published a final rule expanding standards of performance for the oil and natural gas industry, commonly referred to as OOOOb and OOOOc. The final rule will sharply reduce emissions of methane and other harmful air pollution from oil and natural gas operations — including, for the first time, from existing sources nationwide. The rule also enables, for the first time, the use of advanced methane detection technologies.",
+        "attribution": "US EPA · EPA's Final Rule to Reduce Methane and Other Harmful Pollution — https://www.epa.gov/controlling-air-pollution-oil-and-natural-gas-operations/epas-final-rule-reduce-methane-and-other",
+        "verify_score": 0.353,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Importers must demonstrate that the crude oil, natural gas, or coal imported into the EU was produced in a jurisdiction with monitoring, reporting, and verification requirements equivalent to those applied domestically in the EU, or at OGMP 2.0 Level 5 (reconciliation) plus verification for oil and gas. The regulation includes establishment of a public methane transparency database and a global methane emitters monitoring system with a rapid alert mechanism for super-emitting events.",
+        "attribution": "EUR-Lex · Regulation (EU) 2024/1787 on methane emissions in the energy sector — https://eur-lex.europa.eu/eli/reg/2024/1787/oj/eng",
+        "verify_score": 0.101,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "The Global Methane Pledge was launched at COP26 by the European Union and the United States in November 2021. Participants joining the Pledge agree to take voluntary actions to contribute to a collective effort to reduce global methane emissions at least 30 percent from 2020 levels by 2030. The GMP today counts 159 participating countries and the European Commission.",
+        "attribution": "Global Methane Pledge · Homepage — https://www.globalmethanepledge.org/",
+        "verify_score": 0.727,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "Methane is a potent greenhouse gas that has more than 80 times the warming power of carbon dioxide over the first 20 years. About 30% of today's global warming is driven by methane from human actions. Reducing methane emissions from the oil and gas industry is the fastest way to slow the rate of global warming we feel today. — Mark Brownstein, Senior Vice President, Energy",
+        "attribution": "EDF · Methane: A crucial opportunity in the climate fight — https://www.edf.org/climate/methane-crucial-opportunity-climate-fight",
+        "verify_score": 0.79,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "Emissions intensity varies considerably from region to region depending on a variety of factors, such as the age and upkeep of oil and gas infrastructure. State standards have had a powerful benefit — MethaneSAT measurements show New Mexico's regulated Permian sub-basin has methane intensity less than half that of adjacent unregulated Texas territory.",
+        "attribution": "MethaneSAT · First Look at a System Wide View — https://www.methanesat.org/project-updates/first-look-system-wide-view",
+        "verify_score": 0.49,
+        "verify_status": "partial",
+        "verify_method": "html"
+      }
+    ],
+    "gaps": [
+      "Employees / Creators: No verbatim first-person quotes from MethaneSAT engineers/data scientists on the public site; team page rendered empty and project-updates rarely name on-the-ground builders.",
+      "Partners (Harvard-Smithsonian / BAE-SSTL): Press materials list them but I did not find verbatim quotes from named representatives of Harvard SAO or Ball/BAE/Blue Canyon on the pages I read.",
+      "Platform Limitations (data-side): Beyond satellite loss of contact, I did not find a public, verbatim statement on data uncertainty ranges or retrieval limits — that detail likely lives only in the peer-reviewed papers linked from /scienceandresearch.",
+      "Affected Communities (international): Found strong US fenceline-community quotes (NAACP, Permian/Eagle Ford) but did not pull verbatim community voices from oil & gas regions outside the US that MethaneSAT also covered."
+    ]
+  },
+  "chen": {
+    "fellow": "Jingruo Chen",
+    "org_full": "NYC Department for the Aging",
+    "org_short": "DFTA",
+    "primary_url": "https://www.nyc.gov/site/dfta/index.page",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The mission of the Department for the Aging (DFTA) is to work to eliminate ageism and ensure the dignity and quality-of-life of New York City's diverse older adults, and for the support of their caregivers, through service, advocacy, and education.",
+        "attribution": "NYC Aging · Department for the Aging — https://www.nyc.gov/site/dfta/index.page",
+        "verify_score": 0.028,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "The purpose of the home-delivered meals program is to maintain or improve the nutritional status of older New Yorkers who are unable to prepare meals. HDMs are required to adhere to NYC Aging's General Standards of Operation, NYC Food Standards, and other federal, state, and local laws and regulations established to ensure that meal recipients receive nutritious and safe meals.",
+        "attribution": "NYC Aging · Home-Delivered Meals Programs Standards of Operation and Scope of Services — https://www.nyc.gov/assets/dfta/downloads/pdf/community/Home-Delivered-Meals-Standards.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "The Department for the Aging (NYC Aging) has launched Pop-Up Cafés to help older New Yorkers eat healthier, reduce food insecurity and social isolation, and make more residents aware of the meals they can receive at their local center. The sites were selected based on communities identified as food insecure, residents' income levels, and limited access to culturally appropriate and affordable food options.",
+        "attribution": "NYC Aging · NYC Aging Launches Pop-Up Cafe Program — https://www.nyc.gov/site/dfta/news-reports/press-releases/pr-nyc-aging-launches-pop-up-cafe-program.page",
+        "verify_score": 0.933,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "\"It is less expensive from a public policy perspective to keep a person in their community with those wraparound services: home care, meals, older adult centers, transportation.\" \"It costs us anywhere between $50,000-$58,000 to provide those supports so that someone could stay in their community. It costs us $185,000 per person per year to keep somebody in the nursing home. Do the math.\"",
+        "attribution": "City & State NY · Prioritizing New York's older adults — Commissioner Lorraine Cortés-Vázquez — https://www.cityandstateny.com/policy/2025/07/prioritizing-new-yorks-older-adults/406979/",
+        "verify_score": 0.937,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "Older adult center membership is free and open to all New Yorkers, ages 60 and older. There are more than 300 older adult centers (OACs) and affiliated sites throughout the five boroughs that provide healthy meals, fun activities, classes, fitness programs and social services. In neighborhoods with diverse populations, centers provide culturally aligned meals that are representative of the community.",
+        "attribution": "NYC Aging · Older Adult Center — https://www.nyc.gov/site/dfta/services/older-adult-center.page",
+        "verify_score": 0.857,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "Andre Domerson, 85: \"I am a sick person…That's why I like it [the meals] because it's clean. It's also healthy and it comes with dates.\" \"But I wish there were more meals. It's not enough for me in the mornings and on the weekends.\" Mary Blake, 95: \"I do what my grandmother used to call, I doctor it up. I put herbs and spices, a little bit of this, and a little bit of that.\"",
+        "attribution": "City Limits · For Many Older New Yorkers, Home-Delivered Meals Offer More Than Food — https://citylimits.org/2024/10/07/for-many-older-new-yorkers-home-delivered-meals-offer-more-than-just-food",
+        "verify_score": 0.75,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "Phyllis Radcliff (60): \"The food is great, and I appreciate you, because we have health issues sometimes, and we can't get out.\" Nini Johannesen (68): \"It's the only way I eat some vegetables.\" Edward Perez (71): \"It's a helping hand, financially. And it's also great to know that people care enough to cook you a good meal.\"",
+        "attribution": "Healthbeat · Food insecurity a growing concern for older New Yorkers — https://www.healthbeat.org/newyork/2025/08/20/food-insecurity-senior-hunger/",
+        "verify_score": 0.604,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "Since approximately 50% of older New Yorkers are foreign born, OAA providers in New York City must provide meals that are culturally appropriate to an array of backgrounds. Some senior center partners in New York City are catering to their clients' needs by hiring staff who speak Hindi or Urdu but lack the necessary funding to provide halal or vegetarian meals. In New York City, where nearly 60% of adults aged 65 and over identify as racial and ethnic minorities, the racial/ethnic composition among New York City's home-delivered meals program participants was 63% White, 29% Black, 11% Hispanic, and 1% Asian.",
+        "attribution": "PMC · Enriching nutrition programs to better serve the needs of a diversifying aging population — https://pmc.ncbi.nlm.nih.gov/articles/PMC7880699/",
+        "verify_score": 0.837,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "Jeremy Kaplan, Encore Community Services Executive Director: \"The city should provide three meals a day to older New Yorkers who need it, who cannot leave their homes, and live alone.\" \"Neither meals are funded at a rate that fully covers the cost of the program.\" Royal Alvis, 57 (Encore volunteer): \"My mom lived in North Carolina and she started receiving meals on deliveries like this, and that made a big difference to her, to have somebody come in and check on her and just to have the meals over there.\"",
+        "attribution": "City Limits · For Many Older New Yorkers, Home-Delivered Meals Offer More Than Food — https://citylimits.org/2024/10/07/for-many-older-new-yorkers-home-delivered-meals-offer-more-than-just-food",
+        "verify_score": 0.767,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "Ben Thomases, QCH Executive Director: \"We strongly applaud the announcement made today by Lorraine Cortés-Vázquez.\" \"The DFTA rate has long been below the national level, leaving the home-delivered meals program underfunded.\" \"QCH has been advocating for this increase for more than two years, as the previous rate caused unsustainable financial losses.\"",
+        "attribution": "Queens Community House · QCH Comment on Commissioner's Announcement of Increase in Home-Delivered Meals Reimbursement Rate — https://qchnyc.org/news/1747699/qch-comment-commissioner-lorraine-cortes-vazquezs-announcement-increase-home-delivered",
+        "verify_score": 0.755,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Funders / Investors",
+        "body": "The NYC Council called on the Administration to increase capital funding for older adult centers by adding $50 million to NYC Aging's Capital Plan, with $10 million of this funding earmarked for centers that predominately serve older adults who are immigrants. The Council urged increased baseline funding to cover the cost of home-delivered meals, restoration of funding for older adult centers to remain open and fully operational, increased funding for case management and home care services, and greater capital funding to ensure older adult centers can continue preparing meals in their kitchens.",
+        "attribution": "NYC Council · Calls on the Administration to Protect Older Adult Centers and Services — https://council.nyc.gov/press/2024/05/17/2611/",
+        "verify_score": 0.932,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "A home-delivered meal is a nutritious meal that meets the one-third recommended Dietary Reference Intake (DRI) and adheres to U.S dietary guidelines, NYSOFA guidelines, and the New York City Agency Food Standards. NYC Aging's RFP includes a detailed list of cultural needs per each community district, updated with the latest census data. NYC Aging requires HDM providers to offer Kosher options to all clients within each catchment and a Halal option in every catchment for clients who observe religious dietary guidelines.",
+        "attribution": "NYC Aging · Home-Delivered Meals Programs Standards of Operation and Scope of Services — https://www.nyc.gov/assets/dfta/downloads/pdf/community/Home-Delivered-Meals-Standards.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "Per NYC Executive Order 8, Commitment to Health and Nutrition: Food Standards and Good Food Purchasing, all vendors are required to provide a usage report of all food items on an annual basis with detailed information. Sites must solicit client feedback annually regarding meals and snacks and consider results in menu planning, specifically regarding cultural preferences, taste, and food quality.",
+        "attribution": "NYC Aging · Home-Delivered Meals Programs Standards of Operation and Scope of Services — https://www.nyc.gov/assets/dfta/downloads/pdf/community/Home-Delivered-Meals-Standards.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "Providers have expressed concerns about the infrastructure needs at many older adult centers across the city, especially within their kitchens. Without the needed kitchen upgrades at older adult centers, providers will need to rely more heavily on outsourcing food preparation, which is both more expensive and less nutritious.",
+        "attribution": "NYC Council · Calls on the Administration to Protect Older Adult Centers and Services — https://council.nyc.gov/press/2024/05/17/2611/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "Contractors are allowed to subcontract; however, NYC Aging does not permit subcontracting of 100% of the contract, and regardless of whether a provider subcontracts with a caterer, older adult center, or any other entity to produce and/or deliver meals, the provider is ultimately responsible for all terms and conditions as set forth in the contract. In DFTA's [Home Delivered Meals] network, each catered Kosher [meal] is on average $1.38 more than non-Kosher catered meals.",
+        "attribution": "NYC Aging · Home-Delivered Meals Standards; PMC · Enriching nutrition programs — https://www.nyc.gov/assets/dfta/downloads/pdf/community/Home-Delivered-Meals-Standards.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "Jeremy Kaplan, Executive Director, Encore Community Services: \"Many of the people who we deliver to tell us it's their only source of food. Many of them are rationing out the one meal we give them, throughout the day. It's just not enough, any way you cut it.\" Beth Shapiro, CEO, Citymeals on Wheels: \"The impact of the government cuts on the people we serve could be catastrophic.\"",
+        "attribution": "Healthbeat · Food insecurity a growing concern for older New Yorkers — https://www.healthbeat.org/newyork/2025/08/20/food-insecurity-senior-hunger/",
+        "verify_score": 0.667,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The purposes of the OAA nutrition program are to reduce hunger, food insecurity and malnutrition, promote socialization of older people, and promote the health and well-being of older people by giving access to nutrition and other disease prevention and health promotion services. Services must be targeted at persons with the greatest social and economic need, with particular attention to low-income older persons, including low-income minority older persons, older persons with limited English proficiency, older persons residing in rural areas, and those at risk for institutionalization.",
+        "attribution": "ACL · OAA Nutrition Services Basics — https://acl.gov/senior-nutrition/oaa-nutrition-services-basics",
+        "verify_score": 0.025,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Federal Dietary Guidelines determine what qualifies for reimbursement under senior congregate and home-delivered meal programs, meaning meals that fall outside the Guidelines' parameters risk losing federal funding. NYC's existing Food Standards already include quantitative limits on sodium, saturated fat, and added sugars—applying across 11 city agencies.",
+        "attribution": "NYC Food Policy Center (Hunter College) · What the 2025–2030 Dietary Guidelines for Americans Mean for New York City Agencies — https://www.nycfoodpolicy.org/what-the-2025-2030-dietary-guidelines-for-americans-mean-for-new-york-city-agencies/",
+        "verify_score": 0.381,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "Participants reported that the menus could be improved by including more seafood, vegetables/salad, and poultry as well as a variety of meats such as steak, roast beef, and spare ribs. For participants who prefer rice or tortilla-based dishes to sandwiches, providing nutrient-dense sides helps ensure participants are enjoying food while meeting dietary recommendations. Currently, 23% of older adults are racial/ethnic minorities, and by 2030 this proportion will grow to 28%.",
+        "attribution": "PMC · Enriching nutrition programs to better serve the needs of a diversifying aging population — https://pmc.ncbi.nlm.nih.gov/articles/PMC7880699/",
+        "verify_score": 0.721,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "NYC has nearly 1.8 million residents over 60. These seniors are increasingly women, immigrants, and people living alone with limited social support, struggling at or below the poverty line. Nearly half of older New Yorkers surveyed experienced food insecurity in the past year; this number rose to 60% among those receiving home-delivered meals. 41% sometimes or never shop for groceries, 38% have limited food preparation ability, and 15% cannot cook at all.",
+        "attribution": "Citymeals on Wheels · Ending Elder Hunger by 2040 — https://www.citymeals.org/ending-elder-hunger-2040",
+        "verify_score": 0.333,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "Older Americans Act (OAA) Title III-C, Nutrition Services includes requirements for congregate meals, home delivered meals, nutrition screening, nutrition education, and nutrition counseling. Congregate meals and supportive services take place at LSPs' meal sites such as senior centers, religious facilities, and public or low-income housing facilities. Home-delivered meals are provided to homebound individuals through the congregate meal sites, affiliated central kitchens, or nonaffiliated food service organizations.",
+        "attribution": "ACL · OAA Nutrition Services Basics — https://acl.gov/senior-nutrition/oaa-nutrition-services-basics",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The New York City Department for the Aging (NYC Aging or the Department) is the lead Mayoral agency addressing public policy and service issues for older New Yorkers. It is also the largest agency in the federal network of Area Agencies on Aging (AAA) in the United States. NYC Aging promotes, administers, and coordinates the development and provision of vital community services that help older New Yorkers aged 60+ within the five boroughs of New York City stay healthy and independent, and serves as an advocate on legislative and policy issues.",
+        "attribution": "NYC Aging · Four-Year Plan Summary, Covering April 1, 2024–March 31, 2028 (Agency Mission and Background) — https://www.nyc.gov/assets/dfta/downloads/pdf/reports/Four_Year_Plan_Summary_Published_September_2025.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "Goal #11: AAA will offer person-centered nutrition programs (inclusive of healthy balanced meals and nutrition education and counseling) which are responsive to the needs and preferences of older adults in the Planning and Service Area as well as reflective of the diversity within the Planning and Service Area. Provide person-centered nutrition programs including cultural meals, interactive and engaging nutrition education workshops, and nutrition counseling service. Enhance meal satisfaction and cultural relevance. Increase nutrition knowledge and healthy eating practices.",
+        "attribution": "NYC Aging · Four-Year Plan Summary 2024–2028 (Strategic Goals) — https://www.nyc.gov/assets/dfta/downloads/pdf/reports/Four_Year_Plan_Summary_Published_September_2025.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "New York City is home to nearly 1.8 million older adults. Supporting their ability to live safely, affordably, and in good health is both a responsibility and a shared commitment. The NYC Department for the Aging works in partnership with community-based organizations across all five boroughs to deliver services that help older adults remain in their homes and communities. These services include older adult centers, home-delivered meals, case management, caregiver support, mental health programs, volunteer engagement, and employment services.",
+        "attribution": "NYC Aging · Commissioner's Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "The Nutrition Management Unit is composed of nutrition experts who ensure that congregate meal and home-delivered meals meet city, state, and federal sanitation and dietary guidelines. They also provide extensive technical assistance on meal planning, recipe development, food safety, and City Agency Food Standards.",
+        "attribution": "NYC Aging · Four-Year Plan Summary 2024–2028 (Bureau of Community Services) — https://www.nyc.gov/assets/dfta/downloads/pdf/reports/Four_Year_Plan_Summary_Published_September_2025.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Numerous studies and analyses have found that seniors in New York City have significant levels of hunger and nutritional deficits, due in large part to income issues and certain health issues such as depression and oral health problems. DFTA is redesigning its home delivered meals program and reviewing the structure and funding of its senior center nutrition programs to determine ways to maximize the impact of dollars spent to combat nutritional deficits and hunger.",
+        "attribution": "NYC Department for the Aging · \"Plan 2025\": Aging Services in an Era of Rapid Population Growth (Contextual Information — Nutrition) — https://www.nyc.gov/assets/dfta/downloads/pdf/reports/Plan2025-092018.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "NYC Aging uses a mix of quantitative and qualitative methods to collect data to help identify and prioritize need of clients currently served by our programs. These include analysis of changing demographic patterns, needs assessment surveys, examining client and contractor unit data to identify trends in participation rates, satisfaction/impact studies (utilizing random sample surveys, focus groups, and structured interviews of clients and provider staff) to gain insight regarding successful program elements, health and behavioral impact, and ways that programs can be improved.",
+        "attribution": "NYC Aging · Four-Year Plan Summary 2024–2028 (Needs Assessment) — https://www.nyc.gov/assets/dfta/downloads/pdf/reports/Four_Year_Plan_Summary_Published_September_2025.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "These cafés would offer extended meal hours, diverse menu options that are culturally aligned with the neighborhoods, lighter fare such as yogurts and crudites, and activities that promote social engagement. To date, NYC Aging and its partners have launched six pop-up café sites, with plans to open 12 more cafés over the next four years. So far, participants have praised the cozy atmosphere, fresh meals, and sense of community these sites offer. Notably, over 35% of the attendees are new to NYC Aging and its services, showcasing the project's early success.",
+        "attribution": "NYC Aging · Introducing a Fresh Approach to Dining for Older Adults (Pop-Up Café program report) — https://www.nyc.gov/assets/dfta/downloads/pdf/news-reports/ACL-POP-UP-v2.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      }
+    ],
+    "gaps": [
+      "Founders: NYC Aging is a municipal agency — no founder figure; relevant context is mayoral appointment of Commissioner Cortés-Vázquez (reappointed by Mayor Adams, 2022).",
+      "Platform Limitations: No public documentation found describing DFTA's existing IT/menu-planning systems or data interoperability constraints — likely internal-only.",
+      "Cultural Norms (deeper): Quotes specific to Asian, South Asian, and Caribbean older-adult food preferences within DFTA programs are limited in publicly indexed sources beyond the PMC enrichment paper."
+    ]
+  },
+  "corpus": {
+    "fellow": "Isabel Corpus",
+    "org_full": "NYC Office of Technology & Innovation",
+    "org_short": "OTI",
+    "primary_url": "https://www.nyc.gov/content/oti/pages/artificial-intelligence",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The action plan is entirely premise around building out the framework that we as a city need to make sure that agencies are responsibly using AI technologies.",
+        "attribution": "NYC OTI · Alex Foard testimony, Committee on Technology — https://citymeetings.nyc/meetings/new-york-city-council/2024-10-28-0100-pm-committee-on-technology/chapter/oti-explains-their-approach-to-ai-governance-and-existing-efforts/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "New York City staked its claim among global leaders on artificial intelligence governance with the release of its landmark AI Action Plan — and we remain ahead of the curve thanks to these updates.",
+        "attribution": "NYC OTI · CTO Matthew Fraser, GovTech coverage of NYC generative AI guidance — https://www.govtech.com/artificial-intelligence/nyc-reveals-progress-guidance-on-generative-ai",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Across city government, agencies are relying upon algorithms more than ever to deliver more efficient services, maintain public safety and make our city more livable for New Yorkers. We expect that trend will continue — and, as it does, the action plan will be there to provide the necessary guardrails to make sure that agencies responsibly and safely adopt these technologies.",
+        "attribution": "NYC OTI · Alex Foard, Executive Director of Research and Collaboration — https://www.govtech.com/biz/data/nycs-data-driven-future-46-algorithms-and-counting",
+        "verify_score": 0.93,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "You must have clear definitions and guidance to effectively support agencies. And to do this, you have to speak the same language and communicate the same way — which is why we published definitions of more than 20 key terms to enable better support for agency implementation of AI projects and improved accountability.",
+        "attribution": "NYC OTI · Alex Foard, Executive Director of Research and Collaboration — https://www.govtech.com/biz/data/nycs-data-driven-future-46-algorithms-and-counting",
+        "verify_score": 0.918,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "We also share the sentiment around encouraging innovation and making sure that agencies have the opportunity to innovate, but that we're adhering to the values and principles that we as a city have when it comes to AI.",
+        "attribution": "NYC OTI · Alex Foard testimony, Committee on Technology — https://citymeetings.nyc/meetings/new-york-city-council/2024-10-28-0100-pm-committee-on-technology/chapter/oti-explains-their-approach-to-ai-governance-and-existing-efforts/",
+        "verify_score": 0.912,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "This AI chatbot not only has garnered trust, it also can service people 24/7 without being put on hold. We cannot be in a situation where we lose that kind of trust even one time. That can't happen to government.",
+        "attribution": "NYC OTI · Kevin D. Kim, Commissioner, NYC Department of Small Business Services, on MyCity chatbot — https://themarkup.org/news/2024/04/02/malfunctioning-nyc-ai-chatbot-still-active-despite-widespread-evidence-its-encouraging-illegal-behavior",
+        "verify_score": 0.784,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "We're identifying what the problems are, we're gonna fix them, and we're going to have the best chatbot system on the globe. People are going to come and watch what we're doing in New York City.",
+        "attribution": "NYC OTI · Mayor Eric Adams on MyCity chatbot — https://themarkup.org/news/2024/04/02/malfunctioning-nyc-ai-chatbot-still-active-despite-widespread-evidence-its-encouraging-illegal-behavior",
+        "verify_score": 0.875,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "If this chatbot is not being done in a way that is responsible and accurate, it should be taken down.",
+        "attribution": "Civil society · Rosalind Black, Legal Services NYC, on MyCity chatbot — https://themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "It can also be a massive liability if it's providing the wrong legal information, so the chatbot needs to be fixed asap.",
+        "attribution": "Industry voice · Andrew Rigie, NYC Hospitality Alliance, on MyCity chatbot — https://themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "The chatbot incorrectly advised that employers could take workers' tips — a direct violation of New York Labor Law Section 196-d. It falsely claimed landlords could refuse tenants using housing vouchers, ignoring that source of income discrimination has been illegal in New York City since 2008. It incorrectly suggested landlords could lock out tenants, and it falsely claimed 'there are no restrictions on the amount of rent that you can charge.'",
+        "attribution": "Press · Case study of MyCity chatbot harms to workers and tenants — https://www.envive.ai/post/case-study-nycs-mycity-chatbot",
+        "verify_score": 0.794,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Founders",
+        "body": "Under the leadership of our new Chief Technology Officer Lisa Gelobter, we look forward to building on this foundation and advancing the responsible use of AI tools in City government.",
+        "attribution": "NYC OTI · Statement to NYC Council biometric oversight hearing — https://statescoop.com/nyc-ai-biometric-oversight-hearing/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "We wanna make sure that the efforts that we're taking are responsive to a really complex network of agency needs, or they each have different missions.",
+        "attribution": "NYC OTI · Alex Foard testimony, Committee on Technology — https://citymeetings.nyc/meetings/new-york-city-council/2024-10-28-0100-pm-committee-on-technology/chapter/oti-explains-their-approach-to-ai-governance-and-existing-efforts/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "This committee is going to ask you all about citywide positions on things, because OTI has a directive to sort of be the clearing house for how technology is used across the city.",
+        "attribution": "NYC Council · Carmen De La Rosa, Technology Committee Chair — https://statescoop.com/nyc-ai-biometric-oversight-hearing/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Platform Limitations",
+        "body": "I do want to indicate that agencies could be using biometric data in ways that aren't involved in algorithmic decision making or AI or other uses, in which case we would not have visibility into that collection.",
+        "attribution": "NYC OTI · Alex Foard, Assistant Commissioner, Council oversight hearing — https://statescoop.com/nyc-ai-biometric-oversight-hearing/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "You cannot govern technology with wishful thinking. You need people. A fully staffed AI accountability team is what will make these standards real – reviewing systems before they are deployed, supporting agencies that are struggling to keep up, and stepping in when tools harm New Yorkers. Without real staff, oversight becomes a slogan. With them, it becomes a system.",
+        "attribution": "NYC Council · Council Member Jennifer Gutiérrez, Technology Committee Chair — https://www.cityandstateny.com/politics/2025/11/new-york-city-will-try-again-regulate-ai/409803/",
+        "verify_score": 0.927,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "Is the Office of Algorithmic Accountability empowered by City Hall, is it integrated into key decision making and approval processes, is the review process speedy enough to meet agencies' operational needs?",
+        "attribution": "Former NYC official · John Paul Farmer, former NYC Chief Technology Officer — https://www.cityandstateny.com/politics/2025/11/new-york-city-will-try-again-regulate-ai/409803/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "An 'algorithmic tool' is defined by the law as: 'Any technology or computerized process that is derived from machine learning, artificial intelligence, predictive analytics, or other similar methods of data analysis, that is used to make or assist in making decisions about and implementing policies that materially impact the rights, liberties, benefits, safety or interests of the public, including their access to available city services and resources for which they may be eligible.'",
+        "attribution": "Statute · NYC Local Law 35 of 2022 / NYC Admin Code § 3-119.5 — https://www.nyc.gov/assets/oti/downloads/pdf/reports/2023-algorithmic-tools-reporting-updated.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "An automated employment decision tool is 'a computation process that is derived from machine learning, statistical modelling, data analytics, or artificial intelligence' used to issue simplified outputs like scores or classifications that substantially assist or replace human decision-making. Employers must commission an independent, impartial bias audit annually, notify affected individuals at least 10 working days before the tool is used, and publish a Summary of Results.",
+        "attribution": "Statute · NYC Local Law 144 (AEDT Bias Audit Law), DCWP rules — https://www.nycbiasaudit.com/",
+        "verify_score": 0.306,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The GUARD Act finally puts real oversight and support in place — not voluntary guidelines or feel-good strategies, but enforceable standards. We teach children right and wrong, and we hold doctors and engineers to professional standards — but until now, we've had none for artificial intelligence.",
+        "attribution": "NYC Council · Council Member Jennifer Gutiérrez on the GUARD Act establishing the Office of Algorithmic Data Accountability — https://council.nyc.gov/jennifer-gutierrez/2025/11/25/city-council-establishes-new-ai-oversight-office-other-ai-initiatives/",
+        "verify_score": 0.929,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Despite the strong foundation, they would benefit from targeted amendments to become generally effective.",
+        "attribution": "Civil society · Darío Maestro, Senior Legal Fellow, Surveillance Technology Oversight Project (S.T.O.P.), on NYC AI legislation — https://www.cityandstateny.com/politics/2025/11/new-york-city-will-try-again-regulate-ai/409803/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "Knowing that technology performs unequally across race and gender, should the city view that as discriminatory? It seems as though the city right now does not have a good grasp of biometric technology, and I think taking a neutral position is quite dangerous for our city.",
+        "attribution": "NYC Council · Council Member Shahana Hanif, Council oversight hearing — https://statescoop.com/nyc-ai-biometric-oversight-hearing/",
+        "verify_score": 0.833,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "Algorithms in government are already a part of decisions that affect people's lives, but there are no agreed-upon methods to ensure fairness or safety, or protect the fundamental rights of citizens.",
+        "attribution": "Civil society · AI Now Institute, Algorithmic Impact Assessments report — https://ainowinstitute.org/publications/algorithmic-impact-assessments-toward-accountable-automation-in-public-agencies",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "S.T.O.P. is a Brooklyn-based civil rights nonprofit. The organization highlights how tools like facial recognition, NYPD drones, data-sharing systems and other tracking technologies are deployed — often with little oversight — disproportionately affecting low-income, immigrant, Black and Brown, and Muslim communities, as well as protesters.",
+        "attribution": "Civil society · Surveillance Technology Oversight Project (S.T.O.P.) — https://www.stopspying.org/post-act",
+        "verify_score": 0.045,
+        "verify_status": "fetch_failed",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The Office of Technology and Innovation shall be the lead agency in the development, coordination and implementation of the City's information technology, information security, information privacy and telecommunication matters.",
+        "attribution": "NYC Mayor Eric Adams, Executive Order 3 of 2022, § 5 (establishing OTI) — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The Office of Technology and Innovation shall guide the City and its agencies in the development, responsible use and assessment of algorithmic and related technical tools and systems and shall engage and educate the public on issues related to City use of these and other related technologies.",
+        "attribution": "NYC Mayor Eric Adams, Executive Order 3 of 2022, § 4 (transferring algorithm duties from the prior Algorithms Management and Policy Officer to OTI) — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "Establish a holistic, adaptable framework for AI governance that acknowledges the risks of AI, including bias and disparate impact, and which will help ensure the responsible use of AI tools consistent with values of reliability, transparency, accountability, fairness and non-discrimination, privacy, cybersecurity, and sustainability, among others defined through the implementation of this Action Plan.",
+        "attribution": "NYC OTI, The New York City Artificial Intelligence Action Plan (October 2023), Initiative 01 Objective — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Absent appropriate oversight and governance, some uses of AI could lead not only to benign inaccuracies or unintended results, but also data privacy or cybersecurity vulnerabilities, negative environmental impacts, or even serious bias, disparate impacts, and active harms. Further, the complexity of many AI applications and the fact that their mechanics are not always visible or understandable pose unique transparency and accountability challenges, which are particularly pronounced for governments working in service to the public.",
+        "attribution": "NYC OTI, The New York City Artificial Intelligence Action Plan (October 2023), Introduction — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "The New York City AI Action Plan — produced by the Office of Technology and Innovation — represents the knowledge, expertise, and contributions of 50 city employees from 18 agencies, as well as the insights of industry, academia, and civil society.",
+        "attribution": "NYC Mayor Eric Adams, Letter from the Mayor in The New York City Artificial Intelligence Action Plan (October 2023) — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "These transformational technologies are critical to efforts such as preventing the next public health outbreak, empowering business owners and entrepreneurs, and optimizing the use of city resources. And we've only scratched the surface on AI's massive potential impact on our city government, the nation's largest municipal workforce, and our eight million residents.",
+        "attribution": "NYC OTI · CTO Matthew C. Fraser, Letter from the CTO in The New York City Artificial Intelligence Action Plan (October 2023) — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The Office of Technology and Innovation (“OTI”) was formed under Mayoral Executive Order 3 of 2022 (“EO 3”) in order to unify technology teams across government and centralize coordination around existing and emerging technologies. OTI serves as the city's central technology agency, leading “the development, coordination and implementation of the city's information technology, information security, information privacy and telecommunication matters.” This guideline is issued under EO 3.",
+        "attribution": "NYC OTI, Artificial Intelligence: Principles & Definitions, § 3.0 Authority (version effective 03/05/2024) — https://www.nyc.gov/assets/oti/downloads/pdf/about/artificial-intelligence-principles-definitions.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Under Local Law 35 (“LL 35”), the city continues its commitment to provide the public with a transparent view of these applications of agency data and technology. Pursuant to mayoral Executive Order 3 of 2022 (“EO 3”), the city's Office of Technology & Innovation (“OTI”) manages this process, providing guidance to agencies and ensuring that agency materials are prepared for the public.",
+        "attribution": "NYC OTI, Agency Compliance Reporting of Algorithmic Tools — Calendar Year 2024 (March 2025), Overview — https://www.nyc.gov/assets/oti/downloads/pdf/reports/2024-algorithmic-tools-report.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "New Yorkers reasonably expect to know how their government is working for them, and to understand the tools that agencies use to serve the public. It can be challenging to engender trust and understanding about public sector technology generally, as tools may be complex or require technical subject matter expertise to understand. These challenges are often greater with AI due to the complexity or opacity of the tools themselves, the varied impacts of their use on individuals and communities, broader discomfort with using technological tools in contexts and processes historically managed by humans, potential negative past experience with the use of such tools, or other factors.",
+        "attribution": "NYC OTI, Artificial Intelligence: Principles & Definitions, § 4.5 Trust and Transparency (version effective 03/05/2024) — https://www.nyc.gov/assets/oti/downloads/pdf/about/artificial-intelligence-principles-definitions.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      }
+    ],
+    "gaps": [
+      "Funders / Investors: No budget/appropriation quotes located in the time available; OTI is a mayoral agency funded through the NYC adopted budget, but specific named-funder quotes were not retrieved.",
+      "Data Requirements: No verbatim source on the specific data inputs/holdings for the algorithmic-accountability function; Local Law 35 reporting fields (data sets, vendor) are referenced but not quoted from the statute itself.",
+      "Infrastructure Requirements: No verbatim source on cloud / model-hosting / procurement infrastructure for the accountability function.",
+      "Executive Order number verified: the relevant mayoral order is Executive Order 3 of 2022 (which itself revokes the prior EO 50 of 2019 that had created the Algorithms Management and Policy Officer role). No subsequent NYC mayoral EO numbered 50 of 2024 was found."
+    ]
+  },
+  "daffalla": {
+    "fellow": "Alaa Daffalla",
+    "org_full": "Maimonides Medical Center",
+    "org_short": "MAIMO",
+    "primary_url": "https://maimo.org/about-maimonides-health/",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "At Maimonides Health, our purpose is to serve you. Your health and wellness is our passion and commitment.",
+        "attribution": "Maimonides Medical Center · About Maimonides Health — https://maimo.org/about-maimonides-health/",
+        "verify_score": 0.786,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "Maimonides Health pledges to provide equitable, quality care with respect and dignity to all our patients, embracing their diverse backgrounds.",
+        "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "We aim to increase promotion and access to interpreter services and culturally tailored services to improve patient safety.",
+        "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "We are leaders in innovation, clinical research, and simulation-based training. We use the most advanced diagnostic imaging, robotics, and minimally invasive technology.",
+        "attribution": "Maimonides Medical Center · Our Clinical Excellence — https://maimo.org/about-us/our-clinical-excellence/",
+        "verify_score": 0.833,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "With the Medical Brain, we have a tool that allows us to identify trends or detect when an adverse outcome is about to occur. It's an early warning system that alerts us to critical events so we can step in to mitigate risks.",
+        "attribution": "Maimonides Medical Center · Dr. Scott Chudnoff, Chair of Obstetrics & Gynecology, on AI in Labor & Delivery — https://maimo.org/media-center/news/maimonides-enhances-labor-delivery-safety-through-cutting-edge-ai-innovation-in-obstetrical-care/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "This is a high-precision, real-time system that accurately sees and analyzes the complete clinical picture. It uses patient-specific data to alert the healthcare team to situations that need immediate intervention.",
+        "attribution": "Maimonides Medical Center · Dr. Shoshana Haberman, Director of Maternal-Fetal Medicine and Medical Informatics — https://maimo.org/media-center/news/maimonides-enhances-labor-delivery-safety-through-cutting-edge-ai-innovation-in-obstetrical-care/",
+        "verify_score": 0.846,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "Maimonides has been a cornerstone of the Brooklyn community since 1911, and this work is our love letter to Brooklyn. The best way to care for Brooklyn is to love Brooklyn, and that's what we do every day.",
+        "attribution": "Maimonides Medical Center · Kenneth D. Gibbs, President and CEO — https://maimo.org/media-center/news/maimonides-health-delivers-a-love-letter-to-brooklyn/",
+        "verify_score": 0.882,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "We had one of the first population health department in the city. So if someone speaks a dialect and we see that population growing, we want to make sure that there are doctors and nurses who speak that dialect so that the patients are able to understand what's happening with them while they are with us.",
+        "attribution": "Maimonides Medical Center · Jenny Tsang-Quinn, Senior Vice President of Population Health — https://www.cbsnews.com/newyork/news/maimonides-medical-center-asian-patient-health-care-services/",
+        "verify_score": 0.923,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "I just had a patient with anaphylaxis to incense, and incense was very important to this woman's life because this is how she prays and shows respect for her ancestors.",
+        "attribution": "Maimonides Medical Center · Dr. Mary Lee-Wong, Allergy and Immunology Specialist — https://www.cbsnews.com/newyork/news/maimonides-medical-center-asian-patient-health-care-services/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "Our 7,000+ employees enjoy working here so much that many of them refer candidates for employment. We believe that exceptional care begins with an exceptional team—one that values honesty, empathy, accountability, respect and teamwork.",
+        "attribution": "Maimonides Medical Center · Careers — https://careers.maimo.org/",
+        "verify_score": 0.871,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Funders / Investors",
+        "body": "I want to thank Governor Hochul for this critical support for Maimonides as we pursue a more formal partnership with NYC Health + Hospitals that would enable us to expand our capacity to deliver high-quality care to even more New Yorkers, meet the growing needs of our communities and strengthen our financial position.",
+        "attribution": "Maimonides Medical Center · Ken Gibbs, President & CEO, on NY State investment — https://www.governor.ny.gov/news/governor-hochul-unveils-transformative-investments-six-safety-net-hospitals-and-health-care",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "We thank Governor Hochul and Mayor Adams for their commitment to keeping health care where communities need it. This partnership with Maimonides is in keeping with our mission to serve all New Yorkers without exception.",
+        "attribution": "Maimonides Medical Center · Dr. Mitchell Katz, NYC Health + Hospitals President & CEO — https://www.governor.ny.gov/news/governor-hochul-unveils-transformative-investments-six-safety-net-hospitals-and-health-care",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "Community Care of Brooklyn IPA is an integrated network of health and social services partners committed to improving the health and well-being of diverse communities across Brooklyn. BCC was founded in 2019 with the goal of leveraging the financial power of anchor institutions and community resources to address the economic factors that improve the social determinants of health.",
+        "attribution": "Maimonides Medical Center · Population Health Initiatives — https://maimo.org/about-us/population-health-initiatives/",
+        "verify_score": 0.87,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "More than 80% of Maimonides' patients are insured by Medicaid and Medicare. Medicaid and Medicare reimbursements don't cover the full cost of care, meaning hospitals like Maimonides often provide services at a loss.",
+        "attribution": "Brooklyn Paper · Cash-strapped Maimonides works to finalize NYC Health+Hospitals merger — https://www.brooklynpaper.com/maimonides-works-join-nyc-health-hospitals/",
+        "verify_score": 0.862,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "If an AI scribe fabricates or distorts clinical content—a documented phenomenon—and a physician signs off without adequate review, the provider bears malpractice exposure.",
+        "attribution": "Health Law Attorney Blog · Your AI Scribe Is Listening. Is Your Compliance Program? — https://www.healthlawattorneyblog.com/your-ai-scribe-is-listening-is-your-compliance-program/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Platform Limitations",
+        "body": "The law hasn't caught up, and providers are deploying these tools faster than they're building the compliance infrastructure to support them.",
+        "attribution": "Health Law Attorney Blog · Your AI Scribe Is Listening — https://www.healthlawattorneyblog.com/your-ai-scribe-is-listening-is-your-compliance-program/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "The partnership includes a state-of-the-art electronic health record system to improve care coordination and patient experience, helping preserve and strengthen critical services for Brooklyn's community.",
+        "attribution": "Maimonides Medical Center · NY Governor's Office on safety-net hospital investments — https://www.governor.ny.gov/news/governor-hochul-unveils-transformative-investments-six-safety-net-hospitals-and-health-care",
+        "verify_score": 0.238,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "Maimonides Medical Center, a 711-bed specialty care teaching hospital in Borough Park, Brooklyn, is located in one of the most racially and ethnically diverse areas in New York. Its patient population includes large numbers of Orthodox Jews, Arabs, Chinese, Latinos, Russians, Caribbean people and residents from South and Southeast Asia.",
+        "attribution": "Maimonides Medical Center · Community Health Needs Assessment context (search summary) — https://maimo.org/about-us/equitable-care-access/",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "We value and celebrate the diversity of our workforce from race, religion, gender, ethnicity, and age to sexual orientation. We continuously demonstrate a willingness and capacity to meet the ever-changing needs of our community through intentional listening.",
+        "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+        "verify_score": 0.848,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "We actively partner with and support community-based organizations that offer programs and services addressing the social determinants of health.",
+        "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "The Centers for Medicare & Medicaid Services has ranked Maimonides among the country's top 1% of hospitals for clinical excellence since 2018.",
+        "attribution": "Maimonides Medical Center · Our Clinical Excellence — https://maimo.org/about-us/our-clinical-excellence/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Many health systems rely on cursory verbal mentions or—worse—auto-generated consent language in EHR templates that patients never actually heard.",
+        "attribution": "Health Law Attorney Blog · Your AI Scribe Is Listening — https://www.healthlawattorneyblog.com/your-ai-scribe-is-listening-is-your-compliance-program/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      }
+    ],
+    "gaps": [
+      "Founders: Page describes founding by 'a dedicated group of women' in 1911 but does not name them; no direct founder quotes available.",
+      "Patient Rights / Privacy page: https://maimo.org/patients-visitors/patient-rights-responsibilities/ returned 404; could not retrieve verbatim consent or privacy language.",
+      "Community Health Needs Assessment PDF (https://maimo.org/wp-content/uploads/2023/01/Maimonides-Health-CHNA-CSP-Workplan-2022.pdf) was not parseable as text; direct CHNA quotes on top community health concerns unavailable.",
+      "Direct Maimonides-specific public statement on Abridge / ambient AI scribe adoption not located via search; regulatory landscape quotes used as proxy for societal context.",
+      "Fierce Healthcare profile (https://www.fiercehealthcare.com/healthcare/maimonides-medical-center-community-based-health-model-addresses-cultural-divide) returned 403; could not pull additional staff quotes on the cultural-divide model."
+    ]
+  },
+  "enriquez": {
+    "fellow": "Daniel Enriquez",
+    "org_full": "Center for Family Support",
+    "org_short": "CFS",
+    "primary_url": "https://www.cfsny.org/",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The Center for Family Support is committed to providing support and assistance to individuals with developmental and related disabilities, and to the family members who care for them.",
+        "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "Personalized Support for a Meaningful Life. We help participants live their best lives by offering person-centered support services and programs that empower them to grow, learn and thrive in the community.",
+        "attribution": "Center for Family Support · Homepage — https://www.cfsny.org/",
+        "verify_score": 0.852,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "The organization strives to: support individuals to live the lives they want; respect different backgrounds, individual choice and overall family needs; provide families with the support they need at all stages of life; involve individuals in their communities; deliver excellent, individualized support to all.",
+        "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+        "verify_score": 0.925,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "The Center for Family Support is recognized as effective in helping people with developmental and related disabilities achieve self-determination. We have a reputation for trust, caring and excellence among individuals and families, regulators, colleague agencies, and general public.",
+        "attribution": "Center for Family Support · Mission and Vision (Vision Statement) — https://www.cfsny.org/about-cfs/mission-and-vision/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Community Habilitation provides one-to-one training to people with intellectual/developmental disabilities to develop or enhance the skills needed to live more independently. Day Habilitation helps adults with intellectual/developmental disabilities to acquire, retain or improve their self-help, socialization, and adaptive skills including communication, travel and other areas.",
+        "attribution": "Center for Family Support · New York Programs and Services — https://www.cfsny.org/supports-services/new-york/",
+        "verify_score": 0.907,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Self-directed services offer the greatest amount of control in how, where, and by whom services are provided. CFS functions as a Fiscal Intermediary allowing families to create their own budgets and even hire their own staff.",
+        "attribution": "Center for Family Support · New York Programs and Services — https://www.cfsny.org/supports-services/new-york/",
+        "verify_score": 0.594,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Founders",
+        "body": "In 1954 a small group of parents founded The Center for Family Support to meet the special needs of individuals with developmental disabilities and their families. Founded on Staten Island by parents seeking alternatives to institutionalization, CFS pioneered early support systems and professional training where public resources fell short. The organization was led by Irene Arnold, who headed CFS until 1972.",
+        "attribution": "Center for Family Support · About CFS / organizational history — https://www.cfsny.org/about-cfs/",
+        "verify_score": 0.018,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "1,298 individuals supported across New York and New Jersey; 1,074 in New York and 224 in New Jersey. Top goals reported by participants in 2025 Personal Outcome Measures meetings included: \"I choose my own personal goals,\" \"I have the best possible health,\" \"I participate in the life of the community,\" \"I experience continuity and security,\" and \"I am safe.\"",
+        "attribution": "Center for Family Support · 2025 Annual Report — https://www.cfsny.org/about-cfs/2025-annual-report/",
+        "verify_score": 0.404,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "We support 169 people throughout New York City's five boroughs and Westchester County in various settings. Settings include supportive housing (staff visits a few hours daily), individual support services (help managing household bills), and supervised IRAs (24-hour support in small homes or individual apartments).",
+        "attribution": "Center for Family Support · New York Programs and Services (Residential) — https://www.cfsny.org/supports-services/new-york/",
+        "verify_score": 0.3,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "Tamara, Residence Manager: \"I give a part of me each day to help encourage someone else to be great.\" GG, 25 years at CFS: \"They make me feel like I'm needed. Even for the little things.\" Alexandra, Systems Support Specialist: \"I started as a DSP in 2003. I love what I do because I've been provided the opportunity to do different kinds of work.\"",
+        "attribution": "Center for Family Support · Careers — https://www.cfsny.org/careers/",
+        "verify_score": 0.6,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "DSPs assist individuals with developmental disabilities in improving quality of life and reaching goals. They serve as advocates, encourage communication of wants and needs, and support community integration. Maria, 2025 Employee of the Year, recognized for \"exceptional care, dedication, and presence with the individuals she supports,\" said simply: \"I was just doing my job.\"",
+        "attribution": "Center for Family Support · Careers and CFS Stories — https://www.cfsny.org/cfs-stories/",
+        "verify_score": 0.04,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "Advocacy is a necessary life skill every person with disabilities should learn. CFS works with everyone, including individuals who have significant challenges with a history of trauma that have been turned away by other agencies.",
+        "attribution": "Center for Family Support · Homepage and New Jersey Programs — https://www.cfsny.org/supports-services/new-jersey/",
+        "verify_score": 0.548,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Funders / Investors",
+        "body": "Major funders ($10,000+) include BDO, Bentson & Company, Mutual of America, Options Imagined, TD Charitable Foundation, and USI Insurance Services. CEO Alicia McGrath notes that Medicaid is the \"backbone\" of funding but \"cannot in itself rise to the realities our participants and their families face today,\" citing housing access, aging caregivers, workforce pathways, and integrated community supports that are \"evolving faster than public reimbursements can adapt.\"",
+        "attribution": "Center for Family Support · 2025 Annual Report — https://www.cfsny.org/about-cfs/2025-annual-report/",
+        "verify_score": 0.387,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "Alicia McGrath, President & CEO: \"At CFS, connection is not an abstract idea. It is the foundation of how we lead, how we respond, and how we support individuals and families every day.\" Co-Chairs Barry Brover and William Ludolph: \"With more than 1,000 diverse and dedicated staff, who support over 1,000 individuals with I/DD and their families across New York and New Jersey, our work is a vital part of every day of the year.\"",
+        "attribution": "Center for Family Support · 2025 Annual Report — https://www.cfsny.org/about-cfs/2025-annual-report/",
+        "verify_score": 0.836,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "CFS operates 21 group homes in New Jersey, located throughout Bergen, Essex, Middlesex, Monmouth, Morris, Passaic, Somerset, and Union Counties. These residences are intentionally small and designed to meet the needs of adults requiring structured independent living environments. They provide individualized attention, supervision, and support 24/7.",
+        "attribution": "Center for Family Support · New Jersey Programs and Services — https://www.cfsny.org/supports-services/new-jersey/",
+        "verify_score": 0.465,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "Average statewide staff vacancies for voluntary, non-profit providers totals nearly 20,000 unfilled positions. Average statewide non-profit provider workforce turnover rate is 31%. Average statewide starting wage for DSPs is $16.74, only 7% above minimum wage, compared to DSPs employed by NYS, who earn $23.75 on average. With approximately 5,000 to 7,000 people on waitlists for supports and services, resolving the workforce crisis is pivotal in order to fully address the needs of New Yorkers with I/DD.",
+        "attribution": "The Arc New York · Advocacy Priority: Address & Close Critical Workforce Shortages — https://thearcny.org/individual-priorities-workforce-shortages/",
+        "verify_score": 0.821,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "Armando Contreras, President and CEO at United Cerebral Palsy: \"Without meaningful action to support the direct care workforce, and the indispensable services direct support professionals provide, people with intellectual and developmental disabilities will continue to spend years waiting for services, delaying their fundamental right to live in their communities and in the most integrated settings possible.\"",
+        "attribution": "Disability Scoop · DSP Wages Up, But Disability Providers Still Struggling To Maintain Services — https://www.disabilityscoop.com/2024/11/04/dsp-wages-up-but-disability-providers-still-struggling-to-maintain-services/31145/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "To qualify for the OPWDD HCBS Waiver, individuals must meet several criteria: have a developmental disability, meet level of care eligibility criteria for an Intermediate Care Facility, and be eligible for Medicaid. They must live at home, or in an Office for People with Developmental Disabilities (OPWDD) sponsored Individualized Residential Alternative (IRA), Community Residence, or Family Care home. Providers of Waiver Services must operate in accordance with Parts 624, 633, 635, 636, and Parts 686 and 671 of Title 14 of the New York Code of Rules and Regulations.",
+        "attribution": "NYS OPWDD · Home and Community Based Services Waiver — https://opwdd.ny.gov/providers/home-and-community-based-services-waiver",
+        "verify_score": 0.024,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The HCBS Settings Rule ensures HCBS settings provide supports promoting \"Meaningful control over daily life decisions, such as deciding what to eat and setting their own schedule\" and \"Choices about what services they receive and who provides them.\" Settings must facilitate \"Access to the broader community\" and \"Personal relationships, including relationships with people without disabilities who are not paid to be in their lives and the ability to have visitors at any time.\"",
+        "attribution": "Institute on Community Integration · The HCBS Settings Rule: The Critical Role of DSPs in Implementation — https://publications.ici.umn.edu/frontline-initiative/15-1/DSP-Role-HCBS-Rule",
+        "verify_score": 0.623,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The U.S. Supreme Court's 1999 landmark decision in Olmstead v. L.C. found the unjustified segregation of people with disabilities is a form of unlawful discrimination under the Americans with Disabilities Act. The decision requires that services are provided in the \"most integrated setting appropriate to the needs of a person with a disability.\" The qualified right applies when treatment professionals determine that community supports are appropriate; the person does not object to living in the community; and the provision of services in the community would be a reasonable accommodation.",
+        "attribution": "U.S. Department of Health and Human Services · Understanding Olmstead and Community Integration — https://www.hhs.gov/civil-rights/for-individuals/special-topics/community-living-and-olmstead/serving-people-disabilities-most-integrated-setting.html",
+        "verify_score": 0.0,
+        "verify_status": "fetch_failed",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "Available HCBS Waiver services are Day Habilitation, Prevocational Services, Residential Habilitation, Community Habilitation, Respite, Supported Employment, Pathway to Employment, Live-In Caregiver, Community Transition Services, Fiscal Intermediary, Individual Directed Goods and Services, Support Brokerage, Family Education and Training, Intensive Behavioral Services, Assistive Technology – Adaptive Devices, Environmental Modifications, and Vehicle Modifications.",
+        "attribution": "NYS OPWDD · Home and Community Based Services Waiver — https://opwdd.ny.gov/providers/home-and-community-based-services-waiver",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "CFS is a New York and New Jersey based human services non-profit agency. In New York, residential services span New York City's five boroughs and Westchester County; in New Jersey, 21 group homes are located throughout Bergen, Essex, Middlesex, Monmouth, Morris, Passaic, Somerset, and Union Counties, with day programs in Hackensack, Union, and Hillsborough.",
+        "attribution": "Center for Family Support · Programs and Services pages — https://www.cfsny.org/supports-services/new-jersey/",
+        "verify_score": 0.22,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "Nadine Daley was recognized by City & State NY as a champion of \"inclusion, self-direction, and the voices of individuals with IDD.\" CFS maintains \"an employment-first mindset,\" providing vocational workshops, job placement, and coaching services available to residents, day program participants, and any individuals with I/DD in the community.",
+        "attribution": "Center for Family Support · 2025 Annual Report and New Jersey Programs — https://www.cfsny.org/about-cfs/2025-annual-report/",
+        "verify_score": 0.2,
+        "verify_status": "fail",
+        "verify_method": "html"
+      }
+    ],
+    "gaps": [
+      "Users / Beneficiaries: Homepage references multiple individual stories (Nancy, Jesse, Jacob, Jackie, Jeff, Rosa) but the CFS Stories index page surfaced only headlines and one short quote; full first-person quotes from people served were not accessible without crawling each story page.",
+      "Platform Limitations: No AR/VR or assistive-technology platform documentation was found on the CFS site; this is expected since the project is exploratory, but it means no organizational stance on tech accessibility constraints was captured.",
+      "Funders / Investors: Specific Medicaid/OPWDD reimbursement-rate language was paraphrased rather than verbatim; the OPWDD HCBS waiver page (https://opwdd.ny.gov/providers/home-and-community-based-services-waiver) is largely a portal and required following deeper links to capture statutory text.",
+      "Affected Communities: No direct self-advocate or family-member quotes from CFS news/blog were retrievable (https://www.cfsny.org/news/ returned only navigation/structure).",
+      "Legal & Compliance Landscape: HIPAA-specific language relevant to AR/VR data capture in residential settings was not gathered; ADA Title III and HHS Section 504 web/app accessibility rules (effective June 30, 2024) noted in search results but not pulled verbatim."
+    ]
+  },
+  "gemicioglu": {
+    "fellow": "Tan Gemicioglu",
+    "org_full": "Ability Beyond",
+    "org_short": "AB",
+    "primary_url": "https://www.abilitybeyond.org/",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "Our Mission is to discover, build and celebrate the ability in all people.",
+        "attribution": "Ability Beyond · About Us — https://www.abilitybeyond.org/about-us",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "Beyond may seem like a slogan, but here, at Ability Beyond, it happens every single day.",
+        "attribution": "Ability Beyond · Home — https://www.abilitybeyond.org/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Ability Beyond offers group homes, transitional housing, supported independent living services, and shared-living arrangements with host families for adults with disabilities across Connecticut and New York. Services include care coordination, personal hygiene assistance and training, ADL skills assessment, up to 24 hours of daily support, nursing and behavioral support, specialized medical care for intensive needs, and programs for aging individuals with disabilities.",
+        "attribution": "Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential",
+        "verify_score": 0.138,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "Members have the opportunity to exceed limits and expectations on a daily basis. Staff work every day to make dreams come true through residential, day and employment programs to be their very best selves.",
+        "attribution": "Ability Beyond · Home — https://www.abilitybeyond.org/",
+        "verify_score": 0.633,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "Your generous contribution helps to support our mission and empowers all individuals, no matter their ability, with the tools they need to live independent and productive lives!",
+        "attribution": "Ability Beyond · Donate — https://www.abilitybeyond.org/donate",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "Ability Beyond serves individuals 18+ across all disabilities and support levels, including independent, in-home, and community living needs. The organization was the first agency in the northeastern U.S. to offer day program services for people with traumatic brain injury (1982) and the first in New York to serve individuals with traumatic brain injury (1995).",
+        "attribution": "Ability Beyond · About Us — https://www.abilitybeyond.org/about-us",
+        "verify_score": 0.216,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "\"The people from Ability Beyond know how to listen.\" — Lorraine Lazurus-Morley, Mother of Bryce",
+        "attribution": "Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential",
+        "verify_score": 0.545,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "When your loved one is part of the Ability Beyond family, so are you.",
+        "attribution": "Ability Beyond · Home — https://www.abilitybeyond.org/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Founders",
+        "body": "In 1953, Mary and Jack Walsh gathered other parents in their living room to address an unmet need for support for children with disabilities, including their son Jim. This grassroots effort by parents serving as volunteers marked the organization's beginning, initially providing day care, school, and recreation support.",
+        "attribution": "Ability Beyond · About Us — https://www.abilitybeyond.org/about-us",
+        "verify_score": 0.273,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "Direct Support Professionals ensure the people we serve are healthy and safe and that their rights as human beings are respected each and every day. Staff describe the experience as \"rewarding, fulfilling, challenging, fun, uplifting, inspiring, life-changing.\"",
+        "attribution": "Ability Beyond · Careers — https://www.abilitybeyond.org/careers",
+        "verify_score": 0.606,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "\"Ability Beyond Feels Like Somewhere I come to teach and learn at the same time.\"",
+        "attribution": "Ability Beyond · Careers (staff quote) — https://www.abilitybeyond.org/careers",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "\"Shared living is the definition of inclusion.\" — Tanya, Director of Services, on the launch of Ability Beyond's Community Companion Home program (licensed host family placements promoting independence and community integration).",
+        "attribution": "Ability Beyond · Opening Homes and Hearts in Our Community (News) — https://www.abilitybeyond.org/news",
+        "verify_score": 0.111,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Funders / Investors",
+        "body": "Funding for residential services requires Department of Developmental Services (DDS) Waiver, Department of Social Services (DSS) ABI Waiver, or private pay. The November 2025 expansion of employment services for adults in recovery was supported by grants from the Connecticut Department of Mental Health and Addiction Services (DMHAS).",
+        "attribution": "Ability Beyond · Residential Living and News — https://www.abilitybeyond.org/residential",
+        "verify_score": 0.209,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "Ability Beyond may collect nonpublic personal information from you when you voluntarily provide personally identifiable information through the website. Ability Beyond limits use of such information to the purposes for which the information was provided. The organization employs industry standard techniques such as firewalls, encryption, intrusion detection and site monitoring. However, no data transmission over the Internet can be guaranteed to be 100% secure.",
+        "attribution": "Ability Beyond · Privacy Policy — https://www.abilitybeyond.org/privacy-policy",
+        "verify_score": 0.733,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "Ability Beyond operates as a 24/7 organization offering day, afternoon, and overnight shifts; weekday and weekend options; and specialized positions with flexible, variable weekly hours. New employees receive job-specific certifications including CPR & First Aid, PMT/SCIP, Medication Administration, and Public Passenger Endorsement Certificate (PPEC), plus training on safety and food administration.",
+        "attribution": "Ability Beyond · Careers — https://www.abilitybeyond.org/careers",
+        "verify_score": 0.208,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "Turnover rates continue to hover near 40% nationally, while average vacancy rates range between 12-15% nationally. 88% of providers experienced moderate or severe staffing shortages in the past year. People with IDD who experienced turnover had more emergency department visits, instances of abuse and neglect, and injuries than people with IDD who did not experience turnover.",
+        "attribution": "ANCOR · The State of America's Direct Support Workforce Crisis 2025 — https://www.ancor.org/resources/the-state-of-americas-direct-support-workforce-crisis-2025/",
+        "verify_score": 0.173,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "\"A 30-YEAR CRISIS IS NOT A CRISIS; IT IS A SYSTEMATIC AND PERVASIVE FAILURE IN THE LONG-TERM SERVICES AND SUPPORTS SYSTEM IN THE UNITED STATES THAT HAS CREATED A PUBLIC HEALTH CRISIS.\" \"The health, safety and well-being of people with IDD is at risk daily because of the workforce problems.\"",
+        "attribution": "Institute on Community Integration (UMN) · The Direct Support Workforce Crisis: A Systemic Failure — https://ici.umn.edu/products/impact/311/systemic-failure/",
+        "verify_score": 0.935,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "For residential settings, the setting must be integrated and support full access to the greater community, be selected by the individual from among setting options including non-disability specific settings and an option for a private unit, and ensure an individual's rights of privacy, dignity and respect, and freedom from coercion and restraint.",
+        "attribution": "Connecticut DSS · HCBS Final Settings Rule — https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/health-and-home-care/reimbursement/rch/03-14-rch-final-settings-rule.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The U.S. Supreme Court's 1999 landmark decision in Olmstead v. L.C. found the unjustified segregation of people with disabilities is a form of unlawful discrimination under the Americans with Disabilities Act (ADA). This decision requires that services are provided in the most integrated setting appropriate to the needs of a person with a disability.",
+        "attribution": "U.S. HHS Office for Civil Rights · Community Living and Olmstead — https://www.hhs.gov/civil-rights/for-individuals/special-topics/community-living-and-olmstead/index.html",
+        "verify_score": 0.0,
+        "verify_status": "fetch_failed",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Individuals with developmental disabilities must be provided information about the availability of processes for resolving objections, problems or grievances relative to their rights and responsibilities. Residents have the opportunity to express grievances, concerns and suggestions to facility leadership, the Commissioner of OPWDD, and the Justice Center for the Protection of People with Special Needs.",
+        "attribution": "NY OPWDD · Regulations & Guidance — https://opwdd.ny.gov/regulations-guidance",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "The EPUAP/NPIAP/PPPIA (2019) guideline recommends that individuals with or who are at risk of pressure ulcers are repositioned on an individualised schedule unless this is contraindicated. The frequency of turning and repositioning patients should be determined individually by a patient's activity level and ability to reposition themselves. Either repositioning at two hourly or three hourly intervals could be implemented for most individuals at risk of pressure injuries, if they are also on an appropriate pressure redistribution full body support surface.",
+        "attribution": "NPIAP · Clinical Practice Guideline summary — https://www.guidelinecentral.com/guideline/23835/",
+        "verify_score": 0.372,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "Key prevention approaches include repositioning in bed every 2 hours and in wheelchair every half hour, using pressure relief cushions, padded footrests and arms, and preventing feet from sliding off foot rests. Bony prominences are the most vulnerable to pressure ulcers, such as the sacrum (tailbone), buttocks, heels, back of the head and elbows.",
+        "attribution": "Wellell · Repositioning patients to prevent pressure injuries — https://www.wellell.com/en/education/repositioning-patients-to-prevent-pressure-injuries",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "Ability Beyond is a community-focused employer with sites throughout Fairfield, Hartford, Middlesex, New Haven and Litchfield Counties in Connecticut and Dutchess, Putnam and Westchester counties in New York. The organization became Connecticut's first CARF International-accredited organization, and in 2015 merged with Interlude, Inc. to expand mental health expertise (the organization was formerly known as Datahr Rehabilitation Institute).",
+        "attribution": "Ability Beyond · About Us / GuideStar history — https://abilitybeyond.org/who-we-are/about-us-services-for-people-with-disabilities/",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      }
+    ],
+    "gaps": [
+      "Stakeholders > Affected Communities: Stories/People-We-Serve pages returned 404 on direct fetch; no first-person narratives from residents or family members beyond the single Lazurus-Morley quote were retrievable.",
+      "Stakeholders > Funders / Investors: No annual report PDF was retrievable; specific named foundation or government grant breakdowns are not surfaced beyond the DMHAS grant mention.",
+      "Constraints > Platform Limitations: Ability Beyond does not appear to operate a public technology platform; no published documentation of internal EHR / sensor / call-bell infrastructure was found via the public site.",
+      "Societal > Cultural Norms: No disability-community-authored source (e.g., self-advocacy organization stance on monitoring/sensors in residential settings) was retrieved within the search budget.",
+      "Clinical evidence base: The CDD-UNM PDF on 'Pressure Ulcers in the Developmentally Disabled' could not be parsed (binary PDF); a text version would strengthen the IDD-specific clinical framing.",
+      "Ability Beyond Privacy Policy contains no mention of HIPAA — the public privacy policy covers website data only, not resident health data handling."
+    ]
+  },
+  "hennebelle": {
+    "fellow": "Ulysse Hennebelle",
+    "org_full": "New York Police Department",
+    "org_short": "NYPD",
+    "primary_url": "https://www.nyc.gov/site/nypd/index.page",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The NYPD is committed to accomplishing its mission to protect the lives and property of all citizens of New York City by treating every citizen with courtesy, professionalism, and respect, and to enforce the laws impartially, fighting crime both through deterrence and the relentless pursuit of criminals.",
+        "attribution": "NYPD · Mission — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+        "verify_score": 0.07,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The Department values human life, respects the dignity of each individual and renders its services with courtesy and civility.",
+        "attribution": "NYPD · Mission — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+        "verify_score": 0.2,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "The mission of the NYPD Intelligence Bureau is to detect and disrupt criminal and terrorist activity through the use of intelligence-led policing. Uniformed officers and civilian analysts in the Intelligence Bureau collect and analyze information from a variety of sources in order to advance criminal and terrorist investigations.",
+        "attribution": "NYPD · Intelligence — https://www.nyc.gov/site/nypd/bureaus/investigative/intelligence.page",
+        "verify_score": 0.909,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "Key components were 'accurate and timely intelligence combined with effective tactics, rapid deployment, relentless follow-up and assessment, and decentralized accountability.' The practice revolutionized how public safety leaders saw their mission, empowering a move from reactive policing to proactive, data-informed crime reduction strategies.",
+        "attribution": "Wikipedia · CompStat — https://en.wikipedia.org/wiki/CompStat",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "On a weekly basis, personnel from each of the NYPD's 77 precincts, 9 police service areas and 12 transit districts compile a statistical summary of the week's crime complaints, arrests and summons activity, as well as a written report of significant cases, crime patterns and police activities. This data, with specific crime and enforcement locations and times, is forwarded to the chief of the department's CompStat Unit, where information is collated and loaded into a city-wide database. The unit runs computer analysis on the data and generates a weekly CompStat report which presents important performance indicators, making it easy to discern emerging and established crime trends, as well as deviations and anomalies.",
+        "attribution": "Wikipedia · CompStat — https://en.wikipedia.org/wiki/CompStat",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Patternizr is a set of three supervised machine learning models developed to help identify related burglaries, robberies, and grand larcenies. The tool takes a 'seed' complaint, chosen by a police department data analyst, and compares this seed against the hundreds of thousands of recorded crimes in NYPD's crime database. With each comparison between a crime and the seed, the tool generates a 'similarity score' that measures how likely it is that the pair of crimes are in a pattern together.",
+        "attribution": "Chohlas-Wood & Levine · A Recommendation Engine to Aid in Identifying Crime Patterns — https://alexchohlaswood.com/assets/papers/patternizr.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "The NYPD's Domain Awareness System (DAS) is a citywide network of sensors, databases, devices, software, and infrastructure that informs decision making by delivering analytics and tailored information to officers' smartphones and precinct desktops.",
+        "attribution": "INFORMS · NYPD Domain Awareness System (DAS) — https://www.informs.org/Impact/O.R.-Analytics-Success-Stories/Keeping-NYC-Streets-Safe-for-All",
+        "verify_score": 0.172,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "The new class of recruits reflects the rich diversity of New York City — nearly a quarter were born outside of the United States, representing 46 different countries, and they speak 34 different languages. The NYPD hired 4,056 new police officers in 2025, the largest number of new NYPD officers hired in a single year in recorded history.",
+        "attribution": "NYPD · NYPD Hires More Than 4,000 New Officers in 2025 — https://www.nyc.gov/site/nypd/news/pr019/nypd-hires-more-4-000-new-officers-2025-largest-number-single-year-recorded-history",
+        "verify_score": 0.818,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "\"The NYPD's possession and deployment of secret spying devices that include facial recognition technology, x-ray vans, Stingrays, ShotSpotter, and drones, among others, are a threat to the safety and privacy of all New Yorkers.\" — Donna Lieberman, Executive Director, NYCLU",
+        "attribution": "NYCLU · Statement on Passage of POST Act — https://www.nyclu.org/press-release/nyclu-statement-passage-post-act",
+        "verify_score": 0.833,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "\"Doubling down on failed and abusive policing practices and flooding our subways with more police and surveillance cameras does not keep our communities safe.\" \"The safest communities are those who have access to the critical resources that allow them to thrive in dignity with their most basic needs met.\" — Darian X, Communities United for Police Reform",
+        "attribution": "Communities United for Police Reform · Statement on NYPD Expanded Policing and NYC Subway Surveillance — https://www.changethenypd.org/releases/statement-communities-united-police-reform-responds-nypd-expanded-policing-and-nyc-subway",
+        "verify_score": 0.792,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "\"Today's report makes clear that the NYPD continues to violate the POST Act, depriving New Yorkers of transparency and limiting their ability to provide feedback on the invasive technologies that City Hall continues to deploy in careless, rapid succession.\" \"New Yorkers didn't sign up to serve as guinea pigs for City Hall's experiments with problematic and invasive technology.\" — Jerome Greco, Supervising Attorney, Legal Aid Society Digital Forensics Unit",
+        "attribution": "Legal Aid Society · Report: NYPD Violated Surveillance Technology Rules — https://legalaidnyc.org/news/report-nypd-violated-surveillance-technology-rules/",
+        "verify_score": 0.769,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "The Domain Awareness System is part of the Lower Manhattan Security Initiative in partnership between the New York Police Department and Microsoft to monitor New York City. The system was developed through a partnership between the NYPD and Microsoft, with development funded by $350 million in federal Homeland Security grants.",
+        "attribution": "Wikipedia · Domain Awareness System — https://en.wikipedia.org/wiki/Domain_Awareness_System",
+        "verify_score": 0.522,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "The NYPD Calls for Service dataset documents entries into the NYPD 911 system, ICAD. The data is collected from the ICAD system which call takers and dispatchers use to communicate with callers and the NYPD. The data includes entries generated by members of the public as well as self-initiated entries by NYPD Members of Service.",
+        "attribution": "NYC Open Data · NYPD Calls for Service (Historic) — https://data.cityofnewyork.us/Public-Safety/NYPD-Calls-for-Service-Historic-/d6zx-ckhd",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "This dataset describes site-specific non-emergency complaints (also known as 'service requests') made by customers across New York City about a variety of topics, including noise, sanitation, and street quality. Each row of data contains information about the service request, including complaint type, responding agency, and geographic location. However the data does not reveal any personally identifying information about the customer who made the request.",
+        "attribution": "NYC Open Data · 311 Service Requests from 2020 to Present — https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "The system connects to 18,000 CCTV video cameras around New York City; at least two billion license plate readings, 100 million summonses, 54 million 911 calls, 15 million complaints, 12 million detective reports, 11 million arrests, and two million warrants; dozens of radiation and chemical sensors located on key infrastructure and precinct roofs, gunshot detectors, and cell tower simulators. CCTV footage is kept for 30 days; license plate readings for at least five years.",
+        "attribution": "Wikipedia · Domain Awareness System — https://en.wikipedia.org/wiki/Domain_Awareness_System",
+        "verify_score": 0.704,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Platform Limitations",
+        "body": "\"As Patternizr casts its net, individuals who fit a profile inferred by the system will be swept up. At best, this will be an insult and an inconvenience. At worst, innocent people will be incarcerated.\" — Darin Stewart, Gartner Analyst. NYPD spokesperson Devora Kaye responded: \"For government applications — particularly those with high costs to a false positive — it is important to have a human in the loop.\"",
+        "attribution": "TechTarget · NYPD's Patternizr crime analysis tool raises AI bias concerns — https://www.techtarget.com/searchbusinessanalytics/news/252459511/NYPDs-Patternizr-crime-analysis-tool-raises-AI-bias-concerns",
+        "verify_score": 0.692,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "Patternizr came into use in 2017 when the NYPD hired one hundred civilian analysts to use it. A human data analyst determines which complaints should be grouped together and presents those to detectives to help winnow their investigations.",
+        "attribution": "StateScoop · How the NYPD is using machine learning to spot crime patterns — https://statescoop.com/how-the-nypd-is-using-machine-learning-to-spot-crime-patterns/",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "On June 18, 2020 the New York City Council voted 44–6 to enact the Public Oversight of Surveillance Technology (POST) Act, codified as N.Y.C. Local Law No. 65 (2020). The bill increases the transparency and oversight over the New York City Police Department's (NYPD) use of sophisticated new surveillance technologies and information sharing networks by requiring the NYPD to disclose basic information about the surveillance tools it uses and the safeguards in place to protect the privacy and civil liberties of New Yorkers.",
+        "attribution": "Brennan Center for Justice · The Public Oversight of Surveillance Technology (POST) Act: A Resource Page — https://www.brennancenter.org/our-work/research-reports/public-oversight-surveillance-technology-post-act-resource-page",
+        "verify_score": 0.827,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The impact and use policies provide details of: 1) the capabilities of the Department's surveillance technologies, 2) the rules regulating the use of the technologies, 3) protections against unauthorized access of the technologies or related data, 4) surveillance technologies data retention policies, 5) public access to surveillance technologies data, 6) external entity access to surveillance technologies data, 7) Department trainings in the use of surveillance technologies, 8) internal audit and oversight mechanisms of surveillance technologies, 9) health and safety reporting on the surveillance technologies, and 10) potential disparate impacts of the impact and use policies for surveillance technologies.",
+        "attribution": "Brennan Center for Justice · POST Act Resource Page — https://www.brennancenter.org/our-work/research-reports/public-oversight-surveillance-technology-post-act-resource-page",
+        "verify_score": 0.021,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The NYPD had largely evaded its reporting responsibilities by, for example, using generic and boilerplate language in its impact and use policies, grouping similar technologies under one policy to avoid review of technology-specific drafts. By requiring transparency and periods for public input, the POST Act is critical for community oversight over the use of surveillance technologies by the NYPD.",
+        "attribution": "Brennan Center for Justice · POST Act Resource Page — https://www.brennancenter.org/our-work/research-reports/public-oversight-surveillance-technology-post-act-resource-page",
+        "verify_score": 0.927,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The CCRB is a civilian oversight agency with jurisdiction over the New York City Police Department (NYPD), the largest police force in the United States. CCRB has jurisdiction over complaints that allege the use of excessive or unnecessary force, abuse of authority, discourtesy, use of offensive language, and untruthful statements — collectively referred to as FADO&U. In 2021, the New York City Council passed Local Law 2212, clarifying that CCRB has the authority to investigate allegations of bias-based policing and racial profiling.",
+        "attribution": "Wikipedia · New York City Civilian Complaint Review Board — https://en.wikipedia.org/wiki/New_York_City_Civilian_Complaint_Review_Board",
+        "verify_score": 0.304,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "The legislation mandates that the NYPD's Impact and Use Policies must publish IUPs for each distinct surveillance technology used by the Department; fully identify each external entity by name that receives data gathered from such technology; report on specific safeguards in place to prevent unauthorized dissemination of surveillance data; and disclose evaluation of potential disparate impacts on protected groups arising from the NYPD's use of such technologies. Status: Enacted April 10, 2025 (Council vote: 40:0:7).",
+        "attribution": "NYC Council · Int 0480-2024 Police department transparency in the use of surveillance technology — https://intro.nyc/0480-2024+",
+        "verify_score": 0.534,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "NYPD officials have acknowledged that as many as 95 percent of the people in its gang database are Black or Latinx. Inclusion criteria are dangerously vague — people can be added for 'frequent presence at a known gang location' or simply 'association with known gang members.' Numerous studies have found that facial recognition performs poorly when analyzing the faces of women, children, and people with darker skin tones.",
+        "attribution": "Brennan Center for Justice · New York City Police Department Surveillance Technology — https://www.brennancenter.org/our-work/research-reports/new-york-city-police-department-surveillance-technology",
+        "verify_score": 0.554,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "The New York City Police Department (NYPD) is the largest and one of the oldest municipal police departments in the United States. The NYPD has approximately 33,000 officers and 15,000 civilian employees, organized across 77 precincts, 9 police service areas and 12 transit districts.",
+        "attribution": "Wikipedia · New York City Police Department — https://en.wikipedia.org/wiki/New_York_City_Police_Department",
+        "verify_score": 0.405,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The mission of the New York City Police Department is to enhance the quality of life in New York City by working in partnership with the community to enforce the law, preserve peace, protect the people, reduce fear, and maintain order. Vision: The New York City Police Department strives to foster a safe and fair City by incorporating Neighborhood Policing into all facets of Department operations, and solve the problems that create crime and disorder through an interdependent relationship between the people and its police, and by pioneering strategic innovation.",
+        "attribution": "NYPD · Mission, Vision, and Values — https://www.nyc.gov/site/nypd/about/about-nypd/mission.page",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "To help ensure public safety and security, and to detect, deter, and prevent potential terrorist activities, the New York City Police Department (NYPD) coordinated with Vexcel Corporation to develop a networked Domain Awareness System (DAS). Today, DAS is not only a tool aiding in the detection and prevention of terrorist attacks; it greatly enhances the quality of criminal investigations and the effectiveness of members of service. DAS allows officers to access critical information relevant to ongoing security and public safety efforts, and boosts the collaborative nature of those efforts by employing the resources of the private sector and other city agencies.",
+        "attribution": "NYPD · Domain Awareness System: Impact and Use Policy (Feb 4, 2026) — https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Domain-Awareness-System-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Daily operations of the New York City Police Department (NYPD) generate significant quantities of structured and unstructured data. Data analysis tools allow the NYPD to organize data within and across structured and unstructured datasets and allow for connections to be made faster and more efficiently than is possible by human effort alone. Data analysis tools are capable of performing search activity within and across datasets. In viewing the results, NYPD personnel may identify connections existing among otherwise isolated data compartments. For example, NYPD personnel can visualize assault complaints under investigation within a particular geographic area and identify potential links between investigations using data analysis tools.",
+        "attribution": "NYPD · Data Analysis Tools: Impact and Use Policy (Feb 4, 2026) — https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Data-Analysis-Tools-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "Data analysis tools used by the NYPD include tools manufactured by Domino Data Labs and IBM Cognos Analytics. Additional tools have been withheld because disclosure would interfere with active investigations, and such information is not already publicly known. Disclosure would allow individuals to circumvent or manipulate the system to undermine its effectiveness. The redaction is narrowly tailored to prevent harm, while still providing meaningful transparency regarding the nature of the technology. These tools do not use any biometric measurement technologies.",
+        "attribution": "NYPD · Data Analysis Tools: Impact and Use Policy (Feb 4, 2026) — https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Data-Analysis-Tools-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Legal & Compliance Landscape",
+        "body": "Immutable audit logs are created when any information is searched or accessed through DAS. The log-in and use of the system is traceable to a particular user and periodically audited for misuse by the precinct or unit's Commanding Officer. Allegations of misuse are internally investigated at the command level or by the Internal Affairs Bureau (IAB). The NYPD retains and disposes of records pursuant to New York City Charter § 1133(f), (g) and (h). Pursuant to these provisions, the NYPD developed a retention schedule that was approved by the New York City Law Department and Department of Records and Information Services.",
+        "attribution": "NYPD · Domain Awareness System: Impact and Use Policy (Feb 4, 2026) — https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Domain-Awareness-System-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Based on its review, OIG-NYPD concludes that NYPD continues to group distinct surveillance technologies within a single IUP, a practice discussed extensively in OIG-NYPD's first annual report pursuant to the POST Act, which was released in November 2022. That review found that this grouping approach poses a risk that individual technologies could be shielded from public scrutiny and oversight. It was, and continues to be OIG-NYPD's position that the POST Act requires an IUP for each distinct surveillance technology, except in the limited circumstance where the surveillance technologies being grouped are substantially similar in capability and manner of use, and the IUP identifies and specifically names the individual technologies to which the IUP applies.",
+        "attribution": "NYC Department of Investigation, OIG-NYPD · An Assessment of NYPD's Compliance with the POST Act (May 2024) — https://www.nyc.gov/assets/doi/reports/pdf/2024/25PostActRelease_Rpt_05_30_2024.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "While not a requirement of the POST Act, NYPD should update the Internal Audit and Oversight sections of its IUPs to include mechanisms for tracking and monitoring use of its surveillance technologies to ensure that the technologies are being used as described in the IUPs, and that the IUPs do not result in a disparate impact on any protected groups. OIG-NYPD continues to maintain, as it did in its 2022 Report, that while not a requirement of the POST Act, NYPD should include in each IUP the potential disparate impacts of the surveillance technology on protected groups (instead of the potential disparate impacts of the IUP on protected groups, as is currently required under the law).",
+        "attribution": "NYC Department of Investigation, OIG-NYPD · An Assessment of NYPD's Compliance with the POST Act (May 2024), Recommendations 6–7 — https://www.nyc.gov/assets/doi/reports/pdf/2024/25PostActRelease_Rpt_05_30_2024.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      }
+    ],
+    "gaps": [
+      "Funders / Investors: NYPD is funded through the NYC municipal budget; specific verbatim line-item language was not pulled (nyc.gov pages blocked WebFetch with 403).",
+      "Founders: Not applicable for a 19th-century municipal agency; historical founding text not retrieved."
+    ]
+  },
+  "jiang": {
+    "fellow": "Nanyi Jiang",
+    "org_full": "National Women's Hall of Fame",
+    "org_short": "NWHF",
+    "primary_url": "https://www.womenofthehall.org/",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "Showcasing great women… Inspiring all! In pursuit of this mission, the National Women's Hall of Fame honors the women of the past, relates the history of women's struggles, prepares the women of the future, and serves as the voice celebrating the value of women.",
+        "attribution": "National Women's Hall of Fame · About / Mission (as cited in Wikipedia and partner descriptions) — https://en.wikipedia.org/wiki/National_Women%27s_Hall_of_Fame",
+        "verify_score": 0.05,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The nation's first and oldest nonprofit organization and museum dedicated to honoring and celebrating the achievements of distinguished American women.",
+        "attribution": "National Women's Hall of Fame · Our History — https://www.womenofthehall.org/about/our-history/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "The biennial Induction Ceremony stands as a national beacon of inspiration, illuminating stories that too often go untold.",
+        "attribution": "National Women's Hall of Fame · Induction 2026 — https://www.womenofthehall.org/induction-2026/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "The National Women's Hall of Fame has compiled a list of educational resources that highlight and educate about women's achievements throughout history... celebrating the lives and legacies of great women while also inspiring and educating the next generation.",
+        "attribution": "National Women's Hall of Fame · Educational Resources — https://www.womenofthehall.org/educational-resources/",
+        "verify_score": 0.706,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Despite making up over half the population, women and girls receive less than 2% of philanthropic giving in the U.S.",
+        "attribution": "National Women's Hall of Fame · Ways to Give — https://www.womenofthehall.org/ways-to-give/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Women's stories are not told, so it is very, very important for organizations like the National Women's Hall of Fame... to exist so that people can learn about and can understand women's accomplishments and women's history.",
+        "attribution": "National Trust for Historic Preservation · One-Half the People, One-Half the History (quoting Jill Tietjen, then-CEO) — https://savingplaces.org/stories/one-half-the-people-one-half-the-history-the-national-womens-hall-of-fame-and-its-quest-to-preserve-womens-history",
+        "verify_score": 0.75,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Founders",
+        "body": "Shirley Hartley envisioned a National Women's Hall of Fame in Seneca Falls in 1968. She organized the \"Founders' Tea,\" which honored the original five women who gathered in 1848 to discuss women's rights. The organization was incorporated in 1969 with 18 founding members: Ann A. Bantuvanis, Helen Barben, Joseph Coffee, Mary Curry, Elizabeth Delavan, Joseph Doyle, Shirley Hartley, Patricia Jenks, Marilyn Marks, Elizabeth Mayer, Helen Miller, Louise Olmstead, Lillian Oliver, Shirley Patterson, Margaret Rapp, John Rosenkrans, Caroline Sanderson, and Maredith Steen.",
+        "attribution": "National Women's Hall of Fame · Our History — https://www.womenofthehall.org/about/our-history/",
+        "verify_score": 0.545,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Founders",
+        "body": "At this point in time, really, there was almost nothing in the U.S. that recognized women's accomplishments. The Hall was founded with the belief that the contributions of American women deserve a permanent home.",
+        "attribution": "National Trust for Historic Preservation · One-Half the People, One-Half the History (quoting Jill Tietjen) — https://savingplaces.org/stories/one-half-the-people-one-half-the-history-the-national-womens-hall-of-fame-and-its-quest-to-preserve-womens-history",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "These are the Inductees of the National Women's Hall of Fame. Select any of the women to discover their stories and learn how they have influenced other women and this country.",
+        "attribution": "National Women's Hall of Fame · Women of the Hall — https://www.womenofthehall.org/women-of-the-hall/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "\"Failure is impossible.\" — Susan B. Anthony, addressing her last women's suffrage convention in 1906. Motto of The Revolution, the newspaper she and Stanton published: \"Men their rights and nothing more; women their rights and nothing less.\"",
+        "attribution": "National Women's Hall of Fame · Inductee: Susan B. Anthony — https://www.womenofthehall.org/inductee/susan-b-anthony/",
+        "verify_score": 0.273,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "Whether you're a student, family, or lifelong advocate for gender equity, there's a membership tier for you. The 1848 Society pays homage to the legacy of great 19th century Suffragists who propelled the American fight for gender equality.",
+        "attribution": "National Women's Hall of Fame · 1848 Society — https://www.womenofthehall.org/1848-society/",
+        "verify_score": 0.882,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "Broadway Collaboration: Real Women Have Curves: The Musical – A New Broadway Triumph in Partnership with the Hall. Smithsonian Exhibition: the Hall hosted the traveling exhibition \"Voices and Votes: Democracy in America\" from the Smithsonian's Museum on Main Street program during summer 2024.",
+        "attribution": "National Women's Hall of Fame · News & Events — https://www.womenofthehall.org/news-events/",
+        "verify_score": 0.462,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Funders / Investors",
+        "body": "$1 million from Downtown Revitalization Initiative; $500,000 from NY State Office of Parks, Recreation and Historic Preservation; $150,000 from Empire State Development's Market NY program; $145,000 from New York State Council on the Arts.",
+        "attribution": "Office of the Governor of New York · Hochul Announces Completion of Improvements to NWHF — https://www.governor.ny.gov/news/governor-hochul-announces-completion-improvements-national-womens-hall-fame-part-seneca-falls",
+        "verify_score": 0.485,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "Dr. Kristen Oehlrich serves as CEO and Executive Director. She leads efforts to expand the Hall's national presence, deepen its educational impact, and celebrate the extraordinary achievements of American women. President of the Board: Jean Kilbourne (2015 Inductee). Secretary: Rita Nakashima Brock, Ph.D.",
+        "attribution": "National Women's Hall of Fame · Our Leadership — https://www.womenofthehall.org/about/our-leadership/",
+        "verify_score": 0.475,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "The organization acquired the historic Seneca Knitting Mill at 1 Canal Street in Seneca Falls in 2007. Initial renovations stabilized the structure, replaced the roof, installed new windows, preserved the smokestack and the floors, and updated the electrical system. A second phase, completed December 2023, included the restoration of the historic smokestack and the historic stairway, the construction of an elevator and internal stairwell, and the renovation of the second floor to create space for new exhibits.",
+        "attribution": "National Women's Hall of Fame · Our Building — https://www.womenofthehall.org/about/our-building/",
+        "verify_score": 0.712,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Platform Limitations",
+        "body": "Accessibility: Reserved disabled parking; service animals are welcome; wheelchair accessible with units available; all video displays include closed captioning; two single-stall restrooms with changing table. Flash photography and video recording is encouraged.",
+        "attribution": "National Women's Hall of Fame · Visit — https://www.womenofthehall.org/visit/",
+        "verify_score": 0.107,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "In 2020, amid the global pandemic, the National Women's Hall of Fame moved into the first floor, with plans for future expansion. The organization operates with a five year strategic plan that includes continued work on upper floors as funding allows.",
+        "attribution": "National Women's Hall of Fame · Our Building — https://www.womenofthehall.org/about/our-building/",
+        "verify_score": 0.351,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "Each honoree entry in the Book of Lives & Legacies includes the year they were honored, the name of the person or organization who honored them, and sometimes photographs and links to learn more about their life and legacy. The Hall maintains a searchable database of inductees spanning Arts, Athletics, Business, Education, Government, Humanities, Philanthropy, and Science, dating back to 1973.",
+        "attribution": "National Women's Hall of Fame · Book of Lives & Legacies — https://www.womenofthehall.org/book-of-lives-legacies/browse-the-book/",
+        "verify_score": 0.018,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "Women's Rights National Historical Park tells the story of the first Women's Rights Convention, held in Seneca Falls, New York on July 19-20, 1848. It is a story of struggles for civil rights, human rights, and equality, global struggles that continue today. The efforts of women's rights leaders, abolitionists, and other 19th century reformers remind us that all people must be accepted as equals.",
+        "attribution": "National Park Service · Women's Rights National Historical Park — https://www.nps.gov/wori/index.htm",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "We hold these truths to be self-evident; that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights... The history of mankind is a history of repeated injuries and usurpations on the part of man toward woman, having in direct object the establishment of an absolute tyranny over her.",
+        "attribution": "National Park Service · Declaration of Sentiments (1848) — https://www.nps.gov/wori/learn/historyculture/declaration-of-sentiments.htm",
+        "verify_score": 0.925,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "The distinctive character of museum ethics derives from the ownership, care and use of objects, specimens, and living collections representing the world's natural and cultural common wealth. Loyalty to the mission of the museum and to the public it serves is the essence of museum work. Museums operate as public trusts, holding their collections and information as a benefit for those they were established to serve. Programs must respect pluralistic values, traditions and concerns.",
+        "attribution": "American Alliance of Museums · Code of Ethics for Museums — https://www.aam-us.org/programs/ethics-standards-and-professional-practices/code-of-ethics-for-museums/",
+        "verify_score": 0.771,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "Concerns about privacy, copyright, and authenticity were paramount. We soon recognized the need to shift our focus from strict policy rules to more flexible guidelines, and also to develop a public statement that affirms the Carter's commitment to transparency and best practices. Enhancing AI literacy therefore became a priority, as it empowers staff to make informed decisions and engage more effectively with AI tools.",
+        "attribution": "American Alliance of Museums · Cultivating AI: Developing AI Guidelines and Literacy Resources at the Carter — https://www.aam-us.org/2024/09/09/cultivating-ai-developing-ai-guidelines-and-literacy-resources-at-the-carter/",
+        "verify_score": 0.867,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Within right of publicity protection timeframes, prior consent is required to use a deceased personality's name, voice, signature, photograph or likeness in association with products, merchandise or goods. Tennessee Governor Bill Lee signed the \"Ensuring Likeness Voice and Image Security\" (ELVIS) Act on March 21, 2024, covering generative AI cloning models and services that enable human impersonation and unauthorized fake works in the image and voice of others.",
+        "attribution": "Proskauer Rose LLP · The King is Back (in the Digital Era): The ELVIS Act, Generative AI and Right of Publicity — https://www.proskauer.com/blog/the-king-is-back-in-the-digital-era-the-elvis-act-generative-ai-and-right-of-publicity",
+        "verify_score": 0.359,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "Seneca Falls is the birthplace of women's rights and an ideal home for the Women's Hall of Fame where people can come to celebrate and learn about the achievements of distinguished American women.",
+        "attribution": "Office of the Governor of New York · Hochul Announces Completion of Improvements to NWHF (quoting Secretary of State Walter T. Mosley) — https://www.governor.ny.gov/news/governor-hochul-announces-completion-improvements-national-womens-hall-fame-part-seneca-falls",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      }
+    ],
+    "gaps": [
+      "Stated Goals: NWHF annual report PDF was not fetched; strategic-plan goals beyond the public Ways-to-Give summary (Induct, Expand Education, Preserve Archives, Advance Gender Equity) were not captured verbatim.",
+      "Users / Beneficiaries: Inductee profile pages (e.g., Maya Angelou) did not surface direct quotes from the inductees on NWHF's own site; richer voice material likely lives in induction-ceremony videos at https://www.womenofthehall.org/hall-of-fame-induction/watch-past-induction-ceremonies/ which were not transcribed.",
+      "Affected Communities: No explicit NWHF policy located on representation of deceased inductees, descendant consent for likeness/voice, or community input — this appears to be an unwritten norm rather than a published policy.",
+      "Partners: Specific named corporate sponsor list for Induction 2026 was not on the public Induction page (handled via sponsorship document on request from Karen Macier).",
+      "Legal & Compliance Landscape: No NWHF-specific copyright / archival-use policy was found on the public site; the ELVIS Act and AAM ethics text stand in as the surrounding legal/industry frame.",
+      "Nomination criteria: https://www.womenofthehall.org/women-of-the-hall/nominate/ returned 404, so verbatim selection-criteria language could not be captured."
+    ]
+  },
+  "sana": {
+    "fellow": "Suvadip Sana",
+    "org_full": "New York City Council Data Team",
+    "org_short": "NYCC",
+    "primary_url": "https://council.nyc.gov/data/",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The New York City Council's Data Team uses a data-driven approach to impact the New York City Council's policy making process. Our unique strength is in marrying data with public policy making.",
+        "attribution": "NYC Council · Data Team — https://council.nyc.gov/data/",
+        "verify_score": 0.857,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The NYC Council Data Team puts data at the center of policymaking. They are committed to transparency and reproducibility, believing legislation should be grounded in both qualitative and quantitative evidence.",
+        "attribution": "NYC Council · Meet the Data & Web Development Teams — https://council.nyc.gov/data/web-dev-data-teams/",
+        "verify_score": 0.538,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "The Data Team answers questions and informs laws about everything from public housing residents' heat, to school bus delays, and marijuana arrests. The Data Team also uses data to conduct oversight of City Agencies.",
+        "attribution": "NYC Council · Data Team — https://council.nyc.gov/data/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "We source datasets, analyze data, build models, and create maps and dashboards to assist Council staff and Council Members to use data to make decisions.",
+        "attribution": "NYC Council · Data Team — https://council.nyc.gov/data/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "Council Members work with the Legislation Division to craft a bill that is introduced at stated meetings, where it is assigned to the appropriate Committee. The Bill Drafting Manual is one of the first local-level drafting manuals in the country to be written and made available to the public, released to further the Council's interests in transparency and public education.",
+        "attribution": "NYC Council · Legislation — https://council.nyc.gov/legislation/",
+        "verify_score": 0.75,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "The NYC Council released the Legistar API to allow the public to directly access our legislative data. The API was framed as part of Council 2.0, designed to increase access and transparency to our legislative information and to enable individuals to create tools and platforms that pull directly from this data source, ensuring increased accuracy and reliability.",
+        "attribution": "NYC Council · Legislative API — https://council.nyc.gov/legislation/api/",
+        "verify_score": 0.426,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "Most of our legislative work happens in committee meetings and hearings where we discuss proposed laws, receive updates from agencies, and hear feedback from New Yorkers.",
+        "attribution": "NYC Council · Committees — https://council.nyc.gov/committees/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "We source datasets, analyze data, build models, and create maps and dashboards to assist Council staff and Council Members to use data to make decisions.",
+        "attribution": "NYC Council · Data Team — https://council.nyc.gov/data/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Founders",
+        "body": "Chief Data Scientist Alaa Moussawi leads both the Data Operations and Web Development units, providing innovative and bespoke solutions in response to the council's unique needs. The Data Scientists come from diverse backgrounds including public health, genomics, environmental health, epidemiology, statistics, and policy analysis.",
+        "attribution": "NYC Council · Meet the Data & Web Development Teams — https://council.nyc.gov/data/web-dev-data-teams/",
+        "verify_score": 0.275,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "Snapshot of data from City Council District Offices. The dataset aggregates constituent casework tracked by NYC's 51 Council district offices — documenting issues residents bring to their local representatives, ranging from housing and food assistance to infrastructure concerns like potholes and pedestrian safety.",
+        "attribution": "NYC Council · service-data repo — https://github.com/NewYorkCityCouncil/service-data",
+        "verify_score": 0.103,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "\"Together, we will forge a new City Council that takes a more forceful and proactive approach to New York's shared goals. That includes enacting universal child care, lowering skyrocketing health care costs, building more affordable housing, and slashing fines and bureaucratic red tape for small businesses.\" — Speaker Julie Menin",
+        "attribution": "NYC Council · Press — Julie Menin Elected Speaker of New York City Council — https://council.nyc.gov/press/2026/01/07/3051/",
+        "verify_score": 0.913,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "The Council's Finance Division team provide Council Members with research on budgetary actions and their fiscal impact. They also work with Council Members to monitor and evaluate agency spending.",
+        "attribution": "NYC Council · Budget — https://council.nyc.gov/budget/",
+        "verify_score": 0.8,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "Members of the public can sign up to testify at virtual public hearings via Zoom Web, Zoom Phone, or in-person. Written testimony may be submitted up to 72 hours after hearing has been adjourned. We want to hear from you. You can reach us via social media, email, paper mail, or at your district office.",
+        "attribution": "NYC Council · Testify — https://council.nyc.gov/testify/",
+        "verify_score": 0.922,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "Such public data sets shall be made available in accordance with technical standards published by the department pursuant to section 23-505 of this chapter and shall be in a format that permits automated processing and shall make use of appropriate technology to notify the public of all updates.",
+        "attribution": "NYC Open Data Technical Standards Manual · Local Law 11 of 2012 — https://cityofnewyork.github.io/opendatatsm/LocalLaw11of2012.html",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "Public Data Set: a comprehensive collection of interrelated data that is available for inspection by the public, maintained by an agency on computer systems. Open Standard: a technical standard developed and maintained by a voluntary consensus standards body that is available to the public without royalty or fee.",
+        "attribution": "NYC Open Data Technical Standards Manual · Local Law 11 of 2012 — https://cityofnewyork.github.io/opendatatsm/LocalLaw11of2012.html",
+        "verify_score": 0.636,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Platform Limitations",
+        "body": "Conform with the World Wide Web Consortium (W3C) Web Accessibility Initiative's (WAI) Web Content Accessibility Guidelines (WCAG) 2.1, Level A & AA. New York City Council is continually working to make its web content accessible as part of its online inclusion efforts.",
+        "attribution": "NYC Council · Accessibility Statement — https://council.nyc.gov/accessibility-statement/",
+        "verify_score": 0.895,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "The system provides access to proposed and passed legislation, hearings, and monthly Stated meetings archived in Legistar, the Council's Legislative Research Center. The API offers read access by the public. Users must fill out a registration form with their name and email to receive an API key and further instructions.",
+        "attribution": "NYC Council · Legislative API — https://council.nyc.gov/legislation/api/",
+        "verify_score": 0.13,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The council finds and declares that it is in the best interest of New York city that its agencies and departments make their data available online using open standards. Making city data available online using open standards will make the operation of city government more transparent, effective and accountable to the public.",
+        "attribution": "NYC Open Data Technical Standards Manual · Local Law 11 of 2012 — https://cityofnewyork.github.io/opendatatsm/LocalLaw11of2012.html",
+        "verify_score": 0.958,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "There shall be a council which shall be the legislative body of the city. In addition to the other powers vested in it by this charter and other law, the council shall be vested with the legislative power of the city. Any enumeration of powers in this charter shall not be held to limit the legislative power of the council, except as specifically provided in this charter.",
+        "attribution": "NYC City Charter · Chapter 2, §21 The Council — https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-294",
+        "verify_score": 0.0,
+        "verify_status": "fetch_failed",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "FOIL requests should be submitted electronically to Danielle Barbato, FOIL Officer, Office of the General Counsel, 250 Broadway, 15th Floor, New York, New York 10007. Paper mail submissions are accepted but discouraged due to potential delays.",
+        "attribution": "NYC Council · FOIL Request — https://council.nyc.gov/foil-request/",
+        "verify_score": 0.438,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "City policy requires agencies to disclose when content is generated or assisted by generative AI; agencies should always label AI-Generated Content as such, even if it has been edited by personnel. Transparency is essential to preserving public trust in government — without clear communication, the public may not understand how AI-Generated Content is produced, where human judgment was applied, or how to question AI-assisted outputs.",
+        "attribution": "NYC Office of Technology & Innovation · Preliminary Use Guidance: Generative Artificial Intelligence — https://www.nyc.gov/assets/oti/downloads/pdf/about/preliminary-use-guidance-general-artificial-intelligence.pdf",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "pdf_strings"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "In November 2025, the New York City Council passed a package of bills called the Guaranteeing Unbiased AI Regulation and Disclosure (GUARD) Act, which would establish a new office of algorithmic accountability that would assess AI and other algorithmic tools used by city agencies, create rules for how agencies procure and deploy AI tools, and publish a list of the tools it reviews.",
+        "attribution": "City & State New York · New York City will try (again) to regulate AI — https://www.cityandstateny.com/politics/2025/11/new-york-city-will-try-again-regulate-ai/409803/",
+        "verify_score": 0.627,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "The council shall consist of the public advocate and of fifty-one other members termed council members. One council member shall be elected from each council district as now or hereafter constituted.",
+        "attribution": "NYC City Charter · Chapter 2, §22 Composition of the Council — https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-6900",
+        "verify_score": 0.0,
+        "verify_status": "fetch_failed",
+        "verify_method": "html"
+      }
+    ],
+    "gaps": [
+      "Funders / Investors: not applicable as a discrete category for a legislative body funded by the City budget; no dedicated 'funders' page on council.nyc.gov.",
+      "Resource Constraints: no public page enumerates Data Team staffing, budget, or compute resources; would require FOIL or direct interview.",
+      "Cultural Norms: nothing on council.nyc.gov articulates internal team norms or working culture in citable text; the Meet-the-Team page touches on values but not norms.",
+      "Stated Goals (Data Team-specific roadmap): the Data Team page lists activities but not a published multi-year strategic plan; /data/our-team/ and /data/projects/ returned 404.",
+      "Bill Drafting Manual verbatim quotes: PDF rendered as binary and could not be extracted by WebFetch — would need direct PDF text extraction."
+    ]
+  },
+  "triedman": {
+    "fellow": "Harold Triedman",
+    "org_full": "NYC Mayor's Office of Contract Services",
+    "org_short": "MOCS",
+    "primary_url": "https://www.nyc.gov/site/mocs/index.page",
+    "snippets": [
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "MOCS works with agencies, vendors, and providers to ensure that the contracting process is fair, efficient, transparent, and cost effective to the City. Lead Procurement transformation by leveraging expertise, innovation, and a results-oriented mindset.",
+        "attribution": "NYC MOCS · About MOCS — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+        "verify_score": 0.233,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The PPB aims to safeguard the integrity of the procurement system and protect against corruption, waste, fraud, and abuse, while fostering effective broad-based competition from all vendor segments including small businesses and minority and women-owned enterprises.",
+        "attribution": "NYC MOCS · Procurement Policy Board (PPB) — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+        "verify_score": 0.375,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "PASSPort will be a complete, end-to-end online procurement platform that the city and vendors and other stakeholders and oversights will use together to do their work. It used to take somewhere around 30 days median time for an average size organization to go through the VENDEX process, but today it takes less than a day, because it's now gone online, it's digital, it's available at all times for vendors to update.",
+        "attribution": "NYC MOCS via Gotham Gazette · City's $20 Billion in Contracting Takes Another Step into Modernity — https://www.gothamgazette.com/city/9120-city-s-20-billion-in-contracting-takes-another-step-into-modernity/",
+        "verify_score": 0.94,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "The Vendex Unit conducts Vendor Name Checks (VNCs) for all proposed City vendors for contracts over $250,000 in accordance with the NYC Procurement Policy Board Rules. A materially false statement willfully or fraudulently made in connection with any VENDEX questionnaire may result in a finding of non-responsibility, and this may subject the individual making the false statement to criminal charges.",
+        "attribution": "NYC Department of Investigation · Vendor Integrity — https://www.nyc.gov/site/doi/offices/vendorIntegrity.page",
+        "verify_score": 0.404,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "One of the goals that we have with PASSPort generally is greater transparency, which allows greater accessibility. Whether it's vendors who are competing with one another, reporters, or just members of the public who want to know where their tax dollars are going, it's important that folks can find it.",
+        "attribution": "Jennifer Geiling (MOCS) and CM Ben Kallos via Gotham Gazette — https://www.gothamgazette.com/city/9120-city-s-20-billion-in-contracting-takes-another-step-into-modernity/",
+        "verify_score": 0.913,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "My vision for the office is to create an equitable procurement system. We are always continuing to review internal policies and identify opportunities to streamline.",
+        "attribution": "Lisa M. Flores (MOCS Director) via NYCETC · A Conversation with Lisa M. Flores — https://nycetc.org/2024/01/a-conversation-with-lisa-m-flores-mayors-office-of-contract-services/",
+        "verify_score": 0.81,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Target Audience",
+        "body": "To do business with the City of New York, organizations need to create a vendor account in the City's Payee Information Portal (PIP) (to get paid) and also in Procurement and Sourcing Solutions Portal (PASSPort) (for all other contracting actions, including completing vendor disclosures, finding and responding to contracting opportunities, signing the contract upon contract award, and much more).",
+        "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+        "verify_score": 0.055,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Users / Beneficiaries",
+        "body": "At the end of the day, vendors want to do the work we hire them for and get paid on time. We're trying to address the frustration associated with a history of the city not having been a good partner.",
+        "attribution": "Lisa M. Flores (MOCS Director) via NYCETC — https://nycetc.org/2024/01/a-conversation-with-lisa-m-flores-mayors-office-of-contract-services/",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "When nonprofits cannot make payroll, are behind on their rents, and take out loans because the City is consistently late to pay, we are ultimately letting down New Yorkers who rely on these organizations. These delays are reportedly forcing nonprofit providers to take on debt, consider layoffs, and scale back services in the face of mounting financial issues.",
+        "attribution": "NYC Comptroller · Nonprofit, Nonpayment — https://comptroller.nyc.gov/reports/nonprofit-nonpayment/",
+        "verify_score": 0.389,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Affected Communities",
+        "body": "Late contract payments to the human services sector aren't merely bureaucratic failures—they're a direct threat to the well-being of all New Yorkers. Nonprofits cannot run programs on IOUs from the City.",
+        "attribution": "Jennifer Jones Austin (FPWA) and Susan Stamler (UNH) via NYC Council Press — https://council.nyc.gov/press/2025/04/30/2856/",
+        "verify_score": 0.852,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "HSC's goal is to better the lives of all New Yorkers so they can reach their full human potential. HSC places the highest value on the capacity of human services organizations to treat all people who require services, as well as all staff who provide services, with dignity and respect.",
+        "attribution": "Human Services Council of New York · Home — https://humanservicescouncil.org/",
+        "verify_score": 0.913,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Partners",
+        "body": "Nonprofits are getting gutted by the federal government while being used as an interest-free credit card by the city government. The City of New York needs to pay their damn bills on time.",
+        "attribution": "CM Julie Won and CM Justin Brannan via NYC Council Press — https://council.nyc.gov/press/2025/04/30/2856/",
+        "verify_score": 0.862,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "Agencies conducting procurements must verify vendor compliance with standards including financial stability, technical capability, and past performance integrity before awarding contracts; failure to meet these can result in a non-responsibility determination. Determination of vendor responsibility has two components—integrity and capability, with MOCS, DOI, and DOF overseeing integrity and the procuring agency reviewing capability.",
+        "attribution": "NYC MOCS · Procurement Policy Board Rules — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Data Requirements",
+        "body": "When completing questionnaires, vendors should err on the side of full disclosure. VENDEX defines an investigation as 'any inquiry by any prosecutorial, investigative or regulatory agency' about a person or entity's 'activities' or 'business practices.' The consequences of a filing a false disclosure form are too great to ignore.",
+        "attribution": "Kostelanetz LLP · Tips For Navigating NYC's Integrity Disclosure Forms — https://kostelanetz.com/publications/tips-for-navigating-new-york-citys-integrity-disclosure-forms",
+        "verify_score": 0.304,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Infrastructure Requirements",
+        "body": "Launched in 2017, the Procurement and Sourcing Solutions Portal (PASSPort) is New York City's end-to-end procurement platform, designed to streamline every stage of the contracting process—from vendor enrollment and solicitations (known as RFx) to contract awards, contract registration, contract management, and payments. Launched in 2022, the PASSPort Public website provides public access to data and analytics, while promoting transparency and a deeper understanding of NYC's procurement activities.",
+        "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+        "verify_score": 0.873,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "constraints",
+        "category": "Resource Constraints",
+        "body": "A total of 12,205 new procurement and revenue contracts were registered in FY24 for a total value of $32.25 billion. As of August 2024, there were over 1,800 discretionary contracts with start dates during the prior fiscal year that were still pending in the City's procurement pipeline.",
+        "attribution": "NYC Comptroller · Annual Summary Contracts Report FY2024 — https://comptroller.nyc.gov/reports/annual-summary-contracts-report-for-the-city-of-new-york-fiscal-year-2024/",
+        "verify_score": 0.913,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "As required by NYC Administrative Code § 116.2(e) and PPB Rule § 2-08, the City Agency must determine that the subject contractor has the capability in all respects to perform fully the contract requirements and the business integrity to justify the award of public tax dollars. The PPB establishes enforcement and compliance mechanisms primarily through its rules, which mandate vendor responsibility assessments, outline procedures for protests and appeals, and prescribe sanctions for non-compliance, such as debarment and suspension.",
+        "attribution": "NYC MOCS · Procurement Policy Board Rules — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "Local Law 174 of 2019 implemented amendments to rules governing minority and women owned business entities certification and goals for their utilization in City procurement contracts. The law was intended to hold agencies accountable to their M/WBE goals and eliminate the cap on program-eligible contracts.",
+        "attribution": "NYC Comptroller · Annual Report on M/WBE Procurement — https://comptroller.nyc.gov/reports/annual-report-on-fy-24-mwbe-procurement/",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Industry Standards",
+        "body": "We expect our vendors to provide services on time, so we should pay them on time. It's especially egregious that our non-profit human service providers wait so many months just to get paid for services they provided long ago.",
+        "attribution": "NYC Comptroller Brad Lander · Late Payment of Contracts Press Release — https://comptroller.nyc.gov/newsroom/late-payment-of-contracts-by-city-agencies-remains-a-large-and-growing-problem-comptrollers-annual-contracts-summary-report-finds/",
+        "verify_score": 0.657,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Geographic Context",
+        "body": "Make no mistake – this is a crisis. Late contract payments by the City are threatening the survival of nonprofit service providers, putting the entire sector, workers, and New Yorkers at risk.",
+        "attribution": "Kristin Miller (Homeless Services United) and Speaker Adrienne Adams via NYC Council Press — https://council.nyc.gov/press/2025/04/30/2856/",
+        "verify_score": 0.857,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Cultural Norms",
+        "body": "Human Service Council represents 175 providers, a vast majority with city or state contracts, serving 2.5 million New Yorkers each year. In Fiscal Year 2024, 90.59% of all nonprofit contracts were registered late, meaning contractors began work without a finalized contract or payment from the City.",
+        "attribution": "Human Services Council via Comptroller report coverage — https://humanservicescouncil.org/",
+        "verify_score": 0.0,
+        "verify_status": "fail",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Mission Statement",
+        "body": "The Mayor's Office of Contract Services (MOCS) is a New York City oversight and service agency that is dedicated to optimizing existing operations and transforming processes to make it easier to do business with the City. Our Mission: Lead procurement transformation by leveraging expertise, innovation, and a results-oriented mindset. Our Vision: Equitable procurement through transparency, accountability, and efficiency.",
+        "attribution": "NYC MOCS · About MOCS — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+        "verify_score": 0.926,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Stated Goals",
+        "body": "Accountability. Responsible use of tax-payer dollars and commitment to high quality service for all New Yorkers. Get Results. Maximize strategic, efficient procurement to get stuff done for key city initiatives. Innovation. Transform policies and practices to bring procurement into the modern digital era. Leadership. Lead through excellence in policy, process, and technology to bring a strategic approach to NYC procurement. Equity. NYC procurement must reflect the diverse City we live in, and the process should be simple and accessible for all.",
+        "attribution": "NYC MOCS · About MOCS (Our Values) — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+        "verify_score": 0.727,
+        "verify_status": "partial",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "Kim L. Yu is the City Chief Procurement Officer and New York City Mayor's Office of Contract Services (MOCS) Director. Appointed by Mayor Zohran Mamdani in January 2026, she leads efforts to modernize procurement systems, increase transparency, and foster more equitable contracting across all city agencies.",
+        "attribution": "NYC MOCS · Senior Team — https://www.nyc.gov/site/mocs/about/senior-team.page",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "stakeholders",
+        "category": "Employees / Creators",
+        "body": "MOCS staff operates in a fast-paced, collaborative, service-oriented environment, where flexibility and ability to achieve results are valued. The City of New York is an inclusive equal opportunity employer committed to recruiting and retaining a diverse workforce and providing a work environment that is free from discrimination and harassment based upon any legally protected status or protected characteristic.",
+        "attribution": "NYC MOCS · Careers — https://www.nyc.gov/site/mocs/about/careers.page",
+        "verify_score": 0.926,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "functional",
+        "category": "Problems Solved",
+        "body": "Anyone can browse public contract opportunities published in PASSPort—simply click the Procurement Navigator button. No PASSPort account is required. The Procurement Navigator website is publicly hosted and mobile-friendly (Android or iOS).",
+        "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      },
+      {
+        "heuristic": "societal",
+        "category": "Legal & Compliance Landscape",
+        "body": "The Procurement Policy Board is authorized to promote and put into effect rules governing the procurement of goods, services, and construction by the City of New York. The underlying purposes of these Rules are to simplify, clarify and modernize the law governing procurement by the City of New York.",
+        "attribution": "NYC MOCS · Procurement Policy Board (PPB) — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+        "verify_score": 1.0,
+        "verify_status": "verified",
+        "verify_method": "html"
+      }
+    ],
+    "gaps": [
+      "Founders: MOCS is a mayoral office without an identifiable individual founder; established as part of city government structure.",
+      "Funders / Investors: MOCS is taxpayer-funded through the NYC budget; no discrete funder statements located in accessible sources.",
+      "Platform Limitations: No public-facing MOCS documentation of PASSPort technical limits, downtime, or known issues was accessible (nyc.gov pages blocked); vendor-side complaints exist but were not captured verbatim within fetch budget."
+    ]
+  }
+}

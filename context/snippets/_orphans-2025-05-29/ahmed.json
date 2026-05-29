@@ -1,0 +1,248 @@
+{
+  "fellow": "Tanvir Ahmed",
+  "org_full": "MethaneSAT (Environmental Defense Fund)",
+  "org_short": "MethaneSAT",
+  "primary_url": "https://www.methanesat.org/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "How can we make near-zero methane emissions standard in the oil and gas industry? With transparent and comprehensive data.",
+      "attribution": "MethaneSAT · Home — https://www.methanesat.org/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "MethaneSAT's goal is to speed up reductions in methane emissions as quickly as possible, so we can slow down global warming.",
+      "attribution": "EDF · Slow global warming fast with MethaneSAT — https://www.edf.org/methanesat",
+      "verify_score": 0.824,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Methane is a potent, fast-acting greenhouse gas that's rapidly accelerating the rise in global temperatures. Methane emissions from the oil and gas sector are far higher than official estimates suggest, with operators emitting roughly 80 million tonnes annually. Small, widespread sources account for at least 70% of methane emissions from oil and gas production.",
+      "attribution": "MethaneSAT · The Mission — https://www.methanesat.org/mission",
+      "verify_score": 0.44,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Overall oil and gas methane emissions as measured by MethaneSAT were 50 percent higher than reported. None of the basins we measured reached the 0.2 percent emissions intensity goal agreed to under the OGDC. 40 percent of methane emissions in production-only portions of eight top oil and gas basins in the U.S. came from areas responsible for less than seven percent of production.",
+      "attribution": "MethaneSAT · First Look at a System Wide View — https://www.methanesat.org/project-updates/first-look-system-wide-view",
+      "verify_score": 0.869,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "MethaneSAT's superpower is the ability to precisely measure methane levels with high resolution over wide areas, including smaller, diffuse sources that account for most emissions in many regions. — Steven Hamburg, EDF Chief Scientist and MethaneSAT Project Leader",
+      "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+      "verify_score": 0.853,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "EDF and MethaneSAT remain firmly committed to our core purpose of turning data into action. We will continue to process data that we have retrieved from the satellite, and we will be working with partners around the world to leverage the algorithms and associated software.",
+      "attribution": "MethaneSAT · MethaneSAT loses contact with satellite — https://www.methanesat.org/project-updates/methanesat-loses-contact-satellite",
+      "verify_score": 0.805,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "MethaneSAT's data provides insights that can help reduce methane emissions from the oil and gas industry. The satellite's measurements help energy producers, government agencies and other users identify where methane emissions are coming from, learn how much is being emitted, and analyze how emissions change over time.",
+      "attribution": "MethaneSAT · The Mission — https://www.methanesat.org/mission",
+      "verify_score": 0.721,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "Explore MethaneSAT data on our web portal, Google Earth Engine, or Google Cloud. As a core part of the project design, EDF plans to make MethaneSAT data available for free to stakeholders and the public.",
+      "attribution": "MethaneSAT · Data — https://www.methanesat.org/data",
+      "verify_score": 0.29,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Cutting methane pollution is the single fastest way we have to slow the rate of warming. This gift from the Earth Fund will help us turn the tide on the climate crisis. — Fred Krupp, EDF President",
+      "attribution": "MethaneSAT · Bezos Earth Fund announces $10 million in new funding for MethaneSAT — https://www.methanesat.org/project-updates/bezos-earth-fund-announces-10-million-new-funding-methanesat",
+      "verify_score": 0.848,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Just the first step will have the same near-term climate benefit as shutting down one third of the world's coal-fired power plants. — Fred Krupp, EDF President (TED2018 Audacious Project announcement)",
+      "attribution": "EDF · This TED Talk heralds a new era in fighting climate change, from space — https://www.edf.org/climate/space-technology-can-cut-climate-pollution-earth/satellite-ted-talk",
+      "verify_score": 0.667,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "MethaneSAT changes the equation, putting science and data front and center. From the sky, it can see what others can't, helping good actors and holding bad actors accountable. — Dr. Kelly Levin, Chief of Science, Data and Systems Change, Bezos Earth Fund",
+      "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+      "verify_score": 0.789,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "You can't manage what you can't measure, and that's certainly true when it comes to cutting methane, one of the biggest drivers of climate change. — Michael R. Bloomberg, UN Secretary-General's Special Envoy on Climate Ambition and Solutions",
+      "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+      "verify_score": 0.853,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "Google is partnering with Environmental Defense Fund, the owner of MethaneSAT, to power methane detection algorithms with Cloud computing and applying AI to satellite imagery. Using images from MethaneSAT, Google and EDF will apply AI to identify individual components of oil and gas infrastructure, like oil storage containers, well pads, and oil pump jacks.",
+      "attribution": "Google Blog · How satellites, algorithms and AI can help map and trace methane sources — https://blog.google/company-news/outreach-and-initiatives/sustainability/how-satellites-algorithms-and-ai-can-help-map-and-trace-methane-sources/",
+      "verify_score": 0.26,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "New Zealand has been a partner in the MethaneSAT mission since 2019. New Zealand's role in the mission includes hosting the satellite's mission operations control centre and leading an atmospheric science programme, studying global emissions from agriculture. The New Zealand Space Agency is investing $30 million in the programme.",
+      "attribution": "MBIE (NZ Govt) · Liftoff in global flight against climate change — https://www.mbie.govt.nz/about/news/liftoff-in-global-flight-against-climate-change",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "The oil and gas industry dumps 9 million tons of methane and toxic pollutants like benzene into our air each year. The life-threatening burdens placed on communities of color near oil and gas facilities are the result of systemic oppression perpetuated by the traditional energy industry, which exposes communities to health, economic, and social hazards.",
+      "attribution": "NAACP · Fumes Across the Fence-Line — https://naacp.org/resources/fumes-across-fence-line-health-impacts-air-pollution-oil-gas-facilities-african-american",
+      "verify_score": 0.922,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "In Ector County, 87.8% of residents live within half a mile of an active oil or gas well causing cancer, respiratory illnesses, neurological issues. One recently published study examining the Eagle Ford Shale region found that pregnant women who lived near areas where flaring is common had 50 percent greater odds of giving birth prematurely than those who did not.",
+      "attribution": "Environment America · Fracking and Methane in the Permian Basin — https://environmentamerica.org/texas/articles/fracking-and-methane-in-the-permian-basin/",
+      "verify_score": 0.0,
+      "verify_status": "fetch_failed",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "We have consistently seen the power of strong data to win robust regulatory safeguards and better operating practices in the industry. — Mark Brownstein, EDF Senior Vice President, Energy Transition",
+      "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+      "verify_score": 0.808,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "On June 20, 2025, MethaneSAT mission operations lost contact with MethaneSAT, and after pursuing all options to restore communications, the satellite is unlikely to be recovered. The satellite was functioning properly when it passed over a downlink station in Svalbard, Norway, at 01:44 UTC on June 20, but the team was unable to establish contact for the next pass.",
+      "attribution": "MethaneSAT · MethaneSAT loses contact with satellite — https://www.methanesat.org/project-updates/methanesat-loses-contact-satellite",
+      "verify_score": 0.107,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Level 5 reporting requires reconciliation of source-level emissions with site-level data, providing the highest level of data quality currently available in the sector. OGMP 2.0 is the only comprehensive measurement-based reporting framework, which improves the accuracy and transparency of methane emissions data.",
+      "attribution": "OGMP 2.0 (UNEP) · Homepage — https://www.ogmpartnership.org/",
+      "verify_score": 0.872,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "Scheduled for launch aboard a SpaceX Falcon 9 rocket in early March 2024, MethaneSAT orbits Earth 15 times daily at an altitude exceeding 350 miles, focusing on major oil and gas regions worldwide. The algorithms that will calculate how much methane is emitted in certain locations, as well as tracking those emissions over time, will be powered by Google Cloud.",
+      "attribution": "Google Blog · How satellites, algorithms and AI can help map and trace methane sources — https://blog.google/company-news/outreach-and-initiatives/sustainability/how-satellites-algorithms-and-ai-can-help-map-and-trace-methane-sources/",
+      "verify_score": 0.018,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "MethaneSAT is one of seven projects to receive financial support from the TED initiative, and while the EDF has not disclosed the amount of funding, EDF President Krupp commented \"it's fair to say the satellite wouldn't be happening except for The Audacious Project.\" Among the largest contributors to MethaneSAT are the Bezos Earth Fund, Arnold Ventures, the Robertson Foundation and the TED Audacious Project.",
+      "attribution": "Audacious Project · Environmental Defense Fund — https://www.audaciousproject.org/grantees/environmental-defense-fund",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "On March 8, 2024, EPA published a final rule expanding standards of performance for the oil and natural gas industry, commonly referred to as OOOOb and OOOOc. The final rule will sharply reduce emissions of methane and other harmful air pollution from oil and natural gas operations — including, for the first time, from existing sources nationwide. The rule also enables, for the first time, the use of advanced methane detection technologies.",
+      "attribution": "US EPA · EPA's Final Rule to Reduce Methane and Other Harmful Pollution — https://www.epa.gov/controlling-air-pollution-oil-and-natural-gas-operations/epas-final-rule-reduce-methane-and-other",
+      "verify_score": 0.353,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Importers must demonstrate that the crude oil, natural gas, or coal imported into the EU was produced in a jurisdiction with monitoring, reporting, and verification requirements equivalent to those applied domestically in the EU, or at OGMP 2.0 Level 5 (reconciliation) plus verification for oil and gas. The regulation includes establishment of a public methane transparency database and a global methane emitters monitoring system with a rapid alert mechanism for super-emitting events.",
+      "attribution": "EUR-Lex · Regulation (EU) 2024/1787 on methane emissions in the energy sector — https://eur-lex.europa.eu/eli/reg/2024/1787/oj/eng",
+      "verify_score": 0.101,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "The Global Methane Pledge was launched at COP26 by the European Union and the United States in November 2021. Participants joining the Pledge agree to take voluntary actions to contribute to a collective effort to reduce global methane emissions at least 30 percent from 2020 levels by 2030. The GMP today counts 159 participating countries and the European Commission.",
+      "attribution": "Global Methane Pledge · Homepage — https://www.globalmethanepledge.org/",
+      "verify_score": 0.727,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "Methane is a potent greenhouse gas that has more than 80 times the warming power of carbon dioxide over the first 20 years. About 30% of today's global warming is driven by methane from human actions. Reducing methane emissions from the oil and gas industry is the fastest way to slow the rate of global warming we feel today. — Mark Brownstein, Senior Vice President, Energy",
+      "attribution": "EDF · Methane: A crucial opportunity in the climate fight — https://www.edf.org/climate/methane-crucial-opportunity-climate-fight",
+      "verify_score": 0.79,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "Emissions intensity varies considerably from region to region depending on a variety of factors, such as the age and upkeep of oil and gas infrastructure. State standards have had a powerful benefit — MethaneSAT measurements show New Mexico's regulated Permian sub-basin has methane intensity less than half that of adjacent unregulated Texas territory.",
+      "attribution": "MethaneSAT · First Look at a System Wide View — https://www.methanesat.org/project-updates/first-look-system-wide-view",
+      "verify_score": 0.49,
+      "verify_status": "partial",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Employees / Creators: No verbatim first-person quotes from MethaneSAT engineers/data scientists on the public site; team page rendered empty and project-updates rarely name on-the-ground builders.",
+    "Partners (Harvard-Smithsonian / BAE-SSTL): Press materials list them but I did not find verbatim quotes from named representatives of Harvard SAO or Ball/BAE/Blue Canyon on the pages I read.",
+    "Platform Limitations (data-side): Beyond satellite loss of contact, I did not find a public, verbatim statement on data uncertainty ranges or retrieval limits — that detail likely lives only in the peer-reviewed papers linked from /scienceandresearch.",
+    "Affected Communities (international): Found strong US fenceline-community quotes (NAACP, Permian/Eagle Ford) but did not pull verbatim community voices from oil & gas regions outside the US that MethaneSAT also covered."
+  ]
+}

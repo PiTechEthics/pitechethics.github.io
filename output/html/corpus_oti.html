@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Isabel Corpus — VAP Discovery Packet</title><style>
+@page { size: letter portrait; margin: 0.5in; }
+
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body {
+  margin: 0; padding: 0;
+  font-family: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  color: #221c1b;
+}
+
+.page {
+  width: 7.5in;          /* 8.5 - 1.0 in horizontal margin */
+  height: 10in;          /* 11  - 1.0 in vertical margin   */
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.page:last-child { page-break-after: auto; }
+
+.fellow-header {
+  height: 0.7in;
+  border-bottom: 1pt solid #b75552;
+  padding-bottom: 0.10in;
+  margin-bottom: 0.18in;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 0 0 auto;
+}
+.fellow-header .left .name {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: 16pt;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #221c1b;
+  line-height: 1.05;
+}
+.fellow-header .left .org {
+  font-size: 10.5pt;
+  color: #5d5450;
+  margin-top: 0.04in;
+}
+.fellow-header .right { text-align: right; }
+.fellow-header .right .pagenum {
+  font-size: 8pt;
+  color: #8a8076;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.fellow-header .right .packet-tag {
+  font-size: 7pt;
+  color: #b75552;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.04in;
+}
+
+.cards-grid {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.16in;
+  min-height: 0;
+}
+
+.card {
+  border: 0.75pt solid #b5aea8;
+  border-radius: 4pt;
+  padding: 0.14in 0.16in 0.12in;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  break-inside: avoid;
+}
+.card .category {
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b75552;
+  margin-bottom: 0.06in;
+  padding-bottom: 0.05in;
+  border-bottom: 0.5pt solid #f3e6e4;
+  flex: 0 0 auto;
+}
+.card .body {
+  flex: 1 1 auto;
+  font-size: 9.5pt;
+  line-height: 1.32;
+  color: #2a2422;
+  overflow: hidden;
+}
+.card .body p { margin: 0 0 0.06in; }
+.card .body p:last-child { margin-bottom: 0; }
+.card .body ul {
+  margin: 0;
+  padding-left: 0.18in;
+}
+.card .body li { margin-bottom: 0.04in; }
+
+.card .attrib {
+  flex: 0 0 auto;
+  margin-top: 0.08in;
+  padding-top: 0.06in;
+  border-top: 0.5pt dotted #cfcac4;
+  font-size: 6.5pt;
+  color: #8a8076;
+  line-height: 1.3;
+  word-break: break-word;
+}
+.card .v {
+  /* tiny verbatim marker — not self-explanatory, just for Hauke */
+  color: #2f8d90;
+  font-weight: 700;
+  margin-right: 0.05in;
+}
+
+/* font-size buckets based on body length */
+.card.size-m .body { font-size: 9pt;  line-height: 1.30; }
+.card.size-s .body { font-size: 8pt;  line-height: 1.28; }
+.card.size-xs .body { font-size: 7pt; line-height: 1.26; }
+
+/* On-screen preview (ignored when printing) */
+@media screen {
+  body { background: #e6e2dd; padding: 0.4in 0; }
+  .page {
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    margin: 0 auto 0.4in;
+    padding: 0.5in;          /* draw the page margin on-screen */
+    width: 8.5in;
+    height: 11in;
+  }
+}
+</style></head><body><section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Isabel Corpus</div>      <div class="org">NYC Office of Technology &amp; Innovation</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 1 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Mission Statement</div>  <div class="body"><p>The Office of Technology and Innovation shall be the lead agency in the development, coordination and implementation of the City&#x27;s information technology, information security, information privacy and telecommunication matters.</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3</div></div>
+<div class="card">  <div class="category">Mission Statement</div>  <div class="body"><p>The Office of Technology and Innovation shall guide the City and its agencies in the development, responsible use and assessment of algorithmic and related technical tools and systems and shall engage and educate the public on issues related to City use of these and other related technologies.</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3</div></div>
+<div class="card">  <div class="category">Problems Solved</div>  <div class="body"><p>technology and innovation are foundational to the delivery of quality services to New York City residents</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3</div></div>
+<div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>Initiative 01   Design and Implement a Robust Governance Framework</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · The New York City Artificial Intelligence Action Plan — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf</div></div>
+<div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>Initiative 02    Build External Relationships</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · The New York City Artificial Intelligence Action Plan — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf</div></div>
+<div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>Initiative 03    Foster Public Engagement</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · The New York City Artificial Intelligence Action Plan — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Isabel Corpus</div>      <div class="org">NYC Office of Technology &amp; Innovation</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 2 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>Initiative 04    Build AI Knowledge and Skills in City Government</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · The New York City Artificial Intelligence Action Plan — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf</div></div>
+<div class="card">  <div class="category">Target Audience</div>  <div class="body"><p>The Department of Information Technology and Telecommunications shall hereafter be designated as the Office of Technology and Innovation</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3</div></div>
+<div class="card size-m">  <div class="category">Partners</div>  <div class="body"><p>The Office of Cyber Command established pursuant to section 20-j of the Charter, the Office of Data Analytics established pursuant to section 20-f of the Charter and the Office of Information Privacy established pursuant to section 8-h of the Charter shall be continued and established within the Office of Technology and Innovation.</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3</div></div>
+<div class="card">  <div class="category">Partners</div>  <div class="body"><p>All agencies are directed to cooperate with the Office of Technology and Innovation as the Chief Technology Officer promulgates and implements policies and guidance related to information technology, information security, information privacy and telecommunication matters.</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3</div></div>
+<div class="card">  <div class="category">Affected Communities</div>  <div class="body"><p>the city has been clear the chatbot is a pilot program and will improve</p></div>  <div class="attrib"><span class="v">✓</span>The Markup · NYC&#x27;s AI Chatbot Tells Businesses to Break the Law (statement from OTI spokesperson Leslie Brown) — https://www.themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law</div></div>
+<div class="card">  <div class="category">Users / Beneficiaries</div>  <div class="body"><p>In October 2023, New York City Mayor Eric Adams announced that an AI-powered chatbot would help New York business owners navigate the government.</p></div>  <div class="attrib"><span class="v">✓</span>The Markup · NYC&#x27;s AI Chatbot Tells Businesses to Break the Law — https://www.themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Isabel Corpus</div>      <div class="org">NYC Office of Technology &amp; Innovation</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 3 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Platform Limitations</div>  <div class="body"><p>Months later, that chatbot is telling businesses to break the law.</p></div>  <div class="attrib"><span class="v">✓</span>The Markup · NYC&#x27;s AI Chatbot Tells Businesses to Break the Law — https://www.themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law</div></div>
+<div class="card">  <div class="category">Platform Limitations</div>  <div class="body"><p>The Microsoft-powered bot says bosses can take workers&#x27; tips and that landlords can discriminate based on source of income</p></div>  <div class="attrib"><span class="v">✓</span>The Markup · NYC&#x27;s AI Chatbot Tells Businesses to Break the Law — https://www.themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law</div></div>
+<div class="card">  <div class="category">Data Requirements</div>  <div class="body"><p>Such disclosure would include, among other things, the commercial name and a brief description of such algorithmic tool, the purpose of the tool, and the type of data collected and analyzed by the tool.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Council · Int 1806-2019 (enacted as Local Law 35 of 2022) — https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4265421&amp;GUID=FBA29B34-9266-4B52-B438-A772D81B1CB5</div></div>
+<div class="card">  <div class="category">Legal &amp; Compliance Landscape</div>  <div class="body"><p>A Local Law to amend the administrative code of the city of New York, in relation to reporting on algorithmic tools used by city agencies</p></div>  <div class="attrib"><span class="v">✓</span>NYC Council · Int 1806-2019 (enacted as Local Law 35 of 2022) — https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4265421&amp;GUID=FBA29B34-9266-4B52-B438-A772D81B1CB5</div></div>
+<div class="card">  <div class="category">Legal &amp; Compliance Landscape</div>  <div class="body"><p>This bill would require an annual report by agencies to the Mayor&#x27;s Office of Operations on automated decision systems used by those agencies at least once in the prior year, except when such a disclosure would endanger public safety.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Council · Int 1806-2019 (enacted as Local Law 35 of 2022) — https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4265421&amp;GUID=FBA29B34-9266-4B52-B438-A772D81B1CB5</div></div>
+<div class="card">  <div class="category">Legal &amp; Compliance Landscape</div>  <div class="body"><p>The Algorithms Management and Policy Officer established pursuant to Executive Order No. 50, dated November 19, 2019, shall be discontinued.</p></div>  <div class="attrib"><span class="v">✓</span>NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3</div></div></div></section></body></html>

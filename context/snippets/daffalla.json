@@ -1,0 +1,155 @@
+{
+  "fellow": "Alaa Daffalla",
+  "org_full": "Maimonides Medical Center",
+  "org_short": "MAIMO",
+  "primary_url": "https://maimo.org/about-maimonides-health/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "At Maimonides Health, our purpose is to serve you. Your well-being is at the heart of everything we do. Within our walls, you'll find dedicated teams committed to providing compassionate, person-centered care that addresses your medical needs and supports you in living your healthiest life.",
+      "attribution": "Maimonides Medical Center · About Us — https://maimo.org/about-maimonides-health/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "To provide quality healthcare services to our diverse communities and a safe, equitable, and inclusive environment where diverse employees of all levels and identities are valued, respected, supported, and empowered to thrive.",
+      "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "The 24/7 artificial intelligence (AI)-powered monitoring system has helped providers nearly eliminate adverse events, which can be potentially harmful for pregnant patients or unborn fetuses. Maimonides was the first hospital nationwide to implement such an AI tool for OB/GYN care.",
+      "attribution": "Maimonides Medical Center · Maimonides Enhances Labor & Delivery Safety Through Cutting-Edge AI Innovation in Obstetrical Care — https://maimo.org/media-center/news/maimonides-enhances-labor-delivery-safety-through-cutting-edge-ai-innovation-in-obstetrical-care/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Maimonides Health pledges to provide equitable, quality care with respect and dignity to all our patients, embracing their diverse backgrounds. We continuously demonstrate a willingness and capacity to meet the ever-changing needs of our community through intentional listening and humble learning with cultural humanity, free of judgment and stereotyping.",
+      "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "Brooklyn is one of the most diverse communities in the U.S., home to speakers of more than 200 languages with more than 50 percent of residents speaking a language other than English at home (Brooklyn.org).",
+      "attribution": "Maimonides Medical Center · Maimonides Health Delivers a Love Letter to Brooklyn — https://maimo.org/media-center/news/maimonides-health-delivers-a-love-letter-to-brooklyn/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "Community Care of Brooklyn (CCB) is a network of over 1,000 health and social service organizations working together to improve the health and well-being of over 600,000 Medicaid beneficiaries in Brooklyn under New York State's Delivery System Reform Incentive Payment program, which ended in 2019.",
+      "attribution": "Maimonides Medical Center · Population Health Initiatives — https://maimo.org/about-us/population-health-initiatives/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "In 1911, a dedicated group of women opened a small dispensary to serve those in need. This humble beginning laid the foundation for what would become Maimonides Medical Center. Over the last century, Maimonides has evolved into a leading health system in New York.",
+      "attribution": "Maimonides Medical Center · About Us — https://maimo.org/about-maimonides-health/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "Maimonides and NYC Health + Hospitals are partnering together to preserve and strengthen critical services for the Brooklyn community. NYC Health + Hospitals is a federation of diverse and unique hospitals.",
+      "attribution": "Office of the Governor of New York · Governor Hochul Unveils Transformative Investments in Six Safety-Net Hospitals and Health Care — https://www.governor.ny.gov/news/governor-hochul-unveils-transformative-investments-six-safety-net-hospitals-and-health-care",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "The Brooklyn Health Home coordinates medical and behavioral healthcare services for New York State Medicaid patients by connecting qualifying individuals with physical and behavioral health concerns to care management services.",
+      "attribution": "Maimonides Medical Center · Population Health Initiatives — https://maimo.org/about-us/population-health-initiatives/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "This system, which can be used in multiple languages, gathers a patient's health data from their medical record and assesses it using evidence-based protocols and clinical and practice guidelines from recognized organizations, like those of the American College of Obstetrics and Gynecology, Maimonides-specific protocols, and measures from the Centers for Medicare & Medicaid Services.",
+      "attribution": "Maimonides Medical Center · Maimonides Enhances Labor & Delivery Safety Through Cutting-Edge AI Innovation in Obstetrical Care — https://maimo.org/media-center/news/maimonides-enhances-labor-delivery-safety-through-cutting-edge-ai-innovation-in-obstetrical-care/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Examples include revising race, ethnicity, and language categories in registration systems and implementing a standardized Social Determinants of Health (SDOH) screening tool in Electronic Health Records (EHRs.)",
+      "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "The partnership includes a new and sophisticated electronic health record system at Maimonides to improve care coordination and patient experience.",
+      "attribution": "Office of the Governor of New York · Governor Hochul Unveils Transformative Investments in Six Safety-Net Hospitals and Health Care — https://www.governor.ny.gov/news/governor-hochul-unveils-transformative-investments-six-safety-net-hospitals-and-health-care",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "California's AB 3030, effective January 1, 2025, requires healthcare providers using generative AI to include disclaimers in patient communications and provide instructions for contacting a human provider. Utah and Colorado have enacted their own AI disclosure requirements.",
+      "attribution": "Health Law Attorney Blog · Your AI Scribe Is Listening. Is Your Compliance Program? — https://www.healthlawattorneyblog.com/your-ai-scribe-is-listening-is-your-compliance-program/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Thirteen states, including California, Florida, and Massachusetts, require all-party consent to record conversations. The remaining states allow one-party consent. But that is just under standard \"wire-tapping\" statutes. It gets more complicated in healthcare.",
+      "attribution": "Health Law Attorney Blog · Your AI Scribe Is Listening. Is Your Compliance Program? — https://www.healthlawattorneyblog.com/your-ai-scribe-is-listening-is-your-compliance-program/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "Maimonides Health has committed to procuring 10% of our non-clinical goods and services from local minority- and women-owned business enterprises (MWBEs) by 2030.",
+      "attribution": "Maimonides Medical Center · Equitable Care & Access — https://maimo.org/about-us/equitable-care-access/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Founders: Page describes founding by 'a dedicated group of women' in 1911 but does not name them; no direct founder quotes available.",
+    "Patient Rights / Privacy page: https://maimo.org/patients-visitors/patient-rights-responsibilities/ returned 404; could not retrieve verbatim consent or privacy language directly from Maimonides.",
+    "Community Health Needs Assessment PDF (https://maimo.org/wp-content/uploads/2023/01/Maimonides-Health-CHNA-CSP-Workplan-2022.pdf) was not parseable as text; direct CHNA quotes on top community health concerns unavailable.",
+    "Direct Maimonides-specific public statement on Abridge / ambient AI scribe adoption not located; ambient-scribe regulatory landscape quotes used as societal proxy.",
+    "Fierce Healthcare profile (https://www.fiercehealthcare.com/healthcare/maimonides-medical-center-community-based-health-model-addresses-cultural-divide) returned 403; could not pull additional staff quotes on the cultural-divide model.",
+    "Funders / Investors sub-category: only Hochul state grant context captured at partnership level; no philanthropic funder-specific verbatim language located.",
+    "Resource Constraints sub-category: safety-net financial pressure is implied in Hochul grant context but not directly stated in a Maimonides-voiced constraint quote.",
+    "Platform Limitations sub-category: Medical Brain AI page describes capabilities but does not state platform limitations; left empty.",
+    "Cultural Norms / Industry Standards sub-categories: no clean verbatim spans located outside what was already captured as Legal & Compliance Landscape; left empty."
+  ],
+  "_reset_note": "Snippets reset 2026-05-29 after first-pass agents synthesized rather than quoted verbatim. Re-scraped 2026-05-29 second pass with verification-gated workflow (each snippet passed scripts/verify_one.py at score=1.000)."
+}

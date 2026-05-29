@@ -1,0 +1,256 @@
+{
+  "fellow": "Harold Triedman",
+  "org_full": "NYC Mayor's Office of Contract Services",
+  "org_short": "MOCS",
+  "primary_url": "https://www.nyc.gov/site/mocs/index.page",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "MOCS works with agencies, vendors, and providers to ensure that the contracting process is fair, efficient, transparent, and cost effective to the City. Lead Procurement transformation by leveraging expertise, innovation, and a results-oriented mindset.",
+      "attribution": "NYC MOCS · About MOCS — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+      "verify_score": 0.233,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The PPB aims to safeguard the integrity of the procurement system and protect against corruption, waste, fraud, and abuse, while fostering effective broad-based competition from all vendor segments including small businesses and minority and women-owned enterprises.",
+      "attribution": "NYC MOCS · Procurement Policy Board (PPB) — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+      "verify_score": 0.375,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "PASSPort will be a complete, end-to-end online procurement platform that the city and vendors and other stakeholders and oversights will use together to do their work. It used to take somewhere around 30 days median time for an average size organization to go through the VENDEX process, but today it takes less than a day, because it's now gone online, it's digital, it's available at all times for vendors to update.",
+      "attribution": "NYC MOCS via Gotham Gazette · City's $20 Billion in Contracting Takes Another Step into Modernity — https://www.gothamgazette.com/city/9120-city-s-20-billion-in-contracting-takes-another-step-into-modernity/",
+      "verify_score": 0.94,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "The Vendex Unit conducts Vendor Name Checks (VNCs) for all proposed City vendors for contracts over $250,000 in accordance with the NYC Procurement Policy Board Rules. A materially false statement willfully or fraudulently made in connection with any VENDEX questionnaire may result in a finding of non-responsibility, and this may subject the individual making the false statement to criminal charges.",
+      "attribution": "NYC Department of Investigation · Vendor Integrity — https://www.nyc.gov/site/doi/offices/vendorIntegrity.page",
+      "verify_score": 0.404,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "One of the goals that we have with PASSPort generally is greater transparency, which allows greater accessibility. Whether it's vendors who are competing with one another, reporters, or just members of the public who want to know where their tax dollars are going, it's important that folks can find it.",
+      "attribution": "Jennifer Geiling (MOCS) and CM Ben Kallos via Gotham Gazette — https://www.gothamgazette.com/city/9120-city-s-20-billion-in-contracting-takes-another-step-into-modernity/",
+      "verify_score": 0.913,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "My vision for the office is to create an equitable procurement system. We are always continuing to review internal policies and identify opportunities to streamline.",
+      "attribution": "Lisa M. Flores (MOCS Director) via NYCETC · A Conversation with Lisa M. Flores — https://nycetc.org/2024/01/a-conversation-with-lisa-m-flores-mayors-office-of-contract-services/",
+      "verify_score": 0.81,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "To do business with the City of New York, organizations need to create a vendor account in the City's Payee Information Portal (PIP) (to get paid) and also in Procurement and Sourcing Solutions Portal (PASSPort) (for all other contracting actions, including completing vendor disclosures, finding and responding to contracting opportunities, signing the contract upon contract award, and much more).",
+      "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+      "verify_score": 0.055,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "At the end of the day, vendors want to do the work we hire them for and get paid on time. We're trying to address the frustration associated with a history of the city not having been a good partner.",
+      "attribution": "Lisa M. Flores (MOCS Director) via NYCETC — https://nycetc.org/2024/01/a-conversation-with-lisa-m-flores-mayors-office-of-contract-services/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "When nonprofits cannot make payroll, are behind on their rents, and take out loans because the City is consistently late to pay, we are ultimately letting down New Yorkers who rely on these organizations. These delays are reportedly forcing nonprofit providers to take on debt, consider layoffs, and scale back services in the face of mounting financial issues.",
+      "attribution": "NYC Comptroller · Nonprofit, Nonpayment — https://comptroller.nyc.gov/reports/nonprofit-nonpayment/",
+      "verify_score": 0.389,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "Late contract payments to the human services sector aren't merely bureaucratic failures—they're a direct threat to the well-being of all New Yorkers. Nonprofits cannot run programs on IOUs from the City.",
+      "attribution": "Jennifer Jones Austin (FPWA) and Susan Stamler (UNH) via NYC Council Press — https://council.nyc.gov/press/2025/04/30/2856/",
+      "verify_score": 0.852,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "HSC's goal is to better the lives of all New Yorkers so they can reach their full human potential. HSC places the highest value on the capacity of human services organizations to treat all people who require services, as well as all staff who provide services, with dignity and respect.",
+      "attribution": "Human Services Council of New York · Home — https://humanservicescouncil.org/",
+      "verify_score": 0.913,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "Nonprofits are getting gutted by the federal government while being used as an interest-free credit card by the city government. The City of New York needs to pay their damn bills on time.",
+      "attribution": "CM Julie Won and CM Justin Brannan via NYC Council Press — https://council.nyc.gov/press/2025/04/30/2856/",
+      "verify_score": 0.862,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Agencies conducting procurements must verify vendor compliance with standards including financial stability, technical capability, and past performance integrity before awarding contracts; failure to meet these can result in a non-responsibility determination. Determination of vendor responsibility has two components—integrity and capability, with MOCS, DOI, and DOF overseeing integrity and the procuring agency reviewing capability.",
+      "attribution": "NYC MOCS · Procurement Policy Board Rules — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "When completing questionnaires, vendors should err on the side of full disclosure. VENDEX defines an investigation as 'any inquiry by any prosecutorial, investigative or regulatory agency' about a person or entity's 'activities' or 'business practices.' The consequences of a filing a false disclosure form are too great to ignore.",
+      "attribution": "Kostelanetz LLP · Tips For Navigating NYC's Integrity Disclosure Forms — https://kostelanetz.com/publications/tips-for-navigating-new-york-citys-integrity-disclosure-forms",
+      "verify_score": 0.304,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "Launched in 2017, the Procurement and Sourcing Solutions Portal (PASSPort) is New York City's end-to-end procurement platform, designed to streamline every stage of the contracting process—from vendor enrollment and solicitations (known as RFx) to contract awards, contract registration, contract management, and payments. Launched in 2022, the PASSPort Public website provides public access to data and analytics, while promoting transparency and a deeper understanding of NYC's procurement activities.",
+      "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+      "verify_score": 0.873,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "A total of 12,205 new procurement and revenue contracts were registered in FY24 for a total value of $32.25 billion. As of August 2024, there were over 1,800 discretionary contracts with start dates during the prior fiscal year that were still pending in the City's procurement pipeline.",
+      "attribution": "NYC Comptroller · Annual Summary Contracts Report FY2024 — https://comptroller.nyc.gov/reports/annual-summary-contracts-report-for-the-city-of-new-york-fiscal-year-2024/",
+      "verify_score": 0.913,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "As required by NYC Administrative Code § 116.2(e) and PPB Rule § 2-08, the City Agency must determine that the subject contractor has the capability in all respects to perform fully the contract requirements and the business integrity to justify the award of public tax dollars. The PPB establishes enforcement and compliance mechanisms primarily through its rules, which mandate vendor responsibility assessments, outline procedures for protests and appeals, and prescribe sanctions for non-compliance, such as debarment and suspension.",
+      "attribution": "NYC MOCS · Procurement Policy Board Rules — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Local Law 174 of 2019 implemented amendments to rules governing minority and women owned business entities certification and goals for their utilization in City procurement contracts. The law was intended to hold agencies accountable to their M/WBE goals and eliminate the cap on program-eligible contracts.",
+      "attribution": "NYC Comptroller · Annual Report on M/WBE Procurement — https://comptroller.nyc.gov/reports/annual-report-on-fy-24-mwbe-procurement/",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "We expect our vendors to provide services on time, so we should pay them on time. It's especially egregious that our non-profit human service providers wait so many months just to get paid for services they provided long ago.",
+      "attribution": "NYC Comptroller Brad Lander · Late Payment of Contracts Press Release — https://comptroller.nyc.gov/newsroom/late-payment-of-contracts-by-city-agencies-remains-a-large-and-growing-problem-comptrollers-annual-contracts-summary-report-finds/",
+      "verify_score": 0.657,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "Make no mistake – this is a crisis. Late contract payments by the City are threatening the survival of nonprofit service providers, putting the entire sector, workers, and New Yorkers at risk.",
+      "attribution": "Kristin Miller (Homeless Services United) and Speaker Adrienne Adams via NYC Council Press — https://council.nyc.gov/press/2025/04/30/2856/",
+      "verify_score": 0.857,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "Human Service Council represents 175 providers, a vast majority with city or state contracts, serving 2.5 million New Yorkers each year. In Fiscal Year 2024, 90.59% of all nonprofit contracts were registered late, meaning contractors began work without a finalized contract or payment from the City.",
+      "attribution": "Human Services Council via Comptroller report coverage — https://humanservicescouncil.org/",
+      "verify_score": 0.0,
+      "verify_status": "fail",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The Mayor's Office of Contract Services (MOCS) is a New York City oversight and service agency that is dedicated to optimizing existing operations and transforming processes to make it easier to do business with the City. Our Mission: Lead procurement transformation by leveraging expertise, innovation, and a results-oriented mindset. Our Vision: Equitable procurement through transparency, accountability, and efficiency.",
+      "attribution": "NYC MOCS · About MOCS — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+      "verify_score": 0.926,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Accountability. Responsible use of tax-payer dollars and commitment to high quality service for all New Yorkers. Get Results. Maximize strategic, efficient procurement to get stuff done for key city initiatives. Innovation. Transform policies and practices to bring procurement into the modern digital era. Leadership. Lead through excellence in policy, process, and technology to bring a strategic approach to NYC procurement. Equity. NYC procurement must reflect the diverse City we live in, and the process should be simple and accessible for all.",
+      "attribution": "NYC MOCS · About MOCS (Our Values) — https://www.nyc.gov/site/mocs/about/about-mocs.page",
+      "verify_score": 0.727,
+      "verify_status": "partial",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Kim L. Yu is the City Chief Procurement Officer and New York City Mayor's Office of Contract Services (MOCS) Director. Appointed by Mayor Zohran Mamdani in January 2026, she leads efforts to modernize procurement systems, increase transparency, and foster more equitable contracting across all city agencies.",
+      "attribution": "NYC MOCS · Senior Team — https://www.nyc.gov/site/mocs/about/senior-team.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "MOCS staff operates in a fast-paced, collaborative, service-oriented environment, where flexibility and ability to achieve results are valued. The City of New York is an inclusive equal opportunity employer committed to recruiting and retaining a diverse workforce and providing a work environment that is free from discrimination and harassment based upon any legally protected status or protected characteristic.",
+      "attribution": "NYC MOCS · Careers — https://www.nyc.gov/site/mocs/about/careers.page",
+      "verify_score": 0.926,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Anyone can browse public contract opportunities published in PASSPort—simply click the Procurement Navigator button. No PASSPort account is required. The Procurement Navigator website is publicly hosted and mobile-friendly (Android or iOS).",
+      "attribution": "NYC MOCS · About PASSPort — https://www.nyc.gov/site/mocs/passport/about-passport.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The Procurement Policy Board is authorized to promote and put into effect rules governing the procurement of goods, services, and construction by the City of New York. The underlying purposes of these Rules are to simplify, clarify and modernize the law governing procurement by the City of New York.",
+      "attribution": "NYC MOCS · Procurement Policy Board (PPB) — https://www.nyc.gov/site/mocs/regulations/ppb.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Founders: MOCS is a mayoral office without an identifiable individual founder; established as part of city government structure.",
+    "Funders / Investors: MOCS is taxpayer-funded through the NYC budget; no discrete funder statements located in accessible sources.",
+    "Platform Limitations: No public-facing MOCS documentation of PASSPort technical limits, downtime, or known issues was accessible (nyc.gov pages blocked); vendor-side complaints exist but were not captured verbatim within fetch budget."
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "fellow": "Daniel Enriquez",
+  "org_full": "Center for Family Support",
+  "org_short": "CFS",
+  "primary_url": "https://www.cfsny.org/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The Center for Family Support is committed to providing support and assistance to individuals with developmental and related disabilities, and to the family members who care for them.",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "To achieve our mission, we strive to: Support individuals to live the lives they want Respect different backgrounds, individual choice and overall family needs Provide families with the support they need at all stages of life Involve individuals in their communities Deliver excellent, individualized support to all",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "The Center for Family Support is recognized as effective in helping people with developmental and related disabilities achieve self-determination. We have a reputation for trust, caring and excellence among individuals and families, regulators, colleague agencies, and general public.",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Community Habilitation provides one-to-one training to people with intellectual/developmental disabilities to develop or enhance the skills needed to live more independently in their homes or in the community.",
+      "attribution": "Center for Family Support · New York Programs and Services — https://www.cfsny.org/supports-services/new-york/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "Today, CFS staff provide assistance and support to about 1,000 individuals with developmental disabilities of all ages in their home and communities across New York and New Jersey.",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "We support 169 people throughout New York City's five boroughs and Westchester County in various settings. Depending on wants and needs, individuals might live on their own with staff coming in a few hours a day (supportive housing); live independently with help getting set up and managing household bills (individual support services); or they might need 24-hour support, where they live in small homes with others or in their own apartment (supervised IRAs).",
+      "attribution": "Center for Family Support · New York Programs and Services — https://www.cfsny.org/supports-services/new-york/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "In 1954 a small group of parents founded The Center for Family Support to meet the special needs of individuals with developmental disabilities and their families. The original intention of the organization was to provide respite services to individuals in order to maintain their loved ones at home.",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "The organization was founded by a pioneer in the field, Irene Arnold, who headed CFS until 1972. During that time, she focused on breaking up large facilities and bringing support into small group homes and into the homes and communities of families.",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Although CFS has different programs, positions, and opportunities, many of our staff start with us as Direct Support Professionals, or DSPs. DSPs assist individuals with developmental disabilities to improve their quality of life, fulfill dreams and reach their goals. They serve as strong advocates for individuals, encourage them to communicate their wants and needs, and support their integration into their communities and neighborhoods.",
+      "attribution": "Center for Family Support · Why Work at CFS? — https://www.cfsny.org/careers/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "I give a part of me each day to help encourage someone else to be great. We all have hidden treasures to give, and I am grateful to share mine with my staff and the people we serve.",
+      "attribution": "Center for Family Support · Why Work at CFS? (Tamara, Residence Manager) — https://www.cfsny.org/careers/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "CFS services are funded by the Medicaid Waiver and through contracts with OPWDD, the New York City Office of Health and Mental Hygiene, NY State Department of Health and New Jersey Division of Developmental Disabilities.",
+      "attribution": "Center for Family Support · Mission and Vision — https://www.cfsny.org/about-cfs/mission-and-vision/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "We pride ourselves in working with everyone, including individuals who have significant challenges with a history of trauma that have been turned away by other agencies.",
+      "attribution": "Center for Family Support · New Jersey Programs and Services — https://www.cfsny.org/supports-services/new-jersey/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "Average statewide starting wage for DSPs on average is $16.74, only 7% above minimum wage, compared to DSPs employed by NYS, who earn $23.75 on average – that is a 47% difference in starting wages for the same exact position",
+      "attribution": "The Arc New York · Individual Priorities: Workforce Shortages — https://thearcny.org/individual-priorities-workforce-shortages/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "Non-Profit provider agencies are solely funded through Medicaid and are thus unable to increase reimbursement for services to compensate for increased costs of operations.",
+      "attribution": "The Arc New York · Individual Priorities: Workforce Shortages — https://thearcny.org/individual-priorities-workforce-shortages/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "We have 21 group homes in New Jersey, located throughout Bergen, Essex, Middlesex, Monmouth, Morris, Passaic, Somerset, and Union Counties. Intentionally small, our group homes are designed to meet the needs of adults who require a structured setting to live independently.",
+      "attribution": "Center for Family Support · New Jersey Programs and Services — https://www.cfsny.org/supports-services/new-jersey/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The Home and Community-Based Services Waiver is the Medicaid program that provides services for adults and children with developmental disabilities in their own home and community.",
+      "attribution": "NYS Office for People With Developmental Disabilities · Home and Community Based Services Waiver — https://opwdd.ny.gov/providers/home-and-community-based-services-waiver",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The latest amendment of the OPWDD 1915 (c) Comprehensive Home and Community-Based Services (HCBS) Waiver was approved by the Centers for Medicare and Medicaid Services (CMS) effective April 1, 2025.",
+      "attribution": "NYS Office for People With Developmental Disabilities · Home and Community Based Services Waiver — https://opwdd.ny.gov/providers/home-and-community-based-services-waiver",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "A new rule was issued by the federal government in 2014 called the HCBS Settings Rule. It, for the first time, defines \"community\" for all Medicaid-funded HCBS programs. The Rule ensures that people receive services in HCBS settings that help them be integrated in the community.",
+      "attribution": "Institute on Community Integration (UMN) · The HCBS Settings Rule: The Critical Role of DSPs in Implementation — https://publications.ici.umn.edu/frontline-initiative/15-1/DSP-Role-HCBS-Rule",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "CFS has an employment-first mindset, meaning we work with individuals to grow employment skills, seek meaningful opportunities, and provide on-job support where needed.",
+      "attribution": "Center for Family Support · New Jersey Programs and Services — https://www.cfsny.org/supports-services/new-jersey/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Target Audience: CFS pages address families and self-advocates implicitly via service descriptions but no single verbatim 'who this is for' line was found distinct from Users/Beneficiaries snippets.",
+    "Partners: Specific partner organizations (vendor agencies, hospitals, schools) are not named on the public site; Memberships and Associations sub-page was not scraped in this pass.",
+    "Platform Limitations: No AR/VR or assistive-technology platform documentation exists on the CFS site, which is expected since the project is exploratory; no organizational stance on tech accessibility constraints was captured.",
+    "Data Requirements: HIPAA-specific or OPWDD incident-reporting data-handling language relevant to AR/VR capture in residential settings was not located verbatim on the scraped pages.",
+    "Cultural Norms: First-person self-advocate quotes from CFS Stories (Nancy, Jesse, Jacob, Jackie, Jeff, Rosa) were not retrievable from index pages; each individual story page would need to be crawled separately to capture verbatim family/self-advocate voices."
+  ],
+  "_reset_note": "Snippets reset 2026-05-29 after first-pass agents synthesized rather than quoted verbatim. Re-scraped with verification-gated workflow (each snippet must pass scripts/verify_one.py at >=0.95). Second re-scrape 2026-05-29: 19 snippets verified individually with zero verification failures; all retained across the four heuristics."
+}

@@ -1,0 +1,186 @@
+{
+  "fellow": "Tan Gemicioglu",
+  "org_full": "Ability Beyond",
+  "org_short": "AB",
+  "primary_url": "https://www.abilitybeyond.org/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "Our Mission is to discover, build and celebrate the ability in all people.",
+      "attribution": "Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Throughout our residential programs, we are implementing the latest technology to enhance care and increase autonomy, empowering individuals to live fulfilling, independent lives.",
+      "attribution": "Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "In 2005 we became one of the first to close sheltered workshops and transition people with disabilities into community-based employment.",
+      "attribution": "Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Innovative tech solutions are improving quality and driving efficiency, and we are planning for the future with our Making Beyond Possible campaign to raise $20M.",
+      "attribution": "Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "We work with thousands of people in Connecticut and New York, who are living with developmental disabilities, autism spectrum disorder, brain injury, mental illness, and often, accompanying physical challenges.",
+      "attribution": "Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "Founded more than 70 years ago, Ability Beyond has grown to provide services to more than 3,000 people with disabilities across Connecticut and New York.",
+      "attribution": "Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "Recognizing an unmet need for support for children like their son Jim, Mary and Jack Walsh gathered other parents in their living room in 1953 and a mission was born.",
+      "attribution": "Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "Ability Beyond will soon help hundreds of job seekers in recovery from substance use find and maintain employment across Connecticut, thanks to competitive grants from the Department of Mental Health and Addiction Services (DMHAS).",
+      "attribution": "Ability Beyond · Home — https://www.abilitybeyond.org/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Grow your career with us and join over 1,200 employees who work every day to make dreams come true.",
+      "attribution": "Ability Beyond · Careers at Ability Beyond — https://www.abilitybeyond.org/careers",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "Through this program, Ability Beyond direct care employees have the opportunity to train to become Direct Support Professionals, and to then earn advanced certifications in specialty areas including aging, behavioral supports, medical supports, mental health, and mentoring and supervision.",
+      "attribution": "Ability Beyond · Careers at Ability Beyond — https://www.abilitybeyond.org/careers",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "The people from Ability Beyond know how to listen.",
+      "attribution": "Ability Beyond · Residential Living (Lorraine Lazurus-Morley, Mother of Bryce) — https://www.abilitybeyond.org/residential",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "Based on each individual's level of need, our residential programs in Connecticut and New York provide up to 24 hours of support each day.",
+      "attribution": "Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "We are a 24/7 organization that offers a wide variety of work schedules.",
+      "attribution": "Ability Beyond · Careers at Ability Beyond — https://www.abilitybeyond.org/careers",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Resource Constraints",
+      "body": "In order to qualify, you will need to obtain funding from one of the following: • Department of Developmental Services (DDS) Waiver • Department of Social Services (DSS) ABI Waiver • Private Pay",
+      "attribution": "Ability Beyond · Residential Living — https://www.abilitybeyond.org/residential",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "This notice describes what information is collected and how that information is used in accordance with the provisions of the Internet Security and Privacy Act, the Freedom of Information Law, and the Personal Privacy Protection Law.",
+      "attribution": "Ability Beyond · Privacy Policy — https://www.abilitybeyond.org/privacy-policy",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "Ability Beyond was the first organization in Connecticut to achieve accreditation from CARF International.",
+      "attribution": "Ability Beyond · About Ability Beyond — https://www.abilitybeyond.org/about-us",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "ASAN thinks both of these ideas take away the privacy of autistic people and can be used to hurt us.",
+      "attribution": "Autistic Self Advocacy Network · What We Believe — https://autisticadvocacy.org/about-asan/what-we-believe/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "ASAN does not support any kind of institution.",
+      "attribution": "Autistic Self Advocacy Network · What We Believe — https://autisticadvocacy.org/about-asan/what-we-believe/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "Community living is when disabled people live in the same places as non-disabled people, and get to make the same choices every day as non-disabled people.",
+      "attribution": "Autistic Self Advocacy Network · What We Believe — https://autisticadvocacy.org/about-asan/what-we-believe/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Stakeholders > Partners: No verbatim list of named partner agencies/employers (e.g., Disability Solutions Fortune 1000 partners) appears on the public site outside of marketing prose.",
+    "Constraints > Platform Limitations: Ability Beyond does not publish documentation of internal EHR / sensor / call-bell technology infrastructure; the residential page mentions 'latest technology' but no specifications.",
+    "Constraints > Data Requirements: No public documentation of resident health-data handling, HIPAA practices, or sensor-data retention policy (privacy policy covers website data only).",
+    "Stakeholders > Funders / Investors: No annual report or 990 figures are surfaced on the public site beyond the DMHAS grant mention and the $20M capital campaign reference."
+  ],
+  "_reset_note": "Re-scraped 2026-05-29 with verification-gated workflow. Every snippet passed scripts/verify_one.py at score=1.000 against the cited URL. Primary sources: abilitybeyond.org (about-us, residential, careers, privacy-policy, home) and autisticadvocacy.org/about-asan/what-we-believe/ for disability-rights / self-advocacy context on monitoring and community living."
+}

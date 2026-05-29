@@ -1,0 +1,168 @@
+{
+  "fellow": "Jingruo Chen",
+  "org_full": "NYC Department for the Aging",
+  "org_short": "DFTA",
+  "primary_url": "https://www.nyc.gov/site/dfta/index.page",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The NYC Department for the Aging works in partnership with community-based organizations across all five boroughs to deliver services that help older adults remain in their homes and communities.",
+      "attribution": "NYC Aging · Commissioner's Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "NYC Aging is committed to providing inclusive and accessible services for all older New Yorkers. All City residents, regardless of immigration status, may access NYC Aging and other City services.",
+      "attribution": "NYC Aging · Commissioner's Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Home-delivered meals help combat malnutrition, helping older adults maintain their health and independence while aging in place.",
+      "attribution": "ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "New York City is home to nearly 1.8 million older adults. Supporting their ability to live safely, affordably, and in good health is both a responsibility and a shared commitment.",
+      "attribution": "NYC Aging · Commissioner's Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "Local program services are available to those 60+, their spouses of any age, and individuals with disabilities who live in facilities occupied primarily by older adults receiving congregate meals.",
+      "attribution": "ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "1975: The Office becomes the New York City Department for the Aging (DFTA). Alice Brophy is the first Commissioner.",
+      "attribution": "NYC Aging · History — https://www.nyc.gov/site/dfta/about/history.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "These services include older adult centers, home-delivered meals, case management, caregiver support, mental health programs, volunteer engagement, and employment services.",
+      "attribution": "NYC Aging · Commissioner's Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "The City's Age-friendly NYC: New Commitments for a City for All Ages initiative launched in 2017 with nearly 90 programs from agencies such as Housing Preservation and Development, the Departments of Finance, Health and Mental Hygiene, Parks and Recreation, the Department for the Aging, and New York City Emergency Management.",
+      "attribution": "NYC Aging · Partnerships — https://www.nyc.gov/site/dfta/about/partnerships.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "The New York City Falls Prevention Coalition was established in 2010 as an Age-friendly NYC initiative. The New York City Department for the Aging and Department of Health and Mental Hygiene co-chair the Coalition.",
+      "attribution": "NYC Aging · Partnerships — https://www.nyc.gov/site/dfta/about/partnerships.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "More than 300 centers throughout the City offer free art, fitness, and daily meals.",
+      "attribution": "NYC Aging · Home — https://www.nyc.gov/site/dfta/index.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Adhere to current Dietary Guidelines for Americans and are appealing Provide at least one-third of the Dietary Reference Intakes Comply with food safety state and local requirements",
+      "attribution": "ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "The Language Access Implementation Plan explains how NYC Aging will provide language access services to people who have limited English proficiency.",
+      "attribution": "NYC Aging · Language Access Plan — https://www.nyc.gov/site/dfta/about/language-access-plan.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Authorized under Title III-C of the Older Americans Act (OAA), the program stands apart from traditional food assistance programs",
+      "attribution": "ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The Older Americans Act and City charter require Department for the Aging to have an Advisory Council. The Mayor appoints all members, who serve for three years and aren't paid for their work.",
+      "attribution": "NYC Aging · Advisory Council — https://www.nyc.gov/site/dfta/about/advisory-council.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "2022: Department for the Aging stops using the acronym “DFTA” on its website and social media channels to describe the agency, replacing it with NYC Aging, so residents have a clearer understanding of who the agency serves. The agency also stops using the term “senior” because of the negative connotations the word has in society.",
+      "attribution": "NYC Aging · History — https://www.nyc.gov/site/dfta/about/history.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Geographic Context",
+      "body": "1965: The Older Americans Act creates a nationwide aging network.",
+      "attribution": "NYC Aging · History — https://www.nyc.gov/site/dfta/about/history.page",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "Every day, the national Senior Nutrition Program serves nearly one million nutritious meals across the country through a network of about 5,000 local providers.",
+      "attribution": "ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Funders / Investors: Specific FY budget appropriations and federal pass-through amounts for NYC Aging are published in DFTA's Four-Year Plan PDFs, which are flate-encoded and could not be verified via the strings-based verifier; cite the PDFs directly if needed.",
+    "Platform Limitations: No public documentation found describing DFTA's existing IT, menu-planning, or vendor-EHR interoperability constraints — likely internal procurement-only.",
+    "Resource Constraints: Verbatim contracted-meal volumes and per-meal reimbursement caps live inside the Four-Year Plan and HDM RFP PDFs (text streams compressed); not verifiable here.",
+    "Cultural Norms (deeper): Direct older-adult quotes about Asian, South Asian, and Caribbean food preferences within DFTA programs are limited in publicly indexed HTML sources beyond academic enrichment papers."
+  ],
+  "_reset_note": "Snippets reset 2026-05-29 after first-pass agents synthesized rather than quoted verbatim. Re-scraped 2026-05-29 with verification-gated workflow; every snippet passes scripts/verify_one.py at score=1.000. DFTA PDFs (Four-Year Plan, Pop-Up Café) are fully Flate-encoded — strings-based verifier cannot recover their text streams, so HTML pages on nyc.gov/site/dfta and acl.gov were used instead."
+}

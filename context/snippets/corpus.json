@@ -1,0 +1,178 @@
+{
+  "fellow": "Isabel Corpus",
+  "org_full": "NYC Office of Technology & Innovation",
+  "org_short": "OTI",
+  "primary_url": "https://www.nyc.gov/content/oti/pages/artificial-intelligence",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The Office of Technology and Innovation shall be the lead agency in the development, coordination and implementation of the City's information technology, information security, information privacy and telecommunication matters.",
+      "attribution": "NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "The Office of Technology and Innovation shall guide the City and its agencies in the development, responsible use and assessment of algorithmic and related technical tools and systems and shall engage and educate the public on issues related to City use of these and other related technologies.",
+      "attribution": "NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "technology and innovation are foundational to the delivery of quality services to New York City residents",
+      "attribution": "NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Initiative 01   Design and Implement a Robust Governance Framework",
+      "attribution": "NYC OTI · The New York City Artificial Intelligence Action Plan — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Initiative 02    Build External Relationships",
+      "attribution": "NYC OTI · The New York City Artificial Intelligence Action Plan — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Initiative 03    Foster Public Engagement",
+      "attribution": "NYC OTI · The New York City Artificial Intelligence Action Plan — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "Initiative 04    Build AI Knowledge and Skills in City Government",
+      "attribution": "NYC OTI · The New York City Artificial Intelligence Action Plan — https://www.nyc.gov/assets/oti/downloads/pdf/reports/artificial-intelligence-action-plan.pdf",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "pdf_strings"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "The Department of Information Technology and Telecommunications shall hereafter be designated as the Office of Technology and Innovation",
+      "attribution": "NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "The Office of Cyber Command established pursuant to section 20-j of the Charter, the Office of Data Analytics established pursuant to section 20-f of the Charter and the Office of Information Privacy established pursuant to section 8-h of the Charter shall be continued and established within the Office of Technology and Innovation.",
+      "attribution": "NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "All agencies are directed to cooperate with the Office of Technology and Innovation as the Chief Technology Officer promulgates and implements policies and guidance related to information technology, information security, information privacy and telecommunication matters.",
+      "attribution": "NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Affected Communities",
+      "body": "the city has been clear the chatbot is a pilot program and will improve",
+      "attribution": "The Markup · NYC's AI Chatbot Tells Businesses to Break the Law (statement from OTI spokesperson Leslie Brown) — https://www.themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Users / Beneficiaries",
+      "body": "In October 2023, New York City Mayor Eric Adams announced that an AI-powered chatbot would help New York business owners navigate the government.",
+      "attribution": "The Markup · NYC's AI Chatbot Tells Businesses to Break the Law — https://www.themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "Months later, that chatbot is telling businesses to break the law.",
+      "attribution": "The Markup · NYC's AI Chatbot Tells Businesses to Break the Law — https://www.themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "The Microsoft-powered bot says bosses can take workers' tips and that landlords can discriminate based on source of income",
+      "attribution": "The Markup · NYC's AI Chatbot Tells Businesses to Break the Law — https://www.themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Data Requirements",
+      "body": "Such disclosure would include, among other things, the commercial name and a brief description of such algorithmic tool, the purpose of the tool, and the type of data collected and analyzed by the tool.",
+      "attribution": "NYC Council · Int 1806-2019 (enacted as Local Law 35 of 2022) — https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4265421&GUID=FBA29B34-9266-4B52-B438-A772D81B1CB5",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "A Local Law to amend the administrative code of the city of New York, in relation to reporting on algorithmic tools used by city agencies",
+      "attribution": "NYC Council · Int 1806-2019 (enacted as Local Law 35 of 2022) — https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4265421&GUID=FBA29B34-9266-4B52-B438-A772D81B1CB5",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "This bill would require an annual report by agencies to the Mayor's Office of Operations on automated decision systems used by those agencies at least once in the prior year, except when such a disclosure would endanger public safety.",
+      "attribution": "NYC Council · Int 1806-2019 (enacted as Local Law 35 of 2022) — https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4265421&GUID=FBA29B34-9266-4B52-B438-A772D81B1CB5",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "The Algorithms Management and Policy Officer established pursuant to Executive Order No. 50, dated November 19, 2019, shall be discontinued.",
+      "attribution": "NYC OTI · Executive Order 3 of 2022 — https://www.nyc.gov/office-of-the-mayor/news/003-002/executive-order-3",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Founders: OTI is a mayoral agency reconstituted from DoITT by Executive Order 3 of 2022; no individual-founder construct applies.",
+    "Funders / Investors: OTI is funded through the NYC adopted budget; no verbatim line-item quote was located in the time available.",
+    "Infrastructure Requirements: No verbatim source on cloud / model-hosting / procurement infrastructure for the algorithmic-accountability function could be extracted (relevant text in the AI Action Plan and Principles PDFs lives in FlateDecode streams that the verifier's `strings` extraction cannot read).",
+    "Cultural Norms / Geographic Context: NYC-specific context is implicit throughout but no quotable cultural-norms span was retrieved.",
+    "Industry Standards: The AI Principles document references NIST and the White House Blueprint for an AI Bill of Rights, but its prose body is locked inside compressed PDF streams not reachable by `strings`-based verification."
+  ],
+  "_reset_note": "Snippets reset 2026-05-29 after first-pass agents synthesized rather than quoted verbatim. Re-scraped with verification-gated workflow (each snippet passes scripts/verify_one.py at >=0.95). PDF prose for the AI Action Plan and AI Principles & Definitions is stored in FlateDecode streams that the verifier's `strings -n 8` extractor cannot decompress, so only PDF bookmark/slide-title metadata was citable from those PDFs; richer prose was drawn from the EO 3 HTML page, the Markup article, and the Int 1806 / Local Law 35 legistar record."
+}

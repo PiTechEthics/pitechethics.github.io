@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Jingruo Chen — VAP Discovery Packet</title><style>
+@page { size: letter portrait; margin: 0.5in; }
+
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body {
+  margin: 0; padding: 0;
+  font-family: -apple-system, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  color: #221c1b;
+}
+
+.page {
+  width: 7.5in;          /* 8.5 - 1.0 in horizontal margin */
+  height: 10in;          /* 11  - 1.0 in vertical margin   */
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.page:last-child { page-break-after: auto; }
+
+.fellow-header {
+  height: 0.7in;
+  border-bottom: 1pt solid #b75552;
+  padding-bottom: 0.10in;
+  margin-bottom: 0.18in;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 0 0 auto;
+}
+.fellow-header .left .name {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: 16pt;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #221c1b;
+  line-height: 1.05;
+}
+.fellow-header .left .org {
+  font-size: 10.5pt;
+  color: #5d5450;
+  margin-top: 0.04in;
+}
+.fellow-header .right { text-align: right; }
+.fellow-header .right .pagenum {
+  font-size: 8pt;
+  color: #8a8076;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.fellow-header .right .packet-tag {
+  font-size: 7pt;
+  color: #b75552;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.04in;
+}
+
+.cards-grid {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.16in;
+  min-height: 0;
+}
+
+.card {
+  border: 0.75pt solid #b5aea8;
+  border-radius: 4pt;
+  padding: 0.14in 0.16in 0.12in;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  break-inside: avoid;
+}
+.card .category {
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b75552;
+  margin-bottom: 0.06in;
+  padding-bottom: 0.05in;
+  border-bottom: 0.5pt solid #f3e6e4;
+  flex: 0 0 auto;
+}
+.card .body {
+  flex: 1 1 auto;
+  font-size: 9.5pt;
+  line-height: 1.32;
+  color: #2a2422;
+  overflow: hidden;
+}
+.card .body p { margin: 0 0 0.06in; }
+.card .body p:last-child { margin-bottom: 0; }
+.card .body ul {
+  margin: 0;
+  padding-left: 0.18in;
+}
+.card .body li { margin-bottom: 0.04in; }
+
+.card .attrib {
+  flex: 0 0 auto;
+  margin-top: 0.08in;
+  padding-top: 0.06in;
+  border-top: 0.5pt dotted #cfcac4;
+  font-size: 6.5pt;
+  color: #8a8076;
+  line-height: 1.3;
+  word-break: break-word;
+}
+.card .v {
+  /* tiny verbatim marker — not self-explanatory, just for Hauke */
+  color: #2f8d90;
+  font-weight: 700;
+  margin-right: 0.05in;
+}
+
+/* font-size buckets based on body length */
+.card.size-m .body { font-size: 9pt;  line-height: 1.30; }
+.card.size-s .body { font-size: 8pt;  line-height: 1.28; }
+.card.size-xs .body { font-size: 7pt; line-height: 1.26; }
+
+/* On-screen preview (ignored when printing) */
+@media screen {
+  body { background: #e6e2dd; padding: 0.4in 0; }
+  .page {
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    margin: 0 auto 0.4in;
+    padding: 0.5in;          /* draw the page margin on-screen */
+    width: 8.5in;
+    height: 11in;
+  }
+}
+</style></head><body><section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Jingruo Chen</div>      <div class="org">NYC Department for the Aging</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 1 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Mission Statement</div>  <div class="body"><p>The NYC Department for the Aging works in partnership with community-based organizations across all five boroughs to deliver services that help older adults remain in their homes and communities.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Commissioner&#x27;s Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page</div></div>
+<div class="card">  <div class="category">Stated Goals</div>  <div class="body"><p>NYC Aging is committed to providing inclusive and accessible services for all older New Yorkers. All City residents, regardless of immigration status, may access NYC Aging and other City services.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Commissioner&#x27;s Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page</div></div>
+<div class="card">  <div class="category">Problems Solved</div>  <div class="body"><p>Home-delivered meals help combat malnutrition, helping older adults maintain their health and independence while aging in place.</p></div>  <div class="attrib"><span class="v">✓</span>ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services</div></div>
+<div class="card">  <div class="category">Target Audience</div>  <div class="body"><p>New York City is home to nearly 1.8 million older adults. Supporting their ability to live safely, affordably, and in good health is both a responsibility and a shared commitment.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Commissioner&#x27;s Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page</div></div>
+<div class="card">  <div class="category">Users / Beneficiaries</div>  <div class="body"><p>Local program services are available to those 60+, their spouses of any age, and individuals with disabilities who live in facilities occupied primarily by older adults receiving congregate meals.</p></div>  <div class="attrib"><span class="v">✓</span>ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services</div></div>
+<div class="card">  <div class="category">Founders</div>  <div class="body"><p>1975: The Office becomes the New York City Department for the Aging (DFTA). Alice Brophy is the first Commissioner.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · History — https://www.nyc.gov/site/dfta/about/history.page</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Jingruo Chen</div>      <div class="org">NYC Department for the Aging</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 2 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Employees / Creators</div>  <div class="body"><p>These services include older adult centers, home-delivered meals, case management, caregiver support, mental health programs, volunteer engagement, and employment services.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Commissioner&#x27;s Message — https://www.nyc.gov/site/dfta/about/commissioners-message.page</div></div>
+<div class="card size-m">  <div class="category">Partners</div>  <div class="body"><p>The City&#x27;s Age-friendly NYC: New Commitments for a City for All Ages initiative launched in 2017 with nearly 90 programs from agencies such as Housing Preservation and Development, the Departments of Finance, Health and Mental Hygiene, Parks and Recreation, the Department for the Aging, and New York City Emergency Management.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Partnerships — https://www.nyc.gov/site/dfta/about/partnerships.page</div></div>
+<div class="card">  <div class="category">Partners</div>  <div class="body"><p>The New York City Falls Prevention Coalition was established in 2010 as an Age-friendly NYC initiative. The New York City Department for the Aging and Department of Health and Mental Hygiene co-chair the Coalition.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Partnerships — https://www.nyc.gov/site/dfta/about/partnerships.page</div></div>
+<div class="card">  <div class="category">Affected Communities</div>  <div class="body"><p>More than 300 centers throughout the City offer free art, fitness, and daily meals.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Home — https://www.nyc.gov/site/dfta/index.page</div></div>
+<div class="card">  <div class="category">Data Requirements</div>  <div class="body"><p>Adhere to current Dietary Guidelines for Americans and are appealing Provide at least one-third of the Dietary Reference Intakes Comply with food safety state and local requirements</p></div>  <div class="attrib"><span class="v">✓</span>ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services</div></div>
+<div class="card">  <div class="category">Infrastructure Requirements</div>  <div class="body"><p>The Language Access Implementation Plan explains how NYC Aging will provide language access services to people who have limited English proficiency.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Language Access Plan — https://www.nyc.gov/site/dfta/about/language-access-plan.page</div></div></div></section>
+<section class="page">  <header class="fellow-header">    <div class="left">      <div class="name">Jingruo Chen</div>      <div class="org">NYC Department for the Aging</div>    </div>    <div class="right">      <div class="packet-tag">VAP &middot; Discovery</div>      <div class="pagenum">Page 3 of 3</div>    </div>  </header>  <div class="cards-grid"><div class="card">  <div class="category">Legal &amp; Compliance Landscape</div>  <div class="body"><p>Authorized under Title III-C of the Older Americans Act (OAA), the program stands apart from traditional food assistance programs</p></div>  <div class="attrib"><span class="v">✓</span>ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services</div></div>
+<div class="card">  <div class="category">Legal &amp; Compliance Landscape</div>  <div class="body"><p>The Older Americans Act and City charter require Department for the Aging to have an Advisory Council. The Mayor appoints all members, who serve for three years and aren&#x27;t paid for their work.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · Advisory Council — https://www.nyc.gov/site/dfta/about/advisory-council.page</div></div>
+<div class="card size-m">  <div class="category">Cultural Norms</div>  <div class="body"><p>2022: Department for the Aging stops using the acronym “DFTA” on its website and social media channels to describe the agency, replacing it with NYC Aging, so residents have a clearer understanding of who the agency serves. The agency also stops using the term “senior” because of the negative connotations the word has in society.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · History — https://www.nyc.gov/site/dfta/about/history.page</div></div>
+<div class="card">  <div class="category">Geographic Context</div>  <div class="body"><p>1965: The Older Americans Act creates a nationwide aging network.</p></div>  <div class="attrib"><span class="v">✓</span>NYC Aging · History — https://www.nyc.gov/site/dfta/about/history.page</div></div>
+<div class="card">  <div class="category">Industry Standards</div>  <div class="body"><p>Every day, the national Senior Nutrition Program serves nearly one million nutritious meals across the country through a network of about 5,000 local providers.</p></div>  <div class="attrib"><span class="v">✓</span>ACL · Nutrition Services — https://acl.gov/programs/health-wellness/nutrition-services</div></div></div></section></body></html>

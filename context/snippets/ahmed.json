@@ -1,0 +1,149 @@
+{
+  "fellow": "Tanvir Ahmed",
+  "org_full": "MethaneSAT (Environmental Defense Fund)",
+  "org_short": "MethaneSAT",
+  "primary_url": "https://www.methanesat.org/",
+  "snippets": [
+    {
+      "heuristic": "functional",
+      "category": "Mission Statement",
+      "body": "MethaneSAT's data provides insights that can help reduce methane emissions from the oil and gas industry",
+      "attribution": "MethaneSAT · Our Mission Page — https://www.methanesat.org/mission",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Problems Solved",
+      "body": "Small, widespread sources account for at least 70% of methane emissions from oil and gas production. MethaneSAT sees what others don't and provides the high-resolution data necessary to measure whether action is taken.",
+      "attribution": "MethaneSAT · Solving a crucial climate challenge — https://www.methanesat.org/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "MethaneSAT data provides energy producers, government agencies and other users access to insights to help identify the greatest opportunities for reducing methane emissions.",
+      "attribution": "MethaneSAT · Our Mission Page — https://www.methanesat.org/mission",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "functional",
+      "category": "Stated Goals",
+      "body": "While operational, MethaneSAT monitored areas that produce 80% or more of the world's oil and gas. It measured emissions across very large areas in a matter of seconds and saw changes in concentrations as small as 3 parts per billion.",
+      "attribution": "MethaneSAT · Our Mission Page — https://www.methanesat.org/mission",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Target Audience",
+      "body": "Data from MethaneSAT will be freely available to anyone with an internet connection, making it possible to see where emissions are coming from with unparalleled precision, making it easier for both operators and regulators to find and fix problems faster",
+      "attribution": "MethaneSAT · Bezos Earth Fund announces $10 million in new funding for MethaneSAT — https://www.methanesat.org/project-updates/bezos-earth-fund-announces-10-million-new-funding-methanesat",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Founders",
+      "body": "MethaneSAT was conceived and developed by the non-profit Environmental Defense Fund, a global leader in methane science, policy and emissions reduction.",
+      "attribution": "MethaneSAT · Solving a crucial climate challenge — https://www.methanesat.org/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "MethaneSAT was made possible entirely by the support of EDF donors and our partnership with the Government of New Zealand . Among the largest contributors to MethaneSAT are the Bezos Earth Fund, Arnold Ventures, the Robertson Foundation and the TED Audacious Project.",
+      "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch represents groundbreaking mission to protect the climate — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Funders / Investors",
+      "body": "The Bezos Earth Fund announced Tuesday at a White House Summit on \"super-pollutant\" greenhouse gas emissions that it will provide $10 million in new funding to Environmental Defense Fund (EDF) to support MethaneSAT, a groundbreaking satellite that will locate, measure and track methane emissions around the world.",
+      "attribution": "MethaneSAT · Bezos Earth Fund announces $10 million in new funding for MethaneSAT — https://www.methanesat.org/project-updates/bezos-earth-fund-announces-10-million-new-funding-methanesat",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Partners",
+      "body": "In addition to parent organization EDF, MethaneSAT partners include Harvard University's School of Engineering and Applied Sciences, the Smithsonian Astrophysical Observatory, and the New Zealand Space Agency. The combined mission team has over 70 experts worldwide with experience in spaceflight, remote sensing, and data analytics. The satellite was built in Colorado by the Space & Mission Systems unit of BAE Systems, Inc. (formerly Ball Aerospace) and Blue Canyon Technologies.",
+      "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch represents groundbreaking mission to protect the climate — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "stakeholders",
+      "category": "Employees / Creators",
+      "body": "MethaneSAT's superpower is the ability to precisely measure methane levels with high resolution over wide areas, including smaller, diffuse sources that account for most emissions in many regions",
+      "attribution": "MethaneSAT · IN ORBIT: Successful MethaneSAT launch represents groundbreaking mission to protect the climate (Steven Hamburg, EDF Chief Scientist and MethaneSAT project leader) — https://www.methanesat.org/project-updates/orbit-successful-methanesat-launch-represents-groundbreaking-mission-protect",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Platform Limitations",
+      "body": "On Friday, June 20, the MethaneSAT mission operations lost contact with MethaneSAT. After pursuing all options to restore communications, we learned this morning that the satellite has lost power, and that it is likely not recoverable.",
+      "attribution": "MethaneSAT · MethaneSAT loses contact with satellite — https://www.methanesat.org/project-updates/methanesat-loses-contact-satellite",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "constraints",
+      "category": "Infrastructure Requirements",
+      "body": "We also will continue to work closely with our partners to reduce methane emissions and implement the goals of the Global Methane Pledge, The Oil and Gas Decarbonization Charter, Oil and Gas Methane Partnership 2.0, the United Nations Environment Programme's International Emissions Observatory and Climate and Clean Air Coalition",
+      "attribution": "MethaneSAT · MethaneSAT loses contact with satellite — https://www.methanesat.org/project-updates/methanesat-loses-contact-satellite",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Industry Standards",
+      "body": "The Oil & Gas Methane Partnership 2.0 (OGMP 2.0) is the flagship oil and gas reporting and mitigation programme of the United Nations Environment Programme (UNEP). It is the only comprehensive, measurement-based international reporting framework for the sector.",
+      "attribution": "OGMP 2.0 · Homepage — https://www.ogmpartnership.org/",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Legal & Compliance Landscape",
+      "body": "Methane is a potent, fast-acting greenhouse gas that's rapidly accelerating the rise in global temperatures. Countries and companies across the world have made reducing emissions an urgent priority.",
+      "attribution": "MethaneSAT · Our Mission Page — https://www.methanesat.org/mission",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    },
+    {
+      "heuristic": "societal",
+      "category": "Cultural Norms",
+      "body": "Methane is a potent greenhouse gas that has more than 80 times the warming power of carbon dioxide over the first 20 years after it reaches the atmosphere.",
+      "attribution": "Environmental Defense Fund · Methane: A crucial opportunity in the climate fight — https://www.edf.org/climate/methane-crucial-opportunity-climate-fight",
+      "verify_score": 1.0,
+      "verify_status": "verified",
+      "verify_method": "html"
+    }
+  ],
+  "gaps": [
+    "Affected Communities: MethaneSAT's public-facing sites frame emissions as a global/industry issue; no verbatim quotes from named oil-and-gas-region community members appear on the scraped pages.",
+    "Users / Beneficiaries: Beyond 'energy producers, government agencies and other users,' no verbatim end-user testimonials surfaced on the public site.",
+    "Data Requirements / Resource Constraints: The public pages don't publish verbatim retrieval uncertainty ranges or operational budget constraints; those likely live in peer-reviewed papers linked from /scienceandresearch."
+  ],
+  "_reset_note": "Snippets reset 2026-05-29 after first-pass agents synthesized rather than quoted verbatim. Re-scraped 2026-05-29 with verification-gated workflow (each snippet passed scripts/verify_one.py at score 1.000)."
+}
