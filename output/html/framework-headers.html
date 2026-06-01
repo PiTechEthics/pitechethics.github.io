@@ -1,5 +1,5 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>VAP Implementation — framework headers</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz@6..72&display=swap" rel="stylesheet"><style>
-@page { size: letter portrait; margin: 0.5in; }
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>VAP Discovery — framework headers</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz@6..72&display=swap" rel="stylesheet"><style>
+@page { size: letter landscape; margin: 0.5in; }
 
 * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
@@ -22,195 +22,126 @@ html, body {
 }
 
 .page {
-  width: 7.5in;
-  height: 10in;
+  /* landscape letter, 0.5" margin → 10" × 7.5" interior */
+  width: 10in;
+  height: 7.5in;
   page-break-after: always;
   position: relative;
-  padding: 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .page:last-child { page-break-after: auto; }
 
-/* ---------- Framework section header ---------- */
+/* ---------- Discovery heuristic header (landscape) ---------- */
 
-.section-header { position: relative; height: 100%; display: flex; flex-direction: column; }
+.heuristic {
+  /* takes the top half of the page; bottom half is intentionally blank */
+  height: 4.4in;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
-.section-num {
+.h-num {
   position: absolute;
-  top: -0.1in;
+  top: -0.15in;
   right: 0;
   font-family: "Newsreader", Georgia, serif;
-  font-size: 220pt;
+  font-size: 230pt;
   font-weight: 400;
   line-height: 0.85;
   color: var(--brick-tint);
   z-index: 0;
 }
 
-.section-eyebrow {
+.h-eyebrow {
   font-size: 11pt;
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--brick);
-  margin-bottom: 0.25in;
+  margin-bottom: 0.18in;
   z-index: 1;
+  position: relative;
 }
 
-.section-title {
-  font-family: "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
-  font-size: 108pt;
+.h-title {
+  font-size: 84pt;
   font-weight: 800;
-  line-height: 0.94;
-  letter-spacing: -0.025em;
-  color: var(--ink);
-  margin: 0 0 0.30in;
-  z-index: 1;
-}
-
-.section-instruction {
-  font-size: 22pt;
-  font-weight: 400;
-  line-height: 1.30;
-  color: var(--ink);
-  margin: 0 0 0.45in;
-  max-width: 6.5in;
-  z-index: 1;
-}
-
-.section-subprompts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.20in;
-  margin-top: auto;
-  margin-bottom: 0;
-  z-index: 1;
-}
-.section-subprompt {
-  border-top: 1.5pt solid var(--ink);
-  padding-top: 0.12in;
-}
-.section-subprompt .sp-label {
-  font-size: 12pt;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--ink);
-  margin-bottom: 0.06in;
-  line-height: 1.15;
-}
-.section-subprompt .sp-help {
-  font-size: 10.5pt;
-  color: var(--ink-soft);
-  line-height: 1.30;
-}
-
-.section-diagram {
-  margin: 0.3in 0 0;
-  z-index: 1;
-}
-
-/* ----- diagram-specific (hierarchy / tension) ----- */
-
-.hierarchy {
-  display: flex;
-  flex-direction: column;
-  gap: 0.18in;
-  align-items: flex-start;
-}
-.hierarchy .level {
-  display: flex;
-  align-items: center;
-  gap: 0.18in;
-}
-.hierarchy .chip {
-  font-size: 14pt;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 0.10in 0.22in;
-  border-radius: 4pt;
-}
-.hierarchy .v   { background: #e3f0f0; color: var(--teal); }
-.hierarchy .n   { background: #faf2c8; color: #786420; }
-.hierarchy .r   { background: #faf2c8; color: #786420; }
-.hierarchy .arrow {
-  font-size: 14pt; color: var(--ink-soft); font-weight: 700;
-}
-
-.tension {
-  display: flex;
-  align-items: center;
-  gap: 0.30in;
-  font-size: 14pt;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-.tension .v {
-  background: #e3f0f0;
-  color: var(--teal);
-  padding: 0.10in 0.22in;
-  border-radius: 4pt;
-}
-.tension .vs {
-  color: var(--brick);
-  font-size: 22pt;
-}
-
-/* ---------- Conflict resolution sub-column header ---------- */
-
-.conflict-page { display: flex; flex-direction: column; height: 100%; }
-
-.conflict-marker {
-  font-size: 90pt;
-  line-height: 1;
-  margin-bottom: 0.20in;
-}
-.conflict-eyebrow {
-  font-size: 12pt;
-  font-weight: 600;
-  letter-spacing: 0.20em;
-  text-transform: uppercase;
-  margin-bottom: 0.12in;
-}
-.conflict-title {
-  font-size: 76pt;
-  font-weight: 800;
-  line-height: 0.94;
+  line-height: 0.96;
   letter-spacing: -0.030em;
   margin: 0 0 0.20in;
+  color: var(--ink);
+  z-index: 1;
+  position: relative;
 }
-.conflict-subtitle {
+.h-title .l2 { display: block; color: var(--brick); }
+
+.h-tagline {
   font-size: 22pt;
   font-weight: 400;
-  line-height: 1.30;
-  color: var(--ink-soft);
-  margin: 0 0 0.45in;
-  max-width: 6.5in;
-}
-.conflict-fields {
-  display: flex;
-  flex-direction: column;
-  gap: 0.20in;
-  margin-top: auto;
-}
-.conflict-field {
-  border-top: 1.5pt solid var(--line);
-  padding-top: 0.10in;
-  font-size: 18pt;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  line-height: 1.25;
   color: var(--ink);
+  margin: 0 0 0.20in;
+  max-width: 8.5in;
+  z-index: 1;
+  position: relative;
 }
 
-/* ---------- Fellow name banner ---------- */
+.h-subcats {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.16in 0.30in;
+  align-items: baseline;
+  z-index: 1;
+  position: relative;
+}
+.h-subcats .item {
+  font-size: 13pt;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-bottom: 0.06in;
+  border-bottom: 1.5pt solid var(--ink);
+}
+
+/* cut line + white space below */
+.cutline {
+  margin-top: 0.50in;
+  height: 0;
+  border-top: 1pt dashed #a8a8a8;
+  position: relative;
+}
+.cutline::after {
+  content: "✂ cut here";
+  position: absolute;
+  top: -0.13in;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 0 0.10in;
+  font-size: 8pt;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+
+.below-cut {
+  flex: 1;
+  /* intentionally empty white space for cutting */
+}
+
+/* ---------- Fellow name banner (landscape) ---------- */
 
 .banner {
   display: flex;
   flex-direction: column;
   height: 100%;
+  position: relative;
 }
 .banner-eyebrow {
   font-size: 12pt;
@@ -218,12 +149,12 @@ html, body {
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--brick);
-  margin-bottom: 0.20in;
+  margin-bottom: 0.30in;
 }
 .banner-name {
-  font-size: 84pt;
+  font-size: 132pt;
   font-weight: 800;
-  line-height: 0.96;
+  line-height: 0.94;
   letter-spacing: -0.030em;
   color: var(--ink);
   margin: 0;
@@ -231,12 +162,12 @@ html, body {
 .banner-name .first { display: block; }
 .banner-name .last  { display: block; color: var(--brick); }
 .banner-org {
-  margin-top: 0.45in;
-  font-size: 28pt;
+  margin-top: 0.40in;
+  font-size: 30pt;
   font-weight: 500;
   line-height: 1.20;
   color: var(--ink);
-  max-width: 6.5in;
+  max-width: 9in;
 }
 .banner-footer {
   margin-top: auto;
@@ -258,137 +189,82 @@ html, body {
     background: #fff;
     box-shadow: 0 4px 14px rgba(0,0,0,0.12);
     margin: 0 auto 0.4in;
-    width: 8.5in;
-    height: 11in;
+    width: 11in;
+    height: 8.5in;
     padding: 0.5in;
   }
 }
 </style></head><body>
     <section class="page">
-      <div class="section-header">
-        <div class="section-num">1</div>
-        <div class="section-eyebrow">Card creation</div>
-        <h1 class="section-title">Value<br>Definition</h1>
-        <p class="section-instruction">Define your top 3 values — abstract concepts — in operational terms.</p>
-        
-        <div class="section-subprompts"><div class="section-subprompt">  <div class="sp-label">ABSTRACT MEANING</div>  <div class="sp-help">What does this value generally mean?</div></div>
-<div class="section-subprompt">  <div class="sp-label">OPERATIONAL DEFINITION</div>  <div class="sp-help">How would you recognize this value in practice? What would it look like concretely?</div></div>
-<div class="section-subprompt">  <div class="sp-label">EXAMPLES</div>  <div class="sp-help">Where in your project does it show up?</div></div></div>
-      </div>
-    </section>
-    
-
-    <section class="page">
-      <div class="section-header">
-        <div class="section-num">2</div>
-        <div class="section-eyebrow">Part 1 · 25 minutes</div>
-        <h1 class="section-title">Value<br>Hierarchy<br>Trees</h1>
-        <p class="section-instruction">Translate your 2–3 chosen and operationalized key values into norms and design requirements (after Van de Poel).</p>
-        
-    <div class="section-diagram">
-      <div class="hierarchy">
-        <div class="level"><span class="chip v">Value</span></div>
-        <div class="level"><span class="arrow">↳</span>
-                           <span class="chip n">Norm</span>
-                           <span class="arrow">·</span>
-                           <span class="chip n">Norm</span></div>
-        <div class="level"><span class="arrow" style="margin-left:0.4in">↳</span>
-                           <span class="chip r">Requirement</span>
-                           <span class="arrow">·</span>
-                           <span class="chip r">Requirement</span></div>
-      </div>
-    </div>
-    
-        
-      </div>
-    </section>
-    
-
-    <section class="page">
-      <div class="section-header">
-        <div class="section-num">3</div>
-        <div class="section-eyebrow">Part 2a · 15 minutes</div>
-        <h1 class="section-title">Map<br>Value<br>Tensions</h1>
-        <p class="section-instruction">Trace value tensions within your project. Focus on the most critical ones. Tensions can occur between values, but also between norms and requirements.</p>
-        
-    <div class="section-diagram">
-      <div class="tension">
-        <span class="v">Value A</span>
-        <span class="vs">↔</span>
-        <span class="v">Value B</span>
-      </div>
-    </div>
-    
-        
-      </div>
-    </section>
-    
-
-    <section class="page">
-      <div class="section-header">
-        <div class="section-num">4</div>
-        <div class="section-eyebrow">Part 2b · 15 minutes</div>
-        <h1 class="section-title">Resolve<br>Conflicts</h1>
-        <p class="section-instruction">Resolve traced conflicts by dissolving, compromising, or trading-off. As conflicts resolve, they become new design requirements.</p>
-        
-        <div class="section-subprompts"><div class="section-subprompt">  <div class="sp-label">🟢 DISSOLVE</div>  <div class="sp-help">Innovative design avoids the conflict entirely.</div></div>
-<div class="section-subprompt">  <div class="sp-label">🟡 COMPROMISE</div>  <div class="sp-help">Both values are partially satisfied.</div></div>
-<div class="section-subprompt">  <div class="sp-label">🔴 TRADE-OFF</div>  <div class="sp-help">Prioritize one value; note the consequence and any future mitigations.</div></div></div>
-      </div>
-    </section>
-    
-
-    <section class="page">
-      <div class="conflict-page" style="border-top: 6pt solid #2f8d90;
-                                       padding-top: 0.25in;">
-        <div class="conflict-marker">🟢</div>
-        <div class="conflict-eyebrow" style="color: #2f8d90;">
-          Resolve conflicts
-        </div>
-        <h1 class="conflict-title" style="color: #2f8d90;">
-          Dissolved
+      <div class="heuristic">
+        <div class="h-num">1</div>
+        <div class="h-eyebrow">Discovery · Heuristic 1 of 4</div>
+        <h1 class="h-title">
+          Functional<span class="l2">Description</span>
         </h1>
-        <p class="conflict-subtitle">Innovative design avoids the conflict</p>
-        <div class="conflict-fields"><div class="conflict-field">Value conflict</div>
-<div class="conflict-field">Value outcome</div>
-<div class="conflict-field">Dissolution solution</div></div>
+        <p class="h-tagline">What does the org and its product do — and care about?</p>
+        <div class="h-subcats"><span class="item">Mission Statement</span>
+<span class="item">Problems Solved</span>
+<span class="item">Stated Goals</span></div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="conflict-page" style="border-top: 6pt solid #b6892f;
-                                       padding-top: 0.25in;">
-        <div class="conflict-marker">🟡</div>
-        <div class="conflict-eyebrow" style="color: #b6892f;">
-          Resolve conflicts
-        </div>
-        <h1 class="conflict-title" style="color: #b6892f;">
-          Compromised
+      <div class="heuristic">
+        <div class="h-num">2</div>
+        <div class="h-eyebrow">Discovery · Heuristic 2 of 4</div>
+        <h1 class="h-title">
+          Key Actors<span class="l2">&amp; Stakeholders</span>
         </h1>
-        <p class="conflict-subtitle">Both values partially satisfied</p>
-        <div class="conflict-fields"><div class="conflict-field">Value conflict</div>
-<div class="conflict-field">Value outcome</div>
-<div class="conflict-field">Compromise solution</div></div>
+        <p class="h-tagline">Whose values shape this technology?</p>
+        <div class="h-subcats"><span class="item">Target Audience</span>
+<span class="item">Users / Beneficiaries</span>
+<span class="item">Founders</span>
+<span class="item">Funders / Investors</span>
+<span class="item">Affected Communities</span>
+<span class="item">Employees / Creators</span>
+<span class="item">Partners</span></div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="conflict-page" style="border-top: 6pt solid #b75552;
-                                       padding-top: 0.25in;">
-        <div class="conflict-marker">🔴</div>
-        <div class="conflict-eyebrow" style="color: #b75552;">
-          Resolve conflicts
-        </div>
-        <h1 class="conflict-title" style="color: #b75552;">
-          Trade-off
+      <div class="heuristic">
+        <div class="h-num">3</div>
+        <div class="h-eyebrow">Discovery · Heuristic 3 of 4</div>
+        <h1 class="h-title">
+          Technical &amp;<span class="l2">Material Constraints</span>
         </h1>
-        <p class="conflict-subtitle">Prioritize one value; document the consequence</p>
-        <div class="conflict-fields"><div class="conflict-field">Value conflict</div>
-<div class="conflict-field">Value trade-off consequence</div>
-<div class="conflict-field">Trade-off decision</div>
-<div class="conflict-field">Potential future mitigations</div></div>
+        <p class="h-tagline">What values does the tech itself carry in?</p>
+        <div class="h-subcats"><span class="item">Platform Limitations</span>
+<span class="item">Data Requirements</span>
+<span class="item">Infrastructure Requirements</span>
+<span class="item">Resource Constraints</span></div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
+    </section>
+    
+
+    <section class="page">
+      <div class="heuristic">
+        <div class="h-num">4</div>
+        <div class="h-eyebrow">Discovery · Heuristic 4 of 4</div>
+        <h1 class="h-title">
+          Societal<span class="l2">Context</span>
+        </h1>
+        <p class="h-tagline">What does the world around it carry in?</p>
+        <div class="h-subcats"><span class="item">Legal &amp; Compliance Landscape</span>
+<span class="item">Cultural Norms</span>
+<span class="item">Industry Standards</span>
+<span class="item">Geographic Context</span></div>
+      </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     </body></html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>VAP — fellow banners</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz@6..72&display=swap" rel="stylesheet"><style>
-@page { size: letter portrait; margin: 0.5in; }
+@page { size: letter landscape; margin: 0.5in; }
 
 * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
@@ -22,195 +22,126 @@ html, body {
 }
 
 .page {
-  width: 7.5in;
-  height: 10in;
+  /* landscape letter, 0.5" margin → 10" × 7.5" interior */
+  width: 10in;
+  height: 7.5in;
   page-break-after: always;
   position: relative;
-  padding: 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .page:last-child { page-break-after: auto; }
 
-/* ---------- Framework section header ---------- */
+/* ---------- Discovery heuristic header (landscape) ---------- */
 
-.section-header { position: relative; height: 100%; display: flex; flex-direction: column; }
+.heuristic {
+  /* takes the top half of the page; bottom half is intentionally blank */
+  height: 4.4in;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
-.section-num {
+.h-num {
   position: absolute;
-  top: -0.1in;
+  top: -0.15in;
   right: 0;
   font-family: "Newsreader", Georgia, serif;
-  font-size: 220pt;
+  font-size: 230pt;
   font-weight: 400;
   line-height: 0.85;
   color: var(--brick-tint);
   z-index: 0;
 }
 
-.section-eyebrow {
+.h-eyebrow {
   font-size: 11pt;
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--brick);
-  margin-bottom: 0.25in;
+  margin-bottom: 0.18in;
   z-index: 1;
+  position: relative;
 }
 
-.section-title {
-  font-family: "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
-  font-size: 108pt;
+.h-title {
+  font-size: 84pt;
   font-weight: 800;
-  line-height: 0.94;
-  letter-spacing: -0.025em;
-  color: var(--ink);
-  margin: 0 0 0.30in;
-  z-index: 1;
-}
-
-.section-instruction {
-  font-size: 22pt;
-  font-weight: 400;
-  line-height: 1.30;
-  color: var(--ink);
-  margin: 0 0 0.45in;
-  max-width: 6.5in;
-  z-index: 1;
-}
-
-.section-subprompts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.20in;
-  margin-top: auto;
-  margin-bottom: 0;
-  z-index: 1;
-}
-.section-subprompt {
-  border-top: 1.5pt solid var(--ink);
-  padding-top: 0.12in;
-}
-.section-subprompt .sp-label {
-  font-size: 12pt;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--ink);
-  margin-bottom: 0.06in;
-  line-height: 1.15;
-}
-.section-subprompt .sp-help {
-  font-size: 10.5pt;
-  color: var(--ink-soft);
-  line-height: 1.30;
-}
-
-.section-diagram {
-  margin: 0.3in 0 0;
-  z-index: 1;
-}
-
-/* ----- diagram-specific (hierarchy / tension) ----- */
-
-.hierarchy {
-  display: flex;
-  flex-direction: column;
-  gap: 0.18in;
-  align-items: flex-start;
-}
-.hierarchy .level {
-  display: flex;
-  align-items: center;
-  gap: 0.18in;
-}
-.hierarchy .chip {
-  font-size: 14pt;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 0.10in 0.22in;
-  border-radius: 4pt;
-}
-.hierarchy .v   { background: #e3f0f0; color: var(--teal); }
-.hierarchy .n   { background: #faf2c8; color: #786420; }
-.hierarchy .r   { background: #faf2c8; color: #786420; }
-.hierarchy .arrow {
-  font-size: 14pt; color: var(--ink-soft); font-weight: 700;
-}
-
-.tension {
-  display: flex;
-  align-items: center;
-  gap: 0.30in;
-  font-size: 14pt;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-.tension .v {
-  background: #e3f0f0;
-  color: var(--teal);
-  padding: 0.10in 0.22in;
-  border-radius: 4pt;
-}
-.tension .vs {
-  color: var(--brick);
-  font-size: 22pt;
-}
-
-/* ---------- Conflict resolution sub-column header ---------- */
-
-.conflict-page { display: flex; flex-direction: column; height: 100%; }
-
-.conflict-marker {
-  font-size: 90pt;
-  line-height: 1;
-  margin-bottom: 0.20in;
-}
-.conflict-eyebrow {
-  font-size: 12pt;
-  font-weight: 600;
-  letter-spacing: 0.20em;
-  text-transform: uppercase;
-  margin-bottom: 0.12in;
-}
-.conflict-title {
-  font-size: 76pt;
-  font-weight: 800;
-  line-height: 0.94;
+  line-height: 0.96;
   letter-spacing: -0.030em;
   margin: 0 0 0.20in;
+  color: var(--ink);
+  z-index: 1;
+  position: relative;
 }
-.conflict-subtitle {
+.h-title .l2 { display: block; color: var(--brick); }
+
+.h-tagline {
   font-size: 22pt;
   font-weight: 400;
-  line-height: 1.30;
-  color: var(--ink-soft);
-  margin: 0 0 0.45in;
-  max-width: 6.5in;
-}
-.conflict-fields {
-  display: flex;
-  flex-direction: column;
-  gap: 0.20in;
-  margin-top: auto;
-}
-.conflict-field {
-  border-top: 1.5pt solid var(--line);
-  padding-top: 0.10in;
-  font-size: 18pt;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  line-height: 1.25;
   color: var(--ink);
+  margin: 0 0 0.20in;
+  max-width: 8.5in;
+  z-index: 1;
+  position: relative;
 }
 
-/* ---------- Fellow name banner ---------- */
+.h-subcats {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.16in 0.30in;
+  align-items: baseline;
+  z-index: 1;
+  position: relative;
+}
+.h-subcats .item {
+  font-size: 13pt;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-bottom: 0.06in;
+  border-bottom: 1.5pt solid var(--ink);
+}
+
+/* cut line + white space below */
+.cutline {
+  margin-top: 0.50in;
+  height: 0;
+  border-top: 1pt dashed #a8a8a8;
+  position: relative;
+}
+.cutline::after {
+  content: "✂ cut here";
+  position: absolute;
+  top: -0.13in;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 0 0.10in;
+  font-size: 8pt;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+
+.below-cut {
+  flex: 1;
+  /* intentionally empty white space for cutting */
+}
+
+/* ---------- Fellow name banner (landscape) ---------- */
 
 .banner {
   display: flex;
   flex-direction: column;
   height: 100%;
+  position: relative;
 }
 .banner-eyebrow {
   font-size: 12pt;
@@ -218,12 +149,12 @@ html, body {
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--brick);
-  margin-bottom: 0.20in;
+  margin-bottom: 0.30in;
 }
 .banner-name {
-  font-size: 84pt;
+  font-size: 132pt;
   font-weight: 800;
-  line-height: 0.96;
+  line-height: 0.94;
   letter-spacing: -0.030em;
   color: var(--ink);
   margin: 0;
@@ -231,12 +162,12 @@ html, body {
 .banner-name .first { display: block; }
 .banner-name .last  { display: block; color: var(--brick); }
 .banner-org {
-  margin-top: 0.45in;
-  font-size: 28pt;
+  margin-top: 0.40in;
+  font-size: 30pt;
   font-weight: 500;
   line-height: 1.20;
   color: var(--ink);
-  max-width: 6.5in;
+  max-width: 9in;
 }
 .banner-footer {
   margin-top: auto;
@@ -258,15 +189,15 @@ html, body {
     background: #fff;
     box-shadow: 0 4px 14px rgba(0,0,0,0.12);
     margin: 0 auto 0.4in;
-    width: 8.5in;
-    height: 11in;
+    width: 11in;
+    height: 8.5in;
     padding: 0.5in;
   }
 }
 </style></head><body>
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Alaa</span>
           <span class="last">Daffalla</span>
@@ -282,7 +213,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Daniel</span>
           <span class="last">Enriquez</span>
@@ -298,7 +229,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Hal</span>
           <span class="last">Triedman</span>
@@ -314,7 +245,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Isabel</span>
           <span class="last">Corpus</span>
@@ -330,7 +261,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Jingruo</span>
           <span class="last">Chen</span>
@@ -346,7 +277,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Nanyi</span>
           <span class="last">Jiang</span>
@@ -362,7 +293,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Suvadip</span>
           <span class="last">Sana</span>
@@ -378,7 +309,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Tan</span>
           <span class="last">Gemicioglu</span>
@@ -394,7 +325,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Tanvir</span>
           <span class="last">Ahmed</span>
@@ -410,7 +341,7 @@ html, body {
 
     <section class="page">
       <div class="banner">
-        <div class="banner-eyebrow">VAP · Implementation · Summer 2026</div>
+        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
         <div class="banner-name">
           <span class="first">Ulysse</span>
           <span class="last">Hennebelle</span>
