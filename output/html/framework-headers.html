@@ -135,51 +135,117 @@ html, body {
   /* intentionally empty white space for cutting */
 }
 
-/* ---------- Fellow name banner (landscape) ---------- */
+/* ---------- Org-dominant banner (landscape) ---------- */
+/* Lives at the top-left of the fellow's poster as the framework title.
+   Org is the subject of analysis → biggest. Fellow attribution → small. */
 
-.banner {
+.org-banner {
+  height: 4.4in;
   display: flex;
   flex-direction: column;
-  height: 100%;
   position: relative;
 }
-.banner-eyebrow {
-  font-size: 12pt;
+
+.ob-eyebrow {
+  font-size: 11pt;
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--brick);
-  margin-bottom: 0.30in;
+  margin-bottom: 0.20in;
 }
-.banner-name {
-  font-size: 132pt;
-  font-weight: 800;
+
+.ob-short {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 600;
   line-height: 0.94;
-  letter-spacing: -0.030em;
+  letter-spacing: -0.025em;
   color: var(--ink);
-  margin: 0;
+  margin: 0 0 0.18in;
+  font-size: 130pt;            /* default; class below shrinks for long labels */
 }
-.banner-name .first { display: block; }
-.banner-name .last  { display: block; color: var(--brick); }
-.banner-org {
-  margin-top: 0.40in;
-  font-size: 30pt;
+.ob-short.len-m { font-size: 108pt; }
+.ob-short.len-l { font-size: 88pt;  }
+
+.ob-full {
+  font-size: 22pt;
   font-weight: 500;
   line-height: 1.20;
   color: var(--ink);
-  max-width: 9in;
+  margin: 0 0 0.40in;
+  max-width: 8.5in;
 }
-.banner-footer {
+
+.ob-attrib {
   margin-top: auto;
-  border-top: 1pt solid var(--ink);
-  padding-top: 0.12in;
-  font-size: 10pt;
+  display: flex;
+  align-items: baseline;
+  gap: 0.30in;
+}
+.ob-attrib .label {
+  font-size: 9pt;
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--ink-soft);
+}
+.ob-attrib .fellow {
+  font-size: 16pt;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ob-attrib .role {
+  font-size: 12pt;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* ---------- PiTech Fellow sub-category page (smaller header) ---------- */
+
+.sub {
+  height: 4.0in;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+}
+.sub-kicker {
+  font-size: 10pt;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brick);
+  margin-bottom: 0.15in;
+}
+.sub-title {
+  font-size: 56pt;
+  font-weight: 800;
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 0.18in;
+}
+.sub-tagline {
+  font-size: 18pt;
+  font-weight: 400;
+  line-height: 1.30;
+  color: var(--ink);
+  margin: 0 0 0.25in;
+  max-width: 8.5in;
+}
+.sub-subcats {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.14in 0.28in;
+}
+.sub-subcats .item {
+  font-size: 12pt;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-bottom: 0.05in;
+  border-bottom: 1.5pt solid var(--ink);
 }
 
 /* On-screen preview */
@@ -263,6 +329,21 @@ html, body {
 <span class="item">Cultural Norms</span>
 <span class="item">Industry Standards</span>
 <span class="item">Geographic Context</span></div>
+      </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
+    </section>
+    
+
+    <section class="page">
+      <div class="sub">
+        <div class="sub-kicker">Add under heuristic 2 · key actors &amp; stakeholders</div>
+        <h2 class="sub-title">PiTech Fellow</h2>
+        <p class="sub-tagline">Your own values, training, lived experience, and assumptions are values brought to the project too. Surface them.</p>
+        <div class="sub-subcats"><span class="item">Discipline / Training</span>
+<span class="item">Lived Experience</span>
+<span class="item">Assumptions / Blind Spots</span>
+<span class="item">Why This Project</span></div>
       </div>
       <div class="cutline"></div>
       <div class="below-cut"></div>

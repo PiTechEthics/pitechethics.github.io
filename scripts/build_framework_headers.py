@@ -88,18 +88,35 @@ HEURISTICS = [
 
 
 # 10 fellows of the 2026 cohort (kept in sync with index.html).
+# (first, last, org_short, org_full)
 FELLOWS = [
-    ("Alaa",     "Daffalla",    "Maimonides Medical Center"),
-    ("Daniel",   "Enriquez",    "Center for Family Support (CFS)"),
-    ("Hal",      "Triedman",    "NYC Mayor's Office of Contract Services"),
-    ("Isabel",   "Corpus",      "NYC Office of Technology & Innovation"),
-    ("Jingruo",  "Chen",        "NYC Department for the Aging"),
-    ("Nanyi",    "Jiang",       "National Women's Hall of Fame"),
-    ("Suvadip",  "Sana",        "NYC Council Data Team"),
-    ("Tan",      "Gemicioglu",  "Ability Beyond"),
-    ("Tanvir",   "Ahmed",       "Environmental Defense Fund — MethaneSAT"),
-    ("Ulysse",   "Hennebelle",  "New York Police Department"),
+    ("Alaa",     "Daffalla",    "Maimonides",     "Maimonides Medical Center"),
+    ("Daniel",   "Enriquez",    "CFS",            "Center for Family Support"),
+    ("Hal",      "Triedman",    "MOCS",           "NYC Mayor's Office of Contract Services"),
+    ("Isabel",   "Corpus",      "NYC OTI",        "NYC Office of Technology & Innovation"),
+    ("Jingruo",  "Chen",        "NYC Aging",      "NYC Department for the Aging"),
+    ("Nanyi",    "Jiang",       "NWHF",           "National Women's Hall of Fame"),
+    ("Suvadip",  "Sana",        "NYC Council",    "NYC Council Data Team"),
+    ("Tan",      "Gemicioglu",  "Ability Beyond", "Ability Beyond"),
+    ("Tanvir",   "Ahmed",       "MethaneSAT",     "Environmental Defense Fund — MethaneSAT"),
+    ("Ulysse",   "Hennebelle",  "NYPD",           "New York Police Department"),
 ]
+
+
+# Sub-category page: "PiTech Fellow" — explicitly named in the VAP Discovery
+# heuristic list under Key Actors & Stakeholders. Sized smaller than the four
+# main heuristic headers so it signals "add under Heuristic 2", not parallel.
+PITECH_FELLOW_PAGE = {
+    "kicker": "Add under heuristic 2 · key actors & stakeholders",
+    "title": "PiTech Fellow",
+    "tagline": "Your own values, training, lived experience, and assumptions are values brought to the project too. Surface them.",
+    "subcats": [
+        "Discipline / Training",
+        "Lived Experience",
+        "Assumptions / Blind Spots",
+        "Why This Project",
+    ],
+}
 
 
 CSS = r"""
@@ -239,51 +256,117 @@ html, body {
   /* intentionally empty white space for cutting */
 }
 
-/* ---------- Fellow name banner (landscape) ---------- */
+/* ---------- Org-dominant banner (landscape) ---------- */
+/* Lives at the top-left of the fellow's poster as the framework title.
+   Org is the subject of analysis → biggest. Fellow attribution → small. */
 
-.banner {
+.org-banner {
+  height: 4.4in;
   display: flex;
   flex-direction: column;
-  height: 100%;
   position: relative;
 }
-.banner-eyebrow {
-  font-size: 12pt;
+
+.ob-eyebrow {
+  font-size: 11pt;
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--brick);
-  margin-bottom: 0.30in;
+  margin-bottom: 0.20in;
 }
-.banner-name {
-  font-size: 132pt;
-  font-weight: 800;
+
+.ob-short {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 600;
   line-height: 0.94;
-  letter-spacing: -0.030em;
+  letter-spacing: -0.025em;
   color: var(--ink);
-  margin: 0;
+  margin: 0 0 0.18in;
+  font-size: 130pt;            /* default; class below shrinks for long labels */
 }
-.banner-name .first { display: block; }
-.banner-name .last  { display: block; color: var(--brick); }
-.banner-org {
-  margin-top: 0.40in;
-  font-size: 30pt;
+.ob-short.len-m { font-size: 108pt; }
+.ob-short.len-l { font-size: 88pt;  }
+
+.ob-full {
+  font-size: 22pt;
   font-weight: 500;
   line-height: 1.20;
   color: var(--ink);
-  max-width: 9in;
+  margin: 0 0 0.40in;
+  max-width: 8.5in;
 }
-.banner-footer {
+
+.ob-attrib {
   margin-top: auto;
-  border-top: 1pt solid var(--ink);
-  padding-top: 0.12in;
-  font-size: 10pt;
+  display: flex;
+  align-items: baseline;
+  gap: 0.30in;
+}
+.ob-attrib .label {
+  font-size: 9pt;
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--ink-soft);
+}
+.ob-attrib .fellow {
+  font-size: 16pt;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ob-attrib .role {
+  font-size: 12pt;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* ---------- PiTech Fellow sub-category page (smaller header) ---------- */
+
+.sub {
+  height: 4.0in;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+}
+.sub-kicker {
+  font-size: 10pt;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brick);
+  margin-bottom: 0.15in;
+}
+.sub-title {
+  font-size: 56pt;
+  font-weight: 800;
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 0.18in;
+}
+.sub-tagline {
+  font-size: 18pt;
+  font-weight: 400;
+  line-height: 1.30;
+  color: var(--ink);
+  margin: 0 0 0.25in;
+  max-width: 8.5in;
+}
+.sub-subcats {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.14in 0.28in;
+}
+.sub-subcats .item {
+  font-size: 12pt;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-bottom: 0.05in;
+  border-bottom: 1.5pt solid var(--ink);
 }
 
 /* On-screen preview */
@@ -322,21 +405,46 @@ def heuristic_page(h: dict) -> str:
     """
 
 
-def banner_page(first: str, last: str, org: str) -> str:
+def banner_page(first: str, last: str, org_short: str, org_full: str) -> str:
+    n = len(org_short)
+    size_cls = ""
+    if n >= 11:
+        size_cls = " len-l"
+    elif n >= 8:
+        size_cls = " len-m"
     return f"""
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">{html.escape(first)}</span>
-          <span class="last">{html.escape(last)}</span>
-        </div>
-        <div class="banner-org">{html.escape(org)}</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short{size_cls}">{html.escape(org_short)}</div>
+        <div class="ob-full">{html.escape(org_full)}</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">{html.escape(first)} {html.escape(last)}</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
+    </section>
+    """
+
+
+def pitech_fellow_page() -> str:
+    p = PITECH_FELLOW_PAGE
+    subcats = "\n".join(
+        f'<span class="item">{html.escape(s)}</span>' for s in p["subcats"]
+    )
+    return f"""
+    <section class="page">
+      <div class="sub">
+        <div class="sub-kicker">{html.escape(p['kicker'])}</div>
+        <h2 class="sub-title">{html.escape(p['title'])}</h2>
+        <p class="sub-tagline">{html.escape(p['tagline'])}</p>
+        <div class="sub-subcats">{subcats}</div>
+      </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     """
 
@@ -353,19 +461,21 @@ def wrap(title: str, body: str) -> str:
 
 
 def main() -> None:
-    fh_pages = [heuristic_page(h) for h in HEURISTICS]
+    fh_pages = [heuristic_page(h) for h in HEURISTICS] + [pitech_fellow_page()]
     (OUT_HTML / "framework-headers.html").write_text(
         wrap("VAP Discovery — framework headers", "\n".join(fh_pages)),
         encoding="utf-8",
     )
 
-    fb_pages = [banner_page(first, last, org) for (first, last, org) in FELLOWS]
+    fb_pages = [banner_page(first, last, short, full)
+                for (first, last, short, full) in FELLOWS]
     (OUT_HTML / "fellow-banners.html").write_text(
         wrap("VAP — fellow banners", "\n".join(fb_pages)),
         encoding="utf-8",
     )
 
-    print(f"Wrote {len(fh_pages)} pages -> output/html/framework-headers.html")
+    print(f"Wrote {len(fh_pages)} pages -> output/html/framework-headers.html "
+          f"(4 heuristics + 1 PiTech Fellow sub-page)")
     print(f"Wrote {len(fb_pages)} pages -> output/html/fellow-banners.html")
 
 

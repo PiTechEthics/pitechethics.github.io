@@ -135,51 +135,117 @@ html, body {
   /* intentionally empty white space for cutting */
 }
 
-/* ---------- Fellow name banner (landscape) ---------- */
+/* ---------- Org-dominant banner (landscape) ---------- */
+/* Lives at the top-left of the fellow's poster as the framework title.
+   Org is the subject of analysis → biggest. Fellow attribution → small. */
 
-.banner {
+.org-banner {
+  height: 4.4in;
   display: flex;
   flex-direction: column;
-  height: 100%;
   position: relative;
 }
-.banner-eyebrow {
-  font-size: 12pt;
+
+.ob-eyebrow {
+  font-size: 11pt;
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--brick);
-  margin-bottom: 0.30in;
+  margin-bottom: 0.20in;
 }
-.banner-name {
-  font-size: 132pt;
-  font-weight: 800;
+
+.ob-short {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 600;
   line-height: 0.94;
-  letter-spacing: -0.030em;
+  letter-spacing: -0.025em;
   color: var(--ink);
-  margin: 0;
+  margin: 0 0 0.18in;
+  font-size: 130pt;            /* default; class below shrinks for long labels */
 }
-.banner-name .first { display: block; }
-.banner-name .last  { display: block; color: var(--brick); }
-.banner-org {
-  margin-top: 0.40in;
-  font-size: 30pt;
+.ob-short.len-m { font-size: 108pt; }
+.ob-short.len-l { font-size: 88pt;  }
+
+.ob-full {
+  font-size: 22pt;
   font-weight: 500;
   line-height: 1.20;
   color: var(--ink);
-  max-width: 9in;
+  margin: 0 0 0.40in;
+  max-width: 8.5in;
 }
-.banner-footer {
+
+.ob-attrib {
   margin-top: auto;
-  border-top: 1pt solid var(--ink);
-  padding-top: 0.12in;
-  font-size: 10pt;
+  display: flex;
+  align-items: baseline;
+  gap: 0.30in;
+}
+.ob-attrib .label {
+  font-size: 9pt;
   font-weight: 600;
   letter-spacing: 0.20em;
   text-transform: uppercase;
   color: var(--ink-soft);
+}
+.ob-attrib .fellow {
+  font-size: 16pt;
+  font-weight: 600;
+  color: var(--ink);
+}
+.ob-attrib .role {
+  font-size: 12pt;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* ---------- PiTech Fellow sub-category page (smaller header) ---------- */
+
+.sub {
+  height: 4.0in;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+}
+.sub-kicker {
+  font-size: 10pt;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brick);
+  margin-bottom: 0.15in;
+}
+.sub-title {
+  font-size: 56pt;
+  font-weight: 800;
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 0.18in;
+}
+.sub-tagline {
+  font-size: 18pt;
+  font-weight: 400;
+  line-height: 1.30;
+  color: var(--ink);
+  margin: 0 0 0.25in;
+  max-width: 8.5in;
+}
+.sub-subcats {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.14in 0.28in;
+}
+.sub-subcats .item {
+  font-size: 12pt;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-bottom: 0.05in;
+  border-bottom: 1.5pt solid var(--ink);
 }
 
 /* On-screen preview */
@@ -196,161 +262,161 @@ html, body {
 }
 </style></head><body>
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Alaa</span>
-          <span class="last">Daffalla</span>
-        </div>
-        <div class="banner-org">Maimonides Medical Center</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short len-m">Maimonides</div>
+        <div class="ob-full">Maimonides Medical Center</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Alaa Daffalla</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Daniel</span>
-          <span class="last">Enriquez</span>
-        </div>
-        <div class="banner-org">Center for Family Support (CFS)</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short">CFS</div>
+        <div class="ob-full">Center for Family Support</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Daniel Enriquez</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Hal</span>
-          <span class="last">Triedman</span>
-        </div>
-        <div class="banner-org">NYC Mayor&#x27;s Office of Contract Services</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short">MOCS</div>
+        <div class="ob-full">NYC Mayor&#x27;s Office of Contract Services</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Hal Triedman</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Isabel</span>
-          <span class="last">Corpus</span>
-        </div>
-        <div class="banner-org">NYC Office of Technology &amp; Innovation</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short">NYC OTI</div>
+        <div class="ob-full">NYC Office of Technology &amp; Innovation</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Isabel Corpus</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Jingruo</span>
-          <span class="last">Chen</span>
-        </div>
-        <div class="banner-org">NYC Department for the Aging</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short len-m">NYC Aging</div>
+        <div class="ob-full">NYC Department for the Aging</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Jingruo Chen</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Nanyi</span>
-          <span class="last">Jiang</span>
-        </div>
-        <div class="banner-org">National Women&#x27;s Hall of Fame</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short">NWHF</div>
+        <div class="ob-full">National Women&#x27;s Hall of Fame</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Nanyi Jiang</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Suvadip</span>
-          <span class="last">Sana</span>
-        </div>
-        <div class="banner-org">NYC Council Data Team</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short len-l">NYC Council</div>
+        <div class="ob-full">NYC Council Data Team</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Suvadip Sana</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Tan</span>
-          <span class="last">Gemicioglu</span>
-        </div>
-        <div class="banner-org">Ability Beyond</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short len-l">Ability Beyond</div>
+        <div class="ob-full">Ability Beyond</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Tan Gemicioglu</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Tanvir</span>
-          <span class="last">Ahmed</span>
-        </div>
-        <div class="banner-org">Environmental Defense Fund — MethaneSAT</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short len-m">MethaneSAT</div>
+        <div class="ob-full">Environmental Defense Fund — MethaneSAT</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Tanvir Ahmed</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     
 
     <section class="page">
-      <div class="banner">
-        <div class="banner-eyebrow">VAP · Discovery · Summer 2026</div>
-        <div class="banner-name">
-          <span class="first">Ulysse</span>
-          <span class="last">Hennebelle</span>
-        </div>
-        <div class="banner-org">New York Police Department</div>
-        <div class="banner-footer">
-          <span>PiTech × DLI</span>
-          <span>Cornell Tech · NYC</span>
+      <div class="org-banner">
+        <div class="ob-eyebrow">VAP · Discovery · Summer 2026</div>
+        <div class="ob-short">NYPD</div>
+        <div class="ob-full">New York Police Department</div>
+        <div class="ob-attrib">
+          <span class="label">Analyzed by</span>
+          <span class="fellow">Ulysse Hennebelle</span>
+          <span class="role">PiTech Impact Fellow · 2026</span>
         </div>
       </div>
+      <div class="cutline"></div>
+      <div class="below-cut"></div>
     </section>
     </body></html>
