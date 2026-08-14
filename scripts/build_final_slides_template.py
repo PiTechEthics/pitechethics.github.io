@@ -2,7 +2,7 @@
 """Build the 5-minute final-presentation slide template for the 2026 PiTech
 fellows (DLI Conscientious Tech Design Workshop).
 
-The deck is a *template*: 4 front-matter slides explaining the ask, then a
+The deck is a *template*: 5 front-matter slides explaining the ask, then a
 7-slide section per fellow with name + host org already filled in. Everything
 else is placeholder text the fellow overwrites.
 
@@ -12,6 +12,10 @@ Design constraints:
     so every element stays directly editable after the Slides conversion.
   - Arial + Georgia only. Both are guaranteed present in Google Slides, so
     nothing silently reflows on import.
+  - **Large type, high contrast.** Body copy bottoms out at 13pt and every text
+    colour clears ~6:1 against its background — this gets projected in a room
+    and read from the back. Copy is deliberately terse so the big type fits;
+    if you add words here, check the render before shipping.
 
 Output: output/pptx/2026-VAP-Fellow-Final-Presentation-Template.pptx
 """
@@ -30,31 +34,49 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "output" / "pptx"
 OUT.mkdir(parents=True, exist_ok=True)
 
-# ---- palette (same ink/brick/teal family as the printed workshop material) --
+# ---- palette ----------------------------------------------------------------
+# Same ink/brick/teal family as the printed workshop material, pushed darker.
+# The *_TEXT variants are for type; the plain names are for fills and rules,
+# where the lighter chroma still reads.
 
-INK        = RGBColor(0x22, 0x1C, 0x1B)
-INK_SOFT   = RGBColor(0x5D, 0x54, 0x50)
-MUTED      = RGBColor(0x9A, 0x91, 0x8C)   # placeholder prose
-BRICK      = RGBColor(0xB7, 0x55, 0x52)
-BRICK_DARK = RGBColor(0x8F, 0x2D, 0x2A)
-BRICK_TINT = RGBColor(0xF3, 0xE6, 0xE4)
-TEAL       = RGBColor(0x2F, 0x8D, 0x90)
-TEAL_TINT  = RGBColor(0xE1, 0xEF, 0xEF)
-BRONZE     = RGBColor(0xA0, 0x76, 0x4F)
-BRONZE_TINT= RGBColor(0xF2, 0xEA, 0xE2)
-PAPER      = RGBColor(0xFA, 0xF6, 0xF2)
-LINE       = RGBColor(0xD8, 0xD0, 0xCA)
-WHITE      = RGBColor(0xFF, 0xFF, 0xFF)
+INK         = RGBColor(0x1A, 0x15, 0x14)
+INK_SOFT    = RGBColor(0x45, 0x3D, 0x3A)
+MUTED       = RGBColor(0x66, 0x5C, 0x57)   # placeholder prose — still readable
+BRICK       = RGBColor(0xB7, 0x55, 0x52)
+BRICK_TEXT  = RGBColor(0x8F, 0x2D, 0x2A)
+BRICK_TINT  = RGBColor(0xF2, 0xE3, 0xE1)
+TEAL        = RGBColor(0x2F, 0x8D, 0x90)
+TEAL_TEXT   = RGBColor(0x1B, 0x66, 0x69)
+TEAL_TINT   = RGBColor(0xDC, 0xED, 0xED)
+BRONZE      = RGBColor(0xA0, 0x76, 0x4F)
+BRONZE_TEXT = RGBColor(0x77, 0x52, 0x2F)
+BRONZE_TINT = RGBColor(0xF0, 0xE7, 0xDD)
+PAPER       = RGBColor(0xFA, 0xF6, 0xF2)
+LINE        = RGBColor(0xB0, 0xA4, 0x9C)
+WHITE       = RGBColor(0xFF, 0xFF, 0xFF)
 
 SANS  = "Arial"
 SERIF = "Georgia"
 
+# ---- type scale -------------------------------------------------------------
+
+T_TITLE   = 34
+T_SUB     = 15
+T_EYEBROW = 12.5
+T_PROMPT  = 14.5
+T_FILL    = 14
+T_CARD_H  = 17
+T_CARD_B  = 13.5
+T_FOOT    = 11.5
+
 # ---- geometry ---------------------------------------------------------------
 
 SW, SH = 13.333, 7.5           # slide, inches
-M      = 0.62                  # side margin
+M      = 0.55                  # side margin
 CW     = SW - 2 * M            # content width
-FOOT_Y = 6.86                  # footer baseline
+FOOT_Y = 7.00                  # footer baseline
+FOOT_R = FOOT_Y - 0.16         # footer rule
+BOTTOM = FOOT_R - 0.14         # lowest a content box may reach
 
 
 # ---- 2026 cohort ------------------------------------------------------------
@@ -76,7 +98,7 @@ FELLOWS = [
 
 # ---- primitives -------------------------------------------------------------
 
-def rect(slide, x, y, w, h, fill=None, line=None, lw=0.75, dash=False,
+def rect(slide, x, y, w, h, fill=None, line=None, lw=1.0, dash=False,
          shape=MSO_SHAPE.RECTANGLE):
     s = slide.shapes.add_shape(shape, Inches(x), Inches(y), Inches(w), Inches(h))
     s.shadow.inherit = False
@@ -91,19 +113,18 @@ def rect(slide, x, y, w, h, fill=None, line=None, lw=0.75, dash=False,
         s.line.color.rgb = line
         s.line.width = Pt(lw)
         if dash:
-            # python-pptx has no dash enum on LineFormat in all versions; set XML
+            # python-pptx exposes no dash enum on LineFormat; set it in the XML
             from pptx.oxml.ns import qn
             ln = s.line._get_or_add_ln()
-            d = ln.makeelement(qn("a:prstDash"), {"val": "dash"})
-            ln.append(d)
+            ln.append(ln.makeelement(qn("a:prstDash"), {"val": "dash"}))
     s.text_frame.text = ""
     return s
 
 
 def text(slide, x, y, w, h, runs, align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP,
          wrap=True):
-    """runs: list of dicts {t, size, bold, italic, color, font, space_after,
-    space_before, line}. Each dict is one paragraph."""
+    """runs: one dict per paragraph — {t, size, bold, italic, color, font,
+    space_after, space_before, line, align}."""
     box = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(h))
     tf = box.text_frame
     tf.word_wrap = wrap
@@ -122,7 +143,7 @@ def text(slide, x, y, w, h, runs, align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP,
         run = p.add_run()
         run.text = r["t"]
         f = run.font
-        f.size = Pt(r.get("size", 14))
+        f.size = Pt(r.get("size", T_FILL))
         f.bold = r.get("bold", False)
         f.italic = r.get("italic", False)
         f.color.rgb = r.get("color", INK)
@@ -130,23 +151,23 @@ def text(slide, x, y, w, h, runs, align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP,
     return box
 
 
-def eyebrow(t, color=BRICK, size=10.5):
+def eyebrow(t, color=BRICK_TEXT, size=T_EYEBROW):
     return {"t": t.upper(), "size": size, "bold": True, "color": color,
             "font": SANS}
 
 
-def prompt(t, size=11):
+def prompt(t, size=T_PROMPT):
     """The question we are asking the fellow."""
     return {"t": t, "size": size, "bold": True, "color": INK, "font": SANS}
 
 
-def fill_in(t, size=12, space_after=0):
-    """Grey placeholder prose the fellow overwrites."""
+def fill_in(t, size=T_FILL, space_after=0):
+    """Placeholder prose the fellow overwrites."""
     return {"t": t, "size": size, "italic": True, "color": MUTED, "font": SANS,
-            "space_after": space_after, "line": 1.18}
+            "space_after": space_after, "line": 1.16}
 
 
-def rule(slide, x, y, w, color=LINE, weight=0.75):
+def rule(slide, x, y, w, color=LINE, weight=1.0):
     ln = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(x), Inches(y),
                                 Inches(w), Emu(int(weight * 12700)))
     ln.shadow.inherit = False
@@ -161,12 +182,13 @@ def blank(prs):
 
 
 def footer(slide, fellow, org, n, total, timing):
-    rule(slide, M, FOOT_Y - 0.16, CW)
-    text(slide, M, FOOT_Y, CW * 0.6, 0.28, [
-        {"t": f"{fellow}  ·  {org}", "size": 9, "color": MUTED, "font": SANS},
+    rule(slide, M, FOOT_R, CW, color=LINE, weight=1.0)
+    text(slide, M, FOOT_Y, CW * 0.6, 0.3, [
+        {"t": f"{fellow}  ·  {org}", "size": T_FOOT, "bold": True,
+         "color": INK_SOFT, "font": SANS},
     ])
-    text(slide, M + CW * 0.6, FOOT_Y, CW * 0.4, 0.28, [
-        {"t": f"{n} of {total}  ·  aim for {timing}", "size": 9,
+    text(slide, M + CW * 0.6, FOOT_Y, CW * 0.4, 0.3, [
+        {"t": f"{n} of {total}  ·  aim for {timing}", "size": T_FOOT,
          "color": MUTED, "font": SANS, "align": PP_ALIGN.RIGHT},
     ])
 
@@ -174,25 +196,24 @@ def footer(slide, fellow, org, n, total, timing):
 def slide_title(slide, kicker, title, sub=None):
     """Returns the y at which slide content may start.
 
-    The title box grows to two lines past ~50 characters, so the subtitle and
-    the content below it move down with it. Keeps the layout intact if these
-    strings get edited later.
+    The title box grows to two lines past ~48 characters and everything below
+    it moves down, so the layout survives later edits to these strings.
     """
-    y = 0.52
-    text(slide, M, y, CW, 0.24, [eyebrow(kicker)])
-    n_lines = 1 if len(title) <= 50 else 2
-    th = 0.50 * n_lines
-    text(slide, M, y + 0.28, CW, th + 0.12, [
-        {"t": title, "size": 30, "bold": True, "color": INK, "font": SERIF,
-         "line": 1.05},
+    y = 0.45
+    text(slide, M, y, CW, 0.28, [eyebrow(kicker)])
+    th = 0.58 * (1 if len(title) <= 48 else 2)
+    text(slide, M, y + 0.31, CW, th + 0.14, [
+        {"t": title, "size": T_TITLE, "bold": True, "color": INK,
+         "font": SERIF, "line": 1.04},
     ])
     if sub:
-        sy = y + 0.30 + th + 0.08
-        text(slide, M, sy, CW, 0.34, [
-            {"t": sub, "size": 12, "color": INK_SOFT, "font": SANS, "line": 1.2},
+        sy = y + 0.33 + th + 0.08
+        text(slide, M, sy, CW, 0.40, [
+            {"t": sub, "size": T_SUB, "color": INK_SOFT, "font": SANS,
+             "line": 1.2},
         ])
-        return sy + 0.52
-    return y + 0.30 + th + 0.20
+        return sy + 0.58
+    return y + 0.33 + th + 0.22
 
 
 def notes(slide, body):
@@ -201,12 +222,12 @@ def notes(slide, body):
 
 def image_drop(slide, x, y, w, h, caption):
     """A dashed box the fellow deletes and replaces with a pasted image."""
-    rect(slide, x, y, w, h, fill=PAPER, line=BRICK, lw=1.0, dash=True)
-    text(slide, x + 0.3, y + h / 2 - 0.42, w - 0.6, 0.84, [
-        {"t": "PASTE YOUR IMAGE HERE", "size": 12, "bold": True,
-         "color": BRICK, "font": SANS, "align": PP_ALIGN.CENTER,
-         "space_after": 5},
-        {"t": caption, "size": 10, "italic": True, "color": MUTED,
+    rect(slide, x, y, w, h, fill=PAPER, line=BRICK, lw=1.5, dash=True)
+    text(slide, x + 0.3, y + h / 2 - 0.5, w - 0.6, 1.0, [
+        {"t": "PASTE YOUR IMAGE HERE", "size": 15, "bold": True,
+         "color": BRICK_TEXT, "font": SANS, "align": PP_ALIGN.CENTER,
+         "space_after": 6},
+        {"t": caption, "size": 12.5, "italic": True, "color": MUTED,
          "font": SANS, "align": PP_ALIGN.CENTER, "line": 1.2},
     ], anchor=MSO_ANCHOR.MIDDLE)
 
@@ -215,7 +236,7 @@ def chip(slide, x, y, w, h, label, fill, fg):
     rect(slide, x, y, w, h, fill=fill, line=None,
          shape=MSO_SHAPE.ROUNDED_RECTANGLE)
     text(slide, x, y, w, h, [
-        {"t": label.upper(), "size": 9.5, "bold": True, "color": fg,
+        {"t": label.upper(), "size": 12, "bold": True, "color": fg,
          "font": SANS, "align": PP_ALIGN.CENTER},
     ], anchor=MSO_ANCHOR.MIDDLE)
 
@@ -227,25 +248,27 @@ def chip(slide, x, y, w, h, label, fill, fg):
 def s_cover(prs):
     s = blank(prs)
     rect(s, 0, 0, SW, SH, fill=PAPER, line=None)
-    rect(s, 0, 0, SW, 0.22, fill=BRICK, line=None)
+    rect(s, 0, 0, SW, 0.26, fill=BRICK, line=None)
 
-    text(s, M, 1.55, CW, 0.3, [eyebrow(
-        "DLI Conscientious Tech Design Workshop 2026  ·  Final session")])
-    text(s, M, 1.95, CW * 0.82, 2.1, [
-        {"t": "Values in Practice", "size": 62, "bold": True, "color": INK,
-         "font": SERIF, "line": 1.0, "space_after": 6},
+    text(s, M, 1.45, CW, 0.34, [eyebrow(
+        "DLI Conscientious Tech Design Workshop 2026  ·  Final session",
+        size=14)])
+    text(s, M, 1.88, CW * 0.88, 2.3, [
+        {"t": "Values in Practice", "size": 72, "bold": True, "color": INK,
+         "font": SERIF, "line": 1.0, "space_after": 8},
         {"t": "What we actually did with the values we committed to",
-         "size": 21, "color": BRICK_DARK, "font": SERIF, "italic": True,
+         "size": 25, "color": BRICK_TEXT, "font": SERIF, "italic": True,
          "line": 1.15},
     ])
-    rule(s, M, 4.32, 2.2, color=BRICK, weight=2.5)
-    text(s, M, 4.62, CW * 0.85, 1.4, [
+    rule(s, M, 4.55, 2.4, color=BRICK, weight=3.0)
+    text(s, M, 4.88, CW * 0.9, 1.6, [
         {"t": "Ten Siegel PiTech PhD Impact Fellows  ·  Five minutes each",
-         "size": 15, "color": INK, "font": SANS, "space_after": 7},
-        {"t": "Monday, August 17  ·  Cornell Tech + Zoom", "size": 13,
-         "color": INK_SOFT, "font": SANS, "space_after": 7},
+         "size": 19, "bold": True, "color": INK, "font": SANS,
+         "space_after": 9},
+        {"t": "Monday, August 17  ·  Cornell Tech + Zoom", "size": 16,
+         "color": INK_SOFT, "font": SANS, "space_after": 9},
         {"t": "Digital Life Initiative × Public Interest Technology, Cornell Tech",
-         "size": 11.5, "color": MUTED, "font": SANS},
+         "size": 14, "color": MUTED, "font": SANS},
     ])
     return s
 
@@ -254,50 +277,47 @@ def s_the_ask(prs):
     s = blank(prs)
     y = slide_title(
         s, "What we are asking for",
-        "Five minutes on how you put values into your project",
-        "Not a project overview. We already know your project. Spend the whole "
-        "five minutes on the values work — and show us the artifacts.")
+        "Five minutes on how you put values to work",
+        "Not a project overview — we already know your project. Spend the whole "
+        "five minutes on the values work, and show us the artifacts.")
 
     cols = [
         ("01", "Who you are, where you worked",
-         "Your name, your host organization, one line on what you built or "
-         "shaped this summer. A photo with your team if you have one."),
+         "Name, host organization, one line on what you built."),
         ("02", "The values you committed to",
-         "Two to four. Named, defined in your own words, and traced back to "
-         "where in Discovery they came from."),
-        ("03", "What you actually did about them",
-         "Each value → the design requirement it produced → the concrete move "
-         "you made. And whether that move shipped or is still a plan."),
+         "Two to four. Named, defined in your words, traced to Discovery."),
+        ("03", "What you did about them",
+         "Each value → the requirement → the change. Shipped, or still a plan?"),
         ("04", "The artifacts",
-         "Screenshots, Figma frames, rubrics, code, docs, workshop photos. "
-         "This is the part we most want to see. Show, don't summarise."),
+         "Screenshots, Figma frames, rubrics, docs, photos. The main event."),
         ("05", "Where values collided",
-         "Which values conflicted — and which you dissolved, which you "
-         "compromised, which you traded off and at what cost."),
-        ("06", "Framework, verification, next steps",
-         "Where Values at Play earned its keep and where it did not. How you "
-         "would check the values actually landed. What happens after August."),
+         "What you dissolved, what you compromised, what you traded off."),
+        ("06", "Framework and next steps",
+         "Where it helped and where it did not. How you would verify."),
     ]
 
-    cw = (CW - 2 * 0.42) / 3
+    cw = (CW - 2 * 0.36) / 3
+    ch = 2.15
     for i, (num, head, body) in enumerate(cols):
-        cx = M + (i % 3) * (cw + 0.42)
-        cy = y + (i // 3) * 2.28
-        rect(s, cx, cy, cw, 2.0, fill=PAPER, line=LINE)
-        text(s, cx + 0.26, cy + 0.24, cw - 0.52, 1.6, [
-            {"t": num, "size": 13, "bold": True, "color": BRICK, "font": SERIF,
-             "space_after": 6},
-            {"t": head, "size": 14, "bold": True, "color": INK, "font": SANS,
-             "line": 1.12, "space_after": 7},
-            {"t": body, "size": 10.5, "color": INK_SOFT, "font": SANS,
-             "line": 1.24},
+        cx = M + (i % 3) * (cw + 0.36)
+        cy = y + (i // 3) * (ch + 0.24)
+        rect(s, cx, cy, cw, ch, fill=PAPER, line=LINE)
+        rect(s, cx, cy, cw, 0.09, fill=BRICK, line=None)
+        text(s, cx + 0.26, cy + 0.28, cw - 0.52, ch - 0.5, [
+            {"t": num, "size": 16, "bold": True, "color": BRICK_TEXT,
+             "font": SERIF, "space_after": 7},
+            {"t": head, "size": T_CARD_H, "bold": True, "color": INK,
+             "font": SANS, "line": 1.1, "space_after": 8},
+            {"t": body, "size": T_CARD_B, "color": INK_SOFT, "font": SANS,
+             "line": 1.25},
         ])
 
-    rule(s, M, FOOT_Y - 0.16, CW)
-    text(s, M, FOOT_Y, CW, 0.3, [
-        {"t": "Five minutes is short and we have ten of you — we will hold the "
-              "time. Rehearse it once.",
-         "size": 10.5, "italic": True, "color": BRICK_DARK, "font": SANS},
+    rule(s, M, FOOT_R, CW)
+    text(s, M, FOOT_Y, CW, 0.32, [
+        {"t": "Five minutes is short and there are ten of you — we will hold "
+              "the time. Rehearse it once.",
+         "size": 13, "bold": True, "italic": True, "color": BRICK_TEXT,
+         "font": SANS},
     ])
     return s
 
@@ -306,110 +326,46 @@ def s_how_to(prs):
     s = blank(prs)
     y = slide_title(
         s, "How to use this template",
-        "Find your name, fill in your seven slides, delete nothing else",
+        "Fill in your seven slides, leave the rest alone",
         "Your section is already labelled with your name and host organization. "
-        "Everything in grey italics is a placeholder — click it and type over it.")
+        "Grey italic text is a placeholder — click it and type over it.")
 
     left = [
         ("Work only in your own section.",
          "Scroll to the slide with your name on it. The six slides after it are "
-         "yours. Please leave everyone else's slides alone."),
-        ("Overwrite the grey italic text.",
-         "Grey italic = a prompt for you. Black text = a heading to keep. If a "
-         "prompt does not apply to you, delete that line rather than leaving it."),
+         "yours. Please leave everyone else's alone."),
+        ("Overwrite the grey italics.",
+         "Grey italic = a prompt for you. Black = a heading to keep. If a "
+         "prompt does not apply, delete the line rather than leave it blank."),
         ("Replace the dashed boxes with images.",
-         "Click the dashed box, delete it, then Insert → Image. Screenshots from "
-         "Figma, your repo, your host's system, or photos from the June workshop "
-         "all work."),
-        ("Need more room for artifacts?",
-         "Duplicate your artifact slide (right-click → Duplicate slide). Only one "
-         "artifact? Delete the second one. Just keep the whole thing to five "
-         "minutes."),
+         "Click the dashed box, delete it, then Insert → Image. Figma frames, "
+         "screenshots, and June workshop photos all work."),
     ]
     right = [
+        ("Need more room? Duplicate.",
+         "Right-click → Duplicate slide for a third artifact; delete the second "
+         "if one was enough. Speaker notes are yours and are not timed."),
         ("Nothing confidential.",
-         "Blur, crop, or mock up anything your host organization would not want "
-         "on a shared screen. Names, addresses, case data, live credentials — "
-         "check before you paste."),
-        ("Speaker notes are yours.",
-         "Use the notes field for what you will say. We will not read them, and "
-         "they are not part of the five minutes."),
+         "Blur, crop, or mock up anything your host would not want on a shared "
+         "screen. Names, case data, credentials — check before you paste."),
         ("\"Planned\" is a real answer.",
-         "We would rather see one honest \"designed but not shipped\" than a "
-         "slide that implies more landed than did. Say which is which."),
-        ("Bring it back to the canvas.",
-         "Most of what goes on these slides is already in your Figma Discovery "
-         "and Implementation canvas. Fill the canvas first, then harvest it."),
+         "One honest \"designed but not shipped\" beats a slide implying more "
+         "landed than did. Say which is which."),
     ]
 
-    cw = (CW - 0.6) / 2
+    cw = (CW - 0.7) / 2
     for col, items in ((0, left), (1, right)):
-        cx = M + col * (cw + 0.6)
+        cx = M + col * (cw + 0.7)
         cy = y
         for head, body in items:
-            text(s, cx, cy, cw, 0.9, [
-                {"t": head, "size": 13, "bold": True, "color": INK,
-                 "font": SANS, "space_after": 4},
-                {"t": body, "size": 10.5, "color": INK_SOFT, "font": SANS,
-                 "line": 1.26},
+            text(s, cx, cy, cw, 1.4, [
+                {"t": head, "size": 16.5, "bold": True, "color": INK,
+                 "font": SANS, "space_after": 5},
+                {"t": body, "size": T_CARD_B, "color": INK_SOFT, "font": SANS,
+                 "line": 1.3},
             ])
-            cy += 1.16
+            cy += 1.58
 
-    return s
-
-
-def s_checklist(prs):
-    """The four completion requirements, so they are visible to anyone who
-    opens the deck rather than living only in the email."""
-    s = blank(prs)
-    y = slide_title(
-        s, "Completing the workshop",
-        "Four things, and only one of them is these slides",
-        "The slides are Monday. The rest is what closes out your participation "
-        "in the 2026 Conscientious Tech Design Workshop.")
-
-    items = [
-        ("Your Figma canvas", "Do this first",
-         "Discovery and Implementation both filled in — Verification too if you "
-         "went that route. Most of you are already there. If you are behind, "
-         "finish the canvas before you touch the slides: the slides are a "
-         "harvest of the canvas, not a substitute for it.", BRICK, BRICK_TINT),
-        ("Both 1:1 check-ins", "Required",
-         "If you have only had one, book the second with Hauke or Jae June this "
-         "week. We cannot sign off on your participation without both.",
-         BRICK, BRICK_TINT),
-        ("These five minutes", "Due Monday",
-         "Fill in the seven slides in your section of this deck before the "
-         "session starts. We present straight from this deck.", BRICK,
-         BRICK_TINT),
-        ("The reflective write-up", "Not due Monday",
-         "In the template we have shared separately. It is not due for the "
-         "session — but drafting it first makes the slides much easier to "
-         "write, because it is the same material in longer form.", TEAL,
-         TEAL_TINT),
-    ]
-
-    cw = (CW - 3 * 0.32) / 4
-    for i, (head, when, body, accent, tint) in enumerate(items):
-        cx = M + i * (cw + 0.32)
-        rect(s, cx, y, cw, 3.35, fill=WHITE, line=LINE)
-        rect(s, cx, y, cw, 0.12, fill=accent, line=None)
-        chip(s, cx + 0.24, y + 0.36, 1.62, 0.3, when, tint, accent)
-        text(s, cx + 0.24, y + 0.82, cw - 0.48, 2.4, [
-            {"t": head, "size": 16, "bold": True, "color": INK, "font": SERIF,
-             "line": 1.1, "space_after": 9},
-            {"t": body, "size": 10.5, "color": INK_SOFT, "font": SANS,
-             "line": 1.28},
-        ])
-
-    rule(s, M, FOOT_Y - 0.16, CW)
-    text(s, M, FOOT_Y, CW, 0.3, [
-        {"t": "Links to the Figma canvas and the write-up template are in the "
-              "email — replace this line with them once you have added them.",
-         "size": 10, "italic": True, "color": MUTED, "font": SANS},
-    ])
-    notes(s, "Admin slide. Delete before presenting if you would rather not "
-             "spend session time on it.")
     return s
 
 
@@ -424,53 +380,101 @@ def s_bar(prs):
     rows = [
         ("Naming a value",
          "\"We cared about privacy.\"",
-         "\"Confidentiality — for us, that a care worker can see an alert "
-         "without seeing the resident's room. It came from the org's HIPAA "
-         "language and from the two staff I shadowed.\""),
+         "\"Confidentiality — a care worker sees the alert without seeing the "
+         "resident's room. From the org's HIPAA language and two staff I "
+         "shadowed.\""),
         ("Showing the work",
-         "\"I added privacy features to the interface.\"",
-         "\"Screenshot: the alert card now shows a posture icon, not a video "
-         "frame. Before/after on the right. Merged into the prototype on "
-         "July 22.\""),
+         "\"I added privacy features.\"",
+         "\"The alert card now shows a posture icon, not a video frame. "
+         "Before/after on the right. Merged July 22.\""),
         ("Handling a conflict",
          "\"Safety and privacy were in tension.\"",
-         "\"Traded off: staff get an immediate alert, resident is notified "
-         "second. Cost: the resident learns about an escalation after someone "
-         "else does. We chose it knowingly; here is the note we wrote for the "
-         "host.\""),
+         "\"Traded off: staff alerted first, resident second. Cost: they learn "
+         "of an escalation after someone else. We chose it knowingly.\""),
     ]
 
-    colw = [2.5, 4.35, CW - 2.5 - 4.35 - 0.7]
+    colw = [2.45, 3.75, CW - 2.45 - 3.75 - 0.7]
     xs = [M, M + colw[0] + 0.35, M + colw[0] + colw[1] + 0.7]
 
     text(s, xs[1], y, colw[1], 0.3, [eyebrow("Too thin", color=MUTED)])
-    text(s, xs[2], y, colw[2], 0.3, [eyebrow("What we want", color=TEAL)])
-    y += 0.4
+    text(s, xs[2], y, colw[2], 0.3, [eyebrow("What we want", color=TEAL_TEXT)])
+    y += 0.42
 
+    h = 1.32
     for head, weak, strong in rows:
-        h = 1.24
         rect(s, xs[1], y, colw[1], h, fill=PAPER, line=LINE)
-        rect(s, xs[2], y, colw[2], h, fill=TEAL_TINT, line=TEAL, lw=1.0)
+        rect(s, xs[2], y, colw[2], h, fill=TEAL_TINT, line=TEAL, lw=1.5)
         text(s, xs[0], y + 0.06, colw[0], h, [
-            {"t": head, "size": 13, "bold": True, "color": INK, "font": SANS,
-             "line": 1.15},
+            {"t": head, "size": 16.5, "bold": True, "color": INK, "font": SANS,
+             "line": 1.14},
         ])
-        text(s, xs[1] + 0.22, y + 0.18, colw[1] - 0.44, h - 0.36, [
-            {"t": weak, "size": 11, "italic": True, "color": MUTED,
-             "font": SANS, "line": 1.25},
+        text(s, xs[1] + 0.22, y + 0.16, colw[1] - 0.44, h - 0.32, [
+            {"t": weak, "size": T_CARD_B, "italic": True, "color": MUTED,
+             "font": SANS, "line": 1.26},
         ], anchor=MSO_ANCHOR.MIDDLE)
-        text(s, xs[2] + 0.22, y + 0.18, colw[2] - 0.44, h - 0.36, [
-            {"t": strong, "size": 10.5, "color": INK, "font": SANS,
+        text(s, xs[2] + 0.24, y + 0.16, colw[2] - 0.48, h - 0.32, [
+            {"t": strong, "size": T_CARD_B, "color": INK, "font": SANS,
              "line": 1.28},
         ], anchor=MSO_ANCHOR.MIDDLE)
-        y += h + 0.18
+        y += h + 0.2
 
-    rule(s, M, FOOT_Y - 0.16, CW)
-    text(s, M, FOOT_Y, CW, 0.3, [
-        {"t": "The example above is invented — it is not anyone's project. Use "
-              "your own words and your own evidence.",
-         "size": 10, "italic": True, "color": MUTED, "font": SANS},
+    rule(s, M, FOOT_R, CW)
+    text(s, M, FOOT_Y, CW, 0.32, [
+        {"t": "The example above is invented — it is not anyone's project.",
+         "size": 12.5, "italic": True, "color": MUTED, "font": SANS},
     ])
+    return s
+
+
+def s_checklist(prs):
+    """The four completion requirements, visible to anyone who opens the deck
+    rather than living only in the email."""
+    s = blank(prs)
+    y = slide_title(
+        s, "Completing the workshop",
+        "Four things — only one of them is these slides",
+        "The slides are Monday. The rest is what closes out your participation "
+        "in the 2026 Conscientious Tech Design Workshop.")
+
+    items = [
+        ("Your Figma canvas", "Do this first",
+         "Discovery and Implementation filled in — Verification too if you went "
+         "that route. If you are behind, finish it before the slides.",
+         BRICK, BRICK_TINT),
+        ("Both 1:1 check-ins", "Required",
+         "If you have had only one, book the second with Hauke or Jae June this "
+         "week. We cannot sign off without both.", BRICK, BRICK_TINT),
+        ("These five minutes", "Due Monday",
+         "Fill in the seven slides in your section before the session starts. "
+         "We present straight from this deck.", BRICK, BRICK_TINT),
+        ("The reflective write-up", "Not due Monday",
+         "In the template shared separately. Not due for the session — but it "
+         "is the same material in longer form, so it makes the slides easier.",
+         TEAL, TEAL_TINT),
+    ]
+
+    cw = (CW - 3 * 0.3) / 4
+    for i, (head, when, body, accent, tint) in enumerate(items):
+        cx = M + i * (cw + 0.3)
+        rect(s, cx, y, cw, BOTTOM - y, fill=WHITE, line=LINE)
+        rect(s, cx, y, cw, 0.13, fill=accent, line=None)
+        chip(s, cx + 0.22, y + 0.36, 1.95, 0.34, when, tint,
+             BRICK_TEXT if accent is BRICK else TEAL_TEXT)
+        text(s, cx + 0.22, y + 0.9, cw - 0.44, BOTTOM - y - 1.1, [
+            {"t": head, "size": 18, "bold": True, "color": INK, "font": SERIF,
+             "line": 1.08, "space_after": 9},
+            {"t": body, "size": T_CARD_B, "color": INK_SOFT, "font": SANS,
+             "line": 1.28},
+        ])
+
+    rule(s, M, FOOT_R, CW)
+    text(s, M, FOOT_Y, CW, 0.32, [
+        {"t": "Links to the Figma canvas and the write-up template are in the "
+              "email — paste them here.",
+         "size": 12.5, "italic": True, "color": MUTED, "font": SANS},
+    ])
+    notes(s, "Admin slide. Delete before presenting if you would rather not "
+             "spend session time on it.")
     return s
 
 
@@ -484,39 +488,37 @@ TOTAL = 7
 def f1_identity(prs, name, org, short):
     s = blank(prs)
     rect(s, 0, 0, SW, SH, fill=PAPER, line=None)
-    rect(s, 0, 0, 0.26, SH, fill=BRICK, line=None)
+    rect(s, 0, 0, 0.30, SH, fill=BRICK, line=None)
 
-    text(s, M + 0.2, 1.15, CW * 0.56, 0.3, [
-        eyebrow("Values in practice  ·  PiTech Fellow 2026")])
-    text(s, M + 0.2, 1.52, CW * 0.56, 1.35, [
-        {"t": name, "size": 46, "bold": True, "color": INK, "font": SERIF,
+    text(s, M + 0.28, 1.05, CW * 0.56, 0.34, [
+        eyebrow("Values in practice  ·  PiTech Fellow 2026", size=14)])
+    text(s, M + 0.28, 1.48, CW * 0.58, 1.5, [
+        {"t": name, "size": 58, "bold": True, "color": INK, "font": SERIF,
          "line": 1.02},
     ])
-    text(s, M + 0.2, 2.92, CW * 0.56, 0.5, [
-        {"t": org, "size": 20, "color": BRICK_DARK, "font": SERIF,
+    text(s, M + 0.28, 3.05, CW * 0.58, 0.6, [
+        {"t": org, "size": 24, "color": BRICK_TEXT, "font": SERIF,
          "italic": True, "line": 1.1},
     ])
-    rule(s, M + 0.2, 3.62, 1.8, color=BRICK, weight=2.0)
+    rule(s, M + 0.28, 3.86, 2.0, color=BRICK, weight=3.0)
 
-    text(s, M + 0.2, 3.92, CW * 0.56, 1.5, [
-        prompt("What I worked on this summer", 11),
-        fill_in("One sentence. The thing itself, not the values — you have six "
-                "more slides for those.", 12, space_after=10),
-        prompt("My role in it", 11),
-        fill_in("Designer? Analyst? The person who wrote the model? Say what you "
-                "personally had your hands on.", 12),
+    text(s, M + 0.28, 4.18, CW * 0.56, 2.0, [
+        prompt("What I worked on this summer"),
+        fill_in("One sentence. The thing itself — you have six more slides for "
+                "the values.", space_after=14),
+        prompt("My role in it"),
+        fill_in("Designer? Analyst? The person who wrote the model? What you "
+                "personally had your hands on."),
     ])
 
-    # photo column
-    px = M + CW * 0.60
-    pw = CW - (CW * 0.60)
-    image_drop(s, px, 1.15, pw, 3.90,
+    px = M + CW * 0.61
+    pw = CW - (CW * 0.61)
+    image_drop(s, px, 1.05, pw, 4.05,
                "You with your host-organization team, or a photo from the June "
                "workshop. Optional but nice.")
-    text(s, px, 5.20, pw, 0.9, [
-        prompt("Who I worked with", 11),
-        fill_in("Names/roles of the people at " + short + " you did this with.",
-                11),
+    text(s, px, 5.35, pw, 1.0, [
+        prompt("Who I worked with"),
+        fill_in("Names and roles of the people at " + short + "."),
     ])
 
     footer(s, name, short, 1, TOTAL, "30 sec")
@@ -531,31 +533,27 @@ def f2_values(prs, name, org, short):
     y = slide_title(
         s, "Discovery  →  commitment",
         "The values I committed to",
-        "Two to four values. Pull them straight off your Figma Discovery canvas "
-        "— including any you brought yourself as the PiTech Fellow.")
+        "Two to four values, straight off your Figma Discovery canvas — "
+        "including any you brought yourself as the PiTech Fellow.")
 
     n = 3
-    cw = (CW - (n - 1) * 0.38) / n
+    cw = (CW - (n - 1) * 0.36) / n
+    ch = BOTTOM - y
     for i in range(n):
-        cx = M + i * (cw + 0.38)
-        rect(s, cx, y, cw, 4.1, fill=WHITE, line=LINE)
-        rect(s, cx, y, cw, 0.1, fill=BRICK if i < 2 else LINE, line=None)
-        text(s, cx + 0.26, y + 0.38, cw - 0.52, 3.5, [
-            {"t": "VALUE " + str(i + 1) + (" (optional)" if i == 2 else ""),
-             "size": 9, "bold": True, "color": MUTED, "font": SANS,
-             "space_after": 6},
-            fill_in("Name the value", 22, space_after=12),
-            prompt("In my project this means…", 10.5),
-            fill_in("Your own definition, one sentence. Not the dictionary — "
-                    "what it demands of this specific system.", 10.5,
-                    space_after=11),
-            prompt("Where it came from", 10.5),
-            fill_in("Functional description / Key actors & stakeholders / "
-                    "Technical & material constraints / Societal context / "
-                    "me, the fellow — delete the rest.", 10.5,
-                    space_after=11),
-            prompt("Who benefits if we get it right", 10.5),
-            fill_in("Be concrete about the person.", 10.5),
+        cx = M + i * (cw + 0.36)
+        rect(s, cx, y, cw, ch, fill=WHITE, line=LINE)
+        rect(s, cx, y, cw, 0.13, fill=BRICK if i < 2 else LINE, line=None)
+        text(s, cx + 0.26, y + 0.4, cw - 0.52, ch - 0.6, [
+            {"t": "VALUE " + str(i + 1) + (" (OPTIONAL)" if i == 2 else ""),
+             "size": 11.5, "bold": True, "color": MUTED, "font": SANS,
+             "space_after": 8},
+            fill_in("Name the value", 28, space_after=16),
+            prompt("In my project this means…"),
+            fill_in("Your own definition — what it demands of this system.",
+                    space_after=16),
+            prompt("Where it came from"),
+            fill_in("Functional / Stakeholders / Constraints / Societal / me, "
+                    "the fellow — keep one."),
         ])
 
     footer(s, name, short, 2, TOTAL, "45 sec")
@@ -572,61 +570,59 @@ def f3_moves(prs, name, org, short):
     y = slide_title(
         s, "Implementation",
         "How I operationalized each value",
-        "Value → the design requirement it produced → the concrete thing that "
-        "changed. Mark honestly whether it shipped or stayed a plan.")
+        "Value → the requirement it produced → what actually changed. Mark "
+        "honestly whether it shipped or stayed a plan.")
 
-    heads = ["Value", "What it demanded (design requirement)",
-             "What I actually changed", "Status"]
-    widths = [2.05, 3.55, 4.75, 1.75]
+    heads = ["Value", "What it demanded", "What I actually changed", "Status"]
+    widths = [2.15, 3.45, 4.35, 1.86]
     xs, acc = [], M
     for w in widths:
         xs.append(acc)
         acc += w + 0.14
 
     for x, w, h in zip(xs, widths, heads):
-        text(s, x, y, w, 0.28, [eyebrow(h)])
-    y += 0.36
-    rule(s, M, y - 0.08, CW, color=INK, weight=1.2)
+        text(s, x, y, w, 0.3, [eyebrow(h)])
+    y += 0.4
+    rule(s, M, y - 0.1, CW, color=INK, weight=1.75)
 
-    rowh = 1.10
+    rowh = 1.12
     for r in range(3):
         ry = y + r * (rowh + 0.14)
         rect(s, xs[0], ry, widths[0], rowh, fill=BRICK_TINT, line=None)
         text(s, xs[0] + 0.16, ry + 0.14, widths[0] - 0.32, rowh - 0.28, [
-            fill_in("Value " + str(r + 1), 13),
+            fill_in("Value " + str(r + 1), 16),
         ], anchor=MSO_ANCHOR.MIDDLE)
 
         rect(s, xs[1], ry, widths[1], rowh, fill=PAPER, line=LINE)
         text(s, xs[1] + 0.18, ry + 0.14, widths[1] - 0.36, rowh - 0.28, [
-            fill_in("\"To honour this, the system has to ______.\" The "
-                    "requirement, not the feature.", 10.5),
+            fill_in("\"The system has to ______.\" The requirement, not the "
+                    "feature.", 13.5),
         ], anchor=MSO_ANCHOR.MIDDLE)
 
         rect(s, xs[2], ry, widths[2], rowh, fill=WHITE, line=LINE)
         text(s, xs[2] + 0.18, ry + 0.14, widths[2] - 0.36, rowh - 0.28, [
-            fill_in("The specific move: the field you removed, the threshold you "
-                    "changed, the consent step you added, the section you wrote "
-                    "into the rubric. Name the artifact it lives in.", 10.5),
+            fill_in("The field you removed, the threshold you changed, the "
+                    "consent step you added. Name the artifact.", 13.5),
         ], anchor=MSO_ANCHOR.MIDDLE)
 
         rect(s, xs[3], ry, widths[3], rowh, fill=WHITE, line=LINE)
-        text(s, xs[3] + 0.12, ry + 0.13, widths[3] - 0.24, rowh - 0.26, [
-            {"t": "Shipped", "size": 10, "bold": True, "color": TEAL,
-             "font": SANS, "space_after": 3},
-            {"t": "Partially", "size": 10, "bold": True, "color": BRONZE,
-             "font": SANS, "space_after": 3},
-            {"t": "Planned only", "size": 10, "bold": True, "color": MUTED,
-             "font": SANS, "space_after": 3},
-            {"t": "keep one", "size": 8, "italic": True, "color": MUTED,
+        text(s, xs[3] + 0.12, ry + 0.12, widths[3] - 0.24, rowh - 0.24, [
+            {"t": "Shipped", "size": 13, "bold": True, "color": TEAL_TEXT,
+             "font": SANS, "space_after": 4},
+            {"t": "Partially", "size": 13, "bold": True, "color": BRONZE_TEXT,
+             "font": SANS, "space_after": 4},
+            {"t": "Planned only", "size": 13, "bold": True, "color": MUTED,
+             "font": SANS, "space_after": 4},
+            {"t": "keep one", "size": 10, "italic": True, "color": MUTED,
              "font": SANS},
         ], anchor=MSO_ANCHOR.MIDDLE)
 
-    by = y + 3 * (rowh + 0.14) + 0.06
-    rect(s, M, by, CW, 0.52, fill=TEAL_TINT, line=None)
-    text(s, M + 0.22, by, CW - 0.44, 0.52, [
-        {"t": "Add rows if you have more. If a value produced no change at all, "
-              "keep the row and say so — that is a finding, not a failure.",
-         "size": 10.5, "italic": True, "color": INK, "font": SANS},
+    by = y + 3 * (rowh + 0.14) + 0.02
+    rect(s, M, by, CW, 0.46, fill=TEAL_TINT, line=None)
+    text(s, M + 0.24, by, CW - 0.48, 0.46, [
+        {"t": "Add rows if you have more. If a value produced no change at "
+              "all, keep the row and say so — that is a finding, not a failure.",
+         "size": 13, "italic": True, "color": INK, "font": SANS},
     ], anchor=MSO_ANCHOR.MIDDLE)
 
     footer(s, name, short, 3, TOTAL, "60 sec")
@@ -650,25 +646,24 @@ def f_artifact(prs, name, org, short, idx, page):
            "slide if you need more — delete it if you do not.")
     y = slide_title(s, "Evidence", label, sub)
 
-    iw = 7.85
-    image_drop(s, M, y, iw, 4.28,
-               "Screenshot / Figma frame / document / photo. Crop tight and blur "
-               "anything sensitive.")
+    iw = 7.6
+    image_drop(s, M, y, iw, BOTTOM - y,
+               "Screenshot / Figma frame / document / photo. Crop tight and "
+               "blur anything sensitive.")
 
     cx = M + iw + 0.45
     cwid = CW - iw - 0.45
-    text(s, cx, y, cwid, 4.28, [
-        prompt("What am I looking at?", 11),
-        fill_in("Name the artifact and where it lives.", 11, space_after=14),
-        prompt("Which value is in here?", 11),
-        fill_in("Point at the specific pixel, clause, or line.", 11,
-                space_after=14),
-        prompt("What did it look like before?", 11),
-        fill_in("What the default would have been if you had not done the "
-                "values work.", 11, space_after=14),
-        prompt("Is it live?", 11),
-        fill_in("Shipped / in review with the host / prototype only / "
-                "recommendation in a memo.", 11),
+    text(s, cx, y, cwid, BOTTOM - y, [
+        prompt("What am I looking at?"),
+        fill_in("Name the artifact and where it lives.", space_after=16),
+        prompt("Which value is in here?"),
+        fill_in("Point at the specific pixel, clause, or line.", space_after=16),
+        prompt("What did it look like before?"),
+        fill_in("The default you would have shipped without the values work.",
+                space_after=16),
+        prompt("Is it live?"),
+        fill_in("Shipped / in review / prototype only / a recommendation in a "
+                "memo."),
     ])
 
     footer(s, name, short, page, TOTAL, "60 sec")
@@ -691,39 +686,40 @@ def f6_conflict(prs, name, org, short):
     y = slide_title(
         s, "Values in conflict",
         "What collided — and what I did about it",
-        "Use the three moves from Chapter 6. Fill the ones that happened to you; "
+        "The three moves from Chapter 6. Fill the ones that happened to you; "
         "delete the ones that did not.")
 
     cols = [
-        ("Dissolved", TEAL, TEAL_TINT,
+        ("Dissolved", TEAL, TEAL_TEXT, TEAL_TINT,
          "Redesigned so the conflict went away — both values fully honoured.",
          "What made it dissolvable?"),
-        ("Compromised", BRICK, BRICK_TINT,
+        ("Compromised", BRICK, BRICK_TEXT, BRICK_TINT,
          "Both values partly satisfied; neither got everything.",
          "What did each value give up?"),
-        ("Traded off", BRONZE, BRONZE_TINT,
+        ("Traded off", BRONZE, BRONZE_TEXT, BRONZE_TINT,
          "One value explicitly prioritized over another.",
          "What is the cost, and who pays it?"),
     ]
 
-    cw = (CW - 2 * 0.38) / 3
-    for i, (head, accent, tint, blurb, last_q) in enumerate(cols):
-        cx = M + i * (cw + 0.38)
-        rect(s, cx, y, cw, 4.15, fill=WHITE, line=accent, lw=1.25)
-        rect(s, cx, y, cw, 0.62, fill=tint, line=None)
-        text(s, cx + 0.24, y, cw - 0.48, 0.62, [
-            {"t": head.upper(), "size": 13, "bold": True, "color": accent,
+    cw = (CW - 2 * 0.36) / 3
+    ch = BOTTOM - y
+    for i, (head, accent, fg, tint, blurb, last_q) in enumerate(cols):
+        cx = M + i * (cw + 0.36)
+        rect(s, cx, y, cw, ch, fill=WHITE, line=accent, lw=1.75)
+        rect(s, cx, y, cw, 0.68, fill=tint, line=None)
+        text(s, cx + 0.24, y, cw - 0.48, 0.68, [
+            {"t": head.upper(), "size": 16.5, "bold": True, "color": fg,
              "font": SANS},
         ], anchor=MSO_ANCHOR.MIDDLE)
-        text(s, cx + 0.24, y + 0.78, cw - 0.48, 3.2, [
-            {"t": blurb, "size": 10, "italic": True, "color": INK_SOFT,
-             "font": SANS, "line": 1.22, "space_after": 13},
-            prompt("Which values collided", 10.5),
-            fill_in("Value A vs. Value B", 10.5, space_after=12),
-            prompt("What I did", 10.5),
-            fill_in("The concrete move.", 10.5, space_after=12),
-            prompt(last_q, 10.5),
-            fill_in("Be specific.", 10.5),
+        text(s, cx + 0.24, y + 0.86, cw - 0.48, ch - 1.0, [
+            {"t": blurb, "size": 12.5, "italic": True, "color": INK_SOFT,
+             "font": SANS, "line": 1.22, "space_after": 15},
+            prompt("Which values collided"),
+            fill_in("Value A vs. Value B", space_after=14),
+            prompt("What I did"),
+            fill_in("The concrete move.", space_after=14),
+            prompt(last_q),
+            fill_in("Be specific."),
         ])
 
     footer(s, name, short, 6, TOTAL, "60 sec")
@@ -743,37 +739,37 @@ def f7_next(prs, name, org, short):
         "Be candid on the left. Be concrete on the right.")
 
     cw = (CW - 0.5) / 2
+    ch = BOTTOM - y
 
-    rect(s, M, y, cw, 4.15, fill=PAPER, line=LINE)
-    text(s, M + 0.28, y + 0.3, cw - 0.56, 3.6, [
-        eyebrow("The framework", size=10),
-        {"t": "", "size": 4},
-        prompt("Where it changed my thinking", 11),
+    rect(s, M, y, cw, ch, fill=PAPER, line=LINE)
+    text(s, M + 0.3, y + 0.34, cw - 0.6, ch - 0.6, [
+        eyebrow("The framework", size=13),
+        {"t": "", "size": 6},
+        prompt("Where it changed my thinking"),
         fill_in("The moment it gave you a word, a reason, or an argument you "
-                "did not have before.", 11, space_after=13),
-        prompt("Where it changed the artifact", 11),
+                "did not have before.", space_after=16),
+        prompt("Where it changed the artifact"),
         fill_in("Naming something and building something differently are two "
-                "different wins. Which did you get?", 11, space_after=13),
-        prompt("Where it did not help", 11),
-        fill_in("Too late in the project? Too abstract for your host? Missing "
-                "the people most affected? Say so — this is genuinely useful "
-                "to us.", 11),
+                "different wins. Which did you get?", space_after=16),
+        prompt("Where it did not help"),
+        fill_in("Too late? Too abstract for your host? Missing the people most "
+                "affected? Say so — this is genuinely useful to us."),
     ])
 
     rx = M + cw + 0.5
-    rect(s, rx, y, cw, 4.15, fill=WHITE, line=TEAL, lw=1.25)
-    rect(s, rx, y, cw, 0.1, fill=TEAL, line=None)
-    text(s, rx + 0.28, y + 0.3, cw - 0.56, 3.6, [
-        eyebrow("Verification & next steps", color=TEAL, size=10),
-        {"t": "", "size": 4},
-        prompt("How would I check the values actually landed?", 11),
-        fill_in("A test, a metric, a review, someone to ask. Who would have to "
-                "look, and at what?", 11, space_after=13),
-        prompt("What I am handing over", 11),
+    rect(s, rx, y, cw, ch, fill=WHITE, line=TEAL, lw=1.75)
+    rect(s, rx, y, cw, 0.13, fill=TEAL, line=None)
+    text(s, rx + 0.3, y + 0.4, cw - 0.6, ch - 0.66, [
+        eyebrow("Verification & next steps", color=TEAL_TEXT, size=13),
+        {"t": "", "size": 6},
+        prompt("How would I check the values actually landed?"),
+        fill_in("A test, a metric, a review, someone to ask. Who looks, and at "
+                "what?", space_after=16),
+        prompt("What I am handing over"),
         fill_in("What stays with your host organization after August, and who "
-                "owns it.", 11, space_after=13),
-        prompt("What I carry into my own research", 11),
-        fill_in("One thing you will do differently in your next project.", 11),
+                "owns it.", space_after=16),
+        prompt("What I carry into my own research"),
+        fill_in("One thing you will do differently next time."),
     ])
 
     footer(s, name, short, 7, TOTAL, "60 sec")
@@ -810,7 +806,7 @@ def build():
 
     path = OUT / "2026-VAP-Fellow-Final-Presentation-Template.pptx"
     prs.save(path)
-    print(f"wrote {path}  ({len(prs.slides.__iter__.__self__._sldIdLst)} slides)")
+    print(f"wrote {path}  ({len(prs.slides._sldIdLst)} slides)")
     return path
 
 
